@@ -29,6 +29,8 @@ MARKER = "\n];\n\n/* ══"
 FA = re.compile(r"[؀-ۿ]")
 
 PIPER_MODEL = Path.home() / ".cache/piper-voices/de_DE-thorsten-medium.onnx"
+# Phoneme length scale: > 1 is slower. Beginners need the words drawn out a little.
+SPEECH_SCALE = 1.25
 AUDIO_CACHE = ROOT / ".cache/tts"
 
 
@@ -118,7 +120,7 @@ def _load_voice():
 
 
 def _cache_key(text):
-    return hashlib.sha1(text.encode("utf-8")).hexdigest()
+    return hashlib.sha1(f"{SPEECH_SCALE}|{text}".encode("utf-8")).hexdigest()
 
 
 def synth_batch(texts):
@@ -126,14 +128,16 @@ def synth_batch(texts):
     pending = {key: t for t in texts if not (AUDIO_CACHE / f"{(key := _cache_key(t))}.opus").exists()}
     if not pending:
         return
+    from piper import SynthesisConfig
     voice = _load_voice()
+    syn = SynthesisConfig(length_scale=SPEECH_SCALE)
     AUDIO_CACHE.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory() as td:
         for key, text in pending.items():
             wav_path = Path(td) / f"{key}.wav"
             with wave.open(str(wav_path), "wb") as wav_file:
                 params_set = False
-                for chunk in voice.synthesize(text):
+                for chunk in voice.synthesize(text, syn_config=syn):
                     if not params_set:
                         wav_file.setframerate(chunk.sample_rate)
                         wav_file.setsampwidth(chunk.sample_width)
