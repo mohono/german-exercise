@@ -1,0 +1,961 @@
+video: -8OTA0---K4
+fa-title: ظهور و سقوط امپراتوری آشور
+
+de: Bevor die Sonne über dem britischen Empire nie unterging,
+fa: پیش از آنکه خورشید هرگز بر امپراتوریِ بریتانیا غروب نکند،
+- Bevor | پیش از آنکه | حرف ربط (Konjunktion)؛ فعلِ جمله‌ای که با آن شروع شود، آخر جمله می‌رود
+- die | (حرف تعریف) | مؤنث، فاعلی (Nominativ)
+- Sonne | خورشید | مؤنث: <de>die Sonne</de>، جمع: <de>die Sonnen</de>
+- über | بر، بالای | حرف اضافه؛ با datif یعنی «کجا» و با akkusativ یعنی «به کجا»
+- dem | (حرف تعریف) | خنثی، datif
+- britischen | بریتانیایی | صفت با پایان <de>-en</de> (بعد از حرف تعریف، datif)
+- Empire | امپراتوری (بریتانیا) | خنثی: <de>das Empire</de>
+- nie | هرگز | قید نفی (Adverb)
+- unterging | غروب کرد، فرو رفت | گذشتهٔ ساده (Präteritum) از <de>untergehen</de> (غروب کردن)؛ <de>gehen → ging</de> بی‌قاعده است
+* <de>Bevor</de> جمله را «فرعی» می‌کند و در جملهٔ فرعی فعل می‌رود آخر جمله: <de>… nie unterging</de>.
+* <de>untergehen</de> فعل جداشدنی است (<de>unter</de> + <de>gehen</de>). در جملهٔ اصلی می‌شود <de>Die Sonne ging nie unter</de>، ولی در جملهٔ فرعی دو تکه به هم می‌چسبند.
+* «خورشید هرگز غروب نمی‌کرد» ضرب‌المثلِ قدرت بریتانیاست؛ <de>über dem Empire</de> = «بر فراز امپراتوری».
+
+de: bevor Dschingis Khan die Steppe eroberte,
+fa: پیش از آنکه چنگیزخان استپ را فتح کند،
+- bevor | پیش از آنکه | حرف ربط؛ فعل آخر جمله می‌رود
+- Dschingis | چنگیز | نام؛ <de>Dschingis Khan</de> = چنگیزخان
+- Khan | خان | لقب مغولی
+- die | (حرف تعریف) | مؤنث، akkusativ (مفعول مستقیم)
+- Steppe | استپ، دشت وسیعِ بی‌درخت | مؤنث: <de>die Steppe</de>، جمع: <de>die Steppen</de>
+- eroberte | فتح کرد | گذشتهٔ ساده از <de>erobern</de> (فتح کردن)؛ پایان <de>-te</de> = نشانهٔ گذشتهٔ فعل‌های باقاعده
+* هر سه <de>bevor</de> پشت هم آمده‌اند؛ فعل هر جملهٔ فرعی آخرش است (<de>eroberte</de>).
+
+de: bevor Rom seinen Einfluss rund um das ganze Mittelmeer ausweitete,
+fa: پیش از آنکه رم نفوذش را در سراسر دریای مدیترانه گسترش دهد،
+- bevor | پیش از آنکه | حرف ربط
+- Rom | رم (شهر) | نام شهر؛ بدون حرف تعریف
+- seinen | (مالِ) خودش | صفت ملکی؛ مذکر، akkusativ چون <de>Einfluss</de> مذکر است
+- Einfluss | نفوذ | مذکر: <de>der Einfluss</de>، جمع: <de>die Einflüsse</de>
+- rund | گرد، دور | <de>rund um</de> = دور تا دور، در سراسرِ
+- um | دور | حرف اضافه با akkusativ
+- das | (حرف تعریف) | خنثی، akkusativ
+- ganze | تمام، سراسر | صفت با پایان <de>-e</de>
+- Mittelmeer | دریای مدیترانه | خنثی: <de>das Mittelmeer</de> (<de>Mittel</de> = میانه + <de>Meer</de> = دریا)
+- ausweitete | گسترش داد | گذشتهٔ ساده از <de>ausweiten</de> (گسترش دادن)؛ جداشدنی (<de>aus</de> + <de>weiten</de>) ولی در جملهٔ فرعی چسبیده
+* <de>rund um das ganze Mittelmeer</de> = «در سراسر مدیترانه». <de>um</de> همیشه akkusativ می‌گیرد.
+* آلمانی کلمه‌های مرکب می‌سازد: <de>Mittel + Meer = Mittelmeer</de>. جنس کلمهٔ مرکب از جزء آخر می‌آید (<de>das Meer</de> → <de>das Mittelmeer</de>).
+
+de: existierte das antike Assyrien.
+fa: آشورِ باستان وجود داشت.
+- existierte | وجود داشت | گذشتهٔ ساده از <de>existieren</de> (وجود داشتن)؛ فعل‌های <de>-ieren</de> همه باقاعده‌اند
+- das | (حرف تعریف) | خنثی، فاعلی
+- antike | باستانی | صفت با پایان <de>-e</de> بعد از <de>das</de>
+- Assyrien | آشور | نام سرزمین؛ معمولاً بدون حرف تعریف، ولی با صفت حرف تعریف می‌گیرد
+* سه جملهٔ فرعی (<de>bevor …</de>) در حکم «جای اول» جمله‌اند؛ پس فعل جملهٔ اصلی (<de>existierte</de>) فوراً بعد از آن‌ها می‌آید و فاعل بعدش. قاعدهٔ «فعل در جای دوم» (V2).
+
+de: Assyrien wird von Historikern als das erste wahre Imperium angesehen.
+fa: آشور از نگاه مورخان نخستین امپراتوری واقعی به شمار می‌آید.
+- Assyrien | آشور | فاعل جمله
+- wird | می‌شود | از <de>werden</de> (شدن)؛ <de>ich werde, du wirst, er/sie/es wird</de>؛ اینجا کمک‌فعل مجهول است
+- von | توسطِ، از | حرف اضافه با datif؛ در مجهول «انجام‌دهنده» با <de>von</de> می‌آید
+- Historikern | مورخان | جمعِ datif از <de>der Historiker</de>؛ پایان <de>-n</de> مخصوصِ جمعِ datif است
+- als | به‌عنوان | حرف ربط/اضافه
+- das | (حرف تعریف) | خنثی، akkusativ
+- erste | نخستین، اول | عدد ترتیبی
+- wahre | واقعی، حقیقی | صفت
+- Imperium | امپراتوری | خنثی: <de>das Imperium</de>، جمع: <de>die Imperien</de>
+- angesehen | (به شمار) دیده شده | اسم مفعول (Partizip II) از <de>ansehen</de>؛ <de>ansehen als</de> = «به‌عنوان … دانستن»
+* مجهول = <de>werden</de> + اسم مفعول: <de>wird … angesehen</de> (دیده می‌شود). کمک‌فعل جای دوم، اسم مفعول آخر جمله.
+* <de>ansehen als</de> = «… را به‌عنوان … به شمار آوردن».
+
+de: Seine Innovationen legten den Grundstein für alle nachfolgenden Supermächte.
+fa: نوآوری‌های آن سنگ‌بنای همهٔ ابرقدرت‌های بعدی را نهاد.
+- Seine | (مالِ) آن، او | صفت ملکی، جمع، فاعلی
+- Innovationen | نوآوری‌ها | جمعِ <de>die Innovation</de> (مؤنث)؛ پسوند <de>-ion</de> همیشه مؤنث است و تکیه روی آن
+- legten | گذاشتند | گذشتهٔ ساده از <de>legen</de> (گذاشتن)، جمع
+- den | (حرف تعریف) | مذکر، akkusativ
+- Grundstein | سنگ‌بنا | مذکر: <de>der Grundstein</de> (<de>Grund</de> = پایه + <de>Stein</de> = سنگ)
+- für | برای | حرف اضافه؛ همیشه akkusativ
+- alle | همه | ضمیر/صفت جمع
+- nachfolgenden | بعدی، پس از آن | اسم فاعل (Partizip I) از <de>nachfolgen</de>؛ پایان <de>-en</de> چون جمع و بعد از <de>alle</de>
+- Supermächte | ابرقدرت‌ها | جمعِ <de>die Supermacht</de>؛ <de>Macht → Mächte</de> (جمع با اومِلاوت a → ä)
+* <de>den Grundstein legen</de> = «سنگ‌بنا نهادن»، مثل فارسی.
+* جای اول جمله فاعل (<de>Seine Innovationen</de>) است و فعل (<de>legten</de>) دوم.
+
+de: Im 7. Jahrhundert vor Christus erstreckte sich das assyrische Reich
+fa: در سدهٔ هفتم پیش از میلاد، امپراتوری آشور امتداد داشت
++para
+- Im | در | ادغام <de>in + dem</de>؛ datif (زمان)
+- 7 | هفتم | عدد ترتیبی (<de>siebte</de>)؛ نقطهٔ بعد از عدد = «-م» (هفتم)
+- Jahrhundert | سده، قرن | خنثی: <de>das Jahrhundert</de> (<de>Jahr</de> + <de>hundert</de>)
+- vor | پیش از | حرف اضافه (زمان) با datif
+- Christus | مسیح | <de>vor Christus</de> = پیش از میلاد
+- erstreckte | امتداد یافت | گذشتهٔ ساده از <de>sich erstrecken</de> (امتداد یافتن)
+- sich | خودش | ضمیر بازتابی؛ فعل <de>sich erstrecken</de> همیشه با آن می‌آید
+- das | (حرف تعریف) | خنثی، فاعلی
+- assyrische | آشوری | صفت
+- Reich | امپراتوری، قلمرو | خنثی: <de>das Reich</de>، جمع: <de>die Reiche</de>
+* <de>Im 7. Jahrhundert</de> اول جمله است، پس فعل دوم و فاعل (<de>das assyrische Reich</de>) بعدش.
+
+de: über den heutigen Irak, Syrien, den Libanon, Israel
+fa: بر عراق و سوریه و لبنان و اسرائیلِ امروز
+- über | بر، روی | <de>sich erstrecken über</de> + akkusativ
+- den | (حرف تعریف) | مذکر، akkusativ
+- heutigen | امروزی | صفت از <de>heute</de> (امروز)
+- Irak | عراق | مذکر: <de>der Irak</de>
+- Syrien | سوریه | بدون حرف تعریف
+- den | (حرف تعریف) | مذکر، akkusativ
+- Libanon | لبنان | مذکر: <de>der Libanon</de>
+- Israel | اسرائیل | بدون حرف تعریف
+* نام بعضی کشورها حرف تعریف می‌گیرد (<de>der Irak</de>، <de>der Libanon</de>) و بیشترشان نه (<de>Syrien</de>، <de>Israel</de>).
+
+de: und Teile der Türkei, des Iran und Ägyptens.
+fa: و بخش‌هایی از ترکیه و ایران و مصر.
+- und | و | حرف ربط
+- Teile | بخش‌ها | جمعِ <de>der Teil</de> (مذکر)
+- der | (حرف تعریف) | مؤنث، ژنیتیو
+- Türkei | ترکیه | مؤنث؛ تکیه روی هجای آخر
+- des | (حرف تعریف) | مذکر، ژنیتیو
+- Iran | ایران | مذکر: <de>der Iran</de>
+- und | و | حرف ربط
+- Ägyptens | مصر (ژنیتیو) | نام کشور + <de>-s</de> = ژنیتیو
+* ژنیتیو (Genitiv) رابطهٔ «از / متعلق به» را می‌رساند: <de>Teile der Türkei</de> = بخش‌هایی از ترکیه. برای مؤنث <de>der</de>، برای مذکر و خنثی <de>des</de> + پایان <de>-s</de> یا <de>-es</de>.
+
+de: Zu seinen Wundern gehörten eine riesige Bibliothek
+fa: از شگفتی‌های آن یک کتابخانهٔ عظیم بود
+- Zu | به، جزو | حرف اضافه؛ همیشه datif
+- seinen | (مالِ) آن | صفت ملکی، جمع، datif
+- Wundern | شگفتی‌ها، معجزه‌ها | جمعِ datif از <de>das Wunder</de>
+- gehörten | متعلق بودند، جزو … بودند | گذشتهٔ ساده جمع از <de>gehören</de> (تعلق داشتن)
+- eine | یک | حرف تعریف نامعین، مؤنث
+- riesige | عظیم، غول‌آسا | صفت (<de>der Riese</de> = غول)
+- Bibliothek | کتابخانه | مؤنث: <de>die Bibliothek</de>
+* <de>gehören zu</de> + datif = «جزوِ … بودن». چون فاعل جمله بعد از فعل آمده (<de>eine Bibliothek und ein Garten</de>) و دوتاست، فعل جمع است (<de>gehörten</de>).
+
+de: und ein großer botanischer und zoologischer Garten.
+fa: و یک باغ گیاه‌شناختی و جانورشناختیِ بزرگ.
+- und | و | حرف ربط
+- ein | یک | حرف تعریف نامعین، مذکر
+- großer | بزرگ | صفت با پایان <de>-er</de> (مذکر، فاعلی، بعد از <de>ein</de>)
+- botanischer | گیاه‌شناختی | صفت از <de>Botanik</de> (گیاه‌شناسی)
+- und | و | حرف ربط
+- zoologischer | جانورشناختی | صفت از <de>Zoologie</de> (جانورشناسی)
+- Garten | باغ | مذکر: <de>der Garten</de>، جمع: <de>die Gärten</de>
+* <de>ein botanischer und zoologischer Garten</de> = «یک باغ گیاه‌شناسی و باغ وحش». هر دو صفت پشت سر هم پایان <de>-er</de> می‌گیرند.
+
+de: Die Geschichte von Assyriens Aufstieg begann jedoch viele Jahrhunderte früher
+fa: اما تاریخِ برآمدنِ آشور قرن‌ها زودتر آغاز شد
++para
+- Die | (حرف تعریف) | مؤنث، فاعلی
+- Geschichte | تاریخ، داستان | مؤنث: <de>die Geschichte</de> (هم «تاریخ» هم «داستان»)
+- von | از | حرف اضافه؛ همراه نام + <de>-s</de> یعنی «مالِ …»
+- Assyriens | آشور | نام + <de>-s</de> = مالکیت
+- Aufstieg | برآمدن، اوج‌گیری | مذکر: <de>der Aufstieg</de> (<de>auf</de> = بالا + <de>steigen</de> = بالا رفتن)
+- begann | آغاز شد | گذشتهٔ ساده از <de>beginnen</de>؛ <de>beginnen → begann → begonnen</de> (بی‌قاعده)
+- jedoch | اما، با این حال | قید ربط
+- viele | بسیار | صفت جمع
+- Jahrhunderte | قرن‌ها | جمعِ <de>das Jahrhundert</de>
+- früher | زودتر، پیش‌تر | مقایسه‌ای از <de>früh</de> (زود)
+* <de>jedoch</de> وسط جمله نشسته ولی معنایش «اما» است؛ می‌تواند اول یا وسط بیاید.
+* <de>viele Jahrhunderte früher</de> = «قرن‌ها زودتر»: مقدارِ زمان قبل از <de>früher</de> می‌آید.
+
+de: in der späten Bronzezeit in einer Stadt namens Assur.
+fa: در اواخر عصر مفرغ، در شهری به نام آشور.
+- in | در | حرف اضافه؛ اینجا با datif (مکان/زمان)
+- der | (حرف تعریف) | مؤنث، datif
+- späten | دیر، اواخر | صفت؛ پایان <de>-en</de> بعد از <de>der</de> در datif
+- Bronzezeit | عصر مفرغ (برنز) | مؤنث: <de>die Bronzezeit</de> (<de>Bronze</de> + <de>Zeit</de>)
+- in | در | حرف اضافه
+- einer | یک | حرف تعریف نامعین، مؤنث، datif
+- Stadt | شهر | مؤنث: <de>die Stadt</de>، جمع: <de>die Städte</de>
+- namens | به نامِ | حرف اضافه؛ <de>eine Stadt namens X</de>
+- Assur | آشور (شهر) | نام شهر
+* <de>in der späten Bronzezeit</de> = «در (دورهٔ) اواخر عصر مفرغ». <de>Assur</de> اسم شهر است و <de>Assyrien</de> نام کشور؛ نام کشور از نام شهر آمده.
+
+de: Assur war ein Handelszentrum für Zinn und Textilien am Tigris im Nordirak.
+fa: آشور مرکز تجارت قلع و منسوجات، کنار دجله در شمال عراق بود.
+- Assur | آشور | فاعل جمله
+- war | بود | گذشتهٔ ساده از <de>sein</de> (بودن): <de>ich war, du warst, er war</de>
+- ein | یک | حرف تعریف نامعین، خنثی
+- Handelszentrum | مرکز تجارت | خنثی: <de>das Zentrum</de>؛ <de>Handel</de> (تجارت) + <de>s</de> + <de>Zentrum</de>
+- für | برای | حرف اضافه؛ akkusativ
+- Zinn | قلع | خنثی
+- und | و | حرف ربط
+- Textilien | منسوجات، پارچه‌ها | جمع (مفرد: <de>das Textil</de>)
+- am | کنار، در | ادغام <de>an + dem</de>
+- Tigris | دجله | نام رود
+- im | در | ادغام <de>in + dem</de>
+- Nordirak | شمال عراق | مذکر: <de>der Nordirak</de> (<de>Nord</de> + <de>Irak</de>)
+* <de>am = an dem</de> و <de>im = in dem</de>: حرف اضافه و حرف تعریف اغلب می‌چسبند.
+
+de: Es teilte seinen Namen mit einem Gott,
+fa: نام خود را با یک خدا شریک بود،
+- Es | آن | ضمیر خنثی؛ به <de>Assur</de> برمی‌گردد
+- teilte | شریک بود، تقسیم کرد | گذشتهٔ ساده از <de>teilen</de> (تقسیم کردن، شریک بودن)
+- seinen | (مالِ) خودش | صفت ملکی، مذکر، akkusativ
+- Namen | نام | مذکر: <de>der Name</de>؛ در akkusativ پایان <de>-n</de> می‌گیرد
+- mit | با | حرف اضافه؛ همیشه datif
+- einem | یک | حرف تعریف نامعین، مذکر، datif
+- Gott | خدا | مذکر: <de>der Gott</de>، جمع: <de>die Götter</de>
+* <de>mit</de> همیشه datif می‌خواهد: <de>mit einem Gott</de>. جملهٔ بعدی دربارهٔ همین «خدا» توضیح می‌دهد.
+
+de: der als Verkörperung der Stadt und später des gesamten Reiches galt.
+fa: که تجسمِ شهر و بعدها کلِ امپراتوری به شمار می‌رفت.
+- der | که | ضمیر موصولی، مذکر (برای <de>Gott</de>)
+- als | به‌عنوان | حرف ربط/اضافه
+- Verkörperung | تجسم | مؤنث: <de>die Verkörperung</de>؛ پسوند <de>-ung</de> = مؤنث
+- der | (حرف تعریف) | مؤنث، ژنیتیو
+- Stadt | شهر | مؤنث
+- und | و | حرف ربط
+- später | بعدها | مقایسه‌ای از <de>spät</de> (دیر)
+- des | (حرف تعریف) | خنثی، ژنیتیو
+- gesamten | کل، تمام | صفت
+- Reiches | امپراتوری (ژنیتیو) | خنثی: <de>das Reich</de>؛ ژنیتیو با <de>-es</de>
+- galt | به شمار می‌رفت | گذشتهٔ ساده از <de>gelten</de>؛ <de>gelten → galt → gegolten</de>
+* اینجا <de>der</de> یعنی «که» (ضمیر موصولی) و فعل جملهٔ موصولی آخر می‌رود: <de>… galt</de>.
+* <de>gelten als</de> = «به‌عنوان … شمرده شدن».
+
+de: Für die administrativ denkenden Assyrer waren Politik und Religion eng miteinander verbunden.
+fa: برای آشوریانی که اداری می‌اندیشیدند، سیاست و دین تنگاتنگ به هم پیوسته بود.
+- Für | برای | حرف اضافه؛ akkusativ
+- die | (حرف تعریف) | جمع
+- administrativ | اداری، مدیریتی | صفت/قید
+- denkenden | اندیشنده | اسم فاعل (Partizip I) از <de>denken</de> (فکر کردن)
+- Assyrer | آشوریان | جمع؛ مفرد: <de>der Assyrer</de>
+- waren | بودند | گذشتهٔ ساده جمع از <de>sein</de>
+- Politik | سیاست | مؤنث: <de>die Politik</de>
+- und | و | حرف ربط
+- Religion | دین | مؤنث: <de>die Religion</de>
+- eng | تنگ، نزدیک | صفت/قید
+- miteinander | با یکدیگر | قید
+- verbunden | پیوسته | اسم مفعول از <de>verbinden</de> (وصل کردن)؛ <de>verbunden sein</de> = «به هم مربوط بودن»
+* جای اول جمله <de>Für die … Assyrer</de> است، پس فعل <de>waren</de> دوم می‌آید و فاعل («سیاست و دین») بعدش.
+* <de>eng miteinander verbunden</de> = «تنگاتنگ به هم پیوسته».
+
+de: Um 1300 vor Christus nahm ein Hohepriester namens Assur-uballit I. den Königstitel an
+fa: حدود ۱۳۰۰ پیش از میلاد، کاهن اعظمی به نام آشور-اوبَلیت اول عنوان پادشاهی را برگرفت
++para
+- Um | حدودِ، در | حرف اضافه؛ کنار عدد سال یعنی «حدود»
+- 1300 | سیزده‌صد (۱۳۰۰) | آلمانی‌ها سال‌ها را «سیزده‌صد» می‌خوانند: <de>dreizehnhundert</de>
+- vor | پیش از | حرف اضافه
+- Christus | مسیح | <de>vor Christus</de> = پیش از میلاد
+- nahm | گرفت، برگرفت | گذشتهٔ ساده از <de>nehmen</de> (گرفتن)؛ <de>nehmen → nahm → genommen</de>؛ اینجا با <de>an</de> = <de>annehmen</de>
+- ein | یک | حرف تعریف نامعین، مذکر
+- Hohepriester | کاهن اعظم | مذکر: <de>der Hohepriester</de> (<de>hoch</de> = بلند + <de>Priester</de> = کاهن)
+- namens | به نامِ | حرف اضافه
+- Assur-uballit | آشور-اوبَلیت | نام پادشاه آشور
+- I | اول | <de>I.</de> را «der Erste» می‌خوانند: «اولین»
+- den | (حرف تعریف) | مذکر، akkusativ
+- Königstitel | عنوان پادشاهی | مذکر: <de>der Titel</de> = عنوان؛ <de>König</de> + <de>s</de> + <de>Titel</de>
+- an | (جزءِ فعل) | جزءِ جداشدهٔ <de>annehmen</de>
+* <de>annehmen</de> (پذیرفتن، برگرفتن) جداشدنی است: <de>nahm … an</de>. فعل در جای دوم و <de>an</de> آخر جمله؛ با هم یک معنی دارند.
+* <de>ein Hohepriester namens …</de> = «کاهن اعظمی به نامِ …». <de>Assur-uballit I.</de> یعنی «آشور-اوبلیتِ اول».
+
+de: und begründete eine Tradition militärischer Feldzüge,
+fa: و سنتِ لشکرکشی‌های نظامی را بنا نهاد،
+- und | و | حرف ربط
+- begründete | بنا نهاد | گذشتهٔ ساده از <de>begründen</de> (بنیان نهادن)؛ <de>der Grund</de> = پایه
+- eine | یک | مؤنث، akkusativ
+- Tradition | سنت، رسم | مؤنث: <de>die Tradition</de>؛ پسوند <de>-tion</de> همیشه مؤنث و تکیه روی آن
+- militärischer | نظامی | صفت با پایان <de>-er</de> (ژنیتیو جمع، بدون حرف تعریف)
+- Feldzüge | لشکرکشی‌ها | جمعِ <de>der Feldzug</de>؛ <de>Zug → Züge</de> (اومِلاوت u → ü)
+* <de>militärischer Feldzüge</de> ژنیتیو جمع است: «(سنتِ) لشکرکشی‌های نظامی». صفتِ بدون حرف تعریف پایان <de>-er</de> می‌گیرد.
+
+de: die Assyrien effektiv von einem Stadtstaat zum Flächenstaat machten.
+fa: که آشور را در عمل از یک دولت‌شهر به کشوری پهناور بدل کردند.
+- die | که | ضمیر موصولی جمع؛ به <de>Feldzüge</de> برمی‌گردد
+- Assyrien | آشور | مفعول
+- effektiv | در عمل، مؤثر | قید
+- von | از | حرف اضافه؛ datif
+- einem | یک | مذکر، datif
+- Stadtstaat | دولت‌شهر | مذکر: <de>der Stadtstaat</de> (<de>Stadt</de> + <de>Staat</de>)
+- zum | به | ادغام <de>zu + dem</de>
+- Flächenstaat | کشور پهناور | مذکر: <de>die Fläche</de> = پهنه + <de>Staat</de>
+- machten | ساختند | گذشتهٔ ساده جمع از <de>machen</de>
+* <de>machen von … zu …</de> = «از … … ساختن». فعل جملهٔ موصولی (<de>machten</de>) آخر جمله است و جمع، چون <de>die</de> به <de>Feldzüge</de> برمی‌گردد.
+
+de: Dadurch wurden viele Orte, Kulturen und Völker von nur einer Regierung verwaltet.
+fa: به این ترتیب مکان‌ها، فرهنگ‌ها و مردمانِ بسیاری زیر نظر فقط یک حکومت اداره می‌شدند.
+- Dadurch | بدین ترتیب، از این راه | قید
+- wurden | شدند | گذشتهٔ ساده جمع از <de>werden</de>
+- viele | بسیار | صفت جمع
+- Orte | مکان‌ها | جمعِ <de>der Ort</de>
+- Kulturen | فرهنگ‌ها | جمعِ <de>die Kultur</de>
+- und | و | حرف ربط
+- Völker | مردمان، ملت‌ها | جمعِ <de>das Volk</de>؛ <de>Volk → Völker</de>
+- von | توسطِ | حرف اضافه با datif
+- nur | فقط | قید
+- einer | یک | مؤنث، datif
+- Regierung | حکومت | مؤنث: <de>die Regierung</de>
+- verwaltet | اداره (می‌شدند) | اسم مفعول از <de>verwalten</de> (اداره کردن)
+* مجهول گذشته = <de>wurden</de> + اسم مفعول: <de>wurden … verwaltet</de> = «اداره می‌شدند». انجام‌دهنده با <de>von</de> می‌آید: <de>von einer Regierung</de>.
+
+de: In den folgenden 150 Jahren dehnte Assyrien seine Macht weiter aus
+fa: طی ۱۵۰ سالِ بعد، آشور قدرتش را باز هم گسترش داد
+- In | در | حرف اضافه؛ datif
+- den | (حرف تعریف) | جمع، datif
+- folgenden | بعدی | اسم فاعل از <de>folgen</de> (دنبال کردن)
+- 150 | صد و پنجاه | عدد
+- Jahren | سال‌ها | جمعِ datif از <de>das Jahr</de>؛ پایان <de>-n</de>
+- dehnte | گسترش داد | گذشتهٔ ساده از <de>ausdehnen</de> (گسترش دادن)
+- Assyrien | آشور | فاعل
+- seine | (مالِ) خودش | مؤنث، akkusativ
+- Macht | قدرت | مؤنث: <de>die Macht</de>؛ جمع: <de>die Mächte</de>
+- weiter | بیشتر | قید
+- aus | (جزءِ فعل) | جزءِ جداشدهٔ <de>ausdehnen</de>
+* <de>ausdehnen</de> جداشدنی است: <de>dehnte … aus</de> = «گسترش داد».
+* <de>in den folgenden 150 Jahren</de> = «طی ۱۵۰ سالِ بعد». <de>Jahren</de> جمعِ datif است و پایان <de>-n</de> دارد.
+
+de: und erlebte eine Blütezeit.
+fa: و دورهٔ شکوفایی‌ای را تجربه کرد.
+- und | و | حرف ربط
+- erlebte | تجربه کرد | گذشتهٔ ساده از <de>erleben</de> (تجربه کردن)
+- eine | یک | مؤنث، akkusativ
+- Blütezeit | دورهٔ شکوفایی | مؤنث: <de>die Blüte</de> (شکوفه) + <de>die Zeit</de> (زمان) = «زمانِ شکوفه دادن»
+* فاعل هر دو فعل (<de>dehnte … aus</de> و <de>erlebte</de>) یکی است: <de>Assyrien</de>؛ بعد از <de>und</de> دوباره تکرار نشده.
+
+de: Im 12. Jahrhundert vor Christus verloren die Assyrer
+fa: در سدهٔ دوازدهم پیش از میلاد، آشوریان از دست دادند
++para
+- Im | در | ادغام <de>in + dem</de>
+- 12 | دوازدهم | عدد ترتیبی (<de>zwölfte</de>)
+- Jahrhundert | سده، قرن | خنثی
+- vor | پیش از | حرف اضافه
+- Christus | مسیح | <de>vor Christus</de> = پیش از میلاد
+- verloren | از دست دادند | گذشتهٔ ساده جمع از <de>verlieren</de>؛ <de>verlieren → verlor → verloren</de>
+- die | (حرف تعریف) | جمع، فاعلی
+- Assyrer | آشوریان | جمع
+* <de>verlieren</de> بی‌قاعده است: مفرد <de>verlor</de>، جمع <de>verloren</de>. مفعولش (<de>einen Großteil …</de>) دو جملهٔ بعدتر می‌آید.
+
+de: durch eine mysteriöse, bis heute für Archäologen rätselhafte Katastrophe,
+fa: به سبب فاجعه‌ای اسرارآمیز که تا امروز برای باستان‌شناسان معماست،
+- durch | به‌سببِ، از طریق | حرف اضافه؛ همیشه akkusativ
+- eine | یک | مؤنث، akkusativ
+- mysteriöse | اسرارآمیز | صفت
+- bis | تا | حرف اضافه
+- heute | امروز | قید؛ <de>bis heute</de> = تا امروز
+- für | برای | حرف اضافه؛ akkusativ
+- Archäologen | باستان‌شناسان | جمعِ <de>der Archäologe</de>
+- rätselhafte | معماگونه | صفت (<de>das Rätsel</de> = معما + <de>-haft</de>)
+- Katastrophe | فاجعه | مؤنث: <de>die Katastrophe</de>
+* <de>bis heute</de> = «تا امروز». دو صفت پشت هم (<de>mysteriöse … rätselhafte</de>) هر دو پایان <de>-e</de> دارند چون مؤنث و بعد از <de>eine</de> هستند.
+
+de: einen Großteil ihres Territoriums.
+fa: بخش بزرگی از قلمروشان را.
+- einen | یک | مذکر، akkusativ
+- Großteil | بخش عمده | مذکر: <de>der Großteil</de> (<de>groß</de> + <de>Teil</de>)
+- ihres | (مالِ) آنان | صفت ملکی؛ ژنیتیو خنثی
+- Territoriums | قلمرو | ژنیتیو از <de>das Territorium</de> (خنثی)
+* <de>einen Großteil ihres Territoriums</de> = «بخش بزرگی از قلمروِ آنان» (ژنیتیو). این عبارت مفعولِ <de>verloren</de> در دو جمله قبل است.
+
+de: Einige hundert Jahre später starteten die assyrischen Könige jedoch eine neue Eroberungswelle.
+fa: اما چند صد سال بعد پادشاهان آشور موجی تازه از فتوحات را آغاز کردند.
+- Einige | چند | صفت جمع
+- hundert | صد | عدد
+- Jahre | سال‌ها | جمعِ <de>das Jahr</de>
+- später | بعدتر | مقایسه‌ای از <de>spät</de>؛ <de>Jahre später</de> = «سال‌ها بعد»
+- starteten | آغاز کردند | گذشتهٔ ساده جمع از <de>starten</de>
+- die | (حرف تعریف) | جمع
+- assyrischen | آشوری | صفت جمع
+- Könige | پادشاهان | جمعِ <de>der König</de>
+- jedoch | اما | قید ربط
+- eine | یک | مؤنث، akkusativ
+- neue | نو، تازه | صفت مؤنث
+- Eroberungswelle | موج فتوحات | مؤنث: <de>die Welle</de> (موج) + <de>Eroberung</de> (فتح)
+* بخشِ زمان (<de>Einige hundert Jahre später</de>) جای اول است، پس فعل <de>starteten</de> دوم و فاعل بعدش.
+* <de>Eroberung + s + Welle</de>: حرف <de>s</de> میان دو جزءِ کلمهٔ مرکب می‌آید (Fugen-s).
+
+de: Dieses Mal optimierten sie ihr Regierungssystem zu einem Imperium,
+fa: این بار نظام حکومتی‌شان را به شکل یک امپراتوری بهینه کردند،
+- Dieses | این | ضمیر اشاره، خنثی
+- Mal | بار، دفعه | خنثی: <de>das Mal</de>؛ <de>dieses Mal</de> = «این بار»
+- optimierten | بهینه کردند | گذشتهٔ ساده جمع از <de>optimieren</de>
+- sie | آنها | ضمیر فاعلی جمع
+- ihr | (مالِ) آنان | صفت ملکی، خنثی، akkusativ
+- Regierungssystem | نظام حکومتی | خنثی: <de>das System</de>
+- zu | به | حرف اضافه؛ datif
+- einem | یک | خنثی، datif
+- Imperium | امپراتوری | خنثی
+* <de>Dieses Mal</de> جای اول است و فعل <de>optimierten</de> دوم، بعد فاعل <de>sie</de>.
+
+de: das Generationen überdauern sollte.
+fa: که قرار بود از نسل‌ها بگذرد و بماند.
+- das | که | ضمیر موصولی خنثی؛ به <de>Imperium</de> برمی‌گردد
+- Generationen | نسل‌ها | جمعِ <de>die Generation</de>
+- überdauern | بیشتر از … ماندن | مصدر؛ پیشوند <de>über-</de> جدانشدنی
+- sollte | قرار بود | گذشتهٔ ساده از <de>sollen</de>؛ فعل وجهی
+* در جملهٔ فرعی فعلِ وجهی آخر می‌رود و مصدر قبل از آن: <de>… überdauern sollte</de>. یعنی «قرار بود از نسل‌ها دوام بیاورد».
+
+de: Die Assyrer waren militärische Innovatoren und gnadenlose Eroberer.
+fa: آشوریان نوآوران نظامی و فاتحانی بی‌رحم بودند.
++para
+- Die | (حرف تعریف) | جمع
+- Assyrer | آشوریان | جمع
+- waren | بودند | گذشتهٔ ساده جمع از <de>sein</de>
+- militärische | نظامی | صفت جمع
+- Innovatoren | نوآوران | جمعِ <de>der Innovator</de>
+- und | و | حرف ربط
+- gnadenlose | بی‌رحم | صفت (<de>die Gnade</de> = رحم + <de>-los</de> = بی-)
+- Eroberer | فاتحان | جمعِ <de>der Eroberer</de>
+* بعد از <de>sein</de> اسم‌ها هم فاعلی‌اند: <de>waren … Innovatoren und … Eroberer</de>. <de>-los</de> = «بی-»: <de>gnadenlos</de>، <de>arbeitslos</de> (بیکار).
+
+de: Bei ihren Feldzügen wandten sie Belagerungstaktiken an
+fa: در لشکرکشی‌هایشان تاکتیک‌های محاصره را به کار می‌بردند
+- Bei | در، هنگامِ | حرف اضافه؛ همیشه datif
+- ihren | (مالِ) آنان | صفت ملکی؛ جمع، datif
+- Feldzügen | لشکرکشی‌ها | جمعِ datif
+- wandten | به کار بردند | گذشتهٔ ساده از <de>anwenden</de>؛ <de>wenden → wandte</de>
+- sie | آنها | ضمیر فاعلی جمع
+- Belagerungstaktiken | تاکتیک‌های محاصره | جمعِ <de>die Taktik</de>؛ <de>die Belagerung</de> = محاصره
+- an | (جزءِ فعل) | جزءِ جداشدهٔ <de>anwenden</de>
+* <de>anwenden</de> (به کار بردن) جداشدنی است: <de>wandten … an</de>.
+
+de: und bestraften ihre Gegner auf grausame Weise,
+fa: و دشمنانشان را به شیوه‌ای بی‌رحمانه مجازات می‌کردند،
+- und | و | حرف ربط
+- bestraften | مجازات کردند | گذشتهٔ ساده جمع از <de>bestrafen</de>
+- ihre | (مالِ) آنان | جمع، akkusativ
+- Gegner | دشمنان، رقبا | جمعِ <de>der Gegner</de>
+- auf | به (شیوه‌ای) | حرف اضافه
+- grausame | بی‌رحمانه | صفت مؤنث
+- Weise | شیوه | مؤنث: <de>die Weise</de>؛ <de>auf … Weise</de> = «به شیوهٔ …»
+* <de>auf grausame Weise</de> = «به شکلی بی‌رحمانه». فاعل (<de>sie</de>) بعد از <de>und</de> تکرار نشده.
+
+de: unter anderem durch Pfählen und Häuten.
+fa: از جمله با به‌چوب‌کشیدن و پوست‌کندن.
+- unter | از میانِ | حرف اضافه
+- anderem | دیگر | datif خنثی؛ <de>unter anderem</de> = از جمله (به‌اختصار u. a.)
+- durch | با، از طریق | حرف اضافه؛ akkusativ
+- Pfählen | به‌چوب‌کشیدن | اسم ساخته‌شده از <de>pfählen</de>: <de>das Pfählen</de>
+- und | و | حرف ربط
+- Häuten | پوست‌کندن | اسم از <de>häuten</de>: <de>das Häuten</de>؛ <de>die Haut</de> = پوست
+* <de>unter anderem</de> = «از جمله».
+* از هر مصدر می‌شود اسم ساخت: حرف اول بزرگ و <de>das</de> = «عملِ …» (<de>das Häuten</de> = عملِ پوست‌کندن). این‌جا حرف تعریف حذف شده.
+
+de: Das Wachstum ihres Reiches war zum Teil darauf zurückzuführen,
+fa: رشد امپراتوری‌شان تا حدی از این ناشی می‌شد که
+- Das | (حرف تعریف) | خنثی، فاعلی
+- Wachstum | رشد | خنثی: <de>das Wachstum</de> (<de>wachsen</de> = رشد کردن)
+- ihres | (مالِ) آنان | ژنیتیو خنثی
+- Reiches | امپراتوری | ژنیتیو
+- war | بود | گذشتهٔ ساده از <de>sein</de>
+- zum | به | ادغام <de>zu + dem</de>
+- Teil | بخش | مذکر: <de>der Teil</de>؛ <de>zum Teil</de> = تا حدی
+- darauf | بر این، به این | <de>da(r)-</de> + <de>auf</de>؛ به جملهٔ بعدی (با <de>dass</de>) اشاره می‌کند
+- zurückzuführen | ناشی (از)، قابل ارجاع | <de>zurückführen auf</de> = ارجاع دادن به؛ <de>zurückzuführen sein auf</de> = ناشی از … بودن
+* <de>zum Teil</de> = «تا حدی». <de>war darauf zurückzuführen, dass …</de> = «ناشی از این بود که …» (عبارتِ ثابت برای بیان علت).
+
+de: dass lokale Bevölkerungsgruppen deportiert und im Reich umgesiedelt wurden,
+fa: که گروه‌های جمعیتیِ محلی تبعید و در سراسر امپراتوری اسکان مجدد داده می‌شدند،
+- dass | که | حرف ربط؛ فعل می‌رود آخر
+- lokale | محلی | صفت جمع
+- Bevölkerungsgruppen | گروه‌های جمعیتی | جمع مؤنث: <de>die Gruppe</de> = گروه
+- deportiert | تبعید شده | اسم مفعول از <de>deportieren</de>
+- und | و | حرف ربط
+- im | در | ادغام <de>in + dem</de>
+- Reich | امپراتوری | خنثی
+- umgesiedelt | اسکان دوباره داده شده | اسم مفعول از <de>umsiedeln</de>
+- wurden | شدند | گذشتهٔ ساده جمع از <de>werden</de>
+* <de>dass</de> جمله را فرعی می‌کند: مجهول <de>wurden</de> با دو اسم مفعول (<de>deportiert</de> و <de>umgesiedelt</de>) آخر جمله.
+
+de: um verschiedene Bedürfnisse zu erfüllen.
+fa: تا نیازهای گوناگون برآورده شود.
+- um | برای (تا) | <de>um … zu + مصدر</de> = «برای اینکه»
+- verschiedene | گوناگون | صفت جمع
+- Bedürfnisse | نیازها | جمعِ <de>das Bedürfnis</de>
+- zu | (نشانهٔ مصدر) | در ساختار <de>um … zu</de>
+- erfüllen | برآورده کردن | مصدر
+* <de>um … zu + مصدر</de> = «برای اینکه / تا …». <de>zu</de> درست قبل از مصدر می‌آید.
+
+de: Dadurch wurde die Bindung der Menschen an ihre Heimatländer
+fa: به این ترتیب پیوند مردم با سرزمین‌های خودشان
+- Dadurch | بدین ترتیب | قید
+- wurde | شد | گذشتهٔ ساده مفرد از <de>werden</de>؛ اینجا مجهول: <de>wurde … zerstört</de>
+- die | (حرف تعریف) | مؤنث، فاعلی
+- Bindung | پیوند | مؤنث: <de>die Bindung</de> (<de>binden</de> = بستن)
+- der | (حرف تعریف) | ژنیتیو جمع
+- Menschen | انسان‌ها، مردم | جمعِ <de>der Mensch</de>
+- an | به | حرف اضافه؛ <de>Bindung an</de> + akkusativ
+- ihre | (مالِ) آنان | جمع، akkusativ
+- Heimatländer | سرزمین‌های زادگاه | جمعِ <de>das Heimatland</de>؛ <de>Land → Länder</de>
+* <de>Bindung an</de> + akkusativ = «وابستگی به». <de>Heimat</de> = جایی که به آن تعلق داری (زادگاه، وطن)؛ معادل دقیقش در فارسی نیست.
+
+de: und die Loyalitäten unter den lokalen Gruppen zerstört.
+fa: و وفاداری‌ها میان گروه‌های محلی نابود شد.
+- und | و | حرف ربط
+- die | (حرف تعریف) | جمع، فاعلی
+- Loyalitäten | وفاداری‌ها | جمعِ <de>die Loyalität</de>
+- unter | میانِ | حرف اضافه؛ اینجا با datif
+- den | (حرف تعریف) | جمع، datif
+- lokalen | محلی | صفت جمع، datif
+- Gruppen | گروه‌ها | جمعِ <de>die Gruppe</de>
+- zerstört | نابود شد | اسم مفعول از <de>zerstören</de>
+* <de>wurde … zerstört</de> = «نابود شد»: فعل کمکی <de>wurde</de> در جملهٔ قبل آمده و برای هر دو فاعل (<de>die Bindung</de> و <de>die Loyalitäten</de>) مشترک است.
+* پیشوند <de>zer-</de> = «تکه‌تکه»: <de>zerstören</de>، <de>zerbrechen</de> (شکستن).
+
+de: Hatten die Assyrer ein Gebiet erobert,
+fa: هرگاه آشوریان منطقه‌ای را فتح کرده بودند،
+- Hatten | داشتند | گذشتهٔ ساده جمع از <de>haben</de>؛ اینجا کمک‌فعل: <de>hatten … erobert</de>
+- die | (حرف تعریف) | جمع
+- Assyrer | آشوریان | فاعل
+- ein | یک | خنثی، akkusativ
+- Gebiet | منطقه، ناحیه | خنثی: <de>das Gebiet</de>
+- erobert | فتح کرده | اسم مفعول از <de>erobern</de>
+* شرط بدون <de>wenn</de>: اگر فعل اول جمله بیاید («Hatten die Assyrer … erobert») یعنی «اگر / هرگاه …». جملهٔ بعدی نتیجه است.
+* <de>hatten … erobert</de> = گذشتهٔ کامل (Plusquamperfekt) = «فتح کرده بودند».
+
+de: wurden Städte gegründet und durch gut ausgebaute Königsstraßen vernetzt.
+fa: شهرها بنا می‌شد و با جاده‌های شاهیِ خوب‌ساخته به هم متصل می‌شدند.
+- wurden | شدند | گذشتهٔ ساده جمع از <de>werden</de>؛ کمک‌فعل مجهول
+- Städte | شهرها | جمعِ <de>die Stadt</de>؛ <de>Stadt → Städte</de>
+- gegründet | بنا (شده) | اسم مفعول از <de>gründen</de> (بنیان نهادن)
+- und | و | حرف ربط
+- durch | به‌وسیلهٔ | حرف اضافه؛ akkusativ
+- gut | خوب | قید
+- ausgebaute | توسعه‌یافته | اسم مفعول از <de>ausbauen</de> (گسترش دادن) به‌عنوان صفت
+- Königsstraßen | جاده‌های شاهی | جمعِ <de>die Königsstraße</de>
+- vernetzt | به هم متصل | اسم مفعول از <de>vernetzen</de> (شبکه ساختن)؛ <de>das Netz</de> = شبکه
+* این جمله نتیجهٔ شرط قبلی است و فعل (<de>wurden</de>) اول جمله آمده. <de>wurden … gegründet … vernetzt</de>: یک کمک‌فعل، دو اسم مفعول.
+
+de: Oftmals baute ein neuer König auch eine neue Hauptstadt.
+fa: اغلب هر پادشاهِ تازه‌ای یک پایتخت تازه هم می‌ساخت.
++para
+- Oftmals | اغلب، بارها | قید
+- baute | ساخت | گذشتهٔ ساده از <de>bauen</de> (ساختن)
+- ein | یک | مذکر، فاعلی
+- neuer | تازه | صفت با پایان <de>-er</de> (مذکر، فاعلی، بعد از <de>ein</de>)
+- König | پادشاه | مذکر: <de>der König</de>، جمع: <de>die Könige</de>
+- auch | هم، نیز | قید
+- eine | یک | مؤنث، akkusativ
+- neue | تازه | مؤنث، akkusativ
+- Hauptstadt | پایتخت | مؤنث: <de>die Hauptstadt</de> (<de>Haupt-</de> = اصلی + <de>Stadt</de>)
+* <de>Oftmals</de> جای اول است، پس فعل <de>baute</de> دوم و فاعل (<de>ein neuer König</de>) بعدش.
+* <de>ein neuer König</de> فاعلی مذکر (<de>-er</de>) و <de>eine neue Hauptstadt</de> مفعولِ مؤنث (<de>-e</de>) است.
+
+de: Mit jedem Umzug wurden neue Paläste und Tempel errichtet.
+fa: با هر جابه‌جایی، کاخ‌ها و معبدهای تازه‌ای ساخته می‌شد.
+- Mit | با | حرف اضافه؛ همیشه datif
+- jedem | هر | صفت/ضمیر datif مذکر
+- Umzug | جابه‌جایی، نقل‌مکان | مذکر: <de>der Umzug</de> (<de>um</de> + <de>Zug</de>)
+- wurden | شدند | گذشتهٔ ساده جمع از <de>werden</de>
+- neue | تازه | صفت جمع
+- Paläste | کاخ‌ها | جمعِ <de>der Palast</de>؛ <de>Palast → Paläste</de>
+- und | و | حرف ربط
+- Tempel | معبدها | جمعِ <de>der Tempel</de> (جمع و مفرد یک شکل‌اند)
+- errichtet | ساخته (شدند)، برپا (شدند) | اسم مفعول از <de>errichten</de> (برپا کردن)
+* <de>wurden … errichtet</de> = مجهول گذشته: «ساخته می‌شدند».
+
+de: Obwohl die Könige absolute Macht beanspruchten,
+fa: هرچند پادشاهان قدرت مطلق را برای خود می‌خواستند،
+- Obwohl | هرچند، با اینکه | حرف ربط؛ جمله را فرعی می‌کند (فعل آخر)
+- die | (حرف تعریف) | جمع، فاعلی
+- Könige | پادشاهان | جمعِ <de>der König</de>
+- absolute | مطلق | صفت
+- Macht | قدرت | مؤنث
+- beanspruchten | مدعی شدند، برای خود خواستند | گذشتهٔ ساده جمع از <de>beanspruchen</de> (ادعا کردن)
+* <de>Obwohl</de> = «هرچند»؛ فعل جملهٔ فرعی (<de>beanspruchten</de>) آخر جمله است.
+
+de: wissen wir, dass ein umfangreiches System von Höflingen, Provinzbeamten und Gelehrten Einfluss ausübte.
+fa: می‌دانیم که یک نظامِ گسترده از درباریان، مقامات استانی و دانشمندان نفوذ داشت.
+- wissen | می‌دانیم | از <de>wissen</de> (دانستن): <de>ich weiß, du weißt, wir wissen</de>
+- wir | ما | ضمیر فاعلی
+- dass | که | حرف ربط؛ فعل آخر می‌رود
+- ein | یک | خنثی، فاعلی
+- umfangreiches | گسترده، جامع | صفت با پایان <de>-es</de> (خنثی، بعد از <de>ein</de>)
+- System | نظام، سیستم | خنثی: <de>das System</de>
+- von | از | حرف اضافه؛ datif
+- Höflingen | درباریان | جمعِ datif از <de>der Höfling</de> (<de>der Hof</de> = دربار)
+- Provinzbeamten | مقامات استانی | جمعِ datif از <de>der Provinzbeamte</de>
+- und | و | حرف ربط
+- Gelehrten | دانشمندان | جمعِ datif از <de>der Gelehrte</de>
+- Einfluss | نفوذ | مذکر
+- ausübte | اِعمال کرد | گذشتهٔ ساده از <de>ausüben</de>؛ <de>Einfluss ausüben</de> = «نفوذ داشتن»
+* جملهٔ اصلی با فعل شروع شده (<de>wissen wir</de>) چون جملهٔ فرعیِ <de>Obwohl …</de> «جای اول» بود. بعد جملهٔ فرعی دیگری با <de>dass</de> می‌آید.
+* <de>ausüben</de> جداشدنی است (<de>aus</de> + <de>üben</de>)، ولی در جملهٔ فرعی به هم چسبیده: <de>… Einfluss ausübte</de>.
+
+de: Das Königreich wurde von mindestens einer Frau regiert, Schammuramat.
+fa: این پادشاهی دست‌کم توسط یک زن اداره شد، شامورامات.
+- Das | (حرف تعریف) | خنثی، فاعلی
+- Königreich | پادشاهی | خنثی: <de>das Königreich</de> (<de>König</de> + <de>Reich</de>)
+- wurde | شد | گذشتهٔ ساده مفرد از <de>werden</de>
+- von | توسطِ | حرف اضافه؛ datif
+- mindestens | دست‌کم | قید
+- einer | یک | مؤنث، datif
+- Frau | زن | مؤنث: <de>die Frau</de>، جمع: <de>die Frauen</de>
+- regiert | اداره شد، حکومت (شد) | اسم مفعول از <de>regieren</de> (حکومت کردن)
+- Schammuramat | شامورامات | نام یک ملکهٔ آشور
+* <de>wurde … regiert</de> = «اداره شد» (مجهول گذشته). نامی که بعد از ویرگول آمده توضیحِ «یک زن» است.
+
+de: Assyrische Herrscher feierten ihre Feldzüge mit Darstellungen ihrer Heldentaten
+fa: فرمانروایان آشور لشکرکشی‌هایشان را با نگاره‌هایی از دلاوری‌هایشان جشن می‌گرفتند
+- Assyrische | آشوری | صفت (جمع، بدون حرف تعریف)
+- Herrscher | فرمانروایان | جمع؛ مفرد و جمع یک شکل‌اند
+- feierten | جشن گرفتند | گذشتهٔ ساده جمع از <de>feiern</de>
+- ihre | (مالِ) آنان | جمع، akkusativ
+- Feldzüge | لشکرکشی‌ها | مفعول
+- mit | با | حرف اضافه؛ datif
+- Darstellungen | نگاره‌ها، تصویرها | جمعِ <de>die Darstellung</de>؛ <de>darstellen</de> = نشان دادن
+- ihrer | (مالِ) آنان | صفت ملکی، ژنیتیو جمع
+- Heldentaten | دلاوری‌ها | جمعِ <de>die Heldentat</de> (<de>der Held</de> = قهرمان + <de>die Tat</de> = کار)
+* <de>Darstellungen ihrer Heldentaten</de> = «تصویرهایی از دلاوری‌هایشان» (ژنیتیو).
+
+de: an den Wänden ihrer neu erbauten Paläste.
+fa: بر دیوارهای کاخ‌هایی که تازه ساخته بودند.
+- an | بر، روی | حرف اضافه؛ با datif یعنی «کجا؟»
+- den | (حرف تعریف) | جمع، datif
+- Wänden | دیوارها | جمعِ datif از <de>die Wand</de>؛ <de>Wand → Wände</de>
+- ihrer | (مالِ) آنان | ژنیتیو جمع
+- neu | تازه | قید
+- erbauten | ساخته‌شده | اسم مفعول از <de>erbauen</de> (ساختن)، اینجا صفت
+- Paläste | کاخ‌ها | جمعِ <de>der Palast</de>
+* <de>neu erbaut</de> = «تازه ساخته‌شده». <de>an den Wänden</de> = «روی دیوارها».
+
+de: Doch trotz des gezeichneten Bildes eines grausamen Kriegsstaates
+fa: اما با وجود تصویر ترسیم‌شده از یک دولتِ بی‌رحمِ جنگی
++para
+- Doch | اما | قید ربط
+- trotz | با وجود | حرف اضافه؛ با ژنیتیو
+- des | (حرف تعریف) | ژنیتیو خنثی
+- gezeichneten | ترسیم‌شده | اسم مفعول از <de>zeichnen</de> (نقاشی/ترسیم کردن)، اینجا صفت
+- Bildes | تصویر | ژنیتیو از <de>das Bild</de>
+- eines | یک | حرف تعریف نامعین، ژنیتیو مذکر
+- grausamen | بی‌رحم | صفت ژنیتیو
+- Kriegsstaates | دولتِ جنگی | ژنیتیو از <de>der Kriegsstaat</de> (<de>Krieg</de> = جنگ + <de>Staat</de> = دولت)
+* <de>trotz</de> + ژنیتیو = «با وجود». دو ژنیتیو پشت هم: <de>des … Bildes</de> و <de>eines … Kriegsstaates</de> (پایان <de>-es</de>).
+
+de: waren die assyrischen Könige auch an der Kultur der Region interessiert,
+fa: پادشاهان آشور به فرهنگ منطقه نیز علاقه‌مند بودند،
+- waren | بودند | گذشتهٔ ساده جمع از <de>sein</de>
+- die | (حرف تعریف) | جمع
+- assyrischen | آشوری | صفت
+- Könige | پادشاهان | جمع
+- auch | هم، نیز | قید
+- an | به | <de>interessiert an</de> + datif
+- der | (حرف تعریف) | مؤنث، datif
+- Kultur | فرهنگ | مؤنث
+- der | (حرف تعریف) | مؤنث، ژنیتیو
+- Region | منطقه | مؤنث: <de>die Region</de>
+- interessiert | علاقه‌مند | اسم مفعول از <de>interessieren</de>؛ <de>interessiert sein an</de> = «به … علاقه داشتن»
+* فعل <de>waren</de> اول آمده چون «جای اول» جملهٔ قبلی (<de>Doch trotz …</de>) بود.
+
+de: insbesondere der von Babylonien, einem unabhängigen Staat im Süden.
+fa: به‌ویژه فرهنگ بابل، دولتی مستقل در جنوب.
+- insbesondere | به‌ویژه | قید
+- der | آن (فرهنگ) | ضمیر اشاره؛ به <de>Kultur</de> (مؤنث) برمی‌گردد
+- von | از | حرف اضافه
+- Babylonien | بابل | نام سرزمین
+- einem | یک | مذکر، datif
+- unabhängigen | مستقل | صفت (<de>un-</de> = بی + <de>abhängig</de> = وابسته)
+- Staat | دولت، کشور | مذکر: <de>der Staat</de>، جمع: <de>die Staaten</de>
+- im | در | ادغام <de>in + dem</de>
+- Süden | جنوب | مذکر: <de>der Süden</de>
+* <de>der von Babylonien</de> = «آنِ بابل» یعنی «فرهنگِ بابل». <de>einem unabhängigen Staat</de> توضیحِ اضافه دربارهٔ بابل است.
+
+de: Babylonien war seit Jahrtausenden kultureller Vorreiter,
+fa: بابل از هزاران سال پیش پیشتاز فرهنگی بود،
+- Babylonien | بابل | فاعل
+- war | بود | گذشتهٔ ساده از <de>sein</de>
+- seit | از … (پیش) | حرف اضافه؛ همیشه datif
+- Jahrtausenden | هزاره‌ها | جمعِ datif از <de>das Jahrtausend</de>
+- kultureller | فرهنگی | صفت
+- Vorreiter | پیشتاز، پیشرو | مذکر: <de>der Vorreiter</de>
+* <de>seit</de> + datif = «از … پیش (تا حالا)». برای شغل یا نقش (<de>war Vorreiter</de>) معمولاً حرف تعریف نمی‌آید.
+
+de: was bis zum Aufkommen der Schrift am Ende des vierten Jahrtausends vor Christus zurückreicht.
+fa: که تا پیدایش خط در پایان هزارهٔ چهارم پیش از میلاد به عقب می‌رسد.
+- was | که (این) | ضمیر موصولی؛ به کل جملهٔ قبل برمی‌گردد
+- bis | تا | حرف اضافه
+- zum | به | ادغام <de>zu + dem</de>؛ <de>bis zum</de> = «تا (زمانِ)»
+- Aufkommen | پیدایش، ظهور | خنثی: <de>das Aufkommen</de> (از <de>aufkommen</de> = پدید آمدن)
+- der | (حرف تعریف) | مؤنث، ژنیتیو
+- Schrift | خط، نوشتار | مؤنث: <de>die Schrift</de>
+- am | در | ادغام <de>an + dem</de>
+- Ende | پایان | خنثی: <de>das Ende</de>
+- des | (حرف تعریف) | ژنیتیو خنثی
+- vierten | چهارم | عدد ترتیبی
+- Jahrtausends | هزاره | ژنیتیو خنثی (پایان <de>-s</de>)
+- vor | پیش از | حرف اضافه
+- Christus | مسیح | <de>vor Christus</de> = پیش از میلاد
+- zurückreicht | به عقب می‌رسد | از <de>zurückreichen</de>؛ در جملهٔ فرعی چسبیده
+* <de>was</de> اینجا یعنی «که این» و به کل جملهٔ قبلی برمی‌گردد. <de>bis zu … zurückreichen</de> = «تا … به عقب رسیدن»، یعنی ریشه‌اش به … می‌رسد.
+
+de: Assyrien sah sich als Erbe und Hüter dieser Tradition.
+fa: آشور خود را وارث و نگهبانِ این سنت می‌دانست.
+- Assyrien | آشور | فاعل
+- sah | دید | گذشتهٔ ساده از <de>sehen</de>؛ <de>sehen → sah → gesehen</de>
+- sich | خود | ضمیر بازتابی
+- als | به‌عنوان | حرف اضافه/ربط
+- Erbe | وارث | مذکر: <de>der Erbe</de> (شخص). <de>das Erbe</de> = میراث
+- und | و | حرف ربط
+- Hüter | نگهبان، پاسدار | مذکر
+- dieser | این | ضمیر اشاره؛ ژنیتیو مؤنث
+- Tradition | سنت | مؤنث
+* <de>sich sehen als</de> = «خود را … دیدن، … دانستن».
+* <de>der Erbe</de> (مذکر) = «وارث»؛ <de>das Erbe</de> (خنثی) = «میراث». جنسِ اسم معنی را عوض می‌کند.
+
+de: Assyrische Herrscher unterstützten Gelehrte in Fachgebieten von der Medizin bis hin zur Magie.
+fa: فرمانروایان آشور از دانشمندان در رشته‌هایی از پزشکی تا جادو حمایت می‌کردند.
+- Assyrische | آشوری | صفت جمع
+- Herrscher | فرمانروایان | جمع
+- unterstützten | حمایت کردند | گذشتهٔ ساده جمع از <de>unterstützen</de> (حمایت کردن)
+- Gelehrte | دانشمندان | جمع (بدون حرف تعریف)
+- in | در | حرف اضافه
+- Fachgebieten | رشته‌های تخصصی | جمعِ datif از <de>das Fachgebiet</de> (<de>Fach</de> = رشته + <de>Gebiet</de> = حوزه)
+- von | از | حرف اضافه
+- der | (حرف تعریف) | مؤنث، datif
+- Medizin | پزشکی | مؤنث: <de>die Medizin</de>
+- bis | تا | حرف اضافه
+- hin | (تا آنجا) | <de>bis hin zu</de> = «تا حتی»
+- zur | به | ادغام <de>zu + der</de>
+- Magie | جادو | مؤنث: <de>die Magie</de>
+* <de>von … bis hin zu …</de> = «از … تا (حتی) …». <de>zur = zu + der</de> (مؤنث datif).
+
+de: Und in den großen Städten wie Ninive gab es kunstvoll angelegte Parks und Gärten,
+fa: و در شهرهای بزرگی مانند نینوا، پارک‌ها و باغ‌هایی هنرمندانه طراحی‌شده وجود داشت،
+- Und | و | حرف ربط
+- in | در | حرف اضافه
+- den | (حرف تعریف) | جمع، datif
+- großen | بزرگ | صفت
+- Städten | شهرها | جمعِ datif از <de>die Stadt</de>
+- wie | مانند | حرف ربط/اضافه
+- Ninive | نینوا | نام شهر باستانی
+- gab | داد | گذشتهٔ ساده از <de>geben</de>؛ <de>es gab</de> = «وجود داشت»
+- es | آن | <de>es gab</de> + akkusativ
+- kunstvoll | هنرمندانه | قید (<de>die Kunst</de> = هنر + <de>-voll</de> = پُر)
+- angelegte | ساخته‌شده، طراحی‌شده | اسم مفعول از <de>anlegen</de> (احداث کردن)، اینجا صفت
+- Parks | پارک‌ها | جمعِ <de>der Park</de>
+- und | و | حرف ربط
+- Gärten | باغ‌ها | جمعِ <de>der Garten</de>؛ <de>Garten → Gärten</de>
+* <de>es gab</de> + akkusativ = «… وجود داشت» (حال: <de>es gibt</de> = «وجود دارد»). جملهٔ اصلی با «جای اول» (<de>in den großen Städten</de>) شروع شده و فعل دوم است.
+
+de: in denen Pflanzen und Tiere aus dem ganzen Reich zu finden waren.
+fa: که گیاهان و جانورانی از سراسر امپراتوری در آن‌ها یافت می‌شد.
+- in | در | حرف اضافه
+- denen | که (در آن‌ها) | ضمیر موصولی جمع، datif
+- Pflanzen | گیاهان | جمعِ <de>die Pflanze</de>
+- und | و | حرف ربط
+- Tiere | جانوران | جمعِ <de>das Tier</de>
+- aus | از | حرف اضافه؛ datif
+- dem | (حرف تعریف) | خنثی، datif
+- ganzen | تمام، سراسر | صفت
+- Reich | امپراتوری | خنثی
+- zu | (نشانهٔ مصدر) | در ساختار <de>zu finden sein</de>
+- finden | یافتن | مصدر
+- waren | بودند | گذشتهٔ ساده جمع از <de>sein</de>
+* <de>zu finden waren</de> (<de>sein + zu + مصدر</de>) = «یافت می‌شدند، قابل یافتن بودند».
+* <de>in denen</de> = «که در آن‌ها»: حرف اضافه + ضمیر موصولی. فعل جملهٔ موصولی آخر می‌رود.
+
+de: Einer der letzten Herrscher Assyriens, Assurbanipal,
+fa: یکی از آخرین فرمانروایان آشور، آشوربانیپال،
++para
+- Einer | یکی | ضمیر
+- der | (حرف تعریف) | ژنیتیو جمع؛ <de>einer der …</de> = «یکی از …»
+- letzten | آخرین | صفت
+- Herrscher | فرمانروایان | جمع
+- Assyriens | آشور (ژنیتیو) | نام + <de>-s</de>
+- Assurbanipal | آشوربانیپال | نام پادشاه آشور
+* <de>einer der letzten Herrscher</de> = «یکی از آخرین فرمانروایان». جملهٔ همین‌جا ناتمام است و فعل در واحد بعد می‌آید.
+
+de: sandte Gelehrte durch ganz Babylonien,
+fa: دانشمندانی را در سراسر بابل فرستاد،
+- sandte | فرستاد | گذشتهٔ ساده از <de>senden</de>؛ <de>senden → sandte → gesandt</de>
+- Gelehrte | دانشمندان | مفعول جمع
+- durch | در سراسر، از میانِ | حرف اضافه؛ akkusativ
+- ganz | تمام | صفت/قید
+- Babylonien | بابل | نام سرزمین
+* <de>durch ganz Babylonien</de> = «در سراسر بابل» (بدون حرف تعریف).
+
+de: um antike literarische Werke zu sammeln und zu kopieren.
+fa: تا آثار ادبیِ باستانی را گردآوری و نسخه‌برداری کند.
+- um | تا | <de>um … zu + مصدر</de>
+- antike | باستانی | صفت جمع
+- literarische | ادبی | صفت جمع
+- Werke | آثار | جمعِ <de>das Werk</de>
+- zu | (نشانهٔ مصدر) | قبل از مصدر
+- sammeln | گردآوری کردن | مصدر
+- und | و | حرف ربط
+- zu | (نشانهٔ مصدر) | تکرارِ <de>zu</de>
+- kopieren | نسخه‌برداری کردن | مصدر
+* <de>um … zu + مصدر</de> = «تا …». <de>zu</de> برای هر دو مصدر تکرار شده: <de>zu sammeln und zu kopieren</de>.
+
+de: Assurbanipals Bibliothek bestand aus Tontafeln mit Texten in Keilschrift, auf Akkadisch und Sumerisch.
+fa: کتابخانهٔ آشوربانیپال از لوح‌های گلی تشکیل می‌شد، با متن‌هایی به خط میخی، به زبان‌های اکدی و سومری.
+- Assurbanipals | (مالِ) آشوربانیپال | نام + <de>-s</de> = ژنیتیو؛ بدون حرف تعریف
+- Bibliothek | کتابخانه | مؤنث: <de>die Bibliothek</de>
+- bestand | تشکیل می‌شد | گذشتهٔ ساده از <de>bestehen</de>؛ <de>bestehen aus</de> + datif
+- aus | از | حرف اضافه؛ datif
+- Tontafeln | لوح‌های گلی | جمعِ datif از <de>die Tontafel</de> (<de>der Ton</de> = گِل + <de>die Tafel</de> = لوح)
+- mit | با | حرف اضافه؛ datif
+- Texten | متن‌ها | جمعِ datif از <de>der Text</de>
+- in | به، در | حرف اضافه
+- Keilschrift | خط میخی | مؤنث (<de>der Keil</de> = میخ + <de>die Schrift</de> = خط)
+- auf | به (زبان) | حرف اضافه
+- Akkadisch | (زبان) اکدی | نام زبان
+- und | و | حرف ربط
+- Sumerisch | (زبان) سومری | نام زبان
+* <de>bestehen aus</de> + datif = «از … تشکیل شدن». <de>auf Akkadisch</de> = «به زبان اکدی» (نام زبان بعد از <de>auf</de> بدون حرف تعریف).
+
+de: Die Bibliothek ging bei der letzten Plünderung von Ninive
+fa: کتابخانه در آخرین غارتِ نینوا
++para
+- Die | (حرف تعریف) | مؤنث، فاعلی
+- Bibliothek | کتابخانه | مؤنث
+- ging | رفت | گذشتهٔ ساده از <de>gehen</de>؛ <de>gehen → ging → gegangen</de>
+- bei | هنگامِ، در | حرف اضافه؛ datif
+- der | (حرف تعریف) | مؤنث، datif
+- letzten | آخرین | صفت
+- Plünderung | غارت | مؤنث: <de>die Plünderung</de> (<de>plündern</de> = غارت کردن)
+- von | (نینوا)ی | حرف اضافه
+- Ninive | نینوا | نام شهر
+* <de>ging … verloren</de> (در واحد بعد) = «از بین رفت»: <de>verlorengehen</de> جداشدنی است. <de>bei</de> + datif اینجا «هنگامِ» است.
+
+de: im Jahr 612 vor Christus verloren.
+fa: در سال ۶۱۲ پیش از میلاد از بین رفت.
+- im | در | ادغام <de>in + dem</de>
+- Jahr | سال | خنثی: <de>das Jahr</de>، جمع: <de>die Jahre</de>
+- 612 | ششصد و دوازده | عدد
+- vor | پیش از | حرف اضافه
+- Christus | مسیح | <de>vor Christus</de> = پیش از میلاد
+- verloren | از بین رفت | جزءِ فعل <de>verlorengehen</de>: <de>ging … verloren</de>؛ اسم مفعول از <de>verlieren</de>
+* <de>ging … verloren</de> = «از بین رفت»: فعل در جای دوم (واحد قبل) و <de>verloren</de> آخر جمله.
+
+de: Doch dank archäologischer Ausgrabungen im 19. Jahrhundert
+fa: اما به لطف کاوش‌های باستان‌شناختی در سدهٔ نوزدهم
+- Doch | اما | قید ربط
+- dank | به لطفِ | حرف اضافه؛ با ژنیتیو (گاهی datif)
+- archäologischer | باستان‌شناختی | صفت (ژنیتیو جمع)
+- Ausgrabungen | کاوش‌ها، حفاری‌ها | جمعِ <de>die Ausgrabung</de> (<de>aus</de> = بیرون + <de>graben</de> = کندن)
+- im | در | ادغام <de>in + dem</de>
+- 19 | نوزدهم | عدد ترتیبی (<de>neunzehnte</de>)
+- Jahrhundert | سده، قرن | خنثی
+* <de>dank</de> + ژنیتیو = «به لطفِ، به‌خاطرِ» (معنی مثبت). فعل جمله (<de>sind</de>) در واحد بعد می‌آید.
+
+de: sind viele Meisterwerke der antiken Literatur,
+fa: آثار برجستهٔ بسیاری از ادبیات باستان
+- sind | هستند | <de>wir/sie sind</de>؛ کمک‌فعل گذشتهٔ نقلی (Perfekt)
+- viele | بسیار | صفت جمع
+- Meisterwerke | شاهکارها | جمعِ <de>das Meisterwerk</de> (<de>Meister</de> = استاد + <de>Werk</de> = اثر)
+- der | (حرف تعریف) | مؤنث، ژنیتیو
+- antiken | باستانی | صفت ژنیتیو
+- Literatur | ادبیات | مؤنث: <de>die Literatur</de>
+* <de>sind … erhalten geblieben</de> = گذشتهٔ نقلی: <de>sind</de> اینجا آمده و <de>erhalten geblieben</de> دو واحد بعد، آخر جمله.
+* <de>Meisterwerke der antiken Literatur</de> = «شاهکارهای ادبیات باستان» (ژنیتیو).
+
+de: darunter das Gilgamesch-Epos und das babylonische Schöpfungsepos,
+fa: از جمله حماسهٔ گیلگمش و حماسهٔ آفرینشِ بابلی،
+- darunter | از جمله، از میان آن‌ها | قید
+- das | (حرف تعریف) | خنثی
+- Gilgamesch-Epos | حماسهٔ گیلگمش | خنثی: <de>das Epos</de>، جمع: <de>die Epen</de>
+- und | و | حرف ربط
+- das | (حرف تعریف) | خنثی
+- babylonische | بابلی | صفت
+- Schöpfungsepos | حماسهٔ آفرینش | خنثی؛ <de>die Schöpfung</de> = آفرینش + <de>Epos</de>
+* <de>darunter</de> = «از جمله آن‌ها». <de>Schöpfung</de> از <de>schöpfen</de>/<de>schaffen</de> = آفریدن.
+
+de: bis heute erhalten geblieben.
+fa: تا امروز باقی مانده‌اند.
+- bis | تا | حرف اضافه
+- heute | امروز | قید
+- erhalten | حفظ‌شده | اسم مفعول از <de>erhalten</de> (حفظ کردن)
+- geblieben | مانده | اسم مفعول از <de>bleiben</de>؛ <de>bleiben → blieb → geblieben</de>
+* <de>erhalten bleiben</de> = «حفظ شدن، ماندگار ماندن». <de>sein</de> کمک‌فعل <de>bleiben</de> است: <de>sind … geblieben</de>.
+
+de: Nach Jahrhunderten der Herrschaft unterlag das assyrische Reich
+fa: پس از قرن‌ها فرمانروایی، امپراتوری آشور
++para
+- Nach | پس از | حرف اضافه؛ datif
+- Jahrhunderten | قرن‌ها | جمعِ datif
+- der | (حرف تعریف) | مؤنث، ژنیتیو
+- Herrschaft | فرمانروایی | مؤنث: <de>die Herrschaft</de>
+- unterlag | شکست خورد | گذشتهٔ ساده از <de>unterliegen</de>؛ <de>unterliegen → unterlag → unterlegen</de>
+- das | (حرف تعریف) | خنثی، فاعلی
+- assyrische | آشوری | صفت
+- Reich | امپراتوری | خنثی
+* <de>unterliegen</de> + datif = «به … شکست خوردن». مفعول datif (<de>den Babyloniern und Medern</de>) در واحد بعد می‌آید.
+
+de: zwischen 612 und 609 vor Christus den Babyloniern und Medern.
+fa: میان ۶۱۲ و ۶۰۹ پیش از میلاد به بابلی‌ها و مادها.
+- zwischen | میانِ | حرف اضافه
+- 612 | ششصد و دوازده | عدد
+- und | و | حرف ربط
+- 609 | ششصد و نه | عدد
+- vor | پیش از | حرف اضافه
+- Christus | مسیح | <de>vor Christus</de> = پیش از میلاد
+- den | (حرف تعریف) | جمع، datif
+- Babyloniern | بابلی‌ها | جمعِ datif؛ مفرد: <de>der Babylonier</de>
+- und | و | حرف ربط
+- Medern | مادها | جمعِ datif از <de>der Meder</de>
+* در datifِ جمع پایان <de>-n</de> اضافه می‌شود: <de>Babyloniern</de>، <de>Medern</de>. مفعول <de>unterlag</de> است.
+
+de: Doch die Innovationen der Assyrer leben fort.
+fa: اما نوآوری‌های آشوریان همچنان زنده‌اند.
+- Doch | اما | قید ربط
+- die | (حرف تعریف) | جمع، فاعلی
+- Innovationen | نوآوری‌ها | جمع
+- der | (حرف تعریف) | ژنیتیو جمع
+- Assyrer | آشوریان | جمع
+- leben | زندگی می‌کنند | فعل <de>leben</de>؛ اینجا جزءِ <de>fortleben</de>
+- fort | (ادامه) | جزءِ جداشدهٔ <de>fortleben</de> = «به زندگی ادامه دادن»
+* <de>fortleben</de> جداشدنی است: <de>leben … fort</de> = «زنده می‌مانند». <de>die Innovationen der Assyrer</de> = ژنیتیو: «نوآوری‌های آشوریان».
+
+de: Ihr Streben nach stetiger Innovation, effizienter Verwaltung und hervorragender Infrastruktur
+fa: تلاشِ آن‌ها برای نوآوریِ پیوسته، مدیریت کارآمد و زیرساخت عالی
+- Ihr | (مالِ) آنان | صفت ملکی، خنثی، فاعلی
+- Streben | تلاش، کوشش | خنثی: از <de>streben</de> (کوشیدن)
+- nach | برای | <de>Streben nach</de> + datif
+- stetiger | پیوسته | صفت، datif مؤنث
+- Innovation | نوآوری | مؤنث: <de>die Innovation</de>
+- effizienter | کارآمد | صفت، datif مؤنث
+- Verwaltung | مدیریت، اداره | مؤنث: <de>die Verwaltung</de>
+- und | و | حرف ربط
+- hervorragender | عالی، برجسته | صفت، datif مؤنث
+- Infrastruktur | زیرساخت | مؤنث: <de>die Infrastruktur</de>
+* <de>Streben nach</de> + datif = «کوشش برای». چون این سه اسمِ مؤنث بدون حرف تعریف و در datif‌اند، صفت‌هایشان پایان <de>-er</de> می‌گیرند.
+
+de: setzte Maßstäbe für alle nachfolgenden Reiche in der Region und auf der ganzen Welt.
+fa: برای همهٔ امپراتوری‌های بعدی در منطقه و در سراسر جهان معیار تعیین کرد.
+- setzte | نهاد، تعیین کرد | گذشتهٔ ساده از <de>setzen</de>؛ <de>Maßstäbe setzen</de> = «معیار تعیین کردن»
+- Maßstäbe | معیارها | جمعِ <de>der Maßstab</de>
+- für | برای | حرف اضافه؛ akkusativ
+- alle | همه | ضمیر جمع
+- nachfolgenden | بعدی | صفت
+- Reiche | امپراتوری‌ها | جمعِ <de>das Reich</de>
+- in | در | حرف اضافه
+- der | (حرف تعریف) | مؤنث، datif
+- Region | منطقه | مؤنث
+- und | و | حرف ربط
+- auf | بر | حرف اضافه؛ datif
+- der | (حرف تعریف) | مؤنث، datif
+- ganzen | تمام | صفت
+- Welt | جهان | مؤنث: <de>die Welt</de>
+* <de>Maßstäbe setzen</de> = «معیار تعیین کردن». <de>auf der ganzen Welt</de> = «در سراسر جهان».
+* فعل این جمله (<de>setzte</de>) فعلِ «Ihr Streben …» در واحد قبل است: فاعل بلند بود و در دو واحد نوشته شده.
+
+de: Abonniere diesen Kanal, wenn du dich für Geschichte interessierst,
+fa: اگر به تاریخ علاقه داری، مشترک این کانال شو،
++para
+- Abonniere | مشترک شو، دنبال کن | امر (Imperativ) از <de>abonnieren</de>
+- diesen | این | ضمیر اشاره، مذکر، akkusativ
+- Kanal | کانال | مذکر: <de>der Kanal</de>
+- wenn | اگر | حرف ربط؛ فعل آخر می‌رود
+- du | تو | ضمیر فاعلی
+- dich | خودت | ضمیر بازتابی، akkusativ
+- für | برای | حرف اضافه
+- Geschichte | تاریخ | مؤنث: <de>die Geschichte</de>
+- interessierst | علاقه داری | از <de>sich interessieren für</de>؛ <de>ich interessiere mich, du interessierst dich</de>
+* امر برای «تو»: ریشهٔ فعل + <de>-e</de>: <de>Abonniere!</de> (مشترک شو). <de>sich interessieren für</de> + akkusativ = «به … علاقه داشتن».
+
+de: denn die Lektionen von gestern können uns helfen, die Herausforderungen von heute zu meistern.
+fa: چون درس‌های دیروز می‌توانند به ما کمک کنند چالش‌های امروز را پشت سر بگذاریم.
+- denn | چون، زیرا | حرف ربط؛ فعل بعدش در جای دوم می‌ماند
+- die | (حرف تعریف) | جمع، فاعلی
+- Lektionen | درس‌ها | جمعِ <de>die Lektion</de>
+- von | از | حرف اضافه
+- gestern | دیروز | قید
+- können | می‌توانند | فعل وجهی <de>können</de>؛ <de>wir/sie können</de>
+- uns | به ما | ضمیر datif
+- helfen | کمک کردن | مصدر؛ <de>helfen</de> + datif
+- die | (حرف تعریف) | جمع، akkusativ
+- Herausforderungen | چالش‌ها | جمعِ <de>die Herausforderung</de>
+- von | از | حرف اضافه
+- heute | امروز | قید
+- zu | (نشانهٔ مصدر) | قبل از مصدر
+- meistern | بر … مسلط شدن، از پس … برآمدن | مصدر؛ <de>der Meister</de> = استاد
+* <de>denn</de> = «چون»، ولی برخلاف <de>weil</de> ترتیب جمله را عوض نمی‌کند: فعل جای دوم می‌ماند (<de>… können uns helfen</de>).
+* <de>helfen</de> + datif: <de>uns helfen</de> = «به ما کمک کردن». <de>zu meistern</de> = «(برای) مسلط شدن بر …».

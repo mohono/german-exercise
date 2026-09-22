@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#FAF9F5">
+<title>آلمانی با TED-Ed</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#FAF9F5; --surface:#FFFFFF; --surface-alt:#F0EEE6;
+    --text:#141413; --text-2:#6C6B68; --text-3:#8F8E8A;
+    --line:#E5E3DA; --line-2:#D6D3C7;
+    --accent:#D97757; --accent-deep:#B85C3E; --de:#3B4A6B;
+    --fa:"Vazirmatn","Segoe UI",Tahoma,sans-serif;
+    --serif:"Source Serif 4",Georgia,serif;
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;padding:calc(1.1rem + env(safe-area-inset-top)) 0 calc(3rem + env(safe-area-inset-bottom));
+    background:var(--bg);color:var(--text);font-family:var(--fa);font-size:16px;line-height:1.8;
+    overflow-wrap:break-word}
+  .wrap{max-width:44rem;margin:0 auto;padding:0 .95rem}
+
+  de{direction:ltr;unicode-bidi:isolate;font-family:var(--serif);color:var(--de);font-weight:600}
+  x{direction:ltr;unicode-bidi:isolate;font-family:var(--serif);color:var(--accent-deep);
+    text-decoration:line-through;text-decoration-thickness:1px}
+  b{font-weight:700;color:var(--accent-deep)}
+
+  h1{font-size:1.05rem;font-weight:700;margin:0 0 .3rem;line-height:1.6}
+  .hint{margin:0 0 .9rem;color:var(--text-3);font-size:.84rem;line-height:1.75}
+  .src{display:inline-block;margin:0 0 .5rem;font-family:var(--serif);direction:ltr;
+    font-size:.82rem;color:var(--accent-deep);text-decoration:none;
+    border-bottom:1px solid var(--line-2)}
+  .src[hidden]{display:none}
+
+  /* ── عنوان ──────────────────────────────── */
+  .ttl{font-size:.98rem;font-weight:700;color:var(--text);margin:2.1rem 0 .95rem;
+    padding-top:1.2rem;border-top:1px solid var(--line);scroll-margin-top:1rem}
+  .text:first-child .ttl{margin-top:0;padding-top:0;border-top:0}
+
+  /* ── متن پیوستهٔ فارسی ──────────────────── */
+  .block{margin-bottom:.3rem}
+  .para{margin:0 0 .55rem;font-size:1.05rem;line-height:1.85}
+  .s{cursor:pointer;border-radius:5px;padding:.12rem .1rem;
+    transition:background .15s ease;
+    -webkit-box-decoration-break:clone;box-decoration-break:clone}
+  .s:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+  .s.active{background:#F3E9E4;color:var(--text);font-weight:500}
+  .s.cp{box-shadow:inset 0 -2px 0 var(--accent)}
+
+  .jump{display:none;width:100%;margin:0 0 1.1rem;min-height:44px;
+    font:inherit;font-size:.86rem;font-weight:500;color:var(--accent-deep);
+    background:#F6EDE9;border:1px solid #EBD9D1;border-radius:10px;
+    padding:.6rem .9rem;cursor:pointer;text-align:center}
+  .jump.on{display:block}
+
+  .drawer{display:grid;grid-template-rows:0fr;transition:grid-template-rows .3s ease}
+  .drawer.open{grid-template-rows:1fr}
+  .drawer > div{overflow:hidden}
+  .panel{margin:.95rem 0 1.2rem;background:var(--surface);border:1px solid var(--line-2);
+    border-radius:14px;padding:1.05rem .9rem}
+
+  .attempt label{display:block;font-size:.82rem;color:var(--text-3);margin-bottom:.45rem}
+  textarea{width:100%;min-height:4.4rem;resize:vertical;direction:ltr;text-align:left;
+    font-family:var(--serif);font-size:1rem;line-height:1.6;color:var(--de);
+    padding:.65rem .75rem;background:var(--bg);border:1px solid var(--line);border-radius:9px}
+  textarea:focus{outline:none;border-color:var(--accent);background:var(--surface)}
+  .umlauts{direction:ltr;display:flex;flex-wrap:wrap;gap:.35rem;margin-top:.5rem}
+  .ul{min-width:2.4rem;min-height:2.2rem;font-family:var(--serif);font-size:1rem;color:var(--de);
+    background:var(--surface-alt);border:1px solid var(--line-2);border-radius:8px;cursor:pointer;padding:0 .5rem}
+  .ul:active{background:#E7E4DA}
+  .acts{display:flex;align-items:center;gap:.5rem;margin-top:.7rem}
+  .reveal{flex:1;min-height:44px;font:inherit;font-size:.92rem;font-weight:500;
+    padding:.65rem 1rem;background:var(--accent);color:#fff;border:0;border-radius:10px;cursor:pointer}
+  .reveal:active{background:var(--accent-deep)}
+
+  .answer[hidden]{display:none}
+  .answer{margin-top:1.15rem;padding-top:1.05rem;border-top:1px solid var(--line)}
+
+  .de-row{display:flex;align-items:flex-start;gap:.5rem;margin:0 0 1.15rem;
+    padding-bottom:.9rem;border-bottom:1px solid var(--line)}
+  .de-line{flex:1;direction:ltr;text-align:left;font-family:var(--serif);font-weight:600;
+    font-size:1.12rem;line-height:1.55;color:var(--de);margin:0}
+  .cp-btn{flex:none;width:44px;height:44px;
+    display:grid;place-items:center;background:none;border:0;border-radius:10px;cursor:pointer}
+  .cp-btn i{display:grid;place-items:center;width:30px;height:30px;border-radius:8px;
+    border:1px solid var(--line-2);transition:background .15s ease,border-color .15s ease}
+  .cp-btn svg{width:14px;height:16px;display:block}
+  .cp-btn svg path{fill:none;stroke:var(--text-3);stroke-width:1.7;
+    stroke-linejoin:round;stroke-linecap:round}
+  .cp-btn.on i{background:var(--accent);border-color:var(--accent)}
+  .cp-btn.on svg path{fill:#fff;stroke:#fff}
+  .cp-btn:focus-visible{outline:2px solid var(--accent);outline-offset:-4px}
+
+  .play-btn{flex:none;width:34px;height:34px;margin-top:.02rem;
+    display:grid;place-items:center;background:var(--surface-alt);border:1px solid var(--line-2);
+    border-radius:8px;cursor:pointer;transition:background .15s ease}
+  .play-btn:active{background:#E7E4DA}
+  .play-btn svg{width:14px;height:14px;display:block}
+  .play-btn svg path{fill:var(--accent-deep)}
+  .play-btn svg path.wave{fill:none;stroke:var(--accent-deep)}
+  .play-btn:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+  .wtop .play-btn{width:30px;height:30px}
+  .wtop .play-btn svg{width:12px;height:12px}
+
+  .row{margin-bottom:1.25rem}
+  .row:last-child{margin-bottom:0}
+  .key{font-size:.78rem;color:var(--text-3);line-height:1.6;margin-bottom:.3rem}
+  .val{font-size:.95rem;line-height:1.85}
+
+  .words{display:grid;gap:.5rem;grid-template-columns:1fr}
+  .wentry{padding:.6rem .75rem;background:var(--surface-alt);border-radius:9px}
+  .wtop{direction:ltr;display:flex;justify-content:space-between;align-items:center;gap:.8rem}
+  .w{font-family:var(--serif);font-weight:600;font-size:1.02rem;color:var(--de);line-height:1.4}
+  .wfa{font-size:.93rem;color:var(--text);line-height:1.7;margin-top:.15rem}
+  .wg{font-size:.82rem;color:var(--text-2);line-height:1.7;margin-top:.15rem}
+
+  ul.mini{margin:0;padding:0;list-style:none}
+  ul.mini li{margin-bottom:.65rem;padding-inline-start:.95rem;position:relative;font-size:.92rem;line-height:1.85}
+  ul.mini li:last-child{margin-bottom:0}
+  ul.mini li::before{content:"";position:absolute;inset-inline-start:0;top:.85rem;
+    width:5px;height:5px;border-radius:50%;background:var(--accent)}
+
+  @media (min-width:640px){
+    body{font-size:17px;padding-bottom:6rem}
+    .wrap{padding:0 1.5rem}
+    h1{font-size:1.25rem}
+    .ttl{font-size:1.1rem}
+    .para{font-size:1.12rem;line-height:1.95}
+    .de-line{font-size:1.2rem}
+    .reveal{flex:none;padding:.6rem 1.5rem}
+    .panel{padding:1.4rem}
+    .words{grid-template-columns:1fr 1fr}
+    .row{display:grid;grid-template-columns:5.5rem 1fr;gap:0 1.1rem}
+    .key{line-height:1.9;margin-bottom:0}
+  }
+  @media (prefers-reduced-motion:reduce){*{transition:none !important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1 id="title"></h1>
+  <a class="src" id="src" target="_blank" rel="noopener" hidden></a>
+  <p class="hint">متن را جمله‌به‌جمله جلو برو. اول در ذهنت به آلمانی برگردان، بعد روی جملهٔ فارسی بزن (می‌توانی در کادر بنویسی). Enter = نمایش آلمانی و توضیح‌ها، Enter دوباره = جملهٔ بعدی. دکمهٔ 🔊 تلفظ واقعی جمله و هر کلمه را پخش می‌کند.</p>
+
+  <button class="jump" type="button" id="jump">ادامه از چک‌پوینت ↓</button>
+  <div id="passage"></div>
+</div>
+
+<script>
+/* ══════════════════════════════════════════════════════════
+   این فایل را drill.py از sources/*.txt می‌سازد؛ دستی ویرایشش نکن.
+   هر واحد: { de, fa, newPara, sa, words:[{w,m,g,ak}], notes:[…] }
+   fa = جملهٔ فارسیِ نمایش‌داده‌شده، de = پاسخ آلمانی.
+   sa = data URI صدای کل جمله (Piper TTS). m = معنی، g = توضیح دستوری.
+   ak = کلید کلمه در WORD_AUDIO (حرف کوچکِ کلمه) برای صدای تک‌کلمه.
+   ══════════════════════════════════════════════════════════ */
+
+const TITLE     = "آلمانی با TED-Ed";
+const STORE_KEY = "german-VIDEOID";      // برای هر ویدیو یکتا
+const SOURCE    = "";                    // لینک ویدیو در یوتیوب
+const WORD_AUDIO = {};                   // پر می‌شود توسط drill.py build: کلید = حرف کوچکِ کلمه، مقدار = data URI صدا
+
+const TEXTS = [
+];
+
+/* ══════════════════════════════════════════════════════════
+   از اینجا به بعد موتور است. دست نخورد.
+   ══════════════════════════════════════════════════════════ */
+
+const BOOKMARK = '<svg viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.2 1.4h9.6v13.2L7 11.2l-4.8 3.4z"/></svg>';
+const SPEAKER  = '<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M1 6h3l4-3.4v10.8L4 10H1V6z"/><path class="wave" d="M11 5.2a4 4 0 0 1 0 5.6M13 3a7.5 7.5 0 0 1 0 10" stroke-width="1.4" stroke-linecap="round"/></svg>';
+const row = (k, v) => `<div class="row"><div class="key">${k}</div><div class="val">${v}</div></div>`;
+const UMLAUTS = ['ä', 'ö', 'ü', 'ß', 'Ä', 'Ö', 'Ü'];
+
+/* شماره‌گذاری سراسری واحدها در کل فایل */
+const FLAT = [];
+TEXTS.forEach((t, ti) => t.items.forEach(it => FLAT.push({ it, ti })));
+
+function playAudio(src){
+  if (!src) return;
+  new Audio(src).play().catch(() => {});
+}
+
+function answerHTML(it, i){
+  let b = `<div class="de-row"><p class="de-line">${it.de}</p>
+    <button class="play-btn" type="button" data-si="${i}" aria-label="پخش تلفظ جمله">${SPEAKER}</button></div>`;
+  b += row('کلمه‌ها', `<div class="words">${it.words.map(w => `
+    <div class="wentry">
+      <div class="wtop">
+        <span class="w">${w.w}</span>
+        <button class="play-btn" type="button" data-ak="${w.ak}" aria-label="پخش تلفظ کلمه">${SPEAKER}</button>
+      </div>
+      <div class="wfa">${w.m}</div>
+      ${w.g ? `<div class="wg">${w.g}</div>` : ''}
+    </div>`).join('')}</div>`);
+  if (it.notes?.length) b += row('نکته‌ها', `<ul class="mini">${it.notes.map(n => `<li>${n}</li>`).join('')}</ul>`);
+  return b;
+}
+
+document.getElementById('title').textContent = TITLE;
+if (SOURCE) {
+  const a = document.getElementById('src');
+  a.href = SOURCE;
+  a.textContent = 'Watch on YouTube ↗';
+  a.hidden = false;
+}
+
+/* گروه‌بندی واحدها به پاراگراف، درون هر متن */
+const html = TEXTS.map((t, ti) => {
+  const idx = FLAT.map((f, n) => f.ti === ti ? n : -1).filter(n => n >= 0);
+  const paras = [];
+  idx.forEach(n => {
+    if (!paras.length || FLAT[n].it.newPara) paras.push([]);
+    paras[paras.length - 1].push(n);
+  });
+  const body = paras.map(p => `<div class="block">
+      <div class="para">${p.map(n =>
+        `<span class="s" data-i="${n}" role="button" tabindex="0">${FLAT[n].it.fa}</span>`).join(' ')}</div>
+    </div>`).join('');
+  return `<section class="text">${TEXTS.length > 1
+    ? `<h2 class="ttl" id="text-${ti}">${t.title}</h2>` : ''}${body}</section>`;
+}).join('');
+
+document.getElementById('passage').innerHTML = html;
+
+(function(){
+  const spans   = [...document.querySelectorAll('.s')];
+  const jumpBtn = document.getElementById('jump');
+  const KEY = STORE_KEY + '-cp';
+  let active = null, mem = null, gen = 0, keepEl = null;
+
+  /* یک کشوی واحد که زیر جملهٔ فعال جابه‌جا می‌شود */
+  const drawer = document.createElement('div');
+  drawer.className = 'drawer';
+  drawer.innerHTML = '<div><div class="slot"></div></div>';
+  const slot = drawer.querySelector('.slot');
+
+  const readCP = () => {
+    let v; try { v = localStorage.getItem(KEY); } catch(e){ v = mem; }
+    if (v === null || v === undefined) return null;
+    const n = +v;
+    return (Number.isInteger(n) && n >= 0 && n < FLAT.length) ? n : null;
+  };
+  const writeCP = v => {
+    mem = v;
+    try { v === null ? localStorage.removeItem(KEY) : localStorage.setItem(KEY, v); } catch(e){}
+  };
+  const paintCP = () => {
+    const cp = readCP();
+    spans.forEach((sp, i) => sp.classList.toggle('cp', i === cp));
+    jumpBtn.classList.toggle('on', cp !== null);
+  };
+
+  /* کمترین اسکرول ممکن: پنل در دید بیاید، ولی جمله از بالای صفحه بیرون نرود */
+  function bring(keep){
+    if (active === null) return;
+    keepEl = keep || null;
+    const vh = (window.visualViewport && window.visualViewport.height) || innerHeight;
+    const r  = spans[active].getBoundingClientRect();
+    const kb = keepEl ? keepEl.getBoundingClientRect().bottom
+                      : drawer.getBoundingClientRect().top + slot.offsetHeight;
+    if (kb <= vh - 12 && r.top >= 8) return;
+    const delta = Math.min(kb - vh + 16, r.top - vh * 0.12);
+    if (Math.abs(delta) > 4) window.scrollBy({ top: delta, behavior: 'smooth' });
+  }
+
+  function close(animate){
+    if (active === null) return;
+    spans[active].classList.remove('active');
+    drawer.classList.remove('open');
+    active = null; keepEl = null;
+    const my = ++gen;
+    if (animate) setTimeout(() => { if (my === gen && drawer.parentNode) drawer.remove(); }, 300);
+    else if (drawer.parentNode) drawer.remove();
+  }
+
+  function open(i){
+    close(false);
+    active = i; gen++;
+    const isCP = readCP() === i;
+    slot.innerHTML = `
+      <div class="panel">
+        <div class="attempt">
+          <label>آلمانی‌اش را بنویس (اختیاری):</label>
+          <textarea spellcheck="false" autocomplete="off" autocapitalize="off" lang="de"></textarea>
+          <div class="umlauts">${UMLAUTS.map(c => `<button class="ul" type="button" tabindex="-1">${c}</button>`).join('')}</div>
+          <div class="acts">
+            <button class="reveal" type="button">نمایش پاسخ</button>
+            <button class="cp-btn${isCP ? ' on' : ''}" type="button" aria-pressed="${isCP}" aria-label="چک‌پوینت"><i>${BOOKMARK}</i></button>
+          </div>
+        </div>
+        <div class="answer" hidden>${answerHTML(FLAT[i].it, i)}</div>
+      </div>`;
+
+    spans[i].classList.add('active');
+    spans[i].after(drawer);
+    requestAnimationFrame(() => { if (active === i) drawer.classList.add('open'); });
+
+    const ta     = slot.querySelector('textarea');
+    const ans    = slot.querySelector('.answer');
+    const revBtn = slot.querySelector('.reveal');
+
+    const reveal = () => {
+      if (!ans.hidden) return;
+      ans.hidden = false;
+      revBtn.hidden = true;
+      bring(ans.querySelector('.de-line'));
+    };
+    const next = () => { i + 1 < FLAT.length ? open(i + 1) : close(true); };
+
+    revBtn.addEventListener('click', reveal);
+
+    /* دکمه‌های ä ö ü ß: فوکوس از کادر نمی‌رود و نویسه در جای مکان‌نما می‌نشیند */
+    const uml = slot.querySelector('.umlauts');
+    uml.addEventListener('mousedown', e => e.preventDefault());
+    uml.addEventListener('click', e => {
+      const b = e.target.closest('.ul');
+      if (!b) return;
+      ta.setRangeText(b.textContent, ta.selectionStart, ta.selectionEnd, 'end');
+      ta.focus({ preventScroll: true });
+    });
+
+    slot.querySelector('.cp-btn').addEventListener('click', e => {
+      const on = readCP() !== i;
+      writeCP(on ? i : null);
+      e.currentTarget.classList.toggle('on', on);
+      e.currentTarget.setAttribute('aria-pressed', on);
+      paintCP();
+    });
+
+    slot.querySelectorAll('.play-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const src = 'ak' in btn.dataset ? WORD_AUDIO[btn.dataset.ak] : FLAT[+btn.dataset.si].it.sa;
+        playAudio(src);
+      });
+    });
+
+    /* Enter → نمایش پاسخ، Enter دوباره → جملهٔ بعدی، Shift+Enter → خط تازه */
+    ta.addEventListener('keydown', e => {
+      if (e.key !== 'Enter' || e.shiftKey || e.isComposing || e.keyCode === 229) return;
+      e.preventDefault();
+      ans.hidden ? reveal() : next();
+    });
+
+    ta.focus({ preventScroll: true });
+    bring(null);
+  }
+
+  spans.forEach(sp => {
+    const i = +sp.dataset.i;
+    const go = () => { if (active === i) close(true); else open(i); };
+    sp.addEventListener('click', go);
+    sp.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' '){ e.preventDefault(); go(); }
+    });
+  });
+
+  /* بالاآمدن کیبورد روی موبایل ارتفاع دید را عوض می‌کند */
+  if (window.visualViewport){
+    let t;
+    window.visualViewport.addEventListener('resize', () => {
+      clearTimeout(t);
+      t = setTimeout(() => bring(keepEl), 150);
+    });
+  }
+
+  jumpBtn.addEventListener('click', () => {
+    const cp = readCP();
+    if (cp !== null) spans[cp].scrollIntoView({block:'center', behavior:'smooth'});
+  });
+
+  paintCP();
+})();
+</script>
+
+</body>
+</html>
