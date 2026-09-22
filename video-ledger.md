@@ -12,6 +12,7 @@
 | # | videoId | عنوان | انتشار | پردازش | واحد | ردیف کلمه |
 |---|---------|-------|--------|--------|------|-----------|
 | ۱ | `-8OTA0---K4` | Der Aufstieg und Fall des assyrischen Reiches | 2026-09-18 | 2026-09-21 | ۷۳ | ۶۳۵ |
+| ۲ | `Wo7rUJNVPYs` | Kannst du das Spindrätsel lösen? | 2026-09-16 | 2026-09-22 | ۷۰ | ۴۹۸ |
 
 ## یادداشت‌ها
 
@@ -30,3 +31,10 @@
   - `den Babylon und Medern` → `den Babyloniern und Medern`
   - `Vorreiter, das bis zum` → `Vorreiter, was bis zum`
   - یک نکتهٔ دستوری مشکوک ولی دست‌نخورده: `verloren die Assyrer durch …, einen Großteil …` (ویرگولِ اضافه پیش از `einen Großteil`).
+
+- **ویدیوی ۲ — اصلاح‌های متن** (در `transcripts/Wo7rUJNVPYs.txt` اعمال شده):
+  - حذف سرسطرِ زیرنویس `Übersetzung: Anja Alongi Lektorat: Alexandra Köster` از ابتدای متن (جزو گفتار ویدیو نیست).
+  - `gleich die Anzahl der Teiler` → `gleich der Anzahl der Teiler` (صفتِ `gleich` مکملش را datif می‌گیرد).
+  - دست‌نخورده‌ها: `der Spindnummern` (جمع، در حالی که منطقاً شمارهٔ همان یک کمد است) و `Denn` در آغاز جملهٔ `Denn die einzigen Spinde …` (تکرار حرف ربط پس از `denn` در جملهٔ پیش)؛ هیچ‌کدام غلط آشکار نیستند.
+
+- **محیط ساخت (۲۰۲۶-۰۹-۲۲):** برای اجرای `drill.py build` روی این دستگاه لازم شد: `piper-tts` (پایتون ۳.۱۴)، مدل صدای `de_DE-thorsten-medium` در `~/.cache/piper-voices/`، و `ffmpeg.exe` + `node.exe` در `C:\Users\FATEMEH\bin` (این پوشه در PATH نیست؛ هنگام build باید به PATH اضافه شود). onnxruntime بدون `msvcp140_1.dll` و نسخهٔ تازهٔ `msvcp140.dll` بالا نمی‌آمد؛ این DLLها کنار `onnxruntime/capi/` کپی شدند. راه‌حل تمیزتر: نصب Visual C++ Redistributable 2015-2022 x64.

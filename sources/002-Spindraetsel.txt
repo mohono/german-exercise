@@ -1,0 +1,781 @@
+video: Wo7rUJNVPYs
+fa-title: معمای کمدها
+
+de: Dein reicher, exzentrischer Onkel ist kürzlich verstorben
+fa: عموی ثروتمند و عجیب‌وغریبت به‌تازگی درگذشته است
+- Dein | (مالِ) تو | صفت ملکی؛ مذکر، فاعلی (Nominativ) چون <de>Onkel</de> مذکر است
+- reicher | ثروتمند | صفت با پایان <de>-er</de> (مذکر، فاعلی) چون <de>dein</de> جنس را نشان نمی‌دهد
+- exzentrischer | عجیب‌وغریب، نامتعارف | صفت دوم با همان پایان <de>-er</de>
+- Onkel | عمو، دایی | مذکر: <de>der Onkel</de>، جمع: <de>die Onkel</de> (بدون تغییر)
+- ist | است | از <de>sein</de> (بودن)؛ اینجا کمک‌فعلِ گذشتهٔ نقلی
+- kürzlich | به‌تازگی | قید زمان
+- verstorben | درگذشته | اسم مفعول (Partizip II) از <de>versterben</de> (درگذشتن)
+* گذشتهٔ نقلی (Perfekt) دو تکه است: کمک‌فعل در جای دوم (<de>ist</de>) و اسم مفعول در آخر (<de>verstorben</de>). فعل‌های تغییر حالت و حرکت کمک‌فعل <de>sein</de> می‌گیرند، نه <de>haben</de>.
+* صفت پیش از اسم همیشه پایان می‌گیرد؛ اینجا دو صفت پشت هم آمده‌اند و هر دو <de>-er</de> گرفته‌اند.
+
+de: und du und deine 99 gehässigen Verwandten
+fa: و تو و ۹۹ خویشاوند بدجنست
+- und | و | حرف ربط هم‌پایه؛ ترتیب جمله را به هم نمی‌زند
+- du | تو | ضمیر فاعلی دوم‌شخص مفرد
+- und | و | حرف ربط
+- deine | (مالِ) تو | صفت ملکی؛ جمع، فاعلی
+- 99 | ۹۹ | <de>neunundneunzig</de>
+- gehässigen | کینه‌توز، بدجنس | صفت جمع با پایان <de>-en</de> بعد از <de>deine</de>
+- Verwandten | خویشاوندان | جمع از <de>der Verwandte</de>؛ صفتی است که اسم شده، پس مثل صفت پایان می‌گیرد
+* عددها در آلمانی وارونه خوانده می‌شوند: <de>99 = neunundneunzig</de> یعنی «نُه و نود».
+
+de: sind zur Lesung seines Testaments geladen.
+fa: برای قرائت وصیت‌نامه‌اش دعوت شده‌اید.
+- sind | هستید، هستند | از <de>sein</de>؛ صیغهٔ جمع
+- zur | به، برای | ادغام: <de>zur = zu + der</de>؛ <de>zu</de> همیشه datif می‌گیرد
+- Lesung | قرائت، خوانش | مؤنث: <de>die Lesung</de>؛ اینجا datif (<de>der Lesung</de>)
+- seines | (مالِ) او | صفت ملکی در حالت ملکی (Genitiv)، خنثی
+- Testaments | وصیت‌نامه | خنثی: <de>das Testament</de>؛ پایان <de>-s</de> نشانهٔ Genitiv است
+- geladen | دعوت‌شده | اسم مفعول از <de>laden</de> (دعوت کردن)؛ بی‌قاعده
+* Genitiv یعنی «مالِ…»: اسم مذکر و خنثی پایان <de>-s/-es</de> می‌گیرد و صفت ملکی <de>-es</de>: <de>seines Testaments</de> = «وصیت‌نامهٔ او».
+* <de>sind … geladen</de> مجهول است: «دعوت شده‌اید».
+
+de: Er wollte dir all sein Geld vererben,
+fa: می‌خواست همهٔ پولش را به تو ارث بدهد،
+- Er | او (مرد) | ضمیر فاعلی
+- wollte | می‌خواست | گذشتهٔ ساده از فعل وجهی <de>wollen</de> (خواستن)
+- dir | به تو | ضمیر datif از <de>du</de>
+- all | همهٔ | پیش از صفت ملکی یا حرف تعریف بدون پایان می‌آید
+- sein | (مالِ) او | صفت ملکی؛ خنثی، akkusativ چون <de>Geld</de> خنثی است
+- Geld | پول | خنثی: <de>das Geld</de>
+- vererben | به ارث دادن | مصدر؛ با فعل وجهی به آخر جمله می‌رود
+* قاب فعلی (Satzklammer): فعل وجهی در جای دوم (<de>wollte</de>) و مصدر در آخر (<de>vererben</de>).
+* گیرندهٔ چیزی datif می‌گیرد (<de>dir</de>) و خودِ چیز akkusativ (<de>all sein Geld</de>).
+
+de: aber er wusste, dass deine Verwandten dich
+fa: اما می‌دانست که خویشاوندانت تو را
+- aber | اما | حرف ربط هم‌پایه
+- er | او | ضمیر فاعلی
+- wusste | می‌دانست | گذشتهٔ ساده از <de>wissen</de> (دانستن)؛ بی‌قاعده: <de>wissen → wusste → gewusst</de>
+- dass | که | حرف ربط؛ فعل را به آخر جملهٔ فرعی می‌برد
+- deine | (مالِ) تو | جمع، فاعلی
+- Verwandten | خویشاوندان | جمع
+- dich | تو را | ضمیر akkusativ از <de>du</de>
+* <de>dass</de> جمله را فرعی می‌کند و فعلِ صرف‌شده تا آخر آن جمله صبر می‌کند — اینجا در واحد بعدی می‌آید.
+
+de: dann für immer belästigen würden.
+fa: بعد از آن برای همیشه آزار می‌دادند.
+- dann | آن‌وقت، بعد | قید
+- für | برای | حرف اضافه؛ همیشه akkusativ
+- immer | همیشه | قید؛ <de>für immer</de> = برای همیشه
+- belästigen | آزار دادن، مزاحم شدن | مصدر
+- würden | می‌…ند | از <de>werden</de> در وجه شرطی (Konjunktiv II)؛ <de>würden</de> + مصدر
+* ته جملهٔ <de>dass</de>ـی: اول مصدر، بعد فعل صرف‌شده (<de>belästigen würden</de>).
+
+de: Deshalb rechnet er damit, dass er dir alles beigebracht hat,
+fa: برای همین روی این حساب می‌کند که همه‌چیز را به تو یاد داده است،
+- Deshalb | برای همین، به همین دلیل | قید؛ جای اول جمله را می‌گیرد
+- rechnet | حساب می‌کند | زمان حال از <de>rechnen</de>؛ <de>rechnen mit</de> = روی چیزی حساب کردن
+- er | او | فاعل
+- damit | روی آن | <de>da + mit</de>؛ به جملهٔ <de>dass</de>ـیِ بعدی اشاره می‌کند
+- dass | که | فعل را آخر می‌برد
+- er | او | فاعل جملهٔ فرعی
+- dir | به تو | datif
+- alles | همه‌چیز | ضمیر نامعین، خنثی
+- beigebracht | یاد داده | اسم مفعول از <de>beibringen</de> (یاد دادن)؛ جداشدنی: <de>bei-ge-bracht</de>
+- hat | (کمک‌فعل گذشتهٔ نقلی) | از <de>haben</de>
+* قاعدهٔ V2: چون <de>Deshalb</de> جای اول را گرفته، فاعل (<de>er</de>) بعد از فعل می‌آید، نه قبلش.
+* فعل جداشدنی در اسم مفعول <de>ge</de> را وسط می‌گیرد: <de>bei + ge + bracht</de>.
+
+de: was du über Rätsel wissen musst.
+fa: هر آنچه را که باید دربارهٔ معماها بدانی.
+- was | آنچه | ضمیر ربطی
+- du | تو | فاعل
+- über | دربارهٔ | حرف اضافه؛ در معنی «دربارهٔ» با akkusativ
+- Rätsel | معماها | خنثی: <de>das Rätsel</de>، جمع بدون تغییر: <de>die Rätsel</de>
+- wissen | دانستن | مصدر
+- musst | باید | زمان حال از فعل وجهی <de>müssen</de>؛ <de>ich muss, du musst</de>
+* باز جملهٔ فرعی: مصدر (<de>wissen</de>) و بعد فعل وجهیِ صرف‌شده (<de>musst</de>) در ته جمله.
+
+de: Dein Onkel hat folgende Nachricht in seinem Testament hinterlassen:
+fa: عمویت این پیام را در وصیت‌نامه‌اش به‌جا گذاشته است:
++para
+- Dein | (مالِ) تو | مذکر، فاعلی
+- Onkel | عمو | مذکر: <de>der Onkel</de>
+- hat | (کمک‌فعل) | از <de>haben</de>
+- folgende | زیر، به این شرح | صفت از فعل <de>folgen</de> (پی آمدن)؛ مؤنث، akkusativ
+- Nachricht | پیام | مؤنث: <de>die Nachricht</de>، جمع: <de>die Nachrichten</de>
+- in | در | حرف اضافه؛ با datif یعنی «کجا»
+- seinem | (مالِ) او | خنثی، datif
+- Testament | وصیت‌نامه | خنثی: <de>das Testament</de>
+- hinterlassen | به‌جا گذاشته | اسم مفعول از <de>hinterlassen</de>؛ پیشوند جداناشدنی، پس <de>ge</de> نمی‌گیرد
+* پیشوندهای جداناشدنی (<de>be-, ver-, er-, ent-, hinter-</de>) در اسم مفعول <de>ge</de> نمی‌گیرند: <de>hinterlassen</de>، نه <de>gehinterlassen</de>.
+
+de: "Ich habe ein Puzzle entworfen.
+fa: «من یک معما طراحی کرده‌ام.
+- Ich | من | ضمیر فاعلی
+- habe | (کمک‌فعل) | از <de>haben</de>؛ <de>ich habe</de>
+- ein | یک | حرف تعریف نامعین؛ خنثی، akkusativ
+- Puzzle | پازل، معما | خنثی: <de>das Puzzle</de> (وام‌واژه از انگلیسی)
+- entworfen | طراحی کرده | اسم مفعول از <de>entwerfen</de> (طرح ریختن)؛ بی‌قاعده، پیشوند جداناشدنی <de>ent-</de>
+
+de: Wenn alle 100 von euch es zusammen lösen,
+fa: اگر هر ۱۰۰ نفرتان با هم آن را حل کنید،
+- Wenn | اگر | حرف ربط شرطی؛ فعل آخر می‌رود
+- alle | همهٔ | صفت نامعین، جمع
+- 100 | ۱۰۰ | <de>hundert</de>
+- von | از | حرف اضافه؛ همیشه datif
+- euch | شما | ضمیر datif جمع از <de>ihr</de>
+- es | آن را | ضمیر akkusativ خنثی (اشاره به <de>das Puzzle</de>)
+- zusammen | با هم | قید
+- lösen | حل کنید | زمان حال از <de>lösen</de> (حل کردن)؛ صیغهٔ جمع
+* <de>Wenn</de> جملهٔ فرعی می‌سازد و فعل آخر می‌رود. چون این جملهٔ فرعی جای اولِ کل جمله را گرفته، جملهٔ اصلی در واحد بعدی مستقیم با فعل شروع می‌شود.
+
+de: wird das Geld auf alle gleich aufgeteilt.
+fa: پول به‌طور مساوی میان همه تقسیم می‌شود.
+- wird | می‌شود | از <de>werden</de>؛ کمک‌فعل مجهول
+- das | (حرف تعریف) | خنثی، فاعلی
+- Geld | پول | خنثی: <de>das Geld</de>
+- auf | بر، میان | حرف اضافه؛ اینجا با akkusativ
+- alle | همه | جمع، akkusativ
+- gleich | یکسان، مساوی | صفت/قید
+- aufgeteilt | تقسیم‌شده | اسم مفعول از <de>aufteilen</de>؛ جداشدنی: <de>auf-ge-teilt</de>
+* مجهول = <de>werden</de> + اسم مفعول: <de>wird … aufgeteilt</de> = «تقسیم می‌شود».
+
+de: Wenn du jedoch als erster das Muster erkennst
+fa: اما اگر تو اولین کسی باشی که الگو را تشخیص می‌دهد
+- Wenn | اگر | فعل آخر
+- du | تو | فاعل
+- jedoch | اما، ولی | قید؛ وسط جمله می‌نشیند
+- als | به‌عنوانِ | حرف ربط مقایسه‌ای
+- erster | اولین | عدد ترتیبی؛ <de>als erster</de> = «به‌عنوان نفر اول»
+- das | (حرف تعریف) | خنثی، akkusativ
+- Muster | الگو | خنثی: <de>das Muster</de>، جمع بدون تغییر
+- erkennst | تشخیص می‌دهی | زمان حال از <de>erkennen</de> برای <de>du</de>
+
+de: und das Problem ohne die ganze Laufarbeit löst,
+fa: و مسئله را بدون آن‌همه دوندگی حل کنی،
+- und | و | حرف ربط
+- das | (حرف تعریف) | خنثی، akkusativ
+- Problem | مسئله | خنثی: <de>das Problem</de>، جمع: <de>die Probleme</de>
+- ohne | بدون | حرف اضافه؛ همیشه akkusativ
+- die | (حرف تعریف) | مؤنث، akkusativ
+- ganze | تمام، همهٔ | صفت با پایان <de>-e</de> بعد از <de>die</de>
+- Laufarbeit | دوندگی، کارِ پا | مؤنث: <de>die Laufarbeit</de>؛ مرکب از <de>laufen</de> (دویدن) + <de>Arbeit</de> (کار)
+- löst | حل کنی | زمان حال <de>lösen</de> برای <de>du</de>؛ آخر جمله چون هنوز در جملهٔ <de>Wenn</de> هستیم
+* <de>ohne</de> از حرف‌اضافه‌های همیشه‌akkusativ است: <de>durch, für, gegen, ohne, um</de>.
+
+de: bekommst du das ganze Erbe für dich allein.
+fa: تمام ارث را فقط برای خودت می‌گیری.
+- bekommst | می‌گیری، به دست می‌آوری | زمان حال از <de>bekommen</de>
+- du | تو | فاعل
+- das | (حرف تعریف) | خنثی، akkusativ
+- ganze | تمام | صفت با پایان <de>-e</de>
+- Erbe | ارث، میراث | خنثی: <de>das Erbe</de>
+- für | برای | با akkusativ
+- dich | خودت | ضمیر akkusativ
+- allein | تنها، به‌تنهایی | قید
+* جملهٔ اصلی بعد از جملهٔ شرطی با فعل شروع می‌شود (<de>bekommst du …</de>) — همان قاعدهٔ V2: جملهٔ شرطی جای اول را گرفته است.
+
+de: Viel Glück."
+fa: موفق باشی.»
+- Viel | زیاد، فراوان | صفت مقدار
+- Glück | شانس، خوشبختی | خنثی: <de>das Glück</de>
+* <de>Viel Glück!</de> اصطلاح ثابتِ «موفق باشی» است.
+
+de: Der Anwalt führt dich und deine 99 Verwandten
+fa: وکیل تو و ۹۹ خویشاوندت را می‌برد
++para
+- Der | (حرف تعریف) | مذکر، فاعلی
+- Anwalt | وکیل | مذکر: <de>der Anwalt</de>، جمع: <de>die Anwälte</de>
+- führt | می‌برد، راهنمایی می‌کند | زمان حال از <de>führen</de>
+- dich | تو را | akkusativ
+- und | و | حرف ربط
+- deine | (مالِ) تو | جمع، akkusativ
+- 99 | ۹۹ | <de>neunundneunzig</de>
+- Verwandten | خویشاوندان | جمع، akkusativ
+
+de: zu einem geheimen Raum im Herrenhaus,
+fa: به اتاقی مخفی در عمارت،
+- zu | به | حرف اضافه؛ همیشه datif
+- einem | یک | حرف تعریف نامعین؛ مذکر، datif
+- geheimen | مخفی، سرّی | صفت با پایان <de>-en</de> (datif)
+- Raum | اتاق، فضا | مذکر: <de>der Raum</de>، جمع: <de>die Räume</de>
+- im | در | ادغام: <de>im = in + dem</de>، datif
+- Herrenhaus | عمارت، خانهٔ اربابی | خنثی: <de>das Herrenhaus</de>؛ <de>Herren</de> (اربابان) + <de>Haus</de> (خانه)
+* ادغام‌های پرکاربرد: <de>im = in + dem</de>، <de>zum = zu + dem</de>، <de>zur = zu + der</de>، <de>am = an + dem</de>.
+
+de: in dem sich 100 Spinde befinden,
+fa: که در آن ۱۰۰ کمد قرار دارد،
+- in | در | حرف اضافه
+- dem | که در آن | ضمیر ربطی؛ مذکر datif (به <de>Raum</de> برمی‌گردد)
+- sich | خود | ضمیر انعکاسی؛ جزئی از <de>sich befinden</de> (قرار داشتن)
+- 100 | ۱۰۰ | <de>hundert</de>
+- Spinde | کمدها | جمع از <de>der Spind</de> (کمد فلزی، لاکر)
+- befinden | قرار دارند | زمان حال از <de>sich befinden</de>؛ آخر جمله چون جملهٔ ربطی است
+* جملهٔ ربطی (Relativsatz) هم فعلش آخر می‌رود. حالتِ ضمیر ربطی از نقشش در همان جمله می‌آید: <de>in dem</de> = «در آن».
+
+de: die jeweils ein einziges Wort beinhalten.
+fa: که هرکدام تنها یک کلمه در خود دارند.
+- die | که | ضمیر ربطی جمع، فاعلی (به <de>Spinde</de> برمی‌گردد)
+- jeweils | هرکدام | قید
+- ein | یک | خنثی، akkusativ
+- einziges | تنها، یگانه | صفت با پایان <de>-es</de> (خنثی) بعد از <de>ein</de>
+- Wort | کلمه | خنثی: <de>das Wort</de>، جمع: <de>die Wörter</de>
+- beinhalten | در بر دارند | زمان حال از <de>beinhalten</de> (شامل بودن)؛ آخر جمله
+
+de: Er erklärt: Jeder Verwandte bekommt eine Nummer von 1 bis 100 zugewiesen.
+fa: او توضیح می‌دهد: به هر خویشاوند شماره‌ای از ۱ تا ۱۰۰ داده می‌شود.
+- Er | او | ضمیر فاعلی
+- erklärt | توضیح می‌دهد | زمان حال از <de>erklären</de>
+- Jeder | هر | صفت نامعین؛ مذکر، فاعلی
+- Verwandte | خویشاوند | مذکر: <de>der Verwandte</de>
+- bekommt | می‌گیرد | زمان حال از <de>bekommen</de>
+- eine | یک | مؤنث، akkusativ
+- Nummer | شماره | مؤنث: <de>die Nummer</de>، جمع: <de>die Nummern</de>
+- von | از | با datif
+- 1 | ۱ | <de>eins</de>
+- bis | تا | حرف اضافه
+- 100 | ۱۰۰ | <de>hundert</de>
+- zugewiesen | اختصاص‌داده‌شده | اسم مفعول از <de>zuweisen</de> (اختصاص دادن)؛ جداشدنی: <de>zu-ge-wiesen</de>
+* <de>bekommen</de> + اسم مفعول یک مجهولِ ویژه است: «چیزی به او داده می‌شود».
+
+de: Erbe 1 wird jeden Spind öffnen.
+fa: وارثِ ۱ هر کمد را باز خواهد کرد.
++para
+- Erbe | وارث | مذکر: <de>der Erbe</de>
+- 1 | ۱ | <de>eins</de>
+- wird | خواهد | از <de>werden</de>؛ اینجا کمک‌فعل آینده
+- jeden | هر | صفت نامعین؛ مذکر، akkusativ
+- Spind | کمد | مذکر: <de>der Spind</de>، جمع: <de>die Spinde</de>
+- öffnen | باز کردن | مصدر؛ آخر جمله
+* آینده = <de>werden</de> + مصدر: <de>wird … öffnen</de> = «باز خواهد کرد».
+* <de>der Erbe</de> = وارث (آدم)، ولی <de>das Erbe</de> = ارث (چیز). فقط حرف تعریف فرقشان را نشان می‌دهد.
+
+de: Erbe 2 wird dann jeden zweiten Spind schließen.
+fa: وارثِ ۲ بعد هر کمدِ دوم را خواهد بست.
+- Erbe | وارث | مذکر
+- 2 | ۲ | <de>zwei</de>
+- wird | خواهد | کمک‌فعل آینده
+- dann | بعد، سپس | قید
+- jeden | هر | مذکر، akkusativ
+- zweiten | دومین | عدد ترتیبی با پایان <de>-en</de> (akkusativ)
+- Spind | کمد | مذکر
+- schließen | بستن | مصدر؛ آخر جمله
+
+de: Erbe 3 wird den Zustand jedes dritten Spinds ändern,
+fa: وارثِ ۳ وضعیت هر کمدِ سوم را عوض خواهد کرد،
+- Erbe | وارث | مذکر
+- 3 | ۳ | <de>drei</de>
+- wird | خواهد | کمک‌فعل آینده
+- den | (حرف تعریف) | مذکر، akkusativ
+- Zustand | وضعیت، حالت | مذکر: <de>der Zustand</de>، جمع: <de>die Zustände</de>
+- jedes | هرِ | Genitiv مذکر
+- dritten | سومین | عدد ترتیبی، Genitiv
+- Spinds | کمد | Genitiv از <de>der Spind</de> با پایان <de>-s</de>
+- ändern | عوض کردن | مصدر؛ آخر جمله
+* <de>den Zustand jedes dritten Spinds</de>: بخش دوم Genitiv است و یعنی «وضعیتِ هر کمدِ سوم».
+
+de: das heißt, einen offenen Spind schließen
+fa: یعنی کمدِ بازی را ببندد
+- das | آن | ضمیر اشاره
+- heißt | یعنی | از <de>heißen</de> (نامیده شدن، معنی دادن)
+- einen | یک | مذکر، akkusativ
+- offenen | باز | صفت با پایان <de>-en</de> (مذکر، akkusativ)
+- Spind | کمد | مذکر
+- schließen | بستن | مصدر
+* <de>das heißt</de> (کوتاه: <de>d.h.</de>) دقیقاً همان «یعنی» است.
+
+de: und einen geschlossenen öffnen.
+fa: و کمدِ بسته‌ای را باز کند.
+- und | و | حرف ربط
+- einen | یک | مذکر، akkusativ
+- geschlossenen | بسته | صفتِ برآمده از اسم مفعول <de>geschlossen</de>؛ اسمِ بعدش (<de>Spind</de>) حذف شده
+- öffnen | باز کردن | مصدر
+* آلمانی اسمِ تکراری را حذف می‌کند و فقط صفت را نگه می‌دارد: <de>einen geschlossenen (Spind)</de>.
+
+de: Dieses Muster geht so weiter,
+fa: این الگو همین‌طور ادامه پیدا می‌کند،
+- Dieses | این | صفت اشاره؛ خنثی، فاعلی
+- Muster | الگو | خنثی: <de>das Muster</de>
+- geht | می‌رود | از <de>gehen</de>؛ اینجا بخشی از <de>weitergehen</de> (ادامه یافتن)
+- so | این‌طور | قید
+- weiter | جلوتر، ادامه | جزء جداشدهٔ <de>weitergehen</de>
+* فعل جداشدنی در جملهٔ اصلی دو تکه می‌شود: <de>geht … weiter</de>؛ مصدرش <de>weitergehen</de> است.
+
+de: bis alle 100 von euch gegangen sind.
+fa: تا وقتی هر ۱۰۰ نفرتان رفته باشید.
+- bis | تا | حرف ربط؛ فعل آخر می‌رود
+- alle | همهٔ | جمع
+- 100 | ۱۰۰ | <de>hundert</de>
+- von | از | با datif
+- euch | شما | datif
+- gegangen | رفته | اسم مفعول از <de>gehen</de>؛ بی‌قاعده: <de>gehen → ging → gegangen</de>
+- sind | (کمک‌فعل) | از <de>sein</de>؛ فعل‌های حرکت گذشتهٔ نقلی را با <de>sein</de> می‌سازند
+* در جملهٔ فرعی کمک‌فعل بعد از اسم مفعول می‌آید: <de>gegangen sind</de> (در جملهٔ اصلی برعکس: <de>sind gegangen</de>).
+
+de: Die Wörter in den Spinden,
+fa: کلمه‌های داخل آن کمدهایی
++para
+- Die | (حرف تعریف) | جمع، فاعلی
+- Wörter | کلمه‌ها | جمع از <de>das Wort</de>
+- in | در | با datif
+- den | (حرف تعریف) | جمع، datif
+- Spinden | کمدها | جمعِ datif؛ پایان <de>-n</de> ویژهٔ جمعِ datif است
+* جمع در datif پایان <de>-n</de> می‌گیرد: <de>die Spinde → den Spinden</de>.
+
+de: die am Ende offen sind,
+fa: که در پایان باز هستند،
+- die | که | ضمیر ربطی جمع، فاعلی
+- am | در | ادغام: <de>am = an + dem</de>، datif
+- Ende | پایان | خنثی: <de>das Ende</de>؛ <de>am Ende</de> = «در پایان»
+- offen | باز | صفت
+- sind | هستند | از <de>sein</de>؛ آخر جمله چون ربطی است
+
+de: werden euch helfen, den Code für den Tresor zu entschlüsseln.
+fa: به شما کمک خواهند کرد رمزِ گاوصندوق را باز کنید.
+- werden | خواهند | کمک‌فعل آینده
+- euch | به شما | datif؛ <de>helfen</de> همیشه datif می‌گیرد
+- helfen | کمک کردن | مصدر
+- den | (حرف تعریف) | مذکر، akkusativ
+- Code | رمز | مذکر: <de>der Code</de>
+- für | برای | با akkusativ
+- den | (حرف تعریف) | مذکر، akkusativ
+- Tresor | گاوصندوق | مذکر: <de>der Tresor</de>، جمع: <de>die Tresore</de>
+- zu | (نشانهٔ مصدر) | پیش از مصدرِ وابسته می‌آید
+- entschlüsseln | رمزگشایی کردن | مصدر با <de>zu</de>؛ از <de>der Schlüssel</de> (کلید)
+* <de>helfen</de> مفعولش datif است نه akkusativ: <de>euch helfen</de> = «به شما کمک کردن».
+* ساختار <de>zu</de> + مصدر مثل «که … کنید» است و آخر جمله می‌آید.
+
+de: Noch ehe Cousin Thaddäus anfangen kann,
+fa: هنوز پیش از آنکه پسرعمو تادئوس بتواند شروع کند،
+- Noch | هنوز | قید
+- ehe | پیش از آنکه | حرف ربط (هم‌معنی <de>bevor</de>)؛ فعل آخر می‌رود
+- Cousin | پسرعمو، پسرخاله | مذکر: <de>der Cousin</de> (وام‌واژهٔ فرانسوی)
+- Thaddäus | تادئوس | نام مرد
+- anfangen | شروع کردن | مصدر؛ جداشدنی: <de>an + fangen</de>
+- kann | می‌تواند | فعل وجهی <de>können</de> (توانستن)
+* در جملهٔ فرعی، مصدر جلو و فعل وجهی آخر می‌ایستد: <de>anfangen kann</de>.
+
+de: trittst du vor und sagst dem Anwalt,
+fa: تو جلو می‌آیی و به وکیل می‌گویی،
+- trittst | قدم برمی‌داری | زمان حال از <de>vortreten</de> (جلو آمدن) برای <de>du</de>؛ جداشدنی
+- du | تو | فاعل
+- vor | جلو | جزء جداشدهٔ <de>vortreten</de>
+- und | و | حرف ربط
+- sagst | می‌گویی | زمان حال از <de>sagen</de>
+- dem | (حرف تعریف) | مذکر، datif
+- Anwalt | وکیل | datif؛ مخاطبِ <de>sagen</de> datif می‌گیرد
+* چون جملهٔ فرعیِ <de>Noch ehe …</de> جای اول را گرفته، جملهٔ اصلی با فعل شروع می‌شود: <de>trittst du vor</de>.
+
+de: dass du weißt, welche Spinde am Ende offen sind.
+fa: که می‌دانی کدام کمدها در پایان باز هستند.
+- dass | که | فعل را آخر می‌برد
+- du | تو | فاعل
+- weißt | می‌دانی | زمان حال از <de>wissen</de>؛ بی‌قاعده: <de>ich weiß, du weißt</de>
+- welche | کدام | ضمیر پرسشی؛ جمع
+- Spinde | کمدها | جمع
+- am | در | <de>am = an + dem</de>
+- Ende | پایان | خنثی
+- offen | باز | صفت
+- sind | هستند | آخر جمله
+
+de: Aber wie?
+fa: اما چطور؟
+- Aber | اما | حرف ربط
+- wie | چطور، چگونه | قید پرسشی
+
+de: Halte das Video jetzt an, um es selbst auszuknobeln.
+fa: حالا ویدیو را نگه دار تا خودت از آن سر دربیاوری.
+- Halte | نگه دار | امری برای <de>du</de> از <de>anhalten</de> (متوقف کردن)؛ جداشدنی
+- das | (حرف تعریف) | خنثی، akkusativ
+- Video | ویدیو | خنثی: <de>das Video</de>، جمع: <de>die Videos</de>
+- jetzt | حالا | قید
+- an | (جزء فعل) | جزء جداشدهٔ <de>anhalten</de>؛ آخرِ جملهٔ اصلی
+- um | تا، برای اینکه | آغاز ساختار <de>um … zu</de>
+- es | آن را | akkusativ خنثی
+- selbst | خودت | قید تأکید
+- auszuknobeln | سر درآوردن، کشف کردن | مصدر از <de>ausknobeln</de>؛ در فعل جداشدنی <de>zu</de> وسط می‌نشیند: <de>aus-zu-knobeln</de>
+* امری برای <de>du</de>: فعل اولِ جمله و بدون ضمیر (<de>Halte …</de>)، و جزء جداشدنی آخر (<de>an</de>).
+* <de>um … zu</de> + مصدر = «برای اینکه …».
+
+de: Antwort in 3 Antwort in 2 Antwort in 1
+fa: پاسخ تا ۳ … پاسخ تا ۲ … پاسخ تا ۱
+- Antwort | پاسخ | مؤنث: <de>die Antwort</de>، جمع: <de>die Antworten</de>
+- in | تا، در عرضِ | با datif؛ در زمان یعنی «… دیگر»
+- 3 | ۳ | <de>drei</de>
+- Antwort | پاسخ | مؤنث
+- in | تا | حرف اضافه
+- 2 | ۲ | <de>zwei</de>
+- Antwort | پاسخ | مؤنث
+- in | تا | حرف اضافه
+- 1 | ۱ | <de>eins</de>
+* شمارش معکوس ویدیو: <de>in drei … in zwei … in eins</de>.
+
+de: Im Grunde muss man erkennen,
+fa: در اصل باید این را تشخیص داد
++para
+- Im | در | ادغام <de>im = in + dem</de>؛ <de>im Grunde</de> = «در اصل»
+- Grunde | اصل، بنیاد | مذکر: <de>der Grund</de>؛ در این اصطلاح پایان قدیمیِ <de>-e</de> دارد
+- muss | باید | فعل وجهی <de>müssen</de>
+- man | آدم (فاعل کلی) | ضمیر نامعین؛ فارسی معمولاً ترجمه‌اش نمی‌کند
+- erkennen | تشخیص دادن | مصدر؛ آخر جمله
+* <de>man</de> فاعلِ کلی است: <de>man muss …</de> = «باید …».
+
+de: dass die Anzahl der Berührungen eines Spinds
+fa: که تعدادِ دست‌خوردن‌های هر کمد
+- dass | که | فعل را آخر می‌برد
+- die | (حرف تعریف) | مؤنث، فاعلی
+- Anzahl | تعداد | مؤنث: <de>die Anzahl</de>
+- der | (حرف تعریف) | جمع، Genitiv
+- Berührungen | لمس‌ها، دست‌خوردن‌ها | جمع از <de>die Berührung</de>؛ از فعل <de>berühren</de> (لمس کردن)
+- eines | یکِ | Genitiv مذکر
+- Spinds | کمد | Genitiv با پایان <de>-s</de>
+* دو Genitiv پشت هم: «تعدادِ لمس‌هایِ یک کمد».
+
+de: gleich der Anzahl der Teiler der Spindnummern ist.
+fa: برابر است با تعداد مقسوم‌علیه‌های شمارهٔ آن کمد.
+- gleich | برابر | صفت؛ چیزی که با آن برابر است datif می‌گیرد
+- der | (حرف تعریف) | مؤنث، datif
+- Anzahl | تعداد | مؤنث
+- der | (حرف تعریف) | جمع، Genitiv
+- Teiler | مقسوم‌علیه‌ها | مذکر: <de>der Teiler</de>، جمع بدون تغییر؛ از <de>teilen</de> (تقسیم کردن)
+- der | (حرف تعریف) | جمع، Genitiv
+- Spindnummern | شماره‌های کمد | جمع از <de>die Spindnummer</de> (<de>Spind + Nummer</de>)
+- ist | است | فعل جملهٔ <de>dass</de>ـی؛ آخر جمله
+* <de>gleich</de> با datif می‌آید: <de>gleich der Anzahl</de> = «برابر با آن تعداد».
+
+de: Zum Beispiel wird Spind Nr. 6 von Person 1 geöffnet,
+fa: مثلاً کمد شمارهٔ ۶ را نفر ۱ باز می‌کند،
+- Zum | به | ادغام <de>zum = zu + dem</de>؛ <de>zum Beispiel</de> = «مثلاً»
+- Beispiel | مثال | خنثی: <de>das Beispiel</de>
+- wird | می‌شود | کمک‌فعل مجهول
+- Spind | کمد | مذکر
+- Nr | شماره | کوتاه‌شدهٔ <de>Nummer</de>، نوشته می‌شود <de>Nr.</de>
+- 6 | ۶ | <de>sechs</de>
+- von | توسطِ | در مجهول، انجام‌دهنده با <de>von</de> + datif می‌آید
+- Person | نفر، شخص | مؤنث: <de>die Person</de>، جمع: <de>die Personen</de>
+- 1 | ۱ | <de>eins</de>
+- geöffnet | باز‌شده | اسم مفعول از <de>öffnen</de>
+* مجهول: <de>wird … geöffnet</de> = «باز می‌شود»؛ <de>von Person 1</de> = «توسط نفر ۱».
+
+de: von Person 2 geschlossen, von Person 3 geöffnet,
+fa: نفر ۲ می‌بنددش، نفر ۳ بازش می‌کند،
+- von | توسطِ | با datif
+- Person | نفر | مؤنث
+- 2 | ۲ | <de>zwei</de>
+- geschlossen | بسته‌شده | اسم مفعول از <de>schließen</de>؛ بی‌قاعده: <de>schließen → schloss → geschlossen</de>
+- von | توسطِ | با datif
+- Person | نفر | مؤنث
+- 3 | ۳ | <de>drei</de>
+- geöffnet | باز‌شده | اسم مفعول از <de>öffnen</de>
+* <de>wird</de> دوباره تکرار نشده؛ از جملهٔ قبل فهمیده می‌شود.
+
+de: und von Person 6 geschlossen.
+fa: و نفر ۶ می‌بنددش.
+- und | و | حرف ربط
+- von | توسطِ | با datif
+- Person | نفر | مؤنث
+- 6 | ۶ | <de>sechs</de>
+- geschlossen | بسته‌شده | اسم مفعول
+
+de: Die Zahlen 1, 2, 3 und 6 sind Teiler der Zahl 6.
+fa: عددهای ۱، ۲، ۳ و ۶ مقسوم‌علیه‌های عددِ ۶ هستند.
+- Die | (حرف تعریف) | جمع، فاعلی
+- Zahlen | عددها | جمع از <de>die Zahl</de>
+- 1 | ۱ | <de>eins</de>
+- 2 | ۲ | <de>zwei</de>
+- 3 | ۳ | <de>drei</de>
+- und | و | حرف ربط
+- 6 | ۶ | <de>sechs</de>
+- sind | هستند | از <de>sein</de>
+- Teiler | مقسوم‌علیه‌ها | جمع بدون تغییر
+- der | (حرف تعریف) | مؤنث، Genitiv
+- Zahl | عدد | مؤنث: <de>die Zahl</de>
+- 6 | ۶ | <de>sechs</de>
+* <de>der Zahl 6</de> Genitiv مؤنث است: «عددِ ۶». Genitiv مؤنث حرف تعریفش <de>der</de> می‌شود.
+
+de: Wenn ein Spind also eine gerade Teileranzahl hat,
+fa: پس اگر کمدی تعداد مقسوم‌علیه‌های زوج داشته باشد،
++para
+- Wenn | اگر | فعل آخر می‌رود
+- ein | یک | مذکر، فاعلی
+- Spind | کمد | مذکر
+- also | پس، بنابراین | قید
+- eine | یک | مؤنث، akkusativ
+- gerade | زوج | صفت؛ <de>eine gerade Zahl</de> = عدد زوج
+- Teileranzahl | تعداد مقسوم‌علیه‌ها | مؤنث: <de>die Teileranzahl</de> (<de>Teiler + Anzahl</de>)
+- hat | داشته باشد | از <de>haben</de>؛ آخر جمله
+
+de: bleibt er geschlossen,
+fa: بسته می‌ماند،
+- bleibt | می‌ماند | زمان حال از <de>bleiben</de> (ماندن)
+- er | آن | ضمیر مذکر؛ به <de>der Spind</de> برمی‌گردد
+- geschlossen | بسته | اینجا صفت
+* آلمانی برای شیء مذکر هم <de>er</de> می‌گوید: <de>der Spind → er</de>.
+
+de: und hat er eine ungerade Teileranzahl, bleibt er offen.
+fa: و اگر تعداد مقسوم‌علیه‌هایش فرد باشد، باز می‌ماند.
+- und | و | حرف ربط
+- hat | داشته باشد | از <de>haben</de>؛ اینجا اولِ جمله نشسته
+- er | آن | ضمیر مذکر
+- eine | یک | مؤنث، akkusativ
+- ungerade | فرد | صفت؛ <de>un-</de> نفی می‌کند: <de>gerade</de> (زوج) → <de>ungerade</de> (فرد)
+- Teileranzahl | تعداد مقسوم‌علیه‌ها | مؤنث
+- bleibt | می‌ماند | از <de>bleiben</de>
+- er | آن | ضمیر مذکر
+- offen | باز | صفت
+* گاهی <de>wenn</de> حذف می‌شود و فعل اولِ جمله می‌آید: <de>hat er …</de> = <de>wenn er … hat</de>.
+* <de>un-</de> مثل «نا-» فارسی صفت را منفی می‌کند.
+
+de: Die meisten der Spinde haben eine gerade Teileranzahl,
+fa: بیشترِ کمدها تعداد مقسوم‌علیه‌های زوج دارند،
+- Die | (حرف تعریف) | جمع، فاعلی
+- meisten | بیشتر | صفت عالی از <de>viel</de>: <de>viel → mehr → die meisten</de>
+- der | (حرف تعریف) | جمع، Genitiv
+- Spinde | کمدها | جمع
+- haben | دارند | زمان حال جمع از <de>haben</de>
+- eine | یک | مؤنث، akkusativ
+- gerade | زوج | صفت
+- Teileranzahl | تعداد مقسوم‌علیه‌ها | مؤنث
+
+de: was einleuchtet, denn Teiler treten naturgemäß in Paaren auf.
+fa: که منطقی است، چون مقسوم‌علیه‌ها طبیعتاً جفت‌جفت پیدا می‌شوند.
+- was | که | ضمیر ربطی؛ به کل جملهٔ قبل برمی‌گردد
+- einleuchtet | منطقی به نظر می‌رسد | از <de>einleuchten</de>؛ جداشدنی، ولی در جملهٔ ربطی چسبیده می‌ماند
+- denn | چون، زیرا | حرف ربط هم‌پایه؛ برخلاف <de>weil</de> فعل را آخر نمی‌برد
+- Teiler | مقسوم‌علیه‌ها | جمع
+- treten | پیدا می‌شوند | از <de>auftreten</de> (پدیدار شدن)؛ جداشدنی
+- naturgemäß | طبیعتاً | قید
+- in | در | با datif
+- Paaren | جفت‌ها | جمعِ datif از <de>das Paar</de> (جفت)
+- auf | (جزء فعل) | جزء جداشدهٔ <de>auftreten</de>؛ ته جمله
+* <de>denn</de> و <de>weil</de> هر دو «چون» هستند: بعد از <de>denn</de> ترتیب عادی می‌ماند، بعد از <de>weil</de> فعل آخر می‌رود.
+
+de: Denn die einzigen Spinde mit einer ungeraden Teileranzahl
+fa: چون تنها کمدهایی که تعداد مقسوم‌علیه‌هایشان فرد است
++para
+- Denn | چون، زیرا | حرف ربط هم‌پایه
+- die | (حرف تعریف) | جمع، فاعلی
+- einzigen | تنها، یگانه | صفت جمع با پایان <de>-en</de>
+- Spinde | کمدها | جمع
+- mit | با | حرف اضافه؛ همیشه datif
+- einer | یک | مؤنث، datif
+- ungeraden | فرد | صفت با پایان <de>-en</de> (datif)
+- Teileranzahl | تعداد مقسوم‌علیه‌ها | مؤنث، datif
+
+de: sind die mit den Quadratzahlen,
+fa: همان‌هایی هستند که شماره‌شان مربع کامل است،
+- sind | هستند | از <de>sein</de>
+- die | آن‌هایی | اینجا ضمیر اشاره است، نه حرف تعریف
+- mit | با | datif
+- den | (حرف تعریف) | جمع، datif
+- Quadratzahlen | عددهای مربع (مجذور کامل) | جمع از <de>die Quadratzahl</de> (<de>Quadrat + Zahl</de>)
+* <de>die</de> اینجا جای <de>die Spinde</de> نشسته: «آن‌هایی که…».
+
+de: weil diese Zahlen einen Teiler haben,
+fa: چون این عددها مقسوم‌علیهی دارند
+- weil | چون | حرف ربط؛ فعل را آخر می‌برد
+- diese | این | صفت اشاره؛ جمع
+- Zahlen | عددها | جمع
+- einen | یک | مذکر، akkusativ
+- Teiler | مقسوم‌علیه | مذکر: <de>der Teiler</de>
+- haben | دارند | آخر جمله
+* فرقش با <de>denn</de> در واحد قبل: اینجا فعل (<de>haben</de>) آخر رفته است.
+
+de: der, wenn mit sich selbst multipliziert, die Zahl ergibt.
+fa: که اگر در خودش ضرب شود، همان عدد را می‌دهد.
+- der | که | ضمیر ربطی؛ مذکر، فاعلی (به <de>Teiler</de> برمی‌گردد)
+- wenn | اگر | حرف ربط
+- mit | با | datif
+- sich | خود | ضمیر انعکاسی
+- selbst | خودش | تأکید؛ <de>mit sich selbst</de> = «در خودش»
+- multipliziert | ضرب‌شده | اسم مفعول از <de>multiplizieren</de>؛ فعل‌های <de>-ieren</de> در اسم مفعول <de>ge</de> نمی‌گیرند
+- die | (حرف تعریف) | مؤنث، akkusativ
+- Zahl | عدد | مؤنث
+- ergibt | نتیجه می‌دهد | زمان حال از <de>ergeben</de> (حاصل شدن)؛ آخر جمله
+* جملهٔ کوتاه‌شده است: <de>wenn mit sich selbst multipliziert</de> یعنی <de>wenn er mit sich selbst multipliziert wird</de>.
+
+de: Spind 9 wird von 1 geöffnet,
+fa: کمد ۹ را نفر ۱ باز می‌کند،
+- Spind | کمد | مذکر
+- 9 | ۹ | <de>neun</de>
+- wird | می‌شود | کمک‌فعل مجهول
+- von | توسطِ | با datif
+- 1 | ۱ | <de>eins</de>
+- geöffnet | باز‌شده | اسم مفعول
+
+de: von 3 geschlossen und von 9 geöffnet.
+fa: نفر ۳ می‌بنددش و نفر ۹ بازش می‌کند.
+- von | توسطِ | با datif
+- 3 | ۳ | <de>drei</de>
+- geschlossen | بسته‌شده | اسم مفعول
+- und | و | حرف ربط
+- von | توسطِ | با datif
+- 9 | ۹ | <de>neun</de>
+- geöffnet | باز‌شده | اسم مفعول
+
+de: 3 x 3 = 9,
+fa: ۳ ضرب‌در ۳ می‌شود ۹،
+- 3 | ۳ | <de>drei</de>
+- x | ضرب‌در | علامت ضرب؛ خوانده می‌شود <de>mal</de>
+- 3 | ۳ | <de>drei</de>
+- 9 | ۹ | <de>neun</de>
+* کل عبارت را آلمانی‌ها می‌خوانند: <de>drei mal drei ist neun</de>؛ علامت <de>=</de> را <de>ist</de> یا <de>gleich</de> می‌گویند.
+
+de: aber die 3 kann nur einmal gezählt werden.
+fa: اما ۳ فقط یک‌بار می‌تواند شمرده شود.
+- aber | اما | حرف ربط
+- die | (حرف تعریف) | مؤنث — عددها در آلمانی مؤنث‌اند: <de>die Drei</de>
+- 3 | ۳ | <de>drei</de>
+- kann | می‌تواند | فعل وجهی <de>können</de>
+- nur | فقط | قید
+- einmal | یک‌بار | قید
+- gezählt | شمرده‌شده | اسم مفعول از <de>zählen</de> (شمردن)
+- werden | شود | مصدرِ مجهول؛ آخر جمله
+* مجهول با فعل وجهی: <de>kann … gezählt werden</de> = «می‌تواند شمرده شود».
+
+de: Daher bleibt jeder Spind mit einer Quadratzahl offen.
+fa: بنابراین هر کمدی که شماره‌اش مربع کامل است باز می‌ماند.
+- Daher | بنابراین | قید؛ جای اول جمله را گرفته
+- bleibt | می‌ماند | از <de>bleiben</de>
+- jeder | هر | مذکر، فاعلی
+- Spind | کمد | مذکر
+- mit | با | datif
+- einer | یک | مؤنث، datif
+- Quadratzahl | عدد مربع | مؤنث
+- offen | باز | صفت
+* باز همان V2: <de>Daher</de> اول، فعل (<de>bleibt</de>) دوم، فاعل بعدش.
+
+de: Du weißt, dass diese zehn Spinde die Lösung sind,
+fa: می‌دانی که همین ده کمد جواب‌اند،
++para
+- Du | تو | ضمیر فاعلی
+- weißt | می‌دانی | از <de>wissen</de>؛ <de>ich weiß, du weißt</de>
+- dass | که | فعل آخر
+- diese | این | جمع
+- zehn | ده | <de>zehn</de>
+- Spinde | کمدها | جمع
+- die | (حرف تعریف) | مؤنث، فاعلی
+- Lösung | راه‌حل، جواب | مؤنث: <de>die Lösung</de>؛ از <de>lösen</de> (حل کردن)
+- sind | هستند | آخر جمله
+
+de: öffnest sie gleich und liest die Wörter darin:
+fa: فوراً بازشان می‌کنی و کلمه‌های داخلشان را می‌خوانی:
+- öffnest | باز می‌کنی | زمان حال از <de>öffnen</de> برای <de>du</de>
+- sie | آن‌ها را | ضمیر akkusativ جمع
+- gleich | فوراً | معنی دومِ <de>gleich</de> (قید زمان)
+- und | و | حرف ربط
+- liest | می‌خوانی | از <de>lesen</de>؛ بی‌قاعده: <de>ich lese, du liest</de>
+- die | (حرف تعریف) | جمع، akkusativ
+- Wörter | کلمه‌ها | جمع از <de>das Wort</de>
+- darin | داخلش | <de>da + in</de> = «در آن»
+* <de>gleich</de> هم «برابر» است هم «فوراً»؛ معنی‌اش را جمله روشن می‌کند.
+
+de: "Der Code sind die ersten fünf Spinde,
+fa: «رمز همان پنج کمد اول است،
+- Der | (حرف تعریف) | مذکر، فاعلی
+- Code | رمز | مذکر: <de>der Code</de>
+- sind | هستند | جمع صرف شده چون بخش دوم جمله جمع است
+- die | (حرف تعریف) | جمع
+- ersten | اولین | عدد ترتیبی، جمع
+- fünf | پنج | <de>fünf</de>
+- Spinde | کمدها | جمع
+
+de: die nur zweimal berührt werden."
+fa: همان‌هایی که فقط دو بار دست‌ زده می‌شوند.»
+- die | که | ضمیر ربطی جمع
+- nur | فقط | قید
+- zweimal | دوبار | <de>zwei + mal</de>
+- berührt | لمس‌شده | اسم مفعول از <de>berühren</de>
+- werden | می‌شوند | مجهول؛ آخر جمله
+* شمارش دفعه‌ها: <de>einmal, zweimal, dreimal</de> = یک‌بار، دوبار، سه‌بار.
+
+de: Dir fällt auf, dass die einzigen Spinde,
+fa: متوجه می‌شوی که تنها کمدهایی
+- Dir | به تو | datif؛ اصطلاح <de>jemandem auffallen</de> = «به چشم کسی خوردن»
+- fällt | می‌افتد | از <de>auffallen</de>؛ جداشدنی
+- auf | (جزء فعل) | جزء جداشدهٔ <de>auffallen</de>
+- dass | که | فعل آخر
+- die | (حرف تعریف) | جمع
+- einzigen | تنها | صفت جمع با پایان <de>-en</de>
+- Spinde | کمدها | جمع
+* در <de>Dir fällt auf, dass …</de> («متوجه می‌شوی که…») «تو» فاعل نیست، datif است.
+
+de: die zweimal berührt worden sind, Primzahlen sein müssen,
+fa: که دو بار دست‌ زده شده‌اند، باید عدد اول باشند،
+- die | که | ضمیر ربطی جمع
+- zweimal | دوبار | قید
+- berührt | لمس‌شده | اسم مفعول از <de>berühren</de>
+- worden | شده | اسم مفعولِ <de>werden</de> در مجهولِ گذشتهٔ نقلی
+- sind | (کمک‌فعل) | از <de>sein</de>
+- Primzahlen | عددهای اول | جمع از <de>die Primzahl</de>
+- sein | بودن | مصدر
+- müssen | باید | فعل وجهی؛ آخر جمله
+* مجهولِ گذشتهٔ نقلی: <de>ist berührt worden</de> = «لمس شده است» — اینجا <de>worden</de> می‌آید، نه <de>geworden</de>.
+
+de: da jede nur zwei Teiler hat: 1 und sich selbst.
+fa: چون هرکدام فقط دو مقسوم‌علیه دارد: ۱ و خودش.
+- da | چون | حرف ربط (هم‌معنی <de>weil</de>)؛ فعل آخر
+- jede | هرکدام | مؤنث (به <de>die Primzahl</de> برمی‌گردد)
+- nur | فقط | قید
+- zwei | دو | <de>zwei</de>
+- Teiler | مقسوم‌علیه | جمع بدون تغییر
+- hat | دارد | آخر جمله
+- 1 | ۱ | <de>eins</de>
+- und | و | حرف ربط
+- sich | خود | ضمیر انعکاسی
+- selbst | خودش | تأکید
+* <de>da</de> و <de>weil</de> تقریباً یکی‌اند و هر دو فعل را آخر می‌برند.
+
+de: Also ist der Code 2-3-5-7-11.
+fa: پس رمز می‌شود ۲-۳-۵-۷-۱۱.
+- Also | پس، بنابراین | قید؛ جای اول جمله
+- ist | است | از <de>sein</de>
+- der | (حرف تعریف) | مذکر، فاعلی
+- Code | رمز | مذکر
+- 2-3-5-7-11 | ۲-۳-۵-۷-۱۱ | پنج عدد اول: <de>zwei, drei, fünf, sieben, elf</de>
+* <de>also</de> آلمانی یعنی «پس/بنابراین»، نه «همچنین»ِ انگلیسی.
+
+de: Der Anwalt bringt dich zum Tresor
+fa: وکیل تو را تا گاوصندوق می‌برد
++para
+- Der | (حرف تعریف) | مذکر، فاعلی
+- Anwalt | وکیل | مذکر
+- bringt | می‌برد | زمان حال از <de>bringen</de>
+- dich | تو را | akkusativ
+- zum | به | ادغام <de>zum = zu + dem</de>، datif
+- Tresor | گاوصندوق | مذکر: <de>der Tresor</de>
+
+de: und du forderst dein Erbe ein.
+fa: و تو ارثت را مطالبه می‌کنی.
+- und | و | حرف ربط
+- du | تو | فاعل
+- forderst | مطالبه می‌کنی | از <de>einfordern</de> (مطالبه کردن)؛ جداشدنی
+- dein | (مالِ) تو | خنثی، akkusativ
+- Erbe | ارث | خنثی: <de>das Erbe</de>
+- ein | (جزء فعل) | جزء جداشدهٔ <de>einfordern</de>؛ ته جمله
+* این <de>ein</de> «یک» نیست، جزء فعل است: <de>forderst … ein</de>.
+
+de: Zu dumm, dass deine Verwandten immer nur gemein zueinander waren,
+fa: حیف که خویشاوندانت همیشه فقط با هم بدرفتار بودند،
+- Zu | بیش از حد | قید مقدار
+- dumm | احمقانه | صفت
+- dass | که | فعل آخر
+- deine | (مالِ) تو | جمع
+- Verwandten | خویشاوندان | جمع
+- immer | همیشه | قید
+- nur | فقط | قید
+- gemein | بدجنس، نامهربان | صفت
+- zueinander | نسبت به هم | قید؛ <de>zu + einander</de>
+- waren | بودند | گذشتهٔ ساده از <de>sein</de>: <de>war, warst, waren</de>
+* <de>Zu dumm, dass …</de> اصطلاح است: «حیف که…».
+
+de: statt auf die Rätsel deines exzentrischen Onkels zu achten.
+fa: به‌جای آنکه به معماهای عموی عجیب‌وغریبت توجه کنند.
+- statt | به‌جایِ | با ساختار <de>zu</de> + مصدر می‌آید
+- auf | به | <de>achten auf</de> = «توجه کردن به»؛ با akkusativ
+- die | (حرف تعریف) | جمع، akkusativ
+- Rätsel | معماها | جمع بدون تغییر
+- deines | (مالِ) تو | Genitiv مذکر
+- exzentrischen | عجیب‌وغریب | صفت با پایان <de>-en</de> (Genitiv)
+- Onkels | عمو | Genitiv با پایان <de>-s</de>
+- zu | (نشانهٔ مصدر) | پیش از مصدر
+- achten | توجه کردن | مصدر؛ آخر جمله
+* <de>statt … zu</de> + مصدر = «به‌جای اینکه …».
+* فعل‌هایی مثل <de>achten auf</de> حرف اضافهٔ ثابت دارند و باید با هم حفظ شوند.
