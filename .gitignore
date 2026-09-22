@@ -1,2 +1,9 @@
 __pycache__/
 .cache/
+
+# اکسپورت claude.ai — هرگز commit نشود (کل چت‌های حساب است)
+conversations.json
+projects.json
+users.json
+data-*.zip
+_import/
