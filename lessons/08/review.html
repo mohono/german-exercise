@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>مرور درس ۸ — میشل توماس</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#EDF1F5; --surface:#FFFFFF; --surface2:#F4F8FA;
+  --ink:#10202C; --ink2:#46596B; --ink3:#71879A;
+  --line:#CBD8E2; --line2:#E2EAF1;
+  --accent:#0B6E80; --accent-soft:#DAEEF2;
+  --trap:#A63D2F; --trap-soft:#F9E7E3;
+  --good:#1B6B4E; --good-soft:#DCF0E7;
+  --warn:#8A6212; --warn-soft:#F7EEDA;
+  --shadow:0 1px 2px rgba(16,32,44,.06),0 8px 24px -12px rgba(16,32,44,.18);
+}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0A131A; --surface:#121F29; --surface2:#182935;
+  --ink:#DCE8F0; --ink2:#9AAFBF; --ink3:#6F8697;
+  --line:#22394A; --line2:#1B2E3C;
+  --accent:#4FC0D4; --accent-soft:#10303A;
+  --trap:#EE8A7B; --trap-soft:#361E1A;
+  --good:#55C598; --good-soft:#11332A;
+  --warn:#E0B45C; --warn-soft:#332A15;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px -14px rgba(0,0,0,.7);
+}}
+:root[data-theme="dark"]{
+  --bg:#0A131A; --surface:#121F29; --surface2:#182935;
+  --ink:#DCE8F0; --ink2:#9AAFBF; --ink3:#6F8697;
+  --line:#22394A; --line2:#1B2E3C;
+  --accent:#4FC0D4; --accent-soft:#10303A;
+  --trap:#EE8A7B; --trap-soft:#361E1A;
+  --good:#55C598; --good-soft:#11332A;
+  --warn:#E0B45C; --warn-soft:#332A15;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px -14px rgba(0,0,0,.7);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  direction:rtl; background:var(--bg); color:var(--ink);
+  font-family:"Vazirmatn",system-ui,sans-serif;
+  font-size:16px; line-height:1.85; margin:0; padding:0 20px 90px;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:800px;margin:0 auto}
+
+h1{font-size:1.5rem;margin:0 0 6px;font-weight:800;line-height:1.5}
+h2{font-size:1.2rem;margin:0 0 4px;font-weight:700;color:var(--accent);line-height:1.6}
+h3{font-size:1rem;margin:24px 0 8px;font-weight:700}
+h4{font-size:.95rem;margin:0 0 6px;font-weight:700}
+p{margin:0 0 12px}
+.lead{color:var(--ink2);font-size:.92rem;margin:0 0 16px}
+section{padding:36px 0 4px}
+section+section{border-top:1px solid var(--line2)}
+
+/* German */
+.de{direction:ltr; unicode-bidi:isolate;
+  font-family:"IBM Plex Mono","IBM Plex Sans",monospace;
+  font-size:.9em; font-weight:500;
+  color:var(--accent); background:var(--accent-soft);
+  padding:.08em .4em; border-radius:4px; white-space:nowrap;}
+.de.w{white-space:normal}
+
+/* diff markers inside .de */
+.x{color:var(--trap);text-decoration:line-through;font-weight:700}
+.v{color:var(--good);font-weight:700;border-bottom:2px solid var(--good)}
+.m{background:var(--warn-soft);color:var(--warn);font-weight:700;border-radius:3px;padding:0 .15em}
+
+/* tables */
+.tw{overflow-x:auto;margin:14px 0;border:1px solid var(--line2);
+  border-radius:8px;background:var(--surface);-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+th,td{padding:9px 13px;text-align:right;border-bottom:1px solid var(--line2);vertical-align:top}
+thead th{background:var(--surface2);font-size:.76rem;letter-spacing:.03em;
+  color:var(--ink2);font-weight:700;white-space:nowrap}
+tbody th{background:var(--surface2);font-size:.85rem;font-weight:700}
+tbody tr:last-child td,tbody tr:last-child th{border-bottom:none}
+
+/* callouts */
+.box{border-radius:8px;padding:13px 15px;margin:14px 0;border:1px solid}
+.box p:last-child{margin-bottom:0}
+.box .lbl{font-weight:700;display:block;margin-bottom:5px;font-size:.87rem}
+.g{background:var(--good-soft);border-color:var(--good)} .g .lbl{color:var(--good)}
+.t{background:var(--trap-soft);border-color:var(--trap)} .t .lbl{color:var(--trap)}
+.w{background:var(--warn-soft);border-color:var(--warn)} .w .lbl{color:var(--warn)}
+.a{background:var(--accent-soft);border-color:var(--accent)} .a .lbl{color:var(--accent)}
+
+/* proof pair */
+.pf{border:1px solid var(--line2);border-radius:8px;overflow:hidden;margin:12px 0;background:var(--surface)}
+.pf > div{padding:9px 13px;border-bottom:1px solid var(--line2);font-size:.91rem}
+.pf > div:last-child{border-bottom:none}
+.pf .yes{background:var(--good-soft)} .pf .no{background:var(--trap-soft)}
+.pf .cap{background:var(--surface2);font-size:.79rem;color:var(--ink2);font-weight:700}
+
+/* grid */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:11px;margin:14px 0}
+.mini{border:1px solid var(--line2);border-radius:8px;padding:13px 14px;background:var(--surface2)}
+.mini p{margin:0;font-size:.87rem;color:var(--ink2)}
+.mini .ex{margin-top:7px;font-size:.86rem;color:var(--ink)}
+
+/* header */
+.hd{padding:26px 0 4px}
+.sub{color:var(--ink2);font-size:.9rem;margin-bottom:14px}
+.bar{display:flex;gap:5px;flex-wrap:wrap;margin:14px 0}
+.bar span{flex:1 1 34px;min-width:34px;text-align:center;padding:7px 0;
+  background:var(--good-soft);color:var(--good);border-radius:5px;font-size:.8rem;font-weight:700}
+.stats{display:flex;gap:9px;flex-wrap:wrap;margin-top:14px}
+.stat{flex:1 1 104px;min-width:92px;background:var(--surface2);border:1px solid var(--line2);
+  border-radius:8px;padding:9px 11px;text-align:center}
+.stat b{display:block;font-size:1.3rem;color:var(--accent);line-height:1.45}
+.stat i{display:block;font-size:.73rem;color:var(--ink2);font-style:normal}
+
+/* details */
+details{border:1px solid var(--line2);border-radius:8px;margin-bottom:10px;background:var(--surface2);overflow:hidden}
+summary{cursor:pointer;padding:11px 14px;font-weight:700;font-size:.93rem;
+  list-style:none;display:flex;align-items:center;gap:8px;line-height:1.7}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"▸";color:var(--accent);transition:transform .15s;display:inline-block}
+details[open] summary::before{transform:rotate(-90deg)}
+details[open] summary{border-bottom:1px solid var(--line2);background:var(--accent-soft)}
+.db{padding:14px}
+.db > :last-child{margin-bottom:0}
+.layer{margin-bottom:11px;padding-right:11px;border-right:2px solid var(--line2)}
+.layer .t2{font-weight:700;font-size:.85rem;color:var(--accent);display:block}
+.layer p{margin:2px 0 0;font-size:.9rem}
+.kept{border-top:1px dashed var(--line);margin-top:13px;padding-top:11px;font-weight:700;font-size:.92rem}
+
+/* floating buttons */
+.fab{position:fixed;bottom:16px;z-index:9;border:1px solid var(--line);border-radius:22px;
+  height:44px;padding:0 16px;background:var(--surface);color:var(--accent);
+  font-family:inherit;font-size:.86rem;font-weight:700;cursor:pointer;box-shadow:var(--shadow)}
+#tt{left:16px;width:44px;padding:0;font-size:1.05rem}
+#qz{left:70px}
+.quiz .hide{filter:blur(6px);opacity:.45;cursor:pointer;border-radius:4px;transition:filter .12s,opacity .12s}
+.quiz .hide.show{filter:none;opacity:1}
+
+.ft{text-align:center;color:var(--ink2);font-size:.82rem;margin-top:34px;
+  padding-top:20px;border-top:1px solid var(--line2);line-height:2}
+.cal td:first-child{width:34px;text-align:center}
+.cal input{width:19px;height:19px;accent-color:var(--good);cursor:pointer}
+.cal tr.done td{opacity:.5}
+.cal tr.done td:nth-child(4){text-decoration:line-through}
+
+@media(max-width:560px){
+  body{font-size:15px;padding:0 12px 88px}
+  th,td{padding:8px 10px;font-size:.85rem}
+  h1{font-size:1.32rem}
+  #qz{left:66px;padding:0 12px;font-size:.8rem}
+}
+</style>
+</head>
+<body>
+<button class="fab" id="tt" aria-label="تم">🌗</button>
+<button class="fab" id="qz">🙈 حالت آزمون</button>
+<div class="wrap">
+
+<header class="hd">
+  <h1>📘 مرور درس ۸ — میشل توماس</h1>
+  <div class="sub">۲۵ شهریور ۱۴۰۵ · یازده بلوک در <b>یک</b> جلسه · موضوع: <b>فعل‌های لگویی و چیدمان جمله</b></div>
+  <div class="bar"><span>۱</span><span>۲</span><span>۳</span><span>۴</span><span>۵</span><span>۶</span><span>۷</span><span>۸</span><span>۹</span><span>۱۰</span><span>۱۱</span></div>
+  <div class="stats">
+    <div class="stat"><b>۱۱</b><i>بلوک</i></div>
+    <div class="stat"><b>۲۹</b><i>جمله‌ی خودم</i></div>
+    <div class="stat"><b>۱۷</b><i>سؤال خودم</i></div>
+    <div class="stat"><b>۲۳</b><i>خونه‌ی صرف</i></div>
+    <div class="stat"><b>۸</b><i>لغزش جزوه</i></div>
+  </div>
+  <div class="box a">
+    <span class="lbl">📌 شروع جلسه، حرف خودم</span>
+    <p>«این درس احساس می‌کنم خیلی نفس‌گیره، واقعاً به کمکت احتیاج دارم قدم به قدم.»</p>
+    <p style="margin-top:7px;font-size:.89rem;color:var(--ink2)">درس ۷ یازده بلوک بود در <b>دو</b> جلسه. این یکی در یک جلسه بسته شد.</p>
+  </div>
+</header>
+
+<!-- ══════ ۱ ══════ -->
+<section>
+  <h2>🧭 قبل از نوشتن هر جمله</h2>
+  <p class="lead">قوانین یک لیست سی‌تایی نیستند — یک درخت سه‌طبقه‌اند. این بخش برای وقتی است که حس می‌کنم دارم گم می‌شوم.</p>
+
+  <div class="tw"><table>
+    <thead><tr><th>طبقه</th><th>سؤالش</th><th>چه چیزی آنجاست</th></tr></thead>
+    <tbody>
+      <tr><td><b>۱ · اسکلت</b></td><td>فعل صرف‌شده کجا می‌نشیند؟</td><td>🌳 درخت تصمیم · 🗜 قلاب جمله · تعداد فعل صرف‌شده = تعداد تیکه‌ها</td></tr>
+      <tr><td><b>۲ · شکل فعل</b></td><td>کدام شکل؟</td><td>🚪 راهروی شش‌دَر · 🧴 روغن · مصدر 🛌 یا صرف‌شده 👔</td></tr>
+      <tr><td><b>۳ · چیدمان</b></td><td>بقیه کجا بنشینند؟</td><td>🪜 نردبون · TeKaMoLo · جای <span class="de">nicht</span> · لگو باز یا بسته</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>چک‌لیست پنج‌سؤالی</h3>
+  <div class="tw"><table>
+    <thead><tr><th>#</th><th>بپرس</th><th>چرا این یکی</th></tr></thead>
+    <tbody>
+      <tr><td>۱</td><td><b>چند تیکه است و رابطش چیست؟</b><br>🧷 چسب / 🚪 در / 🌉 پل</td><td>این تعیین می‌کند فعل کجا بنشیند</td></tr>
+      <tr><td>۲</td><td>👔 <b>کت تن کیه؟</b><br>در این تیکه، کدام فعل صرف شده؟</td><td>🆕 امشب اضافه شد — سه بار لغزید</td></tr>
+      <tr><td>۳</td><td>🧱 <b>لگو باز است یا بسته؟</b></td><td>🆕 امشب اضافه شد — فعل کمکی داری ⟵ بسته · نداری ⟵ باز</td></tr>
+      <tr><td>۴</td><td>🪑 <b>صندلی فاعل پر است؟</b></td><td>آلمانی فاعل خالی نمی‌گذارد</td></tr>
+      <tr><td>۵</td><td>🪜 <b>بچین:</b> فعل · ضمیر · زمان · بقیه · <span class="de">nicht</span> · 🏠 خانه</td><td>—</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="box w">
+    <span class="lbl">👔 «کت تن کیه؟» — قرارداد تازه‌ی امشب</span>
+    <p>هر تیکه <b>دقیقاً یک</b> فعل صرف‌شده دارد؛ کتِ صرف تن یکی است. اگر کسی کت تنش نبود، یعنی هیچ‌کس صرف نشده و <b>خودِ فعل اصلی</b> باید بپوشدش.</p>
+    <div class="pf">
+      <div class="cap">کت تن <span class="de">werde</span> است ⟵ پس مصدر لخت 🛌 می‌ماند</div>
+      <div class="yes"><span class="de w">Ich <b>werde</b> Sie morgen abholen.</span> ✅</div>
+      <div class="cap">هیچ‌کس نیست ⟵ خودِ فعل باید بپوشد</div>
+      <div class="no"><span class="de w">Ich <span class="x">verstehen</span> es nicht.</span> ❌</div>
+      <div class="yes"><span class="de w">Ich <span class="v">verstehe</span> es nicht.</span> ✅</div>
+    </div>
+    <p style="font-size:.88rem">سه بار امشب لغزید و هر سه یک ریشه داشتند:</p>
+    <div class="tw" style="margin-top:8px"><table>
+      <thead><tr><th>نوشتم</th><th>درست</th><th>چه شد</th></tr></thead>
+      <tbody>
+        <tr><td><span class="de w">Ich <span class="x">verstehen</span> es nicht.</span></td><td><span class="de w">Ich <span class="v">verstehe</span> es nicht.</span></td><td>مصدر گذاشتم</td></tr>
+        <tr><td><span class="de w">…dass <span class="m">—</span> morgen <span class="x">ankommen</span></span></td><td><span class="de w">…dass <span class="v">er</span> morgen <span class="v">ankommt</span>.</span></td><td>باز هم مصدر، و فاعل جا افتاد</td></tr>
+        <tr><td><span class="de w">er <span class="m">ankomme</span></span></td><td><span class="de w">er <span class="v">kommt</span> … <span class="v">an</span></span></td><td>صرف کردم ✅ ولی درِ <span class="de">ich</span> را رفتم</td></tr>
+      </tbody>
+    </table></div>
+    <p style="font-size:.88rem;margin-top:8px">ردیف سوم <b>پیشرفت</b> بود نه خطای سوم: از «صرف نکردم» رسیدم به «صرف کردم، در را اشتباه رفتم».</p>
+  </div>
+</section>
+
+<!-- ══════ ۲ ══════ -->
+<section>
+  <h2>🧱 لگو — فعل‌های دوتکه</h2>
+  <p class="lead">بیش از پنجاه فعل در جزوه، ولی <b>۲۸ چیز برای حفظ کردن</b>: ده فعل پایه × هجده جهت. بقیه‌اش ضرب است.</p>
+
+  <div class="box g">
+    <span class="lbl">🟢 قانون</span>
+    <p><b>پیشوند + فعل = فعل تازه.</b> فعل می‌گوید چه کاری، پیشوند می‌گوید کدام طرف.</p>
+    <div class="pf" style="margin-bottom:0">
+      <div class="cap">دو کلمه‌ی کامل می‌چسبند — و <b>آب نمی‌روند</b></div>
+      <div class="yes"><span class="de">weg</span> + <span class="de">gehen</span> = <span class="de">we<span class="v">gg</span>ehen</span> ✅ هر دو <span class="de">g</span> می‌مانند</div>
+      <div class="no"><span class="de">we<span class="x">g</span>ehen</span> ❌ — این را نوشتم</div>
+    </div>
+  </div>
+  <p style="font-size:.9rem">اسم فنی‌اش <b>trennbare Verben</b> است — در ویدئوهای دوره و کتاب آزمون با همین اسم صدایش می‌زنند.</p>
+
+  <h3>باز می‌شود یا بسته می‌ماند؟</h3>
+  <div class="box a">
+    <span class="lbl">🗜 قلاب جمله (Satzklammer) — ته جمله هیچ‌وقت خالی نیست</span>
+    <div class="pf" style="margin-bottom:0">
+      <div class="cap">فعل کمکی <b>هست</b> ⟵ لگو <b>بسته</b>، یکجا در خانه 🏠</div>
+      <div class="yes"><span class="de w">Ich möchte heute Abend <b>ausgehen</b>.</span></div>
+      <div class="cap">فعل کمکی <b>نیست</b> ⟵ لگو <b>باز</b>، فقط پیشوند در خانه</div>
+      <div class="yes"><span class="de w">Ich <b>gehe</b> heute Abend <b>aus</b>.</span></div>
+    </div>
+  </div>
+  <div class="box t">
+    <span class="lbl">🏠 و تصویرش را برعکس نگیر</span>
+    <p>❌ «پیشوند بلند می‌شود می‌رود ته جمله»<br>
+       ✅ <b>پیشوند از اول ته جمله بوده و تکان نمی‌خورد — این <i>فعل</i> است که کوچ می‌کند.</b></p>
+    <div class="pf" style="margin-bottom:0">
+      <div class="no"><span class="de w">Ich <span class="m">ausgehe</span> heute Abend.</span> ❌ پیشوند را با فعل بردم جای دوم</div>
+      <div class="yes"><span class="de w">Ich <span class="v">gehe</span> heute Abend <span class="v">aus</span>.</span> ✅ فعل تنها سفر می‌کند 🧳</div>
+    </div>
+  </div>
+
+  <div class="box g">
+    <span class="lbl">🔒 سه حالتی که لگو باز می‌شود — و فقط همین سه</span>
+    <p><b>حال ساده</b> · <b>گذشته ساده</b> · <b>امر</b></p>
+    <div class="pf" style="margin-bottom:0">
+      <div class="cap">امر قانون تازه‌ای ندارد — فقط فعل یک پله جلوتر می‌آید. ته جمله دست‌نخورده می‌ماند</div>
+      <div class="yes">خبری: <span class="de w">Er <b>kommt</b> rein.</span> — فعل جای دوم</div>
+      <div class="yes">امر: <span class="de w"><b>Kommen</b> Sie bitte rein!</span> — فعل جای اول</div>
+      <div class="no"><span class="de w"><span class="m">Reinkommen</span> Sie bitte.</span> ❌ — این را نوشتم، لگو را بسته بردم جلو</div>
+    </div>
+  </div>
+
+  <h3>کدام لگو اصلاً باز نمی‌شود</h3>
+  <div class="box g">
+    <span class="lbl">🟢 قطعه‌ای که خودش یک کلمه است، می‌تواند راه بیفتد. قطعه‌ای که نیست، نمی‌تواند</span>
+    <p><span class="de">an</span> تنهایی معنی دارد («به سمت»). <span class="de">be</span> تنهایی هیچ چیز نیست و در هیچ جمله‌ای به‌تنهایی نمی‌آید.</p>
+    <div class="pf" style="margin-bottom:0">
+      <div class="cap">هر دو از <span class="de">kommen</span>، هر دو حال ساده — فقط همین یک چیز فرقشان است</div>
+      <div class="yes"><span class="de w">Er kommt morgen <b>an</b>.</span> ✅ <span class="de">an</span> کلمه است ⟵ جدا شد</div>
+      <div class="no"><span class="de w">Er <b>be</b>kommt es.</span> ❌ <span class="de">be</span> کلمه نیست ⟵ سر جایش ماند</div>
+    </div>
+  </div>
+
+  <div class="box t">
+    <span class="lbl">🔒 هشت پیشوند جدانشدنی — لیست بسته</span>
+    <p><span class="de">be-</span> · <span class="de">emp-</span> · <span class="de">ent-</span> · <span class="de">er-</span> · <span class="de">ge-</span> · <span class="de">miss-</span> · <span class="de">ver-</span> · <span class="de">zer-</span></p>
+    <p style="margin-top:6px;font-size:.88rem"><b>هیچ‌کدام به‌تنهایی کلمه نیستند</b> — دلیل جدا نشدنشان همین است. چهارتایشان در همین جزوه هست: <span class="de">bekommen</span> · <span class="de">verstehen</span> · <span class="de">Entschuldigung</span> · <span class="de">Verzeihung</span></p>
+  </div>
+
+  <div class="box w">
+    <span class="lbl">🔊 تست تلفظ — برای جایی که هیچ لیستی جواب نمی‌دهد</span>
+    <p>چهار پیشوند هستند که <b>هر دو حالت</b> را دارند: <span class="de">über</span> · <span class="de">um</span> · <span class="de">durch</span> · <span class="de">wieder</span>. و بدترین حالتش این است:</p>
+    <div class="pf">
+      <div class="cap">یک املای <b>کاملاً یکسان</b> — فقط تکیه فرق می‌کند</div>
+      <div class="yes"><span class="de">WIE-der-holen</span> = دوباره آوردن ⟵ لگو <b>باز</b></div>
+      <div class="no"><span class="de">wie-der-HO-len</span> = تکرار کردن ⟵ لگو <b>بسته</b></div>
+    </div>
+    <p style="font-size:.88rem"><b>چرا کار می‌کند:</b> اگر پیشوند تکیه داشته باشد یعنی هنوز یک کلمه‌ی مستقل است — و کلمه‌ی مستقل می‌تواند راه بیفتد برود. همان قانون بالا، از راه گوش.</p>
+    <p style="font-size:.88rem">🟡 در ۹۵٪ فعل‌ها لیست هشت‌تایی یا فهرست جهت‌ها جواب می‌دهد. تست تلفظ فقط برای همین چهارتاست.</p>
+  </div>
+
+  <div class="box a">
+    <span class="lbl">🎁 و قطعه‌ی آخر تعیین می‌کند چه دربیاید — آرتیکل هم ارث می‌رسد</span>
+    <div class="pf" style="margin-bottom:0">
+      <div class="cap">یک پیشوند، دو قطعه‌ی آخر متفاوت</div>
+      <div class="yes"><span class="de">aus</span> + <span class="de">gehen</span> (فعل) = <span class="de">ausgehen</span> — <b>فعل</b></div>
+      <div class="yes"><span class="de">aus</span> + <span class="de">der Gang</span> (اسم) = <span class="de">der Ausgang</span> — <b>اسم</b>، و <span class="de">der</span> را از <span class="de">Gang</span> ارث برد</div>
+    </div>
+  </div>
+
+  <details>
+    <summary>📋 ده فعل پایه و همه‌ی لگوهایشان</summary>
+    <div class="db">
+      <div class="tw"><table>
+        <thead><tr><th>فعل پایه</th><th>لگوهایش</th></tr></thead>
+        <tbody>
+          <tr><td><span class="de">gehen</span><br><span style="font-size:.85rem">رفتن با پا</span></td><td><span class="de">weggehen</span> دور شدن · <span class="de">ausgehen</span> بیرون رفتن (تفریحی) · <span class="de">durchgehen</span> از میان عبور کردن · <span class="de">hingehen</span> به آن سمت رفتن</td></tr>
+          <tr><td><span class="de">fahren</span><br><span style="font-size:.85rem">رفتن با وسیله</span></td><td><span class="de">wegfahren</span> با وسیله دور شدن · <span class="de">abfahren</span> عازم شدن · <span class="de">durchfahren</span> با وسیله عبور کردن</td></tr>
+          <tr><td><span class="de">kommen</span><br><span style="font-size:.85rem">آمدن</span></td><td><span class="de">ankommen</span> رسیدن · <span class="de">bekommen</span> 🔒 دریافت کردن · <span class="de">hereinkommen</span> داخل شدن · <span class="de">unterkommen</span> جا و پناه پیدا کردن</td></tr>
+          <tr><td><span class="de">holen</span><br><span style="font-size:.85rem">آوردن</span></td><td><span class="de">abholen</span> دنبال کسی رفتن · <span class="de">wiederholen</span> 🔒 تکرار کردن</td></tr>
+          <tr><td><span class="de">ziehen</span><br><span style="font-size:.85rem">کشیدن</span></td><td><span class="de">sich anziehen</span> 🤳 لباس پوشیدن · <span class="de">ausziehen</span> اسباب‌کشی از · <span class="de">einziehen</span> اسباب‌کشی به · <span class="de">umziehen</span> نقل مکان</td></tr>
+          <tr><td><span class="de">machen</span><br><span style="font-size:.85rem">کردن</span></td><td><span class="de">aufmachen</span> باز کردن · <span class="de">zumachen</span> بستن</td></tr>
+          <tr><td><span class="de">schließen</span><br><span style="font-size:.85rem">بستن</span></td><td><span class="de">zuschließen</span> قفل کردن</td></tr>
+          <tr><td><span class="de">fangen</span><br><span style="font-size:.85rem">گرفتن</span></td><td><span class="de">anfangen</span> شروع کردن</td></tr>
+          <tr><td><span class="de">legen</span><br><span style="font-size:.85rem">خواباندن</span></td><td><span class="de">anlegen</span> روی چیزی گذاشتن · <span class="de">einlegen</span> داخل چیزی گذاشتن · <span class="de">überlegen</span> 🔒 فکر کردن</td></tr>
+          <tr><td><span class="de">rufen</span><br><span style="font-size:.85rem">صدا زدن</span></td><td><span class="de">anrufen</span> تلفن زدن</td></tr>
+        </tbody>
+      </table></div>
+      <p style="font-size:.87rem;color:var(--ink2)">🔒 = لگو باز نمی‌شود</p>
+      <h4 style="margin-top:18px">اسم‌هایی که از همین ریشه‌ها ساخته شدند 🎁</h4>
+      <div class="tw"><table>
+        <thead><tr><th>ریشه</th><th>اسم‌هایش</th></tr></thead>
+        <tbody>
+          <tr><td><span class="de">der Gang</span> راهرو</td><td><span class="de">der Ausgang</span> خروجی · <span class="de">der Eingang</span> ورودی</td></tr>
+          <tr><td><span class="de">die Fahrt</span> سفر</td><td><span class="de">die Ausfahrt</span> خروجی اتوبان · <span class="de">die Einfahrt</span> ورودی اتوبان</td></tr>
+          <tr><td><span class="de">der Zug</span> قطار</td><td><span class="de">der Anzug</span> کت‌وشلوار · <span class="de">der Auszug</span> عزیمت از · <span class="de">der Einzug</span> عزیمت به</td></tr>
+          <tr><td><span class="de">der Mittag</span> ظهر</td><td><span class="de">der Vormittag</span> قبل از ظهر · <span class="de">der Nachmittag</span> بعد از ظهر</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+  </details>
+</section>
+
+<!-- ══════ ۳ ══════ -->
+<section>
+  <h2>🔗 وصل کردن دو تیکه — سه ابزار</h2>
+  <p class="lead">قلب کل امشب. سه کار متفاوت، سه قیافه‌ی متفاوت.</p>
+
+  <div class="tw"><table>
+    <thead><tr><th>ابزار</th><th>نمونه</th><th>فعل کجا</th><th>فاعل</th></tr></thead>
+    <tbody>
+      <tr><td>🧷 <b>چسب</b><br>ADUSO</td><td><span class="de w">…, aber er kommt an.</span></td><td>جای دوم — دست‌نخورده</td><td>دارد</td></tr>
+      <tr><td>🚪 <b>در</b><br><span class="de">dass</span>·<span class="de">weil</span>·<span class="de">ob</span></td><td><span class="de w">…, dass er ankommt.</span></td><td>ته، <b>صرف‌شده</b> 👔</td><td>دارد</td></tr>
+      <tr><td>🌉 <b>پل</b><br><span class="de">um…zu</span></td><td><span class="de w">…, um es zu holen.</span></td><td>ته، <b>لخت</b> 🛌</td><td><b>ندارد</b></td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="box g">
+    <span class="lbl">🎯 تستِ اصلی یا فرعی — سه ستون، یک تصمیم</span>
+    <p><b>این تیکه می‌تواند تنها بایستد؟</b></p>
+    <div class="pf">
+      <div class="yes"><span class="de w">Er kommt morgen nicht an.</span> ✅ کامل است ⟵ <b>اصلی</b></div>
+      <div class="no"><span class="de w">dass er morgen ankommt</span> ❌ طرف منتظر می‌ماند ⟵ <b>فرعی</b></div>
+    </div>
+    <div class="tw" style="margin-bottom:0"><table>
+      <thead><tr><th></th><th>تنها می‌ایستد؟</th><th>فعل کجا</th><th>لگو</th></tr></thead>
+      <tbody>
+        <tr><td><b>اصلی</b></td><td>✅</td><td>جای دوم</td><td>باز 🧱</td></tr>
+        <tr><td><b>فرعی</b></td><td>❌</td><td>ته جمله</td><td>بسته 🔒</td></tr>
+      </tbody>
+    </table></div>
+    <p style="font-size:.88rem;margin-top:10px">اگر بدانم کدام است، آن دو تای دیگر <b>مجانی</b>اند.</p>
+  </div>
+
+  <h3>🧷 چسب ADUSO — پنج‌تا، نه چهارتا نه شش‌تا</h3>
+  <div class="box t">
+    <span class="lbl">🔒 لیست بسته</span>
+    <p><span class="de">aber</span> · <span class="de">denn</span> · <span class="de">und</span> · <span class="de">sondern</span> · <span class="de">oder</span></p>
+    <p style="margin-top:6px;font-size:.88rem">هر چیز دیگری که دو تیکه را وصل کند، 🚪 <b>در</b> است و فعل را ته می‌فرستد.</p>
+  </div>
+  <p><b>چسب یعنی «هیچ کاری نمی‌کنم»</b> — دو جمله‌ی کامل و سالم را کنار هم می‌گذارد بدون اینکه دست به هیچ‌کدام بزند:</p>
+  <div class="pf">
+    <div class="cap">هر دو تیکه از قبل سالم‌اند و لگویشان از قبل باز است</div>
+    <div class="yes"><span class="de w">Ich hoffe.</span> + <span class="de w">Er kommt morgen nicht an.</span></div>
+    <div class="yes"><span class="de w">Ich hoffe, aber er kommt morgen nicht an.</span> — <span class="de">aber</span> هیچ چیز را عوض نکرد</div>
+  </div>
+  <div class="box w">
+    <span class="lbl">⚠️ اینجا لغزیدم — سرِ <span class="de">und</span></span>
+    <p>پرسیده شد لگو در <span class="de w">Ich bleibe hier, und er geht heute ___</span> باز است یا بسته، و گفتم «بسته». ولی <b><span class="de">und</span> همان <span class="de">U</span>ی ADUSO است</b> — چسب است، پس تیکه‌ی دوم یک جمله‌ی اصلیِ سالم با لگوی باز است: <span class="de w">er geht heute aus</span>.</p>
+    <p style="margin-top:7px;font-size:.88rem">🪝 <b>و مدرکش در خودِ سؤال بود:</b> نوشته شده بود <span class="de">er geht</span> — فعل از قبل صرف‌شده و سر جای دوم. اگر <span class="de">und</span> می‌بست، باید می‌شد <span class="de">er heute ausgeht</span>.</p>
+  </div>
+
+  <h3>🚪 در — <span class="de">dass</span> و <span class="de">ob</span></h3>
+  <p><span class="de">dass</span> یک جمله‌ی سالم را می‌گیرد و فعل صرف‌شده را از جای دومش می‌کَند و می‌برد ته. و چون ته جمله خانه‌ی پیشوند است، فعل آنجا <b>به پیشوندش می‌رسد</b> 🤝:</p>
+  <div class="pf">
+    <div class="cap">یک فعل، فقط رابط عوض شد</div>
+    <div class="yes"><span class="de w">Er kommt morgen an.</span> — اصلی ⟵ لگو <b>باز</b></div>
+    <div class="yes"><span class="de w">Ich hoffe, dass er morgen ankommt.</span> — فرعی ⟵ لگو <b>بسته</b></div>
+  </div>
+  <div class="box a">
+    <span class="lbl">🚗 صف ته جمله — وقتی دو فعل داری</span>
+    <p>فعل صرف‌شده 👔 <b>آخرین</b> کلمه است. مصدر 🛌 نمی‌رود جلویش — <b>قبلش</b> می‌نشیند.</p>
+    <div class="pf" style="margin-bottom:0">
+      <div class="cap">یک جمله، فقط رابط اضافه شد</div>
+      <div class="yes"><span class="de w">Er <b>wird</b> bald hier sein.</span> — <span class="de">wird</span> جای دوم</div>
+      <div class="yes"><span class="de w">…, dass er bald hier sein <b>wird</b>.</span> — <span class="de">sein</span> ماند، <span class="de">wird</span> پشتش نشست</div>
+    </div>
+  </div>
+  <div class="box w">
+    <span class="lbl"><span class="de">dass</span> یا <span class="de">ob</span>؟ — اینجا لغزیدم</span>
+    <div class="pf">
+      <div class="cap">یک جمله، فقط رابط عوض شد</div>
+      <div class="yes"><span class="de w">Ich glaube, <b>dass</b> er kommt.</span> — «<b>که</b>» ⟵ خبر می‌دهم، مطمئنم</div>
+      <div class="no"><span class="de w">Ich glaube, <span class="m">ob</span> er kommt.</span> ❌ — «باور دارم <b>آیا</b> می‌آید» در فارسی هم بی‌معنی است</div>
+      <div class="yes"><span class="de w">Ich weiß nicht, <b>ob</b> er kommt.</span> — «<b>آیا</b>» ⟵ شک دارم</div>
+    </div>
+    <p style="font-size:.88rem;margin-bottom:0">📌 <b>تست فارسی:</b> در ترجمه‌ام «که» آمده یا «آیا»؟ همان را بنویس.</p>
+  </div>
+
+  <h3>🌉 پل <span class="de">um … zu</span></h3>
+  <div class="tw"><table>
+    <thead><tr><th><span class="de">um</span></th><th>🎈 ضمیر</th><th>⏰ زمان</th><th>🪨 بقیه</th><th><span class="de">nicht</span></th><th><span class="de">zu</span> + مصدر</th></tr></thead>
+    <tbody><tr><td>اول تیکه</td><td colspan="4" style="text-align:center">همان 🪜 نردبون همیشگی — دست‌نخورده</td><td>ته</td></tr></tbody>
+  </table></div>
+  <div class="box g">
+    <span class="lbl">🟢 سه قدم برای ساختنش</span>
+    <p>① جمله‌ی عادی بساز: <span class="de">Ich frage Sie.</span><br>
+    ② فاعل را بینداز، فعل را ببر ته و لختش کن 🛌: <span class="de">… Sie fragen</span><br>
+    ③ <span class="de">um</span> اول، <span class="de">zu</span> قبل از فعل: <span class="de">um Sie zu fragen</span></p>
+    <p style="margin-top:7px">وسطش <b>دست‌نخورده</b> می‌ماند — فقط دو طرفش علامت‌گذاری می‌شود.</p>
+  </div>
+  <div class="pf">
+    <div class="cap">این تیکه فاعل ندارد — فاعلش همان فاعل جمله‌ی اصلی است</div>
+    <div class="yes"><span class="de w">Ich rufe Sie später an, um Sie zu fragen.</span> ✅</div>
+    <div class="no"><span class="de w">Ich rufe Sie später an, um <span class="x">ich</span> Sie zu fragen.</span> ❌</div>
+  </div>
+  <p style="font-size:.9rem"><b>تستِ فارسی:</b> اگر می‌توانم بگویم «<b>به منظور اینکه</b>» و جمله هنوز معنی بدهد ⟵ 🌉 پل. و ویرگول همیشه <b>قبل</b> از <span class="de">um</span>.</p>
+</section>
+
+<!-- ══════ ۴ ══════ -->
+<section>
+  <h2>🚪 صرف فعل — راهروی شش‌دَر</h2>
+  <p class="lead">خودم گفتم «توی صرف خوب نیستم». ولی به‌محض اینکه تنها کارِ جلویم شد، ۲۳ خونه بی‌خطا. آن ضعف نبود — <b>بار شناختی</b> بود.</p>
+
+  <div class="box g">
+    <span class="lbl">🧩 جدول ۲×۳ — شش چیز روی دو محور، نه یک لیست شش‌تایی</span>
+    <div class="tw" style="margin-bottom:8px"><table>
+      <thead><tr><th></th><th>مفرد</th><th>جمع</th></tr></thead>
+      <tbody>
+        <tr><th>۱ · گوینده</th><td><span class="de">ich</span> ⟵ <b><span class="de">-e</span></b></td><td><span class="de">wir</span> ⟵ <b><span class="de">-en</span></b></td></tr>
+        <tr><th>۲ · مخاطب</th><td><span class="de">du</span> ⟵ <b><span class="de">-st</span></b></td><td><span class="de">ihr</span> ⟵ <b><span class="de">-t</span></b></td></tr>
+        <tr><th>۳ · غایب</th><td><span class="de">er/sie/es</span> ⟵ <b><span class="de">-t</span></b></td><td><span class="de">sie/Sie</span> ⟵ <b><span class="de">-en</span></b></td></tr>
+      </tbody>
+    </table></div>
+    <p style="font-family:'IBM Plex Mono',monospace;direction:ltr;text-align:left;font-size:.95rem;line-height:2.1;margin:0">
+      ich &nbsp;⟵ -e &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; wir ⟵ -en<br>
+      du &nbsp;&nbsp;⟵ -st &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ihr ⟵ -t<br>
+      er &nbsp;&nbsp;⟵ -t &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sie ⟵ -en
+    </p>
+  </div>
+
+  <div class="tw"><table>
+    <thead><tr><th>قانونِ ستون</th><th>یعنی</th></tr></thead>
+    <tbody>
+      <tr><td>🎁 <b>ستون جمع مجانی است</b></td><td><span class="de">wir</span> و <span class="de">sie/Sie</span> هر دو <span class="de">-en</span> ⟵ <b>عین مصدر</b>. صرفشان نکن، فقط رونویسی کن</td></tr>
+      <tr><td>⚠️ <b><span class="de">-t</span> یعنی «نه من، نه تو»</b></td><td>وقتی <span class="de">-t</span> می‌بینم یا <span class="de">er</span> است یا <span class="de">ihr</span>. از خودِ <span class="de">-t</span> نمی‌شود فهمید — <b>از فاعل بفهم</b></td></tr>
+      <tr><td>🔑 <b>پایانه را نمی‌سازم، می‌خوانم</b></td><td>آلمانی فاعل را هیچ‌وقت حذف نمی‌کند. جواب «کدام پایانه؟» <b>همیشه دو کلمه آن‌ورتر، جلوی چشمم است</b></td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>🧴 قانون روغن — کامل</h3>
+  <div class="box g">
+    <span class="lbl">🟢 دو شرط، هر دو باید باشند</span>
+    <p><b>ریشه به <span class="de">d</span> یا <span class="de">t</span> ختم شد</b> و <b>پایانه <span class="de">-st</span> یا <span class="de">-t</span> بود</b> ⟵ یک <span class="de">e</span> وسط بگذار.</p>
+    <p style="margin-top:6px;font-size:.88rem">چرا فقط این دو پایانه؟ چون <span class="de">-e</span> و <span class="de">-en</span> خودشان با <span class="de">e</span> شروع می‌شوند — روغنشان از قبل تویشان است.</p>
+  </div>
+  <div class="pf">
+    <div class="cap">دو فعل که <b>فقط آخرِ ریشه‌شان</b> فرق می‌کند — پایانه در هر دو <span class="de">-t</span></div>
+    <div class="yes"><span class="de">find</span> + <span class="de">t</span> ⟵ <span class="de">find<span class="v">e</span>t</span> — چون <span class="de">findt</span> تلفظ‌شدنی نیست</div>
+    <div class="no"><span class="de">geh</span> + <span class="de">t</span> ⟵ <span class="de">geht</span> — روغن نمی‌خواهد. نوشتم <span class="de">geh<span class="x">e</span>t</span> ❌</div>
+  </div>
+  <div class="box a">
+    <span class="lbl">🎯 در عمل اصلاً شرط‌ها را چک نکن</span>
+    <p><b>بلند بخوانش.</b> <span class="de">findt</span> نمی‌شود ⟵ روغن. <span class="de">gehst</span> می‌شود ⟵ بی‌روغن. گوشم همان جوابی را می‌دهد که قانون می‌دهد؛ قانون برای وقتی است که شک کردم.</p>
+  </div>
+  <div class="box w">
+    <span class="lbl">🎯 تمرین روزانه — دو دقیقه، هر روز</span>
+    <p>شکل <span class="de">er</span> این پنج فعل را <b>بنویس</b> (نه بخوان). سه بار تصحیح شد و نگرفت، پس از جنس حرکتی است نه دانشی:</p>
+    <p style="margin-top:8px;line-height:2.3"><span class="de">geh</span> ⟵ <span class="de">geht</span> &nbsp;·&nbsp; <span class="de">hol</span> ⟵ <span class="de">holt</span> &nbsp;·&nbsp; <span class="de">mach</span> ⟵ <span class="de">macht</span> &nbsp;·&nbsp; <span class="de">arbeit</span> ⟵ <span class="de">arbeit<span class="v">e</span>t</span> 🧴 &nbsp;·&nbsp; <span class="de">find</span> ⟵ <span class="de">find<span class="v">e</span>t</span> 🧴</p>
+    <p style="margin-top:6px;font-size:.88rem">فقط دو تای آخر روغن می‌گیرند — چون فقط آن‌ها به <span class="de">d</span>/<span class="de">t</span> ختم می‌شوند.</p>
+  </div>
+
+  <details>
+    <summary>📋 جدول کامل صرف + فعل‌های قوی و بی‌قاعده</summary>
+    <div class="db">
+      <div class="tw"><table>
+        <thead><tr><th>در</th><th>ضمیر</th><th>پایانه</th><th><span class="de">hoffen</span></th><th><span class="de">machen</span></th><th><span class="de">arbeiten</span></th></tr></thead>
+        <tbody>
+          <tr><td>۱</td><td><span class="de">ich</span></td><td><b><span class="de">-e</span></b></td><td><span class="de">hoffe</span></td><td><span class="de">mache</span></td><td><span class="de">arbeite</span></td></tr>
+          <tr><td>۲</td><td><span class="de">du</span></td><td><b><span class="de">-st</span></b></td><td><span class="de">hoffst</span></td><td><span class="de">machst</span></td><td><span class="de">arbeitest</span> 🧴</td></tr>
+          <tr><td>۳</td><td><span class="de">er/sie/es</span></td><td><b><span class="de">-t</span></b></td><td><span class="de">hofft</span></td><td><span class="de">macht</span></td><td><span class="de">arbeitet</span> 🧴</td></tr>
+          <tr><td>۴</td><td><span class="de">wir</span></td><td><b><span class="de">-en</span></b></td><td><span class="de">hoffen</span></td><td><span class="de">machen</span></td><td><span class="de">arbeiten</span></td></tr>
+          <tr><td>۵</td><td><span class="de">ihr</span></td><td><b><span class="de">-t</span></b></td><td><span class="de">hofft</span></td><td><span class="de">macht</span></td><td><span class="de">arbeitet</span> 🧴</td></tr>
+          <tr><td>۶</td><td><span class="de">sie/Sie</span></td><td><b><span class="de">-en</span></b></td><td><span class="de">hoffen</span></td><td><span class="de">machen</span></td><td><span class="de">arbeiten</span></td></tr>
+        </tbody>
+      </table></div>
+      <div class="box w">
+        <span class="lbl">⚡ فعل قوی — مصوت فقط در دو اتاق وسط عوض می‌شود</span>
+        <div class="pf" style="margin-bottom:8px">
+          <div class="cap">پایانه‌ها یکسان‌اند؛ فقط ریشه فرق می‌کند</div>
+          <div class="yes"><span class="de">er hofft</span> — عادی، ریشه دست‌نخورده</div>
+          <div class="yes"><span class="de">er fährt</span> ⚡ — قوی، مصوت عوض شد. ولی <span class="de">ihr fahrt</span> دست‌نخورده است</div>
+        </div>
+        <p style="margin-bottom:0;font-size:.88rem">🟡 لیست کامل فعل‌های قوی: <b>فاز ۱، ویدیوی «پیش‌نیازهای مهم» (شماره ۴۶)</b>. تا آن موقع هر فعل قوی‌ای علامت ⚡ می‌گیرد.</p>
+      </div>
+      <div class="box a">
+        <span class="lbl">🔧 استثنای املایی <span class="de">du</span></span>
+        <p style="margin-bottom:0">ریشه به <span class="de">s</span>·<span class="de">ss</span>·<span class="de">z</span> ختم شد؟ در <span class="de">du</span> فقط <span class="de">-t</span> می‌گیرد، نه <span class="de">-st</span> — چون تلفظ‌شدنی نیست: <span class="de">du heißt</span> · <span class="de">du schließt</span>. مثل روغن‌کاری، فقط از آن‌ور.</p>
+      </div>
+      <div class="box t">
+        <span class="lbl">🔴 بی‌قاعده‌های واقعی — از قبل بلدشان بودم</span>
+        <p><span class="de">sein</span>: <span class="de">bin</span>·<span class="de">bist</span>·<span class="de">ist</span>·<span class="de">sind</span> · <span class="de">haben</span>: <span class="de">habe</span>·<span class="de">hast</span>·<span class="de">hat</span> · <span class="de">werden</span>: <span class="de">werde</span>·<span class="de">wirst</span>·<span class="de">wird</span></p>
+        <p style="margin-top:7px;margin-bottom:0"><b>مدال‌ها</b> تنها جایی هستند که <b>پایانه</b> هم می‌شکند — در <span class="de">ich</span> و <span class="de">er</span> هیچ پایانه‌ای نمی‌گیرند و یک شکل‌اند: <span class="de">kann</span>·<span class="de">muss</span>·<span class="de">will</span>·<span class="de">soll</span>·<span class="de">darf</span>·<span class="de">mag</span>. جمعشان عادی است: <span class="de">können</span>·<span class="de">müssen</span></p>
+      </div>
+    </div>
+  </details>
+</section>
+
+<!-- ══════ ۵ ══════ -->
+<section>
+  <h2>🪜 چیدمان وسط جمله</h2>
+
+  <div class="tw"><table>
+    <thead><tr><th>فعل</th><th>🎈 ضمیر</th><th>⏰ زمان</th><th>🪨 بقیه</th><th><span class="de">nicht</span></th><th>🏠 خانه</th></tr></thead>
+    <tbody><tr><td><span class="de">rufe</span></td><td><span class="de">Sie</span></td><td><span class="de">später</span></td><td>—</td><td>—</td><td><span class="de">an</span></td></tr></tbody>
+  </table></div>
+
+  <div class="box g">
+    <span class="lbl">TeKaMoLo — زمان قبل از مکان</span>
+    <p><b>Te</b> کِی · <b>Ka</b> چرا · <b>Mo</b> چطور · <b>Lo</b> کجا</p>
+    <div class="pf" style="margin-bottom:0">
+      <div class="cap">یک جمله، فقط جای دو کلمه عوض شد</div>
+      <div class="no"><span class="de w">…, dass er <span class="m">hier bald</span> sein wird.</span> ❌ — این را نوشتم</div>
+      <div class="yes"><span class="de w">…, dass er <span class="v">bald hier</span> sein wird.</span> ✅</div>
+    </div>
+  </div>
+
+  <div class="box a">
+    <span class="lbl">🎈 ضمیر سبک جلوتر از قید می‌نشیند</span>
+    <div class="pf" style="margin-bottom:0">
+      <div class="cap">و این دقیقاً جایی است که <b>جزوه چهار بار غلط نوشته</b></div>
+      <div class="yes"><span class="de w">Ich rufe <span class="v">Sie</span> später an.</span> ✅ — این را درست نوشتم</div>
+      <div class="no"><span class="de w">Wollen Sie <span class="x">bitte mir</span> sagen…</span> ❌ الگوی جزوه ⟵ درست: <span class="de">mir bitte</span></div>
+    </div>
+  </div>
+
+  <h3>🪑 صندلی فاعل</h3>
+  <div class="box g">
+    <span class="lbl">🟢 آلمانی فاعل خالی نمی‌گذارد</span>
+    <p>فاعل واقعی نبود ⟵ یک <span class="de">es</span> می‌نشیند که خودش معنی ندارد، فقط صندلی را پر می‌کند. مثل انگلیسی که می‌گوید <span class="de">It is nice here</span>، نه <span class="de">Here is nice</span>.</p>
+    <div class="pf" style="margin-bottom:0">
+      <div class="no"><span class="de w"><span class="m">Hier</span> ist sehr gemütlich.</span> ❌ — این را نوشتم، فاعل نداشت</div>
+      <div class="yes"><span class="de w"><span class="v">Es</span> ist sehr gemütlich hier.</span> ✅</div>
+    </div>
+  </div>
+  <div class="box w">
+    <span class="lbl"><span class="de">es</span> فاعل است یا مفعول؟</span>
+    <div class="pf">
+      <div class="cap">یک کلمه، دو نقش — فقط وجود یک فاعل دیگر فرق می‌کند</div>
+      <div class="yes"><span class="de w">Es ist sehr leicht.</span> — فاعل دیگری نیست ⟵ <span class="de">es</span> <b>فاعل</b> 🪑</div>
+      <div class="yes"><span class="de w">Ich glaube es.</span> — <span class="de">ich</span> فاعل است ⟵ <span class="de">es</span> <b>مفعول</b> («آن را»)</div>
+    </div>
+    <p style="font-size:.88rem;margin-bottom:0">📌 <b>تست:</b> آن کلمه جواب «<b>کی</b>؟» را می‌دهد یا «<b>چی را</b>؟»</p>
+  </div>
+
+  <h3>🤳 ضمیر انعکاسی — قانون سلفی</h3>
+  <div class="box g">
+    <span class="lbl">🟢 فاعل و مفعول یک نفرند ⟵ مفعول صریح نوشته می‌شود</span>
+    <p>مثل سلفی: هم عکاسی، هم سوژه. <b>تست: کار را روی کی انجام می‌دهم؟</b></p>
+    <div class="pf" style="margin-bottom:0">
+      <div class="yes"><span class="de w">Ich ziehe <b>mich</b> an.</span> ✅ لباس را روی <b>خودم</b> می‌کشم</div>
+      <div class="no"><span class="de w">Ich mache das Fenster auf.</span> ❌ انعکاسی نیست — «پنجره <b>را</b>»، مفعول یکی دیگر است</div>
+    </div>
+  </div>
+  <div class="tw"><table>
+    <thead><tr><th>ضمیر</th><th><span class="de">ich</span></th><th><span class="de">du</span></th><th><span class="de">er/sie/es</span></th><th><span class="de">wir</span></th><th><span class="de">ihr</span></th><th><span class="de">sie/Sie</span></th></tr></thead>
+    <tbody><tr><th>انعکاسی</th><td><span class="de">mich</span></td><td><span class="de">dich</span></td><td><span class="de">sich</span></td><td><span class="de">uns</span></td><td><span class="de">euch</span></td><td><span class="de">sich</span></td></tr></tbody>
+  </table></div>
+  <div class="box a">
+    <span class="lbl">📌 قراری که گذاشتیم</span>
+    <p>هر فعل انعکاسی از این به بعد <b>با <span class="de">sich</span></b> در جدول لغت نوشته می‌شود — <span class="de">sich anziehen</span>، نه <span class="de">anziehen</span>. <b>اگر <span class="de">sich</span> ندیدی، انعکاسی نیست.</b> مثل آرتیکل اسم‌ها، لازم نیست حدس بزنی.</p>
+  </div>
+</section>
+
+<!-- ══════ ۶ ══════ -->
+<section>
+  <h2>⚠️ دوقلوها — یک املا، دو معنی</h2>
+  <p class="lead">تله‌های واقعی این درس. همه یک‌جا، چون فقط کنار هم معنی می‌دهند. ستون «یعنی» در حالت آزمون مات می‌شود.</p>
+
+  <div class="tw"><table id="twin">
+    <thead><tr><th>املا</th><th>یعنی</th><th>چه چیزی جدایشان می‌کند</th></tr></thead>
+    <tbody>
+      <tr><td><span class="de">morgen</span></td><td class="q">فردا</td><td rowspan="2"><b>فقط حرف بزرگ.</b> در آلمانی حرف بزرگ تزئین نیست — <b>معنی حمل می‌کند</b></td></tr>
+      <tr><td><span class="de">der Morgen</span></td><td class="q">صبح</td></tr>
+
+      <tr><td><span class="de">WIE-der-holen</span></td><td class="q">دوباره آوردن — لگو <b>باز</b></td><td rowspan="2">🔊 فقط تکیه. معنی دوم آنی است که واقعاً به کار می‌آید ⟵ <b>بسته فرض کن</b></td></tr>
+      <tr><td><span class="de">wie-der-HO-len</span></td><td class="q">تکرار کردن — لگو <b>بسته</b></td></tr>
+
+      <tr><td><span class="de">Ü-ber-legen</span></td><td class="q">بالا قرار دادن — باز</td><td rowspan="2">همان قانون تکیه. عملاً همیشه «فکر کردن» ⟵ بسته</td></tr>
+      <tr><td><span class="de">ü-ber-LE-gen</span></td><td class="q">فکر کردن — بسته</td></tr>
+
+      <tr><td><span class="de">legen</span></td><td class="q">خواباندن (کاری که می‌کنم)</td><td rowspan="2"><span class="de">legen</span> مفعول می‌خواهد، <span class="de">liegen</span> نه: <span class="de w">Ich lege es hier</span> ↔ <span class="de w">Es liegt hier</span></td></tr>
+      <tr><td><span class="de">liegen</span></td><td class="q">خوابیده بودن (حالتی که هست)</td></tr>
+
+      <tr><td><span class="de">rein</span> با فعل حرکتی</td><td class="q">به داخل — کوتاهِ <span class="de">herein</span></td><td rowspan="2">با <span class="de">kommen</span> آمد ⟵ جهت است. <b>جزوه این را دو درس پشت هم اشتباه گفته</b></td></tr>
+      <tr><td><span class="de">rein</span> صفت</td><td class="q">خالص</td></tr>
+
+      <tr><td><span class="de">hin</span></td><td class="q">⟶ <b>دور از</b> من</td><td rowspan="2">فعل لو می‌دهد: <span class="de">gehen</span> ⟵ <span class="de">hin</span> · <span class="de">kommen</span> ⟵ <span class="de">her</span>. و <span class="de">her</span> مثل <span class="de">hier</span>، هر دو <span class="de">e</span> دارند</td></tr>
+      <tr><td><span class="de">her</span></td><td class="q">⟵ <b>به سمت</b> من</td></tr>
+
+      <tr><td><span class="de">es</span> بدون فاعل دیگر</td><td class="q"><b>فاعل</b> 🪑 — ترجمه نمی‌شود</td><td rowspan="2">جواب «کی؟» می‌دهد یا «چی را؟» — اگر <span class="de">ich</span> در جمله هست، <span class="de">es</span> مفعول است</td></tr>
+      <tr><td><span class="de">es</span> کنار فاعل</td><td class="q"><b>مفعول</b> — «آن را»</td></tr>
+
+      <tr><td><span class="de">dass</span></td><td class="q"><b>که</b> — خبر، مطمئنم</td><td rowspan="2">تست فارسی: در ترجمه‌ام «که» آمده یا «آیا»؟ با <span class="de">glauben</span> نمی‌شود <span class="de">ob</span> گذاشت</td></tr>
+      <tr><td><span class="de">ob</span></td><td class="q"><b>آیا</b> — شک، سؤال</td></tr>
+
+      <tr><td><span class="de">anziehen</span></td><td class="q">فعل — لباس پوشیدن 🤳</td><td rowspan="2">🎁 قطعه‌ی آخر تعیین می‌کند: <span class="de">ziehen</span> فعل ⟵ فعل · <span class="de">Zug</span> اسم ⟵ اسم و حرف بزرگ</td></tr>
+      <tr><td><span class="de">der Anzug</span></td><td class="q">اسم — کت‌وشلوار</td></tr>
+
+      <tr><td><span class="de">ausziehen</span></td><td class="q">اسباب‌کشی <b>از</b></td><td rowspan="2">همان <span class="de">Ausgang</span>/<span class="de">Eingang</span>: <span class="de">aus</span>=بیرون · <span class="de">ein</span>=داخل. <span class="de">umziehen</span> کل ماجراست</td></tr>
+      <tr><td><span class="de">einziehen</span></td><td class="q">اسباب‌کشی <b>به</b></td></tr>
+
+      <tr><td><span class="de">leicht</span> / <span class="de">schwer</span></td><td class="q">آسان یا سبک / سخت یا سنگین</td><td>عیناً فارسی — «کار سنگین» را هم می‌گوییم</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>🔴 <span class="de">ei</span> در برابر <span class="de">ie</span> — خانه‌ی کاملش اینجاست</h3>
+  <div class="box t">
+    <span class="lbl">🔴 خطای باز از درس ۶</span>
+    <p>در درس ۷ پنج بار لغزید. امشب <b>یک بار</b> (<span class="de">h<span class="x">ei</span>r</span>)، بعد <b>چهار بار درست</b>.</p>
+  </div>
+  <div class="box g">
+    <span class="lbl">🟢 حرف دوم را انگلیسی بخوان</span>
+    <div class="pf" style="margin-bottom:0">
+      <div class="cap">دو کلمه که فقط ترتیب همین دو حرف در آن‌ها فرق می‌کند</div>
+      <div class="yes"><span class="de">ie</span> ⟵ حرف دوم <span class="de">e</span> ⟵ صدای <b>ای</b> کشیده: <span class="de">h<b>ie</b>r</span> · <span class="de">w<b>ie</b>der</span> · <span class="de">l<b>ie</b>gen</span> · <span class="de">schl<b>ie</b>ßen</span></div>
+      <div class="no"><span class="de">ei</span> ⟵ حرف دوم <span class="de">i</span> ⟵ صدای <b>آی</b>: <span class="de">bl<b>ei</b>ben</span> · <span class="de">n<b>ei</b>n</span> · <span class="de">m<b>ei</b>n</span></div>
+    </div>
+  </div>
+  <div class="box w">
+    <span class="lbl">⚠️ و جزوه خودش سه بار غلط نوشته</span>
+    <p>جزوه <span class="de">w<span class="x">ei</span>derholen</span> را طوری آورده که انگار کلمه‌ی متفاوتی از <span class="de">w<span class="v">ie</span>derholen</span> است. <b>نیست.</b> هر دو یکی‌اند؛ فقط تکیه فرقشان است 🔊</p>
+    <p style="margin-top:7px;margin-bottom:0"><b>پس از روی جزوه املا حفظ نکن.</b></p>
+  </div>
+  <div class="box a">
+    <span class="lbl">🎯 تمرین روزانه — دو دقیقه، هر روز</span>
+    <p>این پنج کلمه را <b>بنویس</b>، نه بخوان:</p>
+    <p style="margin-top:8px;line-height:2.3"><span class="de">hier</span> · <span class="de">wieder</span> · <span class="de">schließen</span> &nbsp;|&nbsp; <span class="de">bleiben</span> · <span class="de">nein</span></p>
+    <p style="margin-top:6px;margin-bottom:0;font-size:.88rem">سه تای اول <span class="de">ie</span>، دو تای آخر <span class="de">ei</span>.</p>
+  </div>
+
+  <h3>🔠 حرف بزرگ و 📜 اوملات</h3>
+  <div class="box w">
+    <span class="lbl">🔠 هر اسمی، همیشه، بدون استثنا</span>
+    <div class="pf">
+      <div class="no"><span class="de w">Ich mache das <span class="x">f</span>enster auf.</span> ❌ — این را نوشتم</div>
+      <div class="yes"><span class="de w">Ich mache das <span class="v">F</span>enster auf.</span> ✅</div>
+    </div>
+    <p style="font-size:.88rem;margin-bottom:0">در همین جلسه <span class="de">Abend</span>·<span class="de">Sie</span>·<span class="de">Es</span> را بارها درست نوشتم — پس دانشش هست. وقتی جمله شلوغ می‌شود از دست می‌رود.</p>
+  </div>
+  <div class="box a">
+    <span class="lbl">📜 آن <span class="de">e</span> جایگزین <b>اوملات</b> است، نه جایگزین حرف بعدی</span>
+    <div class="pf" style="margin-bottom:0">
+      <div class="cap">یک کلمه، فقط شکل نوشتن اوملات عوض شد — بقیه‌ی حروف سر جایشان</div>
+      <div class="no"><span class="de">fr<span class="x">ue</span></span> ❌ — این را نوشتم، <span class="de">h</span> افتاد</div>
+      <div class="yes"><span class="de">früh</span> = <span class="de">fr<span class="v">ue</span>h</span> ✅ · <span class="de">über</span> = <span class="de">ueber</span> · <span class="de">möchte</span> = <span class="de">moechte</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════ ۷ ══════ -->
+<section>
+  <h2>📚 لغت‌های درس ۸ — معنی + کاربرد + قلاب</h2>
+  <p class="lead">هر لغت یک‌بار، کامل. «کامل» یعنی جواب سه سؤال: <b>یعنی چه · کِی به کار می‌رود · چطور یادم بماند.</b></p>
+
+  <h3>حرکت و جهت</h3>
+  <div class="tw"><table>
+    <thead><tr><th>آلمانی</th><th>یعنی</th><th>کِی / قلاب</th></tr></thead>
+    <tbody>
+      <tr><td><span class="de">gehen</span> / <span class="de">fahren</span></td><td>رفتن با پا / با وسیله</td><td>آلمانی این دو را قاطی نمی‌کند. با ماشین ⟵ همیشه <span class="de">fahren</span></td></tr>
+      <tr><td><span class="de">kommen</span></td><td>آمدن</td><td>به سمت گوینده. برای همین با <span class="de">her</span> جفت می‌شود</td></tr>
+      <tr><td><span class="de">weggehen</span> / <span class="de">wegfahren</span></td><td>دور شدن</td><td><span class="de">der Weg</span> = راه. <span class="de">weg</span> = دور از آن راه</td></tr>
+      <tr><td><span class="de">ausgehen</span></td><td>بیرون رفتن</td><td><b>تفریحی</b> — رستوران، سینما. نه صرفاً خارج شدن از اتاق</td></tr>
+      <tr><td><span class="de">abfahren</span></td><td>عازم شدن، راه افتادن</td><td>لحظه‌ی حرکت قطار یا ماشین. مقابلش <span class="de">ankommen</span></td></tr>
+      <tr><td><span class="de">ankommen</span></td><td>رسیدن</td><td><span class="de">an</span> = به سمت. مقصد مهم است، نه مسیر</td></tr>
+      <tr><td><span class="de">durchgehen</span> / <span class="de">durchfahren</span></td><td>از میان جایی عبور کردن</td><td><span class="de">durch</span> = از میان. بدون توقف رد شدن</td></tr>
+      <tr><td><span class="de">hin</span> / <span class="de">her</span></td><td>دور از من / به سمت من</td><td>فارسی همین را دارد ولی در فعل قایمش کرده: «برو» ↔ «بیا»</td></tr>
+      <tr><td><span class="de">rein</span> · <span class="de">raus</span> · <span class="de">runter</span></td><td>به داخل · به بیرون · به پایین</td><td>شکل کوتاه <span class="de">herein</span>·<span class="de">heraus</span>·<span class="de">herunter</span>. در محاوره تقریباً همیشه همین‌ها</td></tr>
+      <tr><td><span class="de">der Weg</span></td><td>راه</td><td><span class="de">der</span></td></tr>
+      <tr><td><span class="de">der Ausgang</span> / <span class="de">der Eingang</span></td><td>خروجی / ورودی</td><td>برای <b>آدم</b> — از <span class="de">der Gang</span> (راهرو)</td></tr>
+      <tr><td><span class="de">die Ausfahrt</span> / <span class="de">die Einfahrt</span></td><td>خروجی / ورودی اتوبان</td><td>برای <b>ماشین</b> — از <span class="de">die Fahrt</span> (سفر)</td></tr>
+      <tr><td><span class="de">der Zug</span></td><td>قطار</td><td>چیزی که کشیده می‌شود 🚂 — از <span class="de">ziehen</span></td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>آوردن و بردن</h3>
+  <div class="tw"><table>
+    <thead><tr><th>آلمانی</th><th>یعنی</th><th>کِی / قلاب</th></tr></thead>
+    <tbody>
+      <tr><td><span class="de">holen</span></td><td>رفتن و آوردن</td><td><b>دو حرکت</b>: می‌روی، برمی‌داری، برمی‌گردی. این با «آوردن» ساده فرق دارد</td></tr>
+      <tr><td><span class="de">abholen</span></td><td>دنبال کسی/چیزی رفتن</td><td>همان <span class="de">holen</span>، ولی از یک <b>جای مشخص</b>: فرودگاه، مدرسه</td></tr>
+      <tr><td><span class="de">bekommen</span> 🔒</td><td>دریافت کردن</td><td><b>منفعل است</b> — چیزی به تو داده می‌شود. کاری نمی‌کنی. و لگویش باز نمی‌شود</td></tr>
+      <tr><td><span class="de">wiederholen</span> 🔒</td><td>تکرار کردن</td><td>لگو <b>بسته</b>. تکیه روی <span class="de">HO</span></td></tr>
+      <tr><td><span class="de">tun</span> / <span class="de">nie wieder</span></td><td>انجام دادن / هرگز دوباره</td><td><span class="de">nie wieder</span> به فعل معنی منفی می‌دهد و <span class="de">nicht</span> لازم ندارد</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>گذاشتن و بستن</h3>
+  <div class="tw"><table>
+    <thead><tr><th>آلمانی</th><th>یعنی</th><th>کِی / قلاب</th></tr></thead>
+    <tbody>
+      <tr><td><span class="de">legen</span> / <span class="de">liegen</span></td><td>خواباندن / خوابیده بودن</td><td><span class="de">legen</span> کاری است که می‌کنی (مفعول می‌خواهد) · <span class="de">liegen</span> حالتی است که چیزی دارد</td></tr>
+      <tr><td><span class="de">stellen</span></td><td>ایستاده قرار دادن</td><td>لیوان را <span class="de">stellen</span> می‌کنی، کتاب را <span class="de">legen</span></td></tr>
+      <tr><td><span class="de">überlegen</span> 🔒</td><td>فکر کردن</td><td>لگو <b>بسته</b>. تکیه روی <span class="de">LE</span></td></tr>
+      <tr><td><span class="de">zumachen</span></td><td>بستن</td><td><b>روزمره و فیزیکی</b> — در، پنجره، چشم</td></tr>
+      <tr><td><span class="de">schließen</span></td><td>بستن</td><td><b>رسمی‌تر و انتزاعی‌تر</b> — مغازه، حساب، قرارداد. روی تابلوی مغازه همین می‌نویسند</td></tr>
+      <tr><td><span class="de">zuschließen</span></td><td><b>قفل</b> کردن</td><td>با کلید 🔑 — <span class="de">schließen</span> و <span class="de">Schlüssel</span> هم‌خانواده‌اند، هر دو با <span class="de">schl</span></td></tr>
+      <tr><td><span class="de">aufmachen</span></td><td>باز کردن</td><td>مقابل <span class="de">zumachen</span></td></tr>
+      <tr><td><span class="de">der Schlüssel</span> · <span class="de">das Fenster</span> · <span class="de">die Tür</span> · <span class="de">das Schloss</span></td><td>کلید · پنجره · در · قفل و قلعه</td><td><span class="de">Schloss</span> هر دو معنی را دارد — قفل و قصر</td></tr>
+      <tr><td><span class="de">geschlossen</span> / <span class="de">alles</span></td><td>بسته / همه چیز</td><td><span class="de w">Heute ist alles geschlossen.</span></td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>لباس و اسباب‌کشی</h3>
+  <div class="tw"><table>
+    <thead><tr><th>آلمانی</th><th>یعنی</th><th>کِی / قلاب</th></tr></thead>
+    <tbody>
+      <tr><td><span class="de">sich anziehen</span> 🤳</td><td>لباس پوشیدن</td><td>لباس را روی خودت <b>می‌کشی</b>. حتماً <span class="de">mich</span>/<span class="de">sich</span> می‌خواهد</td></tr>
+      <tr><td><span class="de">ausziehen</span> / <span class="de">einziehen</span></td><td>اسباب‌کشی از / به</td><td>بدون <span class="de">sich</span> یعنی نقل مکان؛ <b>با</b> <span class="de">sich</span> یعنی لباس درآوردن</td></tr>
+      <tr><td><span class="de">umziehen</span></td><td>نقل مکان کردن</td><td><span class="de">um</span> = تغییر. کل ماجرا: هم رفتن هم آمدن</td></tr>
+      <tr><td><span class="de">der Anzug</span> · <span class="de">der Auszug</span> · <span class="de">der Einzug</span></td><td>کت‌وشلوار · عزیمت از · عزیمت به</td><td>همه <span class="de">der</span>، از <span class="de">der Zug</span></td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>زمان</h3>
+  <div class="tw"><table>
+    <thead><tr><th>آلمانی</th><th>یعنی</th><th>کِی / قلاب</th></tr></thead>
+    <tbody>
+      <tr><td><span class="de">der Vormittag</span> · <span class="de">der Mittag</span> · <span class="de">der Nachmittag</span> · <span class="de">der Abend</span></td><td>قبل از ظهر · ظهر · بعد از ظهر · عصر</td><td>🧱 همه از <span class="de">Mittag</span> + جهت. همه <span class="de">der</span></td></tr>
+      <tr><td><span class="de">früh</span> / <span class="de">morgen früh</span></td><td>زود / فردا صبح</td><td>چرا نه <span class="de">morgen Morgen</span>؟ چون مسخره است 😄 پس می‌گویند «فردا <b>زود</b>»</td></tr>
+      <tr><td><span class="de">übermorgen</span></td><td>پس‌فردا</td><td>🧱 <span class="de">über</span> + <span class="de">morgen</span> — یک روز <b>بالاتر</b> از فردا</td></tr>
+      <tr><td><span class="de">bald</span> · <span class="de">später</span> · <span class="de">jetzt</span> · <span class="de">wann</span></td><td>به زودی · بعداً · الان · چه زمانی</td><td><span class="de">wann</span> سؤالی است، <span class="de">wenn</span> شرطی — قاطی نشود</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>گفتن، فکر کردن، صفت‌ها</h3>
+  <div class="tw"><table>
+    <thead><tr><th>آلمانی</th><th>یعنی</th><th>کِی / قلاب</th></tr></thead>
+    <tbody>
+      <tr><td><span class="de">anfangen</span></td><td>شروع کردن</td><td>از <span class="de">fangen</span> (گرفتن) — کار را «می‌گیری»</td></tr>
+      <tr><td><span class="de">anrufen</span></td><td>تلفن زدن</td><td>از <span class="de">rufen</span> (صدا زدن) — با تلفن صدا می‌زنی</td></tr>
+      <tr><td><span class="de">fragen</span> / <span class="de">sehen</span></td><td>پرسیدن / دیدن</td><td>هیچ‌کدام انعکاسی نیستند — مفعولشان یکی دیگر است</td></tr>
+      <tr><td><span class="de">hoffen</span> · <span class="de">glauben</span> · <span class="de">denken</span></td><td>امید داشتن · باور داشتن · فکر کردن</td><td>هر سه با 🚪 <span class="de">dass</span>. هیچ‌کدام <span class="de">sich</span> نمی‌خواهند — ذهنی بودن ربطی به انعکاسی بودن ندارد</td></tr>
+      <tr><td><span class="de">leicht</span> / <span class="de">schwer</span></td><td>آسان یا سبک / سخت یا سنگین</td><td>هر دو معنی، عیناً مثل فارسی</td></tr>
+      <tr><td><span class="de">bequem</span></td><td>راحت</td><td><b>فیزیکی</b> — صندلی، کفش، جای نشستن</td></tr>
+      <tr><td><span class="de">gemütlich</span></td><td>دنج، دلباز</td><td><b>حسِ فضا</b> — کافه، اتاق. بی‌معادل دقیق فارسی: گرم و صمیمی و آرام</td></tr>
+      <tr><td><span class="de">nett</span></td><td>دلنشین، مهربان</td><td>بیشتر برای <b>آدم‌ها</b> — «آدم خوبیه». برای اشیا هم می‌آید ولی سبک‌تر</td></tr>
+      <tr><td><span class="de">interessant</span> / <span class="de">sehr</span></td><td>جالب / خیلی</td><td><span class="de">sehr</span> همیشه قبل از صفت</td></tr>
+      <tr><td><span class="de">Entschuldigung</span> / <span class="de">Verzeihung</span></td><td>ببخشید</td><td>اولی روزمره‌تر · <span class="de">Entschuldigen Sie bitte</span> شکل فعلی‌اش</td></tr>
+      <tr><td><span class="de">ein Glas</span> · <span class="de">Wein</span> · <span class="de">Rotwein</span> · <span class="de">Weißwein</span></td><td>یک لیوان · شراب · قرمز · سفید</td><td>🧱 <span class="de">rot</span>+<span class="de">Wein</span> · <span class="de">weiß</span>+<span class="de">Wein</span></td></tr>
+    </tbody>
+  </table></div>
+  <p style="font-size:.87rem;color:var(--ink2)">⚠️ <span class="de">anlegen</span> · <span class="de">einlegen</span> · <span class="de">unterkommen</span> در جدول بالا نیامدند چون کم‌کاربردند و جمله‌ی طبیعی برایشان مصنوعی درمی‌آید. معنی‌شان در جدول لگوها هست.</p>
+</section>
+
+<!-- ══════ ۸ ══════ -->
+<section>
+  <h2>💡 سؤال‌هایی که خودم پرسیدم</h2>
+  <p class="lead">مهم‌ترین بخش. هر مثالِ «قفل را باز کرد» <b>یک متغیر</b> دارد و از <b>همان حیطه</b> است — وگرنه شاهد است نه دلیل. مثال تعمیم فقط جایی آمده که مفهوم سنگین بود.</p>
+
+  <details open>
+    <summary>① «مگه چسب‌ها جمله‌ی فرعی می‌سازن که فعل جدا شه؟»</summary>
+    <div class="db">
+      <div class="layer"><span class="t2">🔥 جرقه</span><p>نوشتم <span class="de w">Aber ich weggehe ohne Sie nicht</span> و بعد <span class="de">er ankomme</span>. هر دو بار لگو را در تیکه‌ای که <span class="de">aber</span> داشت بسته گذاشتم.</p></div>
+      <div class="layer"><span class="t2">❌ باور غلطم</span><p>«لگو باز شدن اتفاقی است که در جمله‌ی <b>فرعی</b> می‌افتد.»</p></div>
+      <div class="box a">
+        <span class="lbl">🔓 مثالی که نقضش کرد — یک فعل، فقط رابط عوض شد</span>
+        <div class="pf" style="margin-bottom:0">
+          <div class="yes"><span class="de w">Er kommt morgen an.</span> — <b>اصلی</b> ⟵ لگو <b>باز</b></div>
+          <div class="no"><span class="de w">…, dass er morgen ankommt.</span> — <b>فرعی</b> ⟵ لگو <b>بسته</b></div>
+        </div>
+      </div>
+      <p style="font-size:.9rem">نتیجه دقیقاً <b>وارونه‌ی</b> باورم است: فرعی لگو را می‌<b>بندد</b>، باز نمی‌کند.</p>
+      <div class="box g">
+        <span class="lbl">🔁 و همان قانون روی یک فعل کاملاً دیگر</span>
+        <p style="margin-bottom:0"><span class="de w">Ich ziehe mich an.</span> ⟵ <span class="de w">…, dass ich mich anziehe.</span> — الگوست، نه یک اتفاق.</p>
+      </div>
+      <div class="kept">🟢 قانونی که ماند: <b>لگوی باز حالت طبیعی جمله است.</b> چیزی باید بیاید و ببنددش — مدال، <span class="de">werden</span>، یا 🚪 در. چسب هیچ کاری نمی‌کند.</div>
+    </div>
+  </details>
+
+  <details>
+    <summary>② «الان توی این جمله هر دو جمله اصلی محسوب میشن یعنی؟»</summary>
+    <div class="db">
+      <div class="layer"><span class="t2">🔥 جرقه</span><p>بعد از سؤال قبلی، رفتم سراغ جمله‌ی خودم و پرسیدم دقیقاً چه ساختاری دارد.</p></div>
+      <div class="layer"><span class="t2">💭 و نتیجه را خودم گرفتم</span><p>«پس برا همینه اسمش چسبه! چون دوتا جمله‌ی اصلی رو بهم وصل می‌کنه.»</p></div>
+      <div class="box a">
+        <span class="lbl">🔓 تستِ واقعیت — یک تیکه، دو حالت</span>
+        <div class="pf" style="margin-bottom:0">
+          <div class="yes"><span class="de w">Er kommt morgen nicht an.</span> ✅ تنها می‌ایستد ⟵ <b>اصلی</b></div>
+          <div class="no"><span class="de w">dass er morgen ankommt</span> ❌ نمی‌ایستد ⟵ <b>فرعی</b></div>
+        </div>
+      </div>
+      <div class="kept">🟢 اصلی ⟵ فعل جای دوم · لگو باز. فرعی ⟵ فعل ته · لگو بسته. <b>سه ستون، یک تصمیم.</b></div>
+    </div>
+  </details>
+
+  <details>
+    <summary>③ «بقیه‌ی ضمیرها چی؟ اونا رو اصلاً بلد نیستم»</summary>
+    <div class="db">
+      <div class="layer"><span class="t2">🔥 جرقه</span><p>سه ستون <span class="de">ich</span>/<span class="de">er</span>/<span class="de">wir</span> را پر کردم و دیدم راهرو شش‌دَر است. <b>جدول ناقص داده شده بود.</b></p></div>
+      <div class="layer"><span class="t2">❌ باور غلطم</span><p>«شش ضمیر یعنی شش چیز جدا برای حفظ کردن.»</p></div>
+      <div class="box a">
+        <span class="lbl">🔓 نقضش — دو در که پایانه‌شان یکی است</span>
+        <div class="pf" style="margin-bottom:0">
+          <div class="yes"><span class="de">er macht</span> و <span class="de">ihr macht</span> — دو ضمیر، <b>یک پایانه</b></div>
+          <div class="yes"><span class="de">wir machen</span> و <span class="de">sie machen</span> — دو ضمیر، <b>یک پایانه</b>، و عین مصدر</div>
+        </div>
+      </div>
+      <div class="kept">🟢 چهار پایانه، نه شش. و <span class="de">Sie</span> را از درس ۱ داشتم — پس عملاً فقط <span class="de">du</span> و <span class="de">ihr</span> تازه بودند.</div>
+    </div>
+  </details>
+
+  <details>
+    <summary>④ «یه قانونی بذار برای ضمایر که جلوی قاطی شدنشون رو بگیره»</summary>
+    <div class="db">
+      <div class="layer"><span class="t2">🔥 جرقه</span><p>خودم درخواستش را دادم — <b>قبل از</b> اینکه گیر کنم، نه بعدش.</p></div>
+      <div class="layer"><span class="t2">❌ چرا لیست عمودی جواب نمی‌داد</span><p>شش ردیف پشت هم هیچ منطقی نشان نمی‌دهند. دو محورشان در لیست عمودی گم می‌شوند.</p></div>
+      <div class="box a">
+        <span class="lbl">🔓 اصلِ ماجرا</span>
+        <p style="margin-bottom:0"><b>شش چیز بی‌ربط حافظه می‌خواهد. شش چیز روی دو محور منطق می‌خواهد.</b> و بعدش خواستم ضمیرها آلمانی نوشته شوند نه فارسی — چون موقع نوشتن <span class="de">er</span> جلوی چشمم است، نه «او».</p>
+      </div>
+      <div class="kept">🟢 ابزاری که ماند: <b>هر جا لیست بلندی دارد قاطی می‌شود، دنبال محورهایش بگرد.</b> همان شب دو بار جواب داد — ضمیرها، و <span class="de">hin/her</span> × <span class="de">ein/aus</span>. برای آرتیکل‌ها هم می‌شود.</div>
+    </div>
+  </details>
+
+  <details>
+    <summary>⑤ «این جدول برای همه‌ی افعال صادقه؟»</summary>
+    <div class="db">
+      <div class="layer"><span class="t2">🔥 جرقه</span><p>جدول صرف را گرفتم و بلافاصله پرسیدم کجا می‌شکند.</p></div>
+      <div class="box a">
+        <span class="lbl">🔓 تفکیکی که روشنش کرد — دو فعل، فقط ریشه فرق می‌کند</span>
+        <div class="pf" style="margin-bottom:0">
+          <div class="cap">پایانه در هر دو <span class="de">-t</span> است — <b>پایانه نشکست</b></div>
+          <div class="yes"><span class="de">er hofft</span> — ریشه‌ی <span class="de">hoff</span> دست‌نخورده</div>
+          <div class="no"><span class="de">er fährt</span> ⚡ — ریشه‌ی <span class="de">fahr</span> عوض شد</div>
+        </div>
+      </div>
+      <p style="font-size:.9rem"><b>پس وقتی فعلی «بی‌قاعده» است، معمولاً ریشه‌اش بی‌قاعده است نه پایانه‌اش.</b></p>
+      <div class="kept">🟢 تنها جایی که <b>پایانه</b> هم می‌شکند مدال‌هاست — در <span class="de">ich</span> و <span class="de">er</span> هیچ پایانه‌ای نمی‌گیرند و یک شکل‌اند. <b>و این را خودم در درس ۷ کشف کرده بودم.</b></div>
+    </div>
+  </details>
+
+  <details>
+    <summary>⑥ «آرتیکلش یعنی چی؟ اینا رو چطوری تشخیص بدم؟»</summary>
+    <div class="db">
+      <div class="layer"><span class="t2">🔥 جرقه</span><p><span class="de">die Ausfahrt</span> و <span class="de">der Anzug</span> را از روی قانون لگو درست ساختم، ولی پرسیدم خودِ <span class="de">die Fahrt</span> و <span class="de">der Zug</span> از کجا می‌آیند.</p></div>
+      <div class="box a">
+        <span class="lbl">🔓 جواب صادقانه — همان ریشه، دو حالت</span>
+        <div class="pf" style="margin-bottom:0">
+          <div class="yes"><span class="de">der Gang</span> را بدانم ⟵ <span class="de">der Ausgang</span> و <span class="de">der Eingang</span> <b>مجانی</b>اند 🎁</div>
+          <div class="no"><span class="de">der Gang</span> خودش از کجا؟ ⟵ <b>قانون لگو اینجا ساکت است</b></div>
+        </div>
+      </div>
+      <p style="font-size:.9rem"><b>قانون لگو آرتیکل را منتقل می‌کند، نمی‌سازدش.</b> ولی همه‌اش هم حفظ نیست — حدود ۸۰٪ آرتیکل‌ها قانون دارند، فقط قانونش <b>پایان کلمه</b> است نه معنی‌اش (هرچه به <span class="de">-ung</span> ختم شود <span class="de">die</span> است).</p>
+      <div class="layer"><span class="t2">🛑 و چرا الان یادش نمی‌گیرم</span><p>سیستم آرتیکل با <b>حالت</b> (<span class="de">den</span>/<span class="de">dem</span>/<span class="de">des</span>) معنی پیدا می‌کند و آن هنوز نیامده. نصفه‌اش بدتر از هیچ است — دقیقاً اشتباه <span class="de">als</span> در درس ۶. میشل توماس هم عمداً در ۱۱ درسش آرتیکل نمی‌دهد.</p></div>
+      <div class="kept">🟢 فعلاً: هر اسم تازه را <b>با آرتیکلش</b> مثل یک کلمه‌ی واحد یاد بگیر (<span class="de">der Zug</span>، نه <span class="de">Zug</span>). <b>🟡 کاملش: فاز ۱، ویدیوهای ۴۲–۴۵ «آرتیکل».</b></div>
+    </div>
+  </details>
+
+  <details>
+    <summary>⑦ «تست تلفظ برای چی بود؟»</summary>
+    <div class="db">
+      <div class="layer"><span class="t2">🔥 جرقه</span><p>لیست هشت پیشوند جدانشدنی را گرفتم و پرسیدم پس تست تلفظ چه کاره است.</p></div>
+      <div class="box a">
+        <span class="lbl">🔓 بهترین متغیر واحدِ ممکن — <b>املا کاملاً یکسان</b>، فقط تکیه فرق می‌کند</span>
+        <div class="pf" style="margin-bottom:0">
+          <div class="yes"><span class="de">WIE-der-holen</span> = دوباره آوردن ⟵ لگو باز</div>
+          <div class="no"><span class="de">wie-der-HO-len</span> = تکرار کردن ⟵ لگو بسته</div>
+        </div>
+      </div>
+      <p style="font-size:.9rem"><b>هیچ لیستی نمی‌تواند این دو را تفکیک کند.</b> و دلیلش: اگر پیشوند تکیه داشته باشد یعنی هنوز یک کلمه‌ی مستقل است — و کلمه‌ی مستقل می‌تواند راه بیفتد برود.</p>
+      <div class="kept">🟢 ترتیب استفاده: ① هشت پیشوند؟ ⟵ بسته · ② <span class="de">an</span>·<span class="de">aus</span>·<span class="de">ab</span>·<span class="de">ein</span>·<span class="de">weg</span>…؟ ⟵ باز · ③ <span class="de">über</span>·<span class="de">um</span>·<span class="de">durch</span>·<span class="de">wieder</span>؟ ⟵ <b>گوش تصمیم می‌گیرد</b> 🔊</div>
+    </div>
+  </details>
+
+  <details>
+    <summary>⑧ «چیکار کنم افعال انعکاسی رو تفکیک کنم؟» و بعد: «باور داشتن انعکاسی نیست؟»</summary>
+    <div class="db">
+      <div class="layer"><span class="t2">🔥 جرقه</span><p>موقع نوشتن <span class="de">um Sie zu fragen</span> شک کردم <span class="de">fragen</span> انعکاسی باشد — و <b>خودم گزارشش دادم</b>. بار دوم سر <span class="de">glauben</span> همین شک برگشت.</p></div>
+      <div class="layer"><span class="t2">❌ باور غلطم (بار دوم)</span><p>«فعل‌های ذهنی — باور داشتن، فکر کردن، امید داشتن — <b>درونی</b>اند، پس باید انعکاسی باشند.»</p></div>
+      <div class="box a">
+        <span class="lbl">🔓 نقضش — دو فعل که <b>هر دو ذهنی‌اند</b>، فقط انعکاسی بودنشان فرق می‌کند</span>
+        <div class="pf" style="margin-bottom:0">
+          <div class="no"><span class="de w">Ich glaube es.</span> — ذهنی، ولی <b>بدون</b> <span class="de">sich</span></div>
+          <div class="yes"><span class="de w">Ich freue mich.</span> — ذهنی، <b>با</b> <span class="de">mich</span> 🤳</div>
+        </div>
+      </div>
+      <p style="font-size:.9rem">پس «ذهنی بودن» تعیین‌کننده نیست. 🤳 فقط وقتی است که <b>فاعل و مفعول یک نفر باشند</b>: در <span class="de">glauben</span> مفعول یک خبر است، در <span class="de">freuen</span> خودم.</p>
+      <div class="layer"><span class="t2">🪝 قلاب فارسی</span><p>در فارسی‌ام یک «<b>را</b>»ی دیگر دارم؟ (پنجره <b>را</b>، شما <b>را</b>) ⟵ مفعولم یکی دیگر است ⟵ <span class="de">sich</span> نه. اگر «<b>می‌شوم</b>» گفتم (خوشحال می‌شوم) ⟵ حالتِ خودم ⟵ 🤳</p></div>
+      <div class="kept">🟢 و قرار: <b>هر فعل انعکاسی با <span class="de">sich</span> در جدول لغت</b> — <span class="de">sich anziehen</span>، نه <span class="de">anziehen</span>. <span class="de">sich</span> ندیدی، انعکاسی نیست.</div>
+    </div>
+  </details>
+
+  <details>
+    <summary>⑨ «اون <span class="de">es</span> رو به عنوان فاعل صوری گذاشتم»</summary>
+    <div class="db">
+      <div class="layer"><span class="t2">🔥 جرقه</span><p>نوشتم <span class="de w">Ich glaube es, …</span> و وقتی گفته شد <span class="de">es</span> اضافه است، دفاع کردم: «مگر نگفتی آلمانی فاعل می‌خواهد؟»</p></div>
+      <div class="layer"><span class="t2">✅ استدلال درست بود</span><p>قانون 🪑 را گرفته بودم و داشتم اعمالش می‌کردم. فقط یک قدم جا افتاده بود.</p></div>
+      <div class="box a">
+        <span class="lbl">🔓 نقضش — همان <span class="de">es</span>، فقط وجود یک فاعل دیگر فرق می‌کند</span>
+        <div class="pf" style="margin-bottom:0">
+          <div class="yes"><span class="de w">Es ist sehr leicht.</span> — فاعل دیگری نیست ⟵ <span class="de">es</span> <b>فاعل</b> 🪑</div>
+          <div class="no"><span class="de w">Ich glaube es.</span> — <span class="de">ich</span> فاعل است ⟵ <span class="de">es</span> <b>مفعول</b>، صندلی از قبل پر بود</div>
+        </div>
+      </div>
+      <p style="font-size:.9rem">و اضافه بودنش ربطی به فاعل نداشت: خودِ تیکه‌ی <span class="de">dass</span> مفعولِ جمله است، پس <span class="de">es</span> همان کار را دو بار می‌کرد.</p>
+      <div class="kept">🟢 تست: آن کلمه جواب «<b>کی</b>؟» می‌دهد یا «<b>چی را</b>؟» — و الگویش را خودم پیدا کردم: <b>فاعل دیگری بود ⟵ مفعول؛ نبود ⟵ فاعل.</b> ۴ از ۴ در تست.</div>
+    </div>
+  </details>
+
+  <details>
+    <summary>⑩ «اینا رو باید برای چی بنویسم؟» و «چیز تازه‌ای بود؟»</summary>
+    <div class="db">
+      <div class="layer"><span class="t2">🔥 جرقه</span><p>اول جلسه پرسیدم چرا باید جمله بنویسم، و وسط بلوک ۱۰ پرسیدم آن بلوک چه چیز تازه‌ای داشت.</p></div>
+      <div class="box a">
+        <span class="lbl">🔓 چرا نوشتن، نه خواندن</span>
+        <p style="margin-bottom:0"><b>شناختن و ساختن دو مهارت جدا هستند.</b> مدرکش از درس خودم: <span class="de">ei</span>/<span class="de">ie</span> در درس ۷ پنج بار لغزید — <b>هیچ‌کدام موقع خواندن لو نرفت، فقط موقع نوشتن.</b></p>
+      </div>
+      <div class="layer"><span class="t2">🎯 و جواب دومی</span><p>بلوک ۱۰ بیشترش لغت بود نه قانون. تنها قانون تازه‌اش 🚗 صف ته جمله بود — <span class="de">sein wird</span>، نه <span class="de">wird sein</span>. ترتیبی که هیچ‌کس بار اول حدس نمی‌زند.</p></div>
+      <div class="kept">🟢 عادتی که ماند: <b>دو بار امشب خواستم جمله‌ی اصلاح‌شده را خودم دوباره بنویسم</b> — و هر دو بار نسخه‌ی دوم بی‌نقص شد. بازسازی از دیدنِ جواب مؤثرتر است.</div>
+    </div>
+  </details>
+</section>
+
+<!-- ══════ ۹ ══════ -->
+<section>
+  <h2>🔧 کجا لغزیدم، کجا جزوه لغزید</h2>
+  <p class="lead">در هر جفت، تفاوت <b>علامت خورده</b> — لازم نیست حرف‌به‌حرف مقایسه کنی. <span class="de"><span class="x">قرمز خط‌خورده</span></span> = اضافه بود · <span class="de"><span class="v">سبز</span></span> = باید می‌بود · <span class="de"><span class="m">زرد</span></span> = عوضی یا جابه‌جا.</p>
+
+  <h3>✅ حل‌شده‌ها</h3>
+  <div class="tw"><table>
+    <thead><tr><th>خطا</th><th>دفعات</th><th>نوشتم</th><th>درست</th><th>ریشه</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><b>لگو را بسته بردم</b></td><td>۳ ⟵ بعد <b>۸ بار درست</b></td>
+        <td><span class="de w">Ich <span class="m">ausgehe</span> heute Abend.</span><br><span class="de w"><span class="m">Reinkommen</span> Sie bitte.</span></td>
+        <td><span class="de w">Ich <span class="v">gehe</span> heute Abend <span class="v">aus</span>.</span><br><span class="de w"><span class="v">Kommen</span> Sie bitte <span class="v">rein</span>!</span></td>
+        <td>پیشوند خانه‌اش ته جمله است — فعل تنها سفر می‌کند 🧳</td>
+      </tr>
+      <tr>
+        <td><b>روغن اضافه</b> 🧴</td><td>۳ ⟵ بعد <b>۳ بار درست</b></td>
+        <td><span class="de">geh<span class="x">e</span>t</span> · <span class="de">geh<span class="x">e</span>st</span> · <span class="de">wiederhol<span class="x">e</span>t</span></td>
+        <td><span class="de">geht</span> · <span class="de">gehst</span> · <span class="de">wiederholt</span></td>
+        <td>ریشه‌ی هر سه به حرف نرم ختم می‌شود (<span class="de">h</span>·<span class="de">l</span>) و ناتمام به نظر می‌رسد. ولی روغن فقط برای <span class="de">d</span>/<span class="de">t</span> است</td>
+      </tr>
+      <tr>
+        <td>👔 <b>کت تن کسی نبود</b></td><td>۲</td>
+        <td><span class="de w">Ich <span class="x">verstehen</span> es nicht.</span><br><span class="de w">…dass <span class="m">—</span> morgen <span class="x">ankommen</span></span></td>
+        <td><span class="de w">Ich <span class="v">verstehe</span> es nicht.</span><br><span class="de w">…dass <span class="v">er</span> morgen <span class="v">ankommt</span>.</span></td>
+        <td>مصدر همان شکلی است که در جدول لغت می‌بینم، پس دمِ دست است. ولی کسی دیگر صرف نشده بود</td>
+      </tr>
+      <tr>
+        <td>🚪 <b>درِ اشتباهی</b></td><td>۱</td>
+        <td><span class="de w">er <span class="m">ankomme</span></span></td><td><span class="de w">er <span class="v">kommt</span> … <span class="v">an</span></span></td>
+        <td><span class="de">-e</span> پایانه‌ی <span class="de">ich</span> است. و این <b>پیشرفت</b> بود، نه خطای سوم</td>
+      </tr>
+    </tbody>
+  </table></div>
+
+  <h3>🟡 در حال حل</h3>
+  <div class="tw"><table>
+    <thead><tr><th>خطا</th><th>دفعات</th><th>نوشتم</th><th>درست</th><th>ریشه</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>🔴 <b><span class="de">ei</span>/<span class="de">ie</span></b><br><span style="font-size:.8rem">از درس ۶ باز</span></td>
+        <td><b>۱</b> ⟵ بعد <b>۴ بار درست</b></td>
+        <td><span class="de">h<span class="x">ei</span>r</span></td><td><span class="de">h<span class="v">ie</span>r</span></td>
+        <td>حرف دوم را انگلیسی بخوان. <b>و جزوه خودش سه بار غلط نوشته</b></td>
+      </tr>
+      <tr>
+        <td>🔠 <b>حرف بزرگ</b></td><td>۲</td>
+        <td><span class="de"><span class="x">f</span>enster</span> · <span class="de"><span class="x">h</span>ier</span> (اول جمله)</td>
+        <td><span class="de"><span class="v">F</span>enster</span> · <span class="de"><span class="v">H</span>ier</span></td>
+        <td>در همین جلسه <span class="de">Abend</span>·<span class="de">Sie</span>·<span class="de">Es</span> را بارها درست زدم. وقتی جمله شلوغ می‌شود از دست می‌رود — <b>بار شناختی، نه ضعف</b></td>
+      </tr>
+      <tr>
+        <td>📜 <b>املا و تایپ</b></td><td>۳</td>
+        <td><span class="de">we<span class="x">g</span>ehen</span> · <span class="de">m<span class="x">—</span>ogen</span> · <span class="de">frue<span class="x">—</span></span></td>
+        <td><span class="de">we<span class="v">gg</span>ehen</span> · <span class="de">mo<span class="v">r</span>gen</span> · <span class="de">frue<span class="v">h</span></span></td>
+        <td>① لگو آب نمی‌رود · ② <span class="de">mögen</span> واقعاً یک فعل است، پس این غلط خودش لو نمی‌رود · ③ آن <span class="de">e</span> جایگزین <b>اوملات</b> است، نه حرف بعدی</td>
+      </tr>
+      <tr>
+        <td><b>یک‌بارها</b></td><td>هر کدام ۱</td>
+        <td><span class="de w">Ich glaube es, <span class="m">ob</span> er <span class="m">hier bald</span> …</span><br><span class="de w">Er geht <span class="m">herein</span>.</span><br><span class="de w">morgen<span class="x">␣</span>frueh</span></td>
+        <td><span class="de w">Ich glaube, <span class="v">dass</span> er <span class="v">bald hier</span> …</span><br><span class="de w">Er geht <span class="v">hin</span>.</span><br><span class="de w">morgen<span class="v">␣</span>frueh</span></td>
+        <td>«که» نه «آیا» · زمان قبل از مکان · <span class="de">her</span> به سمت من، <span class="de">hin</span> دور از من · دو قید جدا از هم نوشته می‌شوند</td>
+      </tr>
+    </tbody>
+  </table></div>
+
+  <div class="box g">
+    <span class="lbl">💪 چه چیزی این بار نباختم</span>
+    <p>• 🧷 <span class="de">aber</span> را تغییردهنده نگرفتم — در درس ۶ دو بار لغزیده بود<br>
+       • 🪜 ضمیر را قبل از قید گذاشتم، جایی که <b>خودِ جزوه چهار بار غلط نوشته</b><br>
+       • 🚪 شکل <span class="de">ihr</span> به‌جای <span class="de">er</span> حتی یک بار هم نیامد — در درس ۶ پنج بار آمده بود<br>
+       • 🔒 <span class="de">ver</span> را جدا نکردم<br>
+       • 🤳 ضمیر انعکاسی را <b>بلافاصله بعد از یادگیری</b> در هر دو حالت درست گذاشتم</p>
+  </div>
+  <div class="box w">
+    <span class="lbl">😴 الگوی خستگی — امشب هیچ‌کدام نیامد</span>
+    <p>همخوان سه‌برابر (<span class="de">habbben</span>) · فاعل و مفعول جابه‌جا · سرریز کلمه از جمله‌ی قبلی · خراب‌شدن جمله‌ای که ده دقیقه قبل درست زده شد.</p>
+    <p style="margin-top:7px;font-size:.88rem;margin-bottom:0">معیار توقف <b>این چهار نشانه است، نه ساعت</b>.</p>
+  </div>
+
+  <h3>🔍 هشت لغزش جزوه‌ی PDF</h3>
+  <p style="font-size:.9rem">از روی همین جزوه مرور می‌کنم. اگر علامت نخورند، یک روز به‌عنوان قانون در ذهنم جا خوش می‌کنند.</p>
+  <div class="tw"><table>
+    <thead><tr><th>#</th><th>جزوه</th><th>درست</th><th>چرا مهم است</th></tr></thead>
+    <tbody>
+      <tr><td>۱</td><td><span class="de">w<span class="x">ei</span>derholen</span> <b>(۳ بار)</b></td><td><span class="de">w<span class="v">ie</span>derholen</span></td><td>🔴 همان خطای خودم. جزوه طوری نوشته انگار دو کلمه‌ی متفاوت‌اند — نیستند</td></tr>
+      <tr><td>۲</td><td><span class="de">schl<span class="x">ei</span>ßen</span></td><td><span class="de">schl<span class="v">ie</span>ßen</span></td><td>باز هم <span class="de">ie</span></td></tr>
+      <tr><td>۳</td><td><span class="de">geschlo<span class="x">ß</span>en</span></td><td><span class="de">geschlo<span class="v">ss</span>en</span></td><td><span class="de">ß</span> بعد از مصوت کوتاه نمی‌آید</td></tr>
+      <tr><td>۴</td><td><span class="de">Schlo<span class="x">ß</span></span></td><td><span class="de">Schlo<span class="v">ss</span></span></td><td>همان قانون</td></tr>
+      <tr><td>۵</td><td><span class="de"><span class="x">w</span>ein</span></td><td><span class="de"><span class="v">W</span>ein</span></td><td>اسم است — و حرف بزرگ در آلمانی معنی حمل می‌کند</td></tr>
+      <tr><td>۶</td><td><span class="de">rein</span> = «خالص»</td><td>در این درس = <b>به داخل</b></td><td>«خالص» کلمه‌ی دیگری با همین املاست. <b>همین اشتباه در درس ۷ هم بود</b></td></tr>
+      <tr><td>۷</td><td><span class="de">unterkommen</span> = «پایین آمدن»</td><td>= <b>جا و پناه پیدا کردن</b></td><td>«پایین آمدن» <span class="de">runterkommen</span> است — که خود جزوه دو خط پایین‌تر درست آورده</td></tr>
+      <tr><td>۸</td><td><span class="de">überlegen</span> = دو معنی</td><td>دو فعل جدا با تکیه‌ی متفاوت</td><td>بدون این تفکیک نمی‌شود فهمید کدام لگو باز می‌شود</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="box t">
+    <span class="lbl">🎯 و الگوی تکرارشونده‌ی دوره — مهم‌تر از تک‌تک موارد</span>
+    <div class="tw" style="margin:8px 0"><table>
+      <thead><tr><th>جزوه</th><th>درست</th></tr></thead>
+      <tbody>
+        <tr><td>(۸) <span class="de w">ich lege es <span class="m">über</span></span></td><td><span class="de w">ich lege es <span class="v">darüber</span></span></td></tr>
+        <tr><td>(۷) <span class="de w">wollen Sie <span class="m">bitte mir</span> sagen</span></td><td><span class="de w">wollen Sie <span class="v">mir bitte</span> sagen</span></td></tr>
+        <tr><td>(۷) <span class="de w">ich war <span class="m">da gestern Abend</span></span></td><td><span class="de w">ich war <span class="v">gestern Abend da</span></span></td></tr>
+        <tr><td>(۶) <span class="de w"><span class="m">heute es</span> zu tun</span></td><td><span class="de w"><span class="v">es heute</span> zu tun</span></td></tr>
+      </tbody>
+    </table></div>
+    <p><b>این جزوه یک عادت ثابت دارد: چیدمان وسط جمله را اشتباه می‌گذارد.</b> ضمیر بعد از قید، مکان قبل از زمان. سه درس پشت هم.</p>
+    <p style="margin-bottom:0">🟢 <b>پس قانونم:</b> از این جزوه <b>لغت</b> بگیر، ولی <b>ترتیب کلمات</b> را از 🪜 نردبون خودم.</p>
+  </div>
+</section>
+
+<!-- ══════ ۱۰ ══════ -->
+<section>
+  <h2>🏦 بانک جمله</h2>
+  <p class="lead">دو بخش. حالت آزمون ستون آلمانی را مات می‌کند — اول خودت بساز، بعد روی خانه بزن.</p>
+
+  <h3>الف · ۲۹ جمله‌ی خودم</h3>
+  <p style="font-size:.9rem">همان‌هایی که امشب ساختم. شماره‌ی <b>پررنگ</b> یعنی اصلاح خورده بود.</p>
+  <div class="tw"><table class="bank">
+    <thead><tr><th>#</th><th>فارسی</th><th>آلمانی</th></tr></thead>
+    <tbody>
+      <tr><td><b>۱</b></td><td>من به زودی دور خواهم شد</td><td class="q"><span class="de w">Ich werde bald weggehen.</span></td></tr>
+      <tr><td>۲</td><td>من دوست دارم امروز عصر بیرون بروم</td><td class="q"><span class="de w">Ich möchte heute Abend ausgehen.</span></td></tr>
+      <tr><td><b>۳</b></td><td>اما من بدون شما دور نخواهم شد</td><td class="q"><span class="de w">Aber ich werde ohne Sie nicht weggehen.</span></td></tr>
+      <tr><td><b>۴</b></td><td>من امروز عصر بیرون می‌روم</td><td class="q"><span class="de w">Ich gehe heute Abend aus.</span></td></tr>
+      <tr><td>۵</td><td>من فردا دور می‌شوم (با ماشین)</td><td class="q"><span class="de w">Ich fahre morgen weg.</span></td></tr>
+      <tr><td>۶</td><td>من الان بیرون می‌روم</td><td class="q"><span class="de w">Ich gehe jetzt aus.</span></td></tr>
+      <tr><td><b>۷</b></td><td>او امروز عصر بیرون می‌رود</td><td class="q"><span class="de w">Er geht heute Abend aus.</span></td></tr>
+      <tr><td>۸</td><td>من شما را فردا برخواهم داشت</td><td class="q"><span class="de w">Ich werde Sie morgen abholen.</span></td></tr>
+      <tr><td><b>۹</b></td><td>من شما را فردا برمی‌دارم</td><td class="q"><span class="de w">Ich hole Sie morgen ab.</span></td></tr>
+      <tr><td><b>۱۰</b></td><td>من آن را نمی‌فهمم</td><td class="q"><span class="de w">Ich verstehe es nicht.</span></td></tr>
+      <tr><td><b>۱۱</b></td><td>امیدوارم که او فردا برسد</td><td class="q"><span class="de w">Ich hoffe, dass er morgen ankommt.</span></td></tr>
+      <tr><td><b>۱۲</b></td><td>من امیدوارم، ولی او فردا نمی‌رسد</td><td class="q"><span class="de w">Ich hoffe, aber er kommt morgen nicht an.</span></td></tr>
+      <tr><td>۱۳</td><td>من آن را تکرار می‌کنم</td><td class="q"><span class="de w">Ich wiederhole es.</span></td></tr>
+      <tr><td>۱۴</td><td>من در مورد آن فکر خواهم کرد</td><td class="q"><span class="de w">Ich werde es überlegen.</span></td></tr>
+      <tr><td><b>۱۵</b></td><td>او آن را تکرار می‌کند</td><td class="q"><span class="de w">Er wiederholt es.</span></td></tr>
+      <tr><td><b>۱۶</b></td><td>من فردا صبح می‌رسم</td><td class="q"><span class="de w">Ich komme morgen früh an.</span></td></tr>
+      <tr><td>۱۷</td><td>او پس‌فردا بیرون می‌رود</td><td class="q"><span class="de w">Er geht übermorgen aus.</span></td></tr>
+      <tr><td>۱۸</td><td>من بعداً به شما تلفن می‌کنم</td><td class="q"><span class="de w">Ich rufe Sie später an.</span></td></tr>
+      <tr><td>۱۹</td><td>می‌خواهید داخل بیایید؟</td><td class="q"><span class="de w">Wollen Sie hereinkommen?</span></td></tr>
+      <tr><td><b>۲۰</b></td><td>لطفاً داخل بیایید!</td><td class="q"><span class="de w">Kommen Sie bitte rein!</span></td></tr>
+      <tr><td><b>۲۱</b></td><td>او به آن سمت می‌رود</td><td class="q"><span class="de w">Er geht hin.</span></td></tr>
+      <tr><td>۲۲</td><td>من الان لباس می‌پوشم</td><td class="q"><span class="de w">Ich ziehe mich jetzt an.</span></td></tr>
+      <tr><td><b>۲۳</b></td><td>من پنجره را باز می‌کنم</td><td class="q"><span class="de w">Ich mache das Fenster auf.</span></td></tr>
+      <tr><td>۲۴</td><td>من باید لباس بپوشم</td><td class="q"><span class="de w">Ich muss mich anziehen.</span></td></tr>
+      <tr><td>۲۵</td><td>من می‌آیم تا آن را بردارم</td><td class="q"><span class="de w">Ich komme, um es zu holen.</span></td></tr>
+      <tr><td>۲۶</td><td>بعداً به شما تلفن می‌کنم تا از شما بپرسم</td><td class="q"><span class="de w">Ich rufe Sie später an, um Sie zu fragen.</span></td></tr>
+      <tr><td>۲۷</td><td>آن خیلی آسان است</td><td class="q"><span class="de w">Es ist sehr leicht.</span></td></tr>
+      <tr><td><b>۲۸</b></td><td>اینجا خیلی دنج است</td><td class="q"><span class="de w">Es ist sehr gemütlich hier.</span></td></tr>
+      <tr><td><b>۲۹</b></td><td>باور دارم که او به زودی اینجا خواهد بود</td><td class="q"><span class="de w">Ich glaube, dass er bald hier sein wird.</span></td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>ب · ۲۷ جمله از جزوه</h3>
+  <div class="box a">
+    <span class="lbl">📐 معیار انتخاب</span>
+    <p>جمله‌ای که <b>اگر بتوانم بسازمش، از پس هر جمله‌ی کوچک‌ترِ زیرش هم برمی‌آیم.</b> به‌جای سه جمله‌ی کوتاه با یک ساختار، یکی که هر سه را در خودش دارد.</p>
+    <p style="margin-top:7px;margin-bottom:0">🚫 هیچ جمله‌ای که <span class="de">den</span> یا <span class="de">dem</span> لازم داشته باشد اینجا نیست — <b>حالت</b> هنوز نیامده. اسم‌های <span class="de">der</span> فقط به‌عنوان فاعل آمده‌اند.</p>
+  </div>
+  <div class="tw"><table class="bank">
+    <thead><tr><th>#</th><th>فارسی</th><th>آلمانی</th></tr></thead>
+    <tbody>
+      <tr><td>۱</td><td>به زودی دور می‌شوم، اما پس‌فردا دوباره می‌آیم</td><td class="q"><span class="de w">Ich gehe bald weg, aber ich komme übermorgen wieder.</span></td></tr>
+      <tr><td>۲</td><td>فردا صبح راه می‌افتم و فردا بعد از ظهر می‌رسم</td><td class="q"><span class="de w">Ich fahre morgen früh ab und komme morgen Nachmittag an.</span></td></tr>
+      <tr><td>۳</td><td>ما دوست داریم امروز عصر بیرون برویم، اما نمی‌توانیم</td><td class="q"><span class="de w">Wir möchten heute Abend ausgehen, aber wir können nicht.</span></td></tr>
+      <tr><td>۴</td><td>ورودی کجاست و خروجی اتوبان کجاست؟</td><td class="q"><span class="de w">Wo ist der Eingang, und wo ist die Ausfahrt?</span></td></tr>
+      <tr><td>۵</td><td>راه خیلی سخت است، اما خروجی اینجاست</td><td class="q"><span class="de w">Der Weg ist sehr schwer, aber der Ausgang ist hier.</span></td></tr>
+      <tr><td>۶</td><td>فردا صبح شما را برمی‌دارم و به فرانکفورت می‌رویم</td><td class="q"><span class="de w">Ich hole Sie morgen früh ab und wir fahren nach Frankfurt.</span></td></tr>
+      <tr><td>۷</td><td>ما رد نمی‌شویم، ما به فرانکفورت می‌رویم</td><td class="q"><span class="de w">Wir fahren nicht durch, wir fahren nach Frankfurt.</span></td></tr>
+      <tr><td>۸</td><td>باور دارم که امروز بعد از ظهر آن را دریافت می‌کنم</td><td class="q"><span class="de w">Ich glaube, dass ich es heute Nachmittag bekomme.</span></td></tr>
+      <tr><td>۹</td><td>من آن را هرگز دوباره انجام نخواهم داد</td><td class="q"><span class="de w">Ich werde es nie wieder tun.</span></td></tr>
+      <tr><td>۱۰</td><td>لطفاً تکرارش کنید، من آن را نمی‌فهمم</td><td class="q"><span class="de w">Wiederholen Sie es bitte, ich verstehe es nicht.</span></td></tr>
+      <tr><td>۱۱</td><td>درباره‌اش فکر خواهم کرد و بعداً به شما تلفن می‌کنم</td><td class="q"><span class="de w">Ich werde es überlegen und Sie später anrufen.</span></td></tr>
+      <tr><td>۱۲</td><td>امیدوارم که بتوانیم به زودی شروع کنیم</td><td class="q"><span class="de w">Ich hoffe, dass wir bald anfangen können.</span></td></tr>
+      <tr><td>۱۳</td><td>چه زمانی شروع می‌کنید؟</td><td class="q"><span class="de w">Wann fangen Sie an?</span></td></tr>
+      <tr><td>۱۴</td><td>لطفاً بیایید داخل و در را ببندید!</td><td class="q"><span class="de w">Kommen Sie bitte herein und machen Sie die Tür zu!</span></td></tr>
+      <tr><td>۱۵</td><td>لطفاً پنجره را باز کنید و در را ببندید!</td><td class="q"><span class="de w">Machen Sie bitte das Fenster auf und die Tür zu!</span></td></tr>
+      <tr><td>۱۶</td><td>لطفاً بیایید پایین، ما شروع می‌کنیم!</td><td class="q"><span class="de w">Kommen Sie bitte runter, wir fangen an!</span></td></tr>
+      <tr><td>۱۷</td><td>لطفاً بیایید سمت اینجا، من به آن سمت نمی‌روم</td><td class="q"><span class="de w">Kommen Sie bitte hier her, ich gehe nicht hin.</span></td></tr>
+      <tr><td>۱۸</td><td>کلید اینجا خوابیده، اما در بسته است</td><td class="q"><span class="de w">Der Schlüssel liegt hier, aber die Tür ist geschlossen.</span></td></tr>
+      <tr><td>۱۹</td><td>لطفاً آن را اینجا بگذارید، جایی که کلید خوابیده</td><td class="q"><span class="de w">Legen Sie es bitte hier, wo der Schlüssel liegt.</span></td></tr>
+      <tr><td>۲۰</td><td>در را قفل می‌کنم و دور می‌شوم</td><td class="q"><span class="de w">Ich schließe die Tür zu und gehe weg.</span></td></tr>
+      <tr><td>۲۱</td><td>باور دارم که امروز همه چیز بسته است</td><td class="q"><span class="de w">Ich glaube, dass heute alles geschlossen ist.</span></td></tr>
+      <tr><td>۲۲</td><td>لباس می‌پوشم، چون امروز عصر بیرون می‌رویم</td><td class="q"><span class="de w">Ich ziehe mich an, denn wir gehen heute Abend aus.</span></td></tr>
+      <tr><td>۲۳</td><td>کت‌وشلوار خیلی راحت است، اما خیلی دلنشین نیست</td><td class="q"><span class="de w">Der Anzug ist sehr bequem, aber er ist nicht sehr nett.</span></td></tr>
+      <tr><td>۲۴</td><td>پس‌فردا نقل مکان می‌کنیم و عزیمت خیلی سخت است</td><td class="q"><span class="de w">Wir ziehen übermorgen um, und der Einzug ist sehr schwer.</span></td></tr>
+      <tr><td>۲۵</td><td>اینجا خیلی دنج است و خیلی هم جالب است</td><td class="q"><span class="de w">Es ist sehr gemütlich hier, und es ist sehr interessant.</span></td></tr>
+      <tr><td>۲۶</td><td>من یک لیوان شراب قرمز می‌خواهم، اما او شراب سفید</td><td class="q"><span class="de w">Ich möchte ein Glas Rotwein, aber er möchte ein Glas Weißwein.</span></td></tr>
+      <tr><td>۲۷</td><td>ببخشید، اجازه دارم از شما بپرسم کجا می‌توانم آن را پیدا کنم؟</td><td class="q"><span class="de w">Entschuldigen Sie bitte, darf ich Sie fragen, wo ich es finden kann?</span></td></tr>
+      <tr><td>۲۸</td><td>بعداً به شما تلفن می‌کنم تا بپرسم آیا امروز عصر می‌توانید با ما بیایید</td><td class="q"><span class="de w">Ich rufe Sie später an, um Sie zu fragen, ob Sie heute Abend mit uns kommen können.</span></td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ══════ ۱۱ ══════ -->
+<section>
+  <h2>📅 تقویم مرور</h2>
+  <p class="lead">فاصله‌ها از روز تحویل فایل (۲۵ شهریور). تیک‌ها ذخیره می‌شوند.</p>
+  <div class="tw"><table class="cal" id="cal">
+    <thead><tr><th>✓</th><th>#</th><th>تاریخ</th><th>کار</th></tr></thead>
+    <tbody>
+      <tr><td><input type="checkbox" data-k="r1"></td><td><b>۱</b></td><td>۲۶ شهریور · پنج‌شنبه</td><td>🧭 نقشه + 🧱 لگو</td></tr>
+      <tr><td><input type="checkbox" data-k="r2"></td><td><b>۲</b></td><td>۲۸ شهریور · شنبه</td><td>🏦 بانک الف، ۱۰ جمله‌ی اول</td></tr>
+      <tr><td><input type="checkbox" data-k="r3"></td><td><b>۳</b></td><td>۱ مهر · چهارشنبه</td><td>⚠️ دوقلوها + 🚪 راهرو</td></tr>
+      <tr><td><input type="checkbox" data-k="r4"></td><td><b>۴</b></td><td>۸ مهر · چهارشنبه</td><td>🏦 هر دو بانک + 💡 سؤال‌ها</td></tr>
+      <tr><td><input type="checkbox" data-k="r5"></td><td><b>۵</b></td><td>۲۴ مهر · جمعه</td><td>✍️ ۵ جمله‌ی تازه، بدون فایل</td></tr>
+    </tbody>
+  </table></div>
+  <div class="box a">
+    <span class="lbl">▶️ جلسه‌ی بعد — درس ۹</span>
+    <p style="margin-bottom:0">گرم‌کردن: یکی با لگوی باز در حال ساده · یکی با <span class="de">dass</span> و دو فعل ته جمله · یکی با <span class="de">um … zu</span>. و حتماً یک کلمه با <span class="de">ie</span> تویش باشد.</p>
+  </div>
+  <p style="font-size:.9rem">🎯 و <b>هر روز</b>، دو دقیقه: تمرین 🔴 <span class="de">ei</span>/<span class="de">ie</span> و تمرین 🧴 روغن — هر کدام سر جای خودشان در بخش‌های ۴ و ۶.</p>
+</section>
+
+<div class="ft">
+  📘 مرور درس ۸ · ۲۵ شهریور ۱۴۰۵<br>
+  یازده بلوک · ۲۹ جمله‌ی خودم + ۲۸ جمله از جزوه · ۱۷ سؤال · ۲۳ خونه‌ی صرف<br>
+  <span style="color:var(--accent);font-weight:700">«این درس خیلی نفس‌گیره» ⟵ یازده بلوک در یک جلسه</span>
+</div>
+
+</div>
+<script>
+(function(){
+  "use strict";
+  var D=document;
+
+  /* theme */
+  var tt=D.getElementById('tt');
+  try{var sv=localStorage.getItem('l8-theme'); if(sv)D.documentElement.setAttribute('data-theme',sv);}catch(e){}
+  tt.addEventListener('click',function(){
+    var c=D.documentElement.getAttribute('data-theme');
+    var dark=c?c==='dark':window.matchMedia('(prefers-color-scheme: dark)').matches;
+    var n=dark?'light':'dark';
+    D.documentElement.setAttribute('data-theme',n);
+    try{localStorage.setItem('l8-theme',n);}catch(e){}
+  });
+
+  /* one global quiz mode */
+  var qz=D.getElementById('qz'), on=false;
+  var tables=[].slice.call(D.querySelectorAll('table.bank, #twin'));
+  qz.addEventListener('click',function(){
+    on=!on;
+    tables.forEach(function(t){
+      t.classList.toggle('quiz',on);
+      [].forEach.call(t.querySelectorAll('td.q'),function(c){
+        if(on){c.classList.add('hide');c.classList.remove('show');}
+        else{c.classList.remove('hide','show');}
+      });
+    });
+    qz.textContent=on?'👁 نمایش همه':'🙈 حالت آزمون';
+  });
+  tables.forEach(function(t){
+    t.addEventListener('click',function(e){
+      var td=e.target.closest?e.target.closest('td.q'):null;
+      if(td&&td.classList.contains('hide'))td.classList.toggle('show');
+    });
+  });
+
+  /* calendar */
+  [].forEach.call(D.querySelectorAll('#cal input[type=checkbox]'),function(b){
+    var k='l8-cal-'+b.getAttribute('data-k');
+    try{if(localStorage.getItem(k)==='1'){b.checked=true;b.closest('tr').classList.add('done');}}catch(e){}
+    b.addEventListener('change',function(){
+      b.closest('tr').classList.toggle('done',b.checked);
+      try{b.checked?localStorage.setItem(k,'1'):localStorage.removeItem(k);}catch(e){}
+    });
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mini-ZA1 — نسخه‌ی A — درس ۱ تا ۵</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FBFBF9;
+  --ink:#1A2733;
+  --ink-soft:#5A6B78;
+  --rule:#D8DCDF;
+  --mark:#9E2B25;
+  --mark-wash:#F6EDEC;
+  --fa:'Vazirmatn',system-ui,'Segoe UI',Tahoma,sans-serif;
+  --de:'Source Serif 4',Georgia,'Times New Roman',serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--fa);font-size:16px;line-height:1.95;
+}
+.sheet{max-width:760px;margin:0 auto;padding:48px 28px 90px}
+
+/* ---------- masthead ---------- */
+.masthead{border-bottom:2px solid var(--ink);padding-bottom:18px;margin-bottom:8px}
+.masthead h1{
+  font-size:1.9rem;font-weight:700;margin:0 0 4px;letter-spacing:-.01em;line-height:1.4;
+}
+.masthead .sub{color:var(--ink-soft);font-size:.95rem;margin:0}
+.meta{
+  display:flex;flex-wrap:wrap;gap:0 34px;
+  border-bottom:1px solid var(--rule);padding:14px 0 16px;margin-bottom:34px;
+  font-size:.88rem;color:var(--ink-soft);line-height:2.1;
+}
+.meta b{color:var(--ink);font-weight:500}
+
+/* ---------- name/date line ---------- */
+.namefield{display:flex;flex-wrap:wrap;gap:26px;margin:0 0 34px;font-size:.9rem;color:var(--ink-soft)}
+.namefield span{flex:1 1 200px;border-bottom:1px solid var(--rule);padding-bottom:6px}
+
+/* ---------- rules panel ---------- */
+.rules{background:var(--mark-wash);border-right:3px solid var(--mark);padding:18px 22px;margin:0 0 44px;border-radius:2px}
+.rules h2{margin:0 0 8px;font-size:1rem;font-weight:700}
+.rules ol{margin:0;padding-right:20px;font-size:.92rem;line-height:2.05}
+.rules li{margin-bottom:3px}
+
+/* ---------- section / task ---------- */
+.part{margin:0 0 12px;padding-top:26px;border-top:2px solid var(--ink)}
+.part-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:6px}
+.part-head h2{font-size:1.35rem;font-weight:700;margin:0}
+.part-head .stamp{font-size:.85rem;color:var(--ink-soft);font-family:var(--de);direction:ltr;unicode-bidi:isolate}
+.part-note{color:var(--ink-soft);font-size:.9rem;margin:0 0 26px}
+
+.task{margin:0 0 40px;padding-right:18px;border-right:1px solid var(--rule)}
+.task h3{font-size:1.02rem;font-weight:700;margin:0 0 2px}
+.task .instr{color:var(--ink-soft);font-size:.92rem;margin:0 0 16px}
+
+/* ---------- german blocks ---------- */
+.de{
+  direction:ltr;unicode-bidi:isolate;text-align:left;
+  font-family:var(--de);font-size:1.02rem;line-height:1.85;
+}
+.letter{
+  background:#fff;border:1px solid var(--rule);border-radius:3px;
+  padding:18px 22px;margin:0 0 18px;white-space:pre-line;
+}
+.letter .from{display:block;margin-top:12px;color:var(--ink-soft);font-style:italic;font-size:.95rem}
+.inline-de{direction:ltr;unicode-bidi:isolate;font-family:var(--de);font-weight:600}
+
+/* ---------- item lists ---------- */
+ol.items{margin:0;padding-right:0;list-style:none;counter-reset:it}
+ol.items>li{
+  counter-increment:it;position:relative;padding:11px 40px 11px 0;
+  border-bottom:1px dotted var(--rule);
+}
+ol.items>li::before{
+  content:counter(it);position:absolute;right:0;top:12px;
+  width:26px;height:26px;line-height:26px;text-align:center;
+  border:1px solid var(--mark);color:var(--mark);border-radius:50%;
+  font-size:.8rem;font-family:var(--de);
+}
+ol.items>li:last-child{border-bottom:none}
+.choices{list-style:none;margin:8px 0 0;padding:0}
+.choices li{padding:3px 0;display:flex;gap:9px;align-items:flex-start}
+.choices .key{
+  flex:none;font-family:var(--de);color:var(--mark);font-weight:600;min-width:16px;
+}
+.rf{color:var(--ink-soft);font-size:.85rem;margin-top:5px;font-family:var(--de);direction:ltr;unicode-bidi:isolate;text-align:left}
+
+/* ---------- write lines ---------- */
+.lines{margin:14px 0 0}
+.lines i{display:block;border-bottom:1px solid var(--rule);height:34px}
+.gap{display:inline-block;min-width:96px;border-bottom:1.5px solid var(--mark);margin:0 4px}
+
+/* ---------- answer sheet ---------- */
+.answersheet{margin-top:40px}
+table{width:100%;border-collapse:collapse;font-size:.9rem}
+th,td{border:1px solid var(--rule);padding:9px 8px;text-align:center}
+th{background:#F2F3F1;font-weight:500;color:var(--ink-soft);font-size:.82rem}
+td.lbl{text-align:right;color:var(--ink-soft);width:34%}
+td.blank{height:36px}
+.conf{letter-spacing:6px;color:var(--rule);font-family:var(--de)}
+
+.foot{margin-top:44px;padding-top:16px;border-top:1px solid var(--rule);color:var(--ink-soft);font-size:.85rem}
+
+/* ---------- print ---------- */
+@media print{
+  body{background:#fff;font-size:11.5pt;line-height:1.7}
+  .sheet{max-width:none;padding:0}
+  .part{break-before:page;padding-top:0;border-top:none}
+  .part:first-of-type{break-before:avoid}
+  .task,.letter,.rules,table{break-inside:avoid}
+  .rules{background:#fff;border-right:2px solid #000}
+  a{color:inherit;text-decoration:none}
+}
+</style>
+</head>
+<body>
+<div class="sheet">
+
+<header class="masthead">
+  <h1>Mini-ZA1 — آزمون آلمانی، نسخه‌ی A</h1>
+  <p class="sub">ساختار ÖSD Zertifikat A1 · محتوای درس ۱ تا ۵ روش میشل توماس</p>
+</header>
+
+<div class="meta">
+  <div><b>سه بخش:</b> خواندن، نوشتن، گفتن</div>
+  <div><b>زمان کتبی:</b> ۳۰ دقیقه</div>
+  <div><b>زمان شفاهی:</b> ۱۰ دقیقه</div>
+  <div><b>نمره‌ی کتبی:</b> ۳۵ — قبولی ۲۱</div>
+  <div><b>نمره‌ی شفاهی:</b> ۲۵ — قبولی ۱۵</div>
+  <div><b>بخش شنیدن:</b> جداگانه می‌آید</div>
+</div>
+
+<div class="namefield">
+  <span>نام</span><span>تاریخ</span><span>ساعت شروع</span><span>ساعت پایان</span>
+</div>
+
+<section class="rules">
+  <h2>قبل از شروع بخوان</h2>
+  <ol>
+    <li>جزوه بسته. هیچ یادداشتی جلوی دستت نباشد. اگر یادت نیامد، همان‌جا خالی بگذار و برو جلو.</li>
+    <li>تایمر واقعی بگذار. خواندن ۱۵ دقیقه، نوشتن ۱۵ دقیقه. جدا جدا.</li>
+    <li>کنار هر جواب یک عدد از ۱ تا ۵ بنویس: چقدر مطمئنی. جواب درست با اطمینان ۲ یعنی شانسی بوده.</li>
+    <li>بخش گفتن را ضبط کن. اول ۱۰ دقیقه فکر کن، بعد ضبط را بزن و یک‌نفس برو جلو.</li>
+    <li>کلید پاسخ را قبل از تمام شدن کل آزمون نگیر.</li>
+  </ol>
+</section>
+
+<!-- ============ LESEN ============ -->
+<section class="part">
+  <div class="part-head">
+    <h2>بخش یک — خواندن</h2>
+    <span class="stamp">Lesen · 15 Min. · 20 P.</span>
+  </div>
+  <p class="part-note">سه تکلیف. هر جواب درست ۲ نمره.</p>
+
+  <div class="task">
+    <h3>تکلیف ۱</h3>
+    <p class="instr">دو پیام کوتاه را بخوان. بعد بگو هر جمله درست است یا غلط.</p>
+
+    <div class="letter de">Guten Abend Herr Weber,
+
+ich kann heute leider nicht kommen, weil ich sehr beschäftigt bin. Ich möchte Sie morgen sehen. Können Sie bitte morgen hier auf mich warten? Ich bringe das Buch. Es ist nicht teuer.
+
+Auf Wiedersehen<span class="from">Thomas</span></div>
+
+    <div class="letter de">Guten Abend Frau Berger,
+
+ich bleibe heute zu Hause, denn ich bin krank. Es geht mir nicht sehr gut. Ich weiß nicht, wann ich kommen kann. Die Zeitung ist hier. Sie können sie morgen haben.
+
+Besten Dank<span class="from">Elena</span></div>
+
+    <ol class="items">
+      <li><span class="de">Thomas ist heute sehr beschäftigt.</span><div class="rf">richtig / falsch</div></li>
+      <li><span class="de">Thomas will heute kommen.</span><div class="rf">richtig / falsch</div></li>
+      <li><span class="de">Elena bleibt heute zu Hause.</span><div class="rf">richtig / falsch</div></li>
+      <li><span class="de">Elena weiß schon, wann sie kommen kann.</span><div class="rf">richtig / falsch</div></li>
+    </ol>
+  </div>
+
+  <div class="task">
+    <h3>تکلیف ۲</h3>
+    <p class="instr">برای هر موقعیت، جمله‌ی درست را انتخاب کن — الف یا ب.</p>
+
+    <ol class="items">
+      <li>
+        می‌خواهی بدانی یک چیز چقدر قیمت دارد.
+        <ul class="choices">
+          <li><span class="key de">a</span><span class="de">Ich will wissen, wie viel es kostet.</span></li>
+          <li><span class="key de">b</span><span class="de">Ich will wissen, wann es fertig ist.</span></li>
+        </ul>
+      </li>
+      <li>
+        می‌خواهی بگویی امشب وقت نداری، ولی فردا می‌توانی بیایی.
+        <ul class="choices">
+          <li><span class="key de">a</span><span class="de">Ich habe morgen keine Zeit, aber heute Abend kann ich kommen.</span></li>
+          <li><span class="key de">b</span><span class="de">Ich habe heute Abend keine Zeit, aber morgen kann ich kommen.</span></li>
+        </ul>
+      </li>
+      <li>
+        می‌خواهی بپرسی آیا اینجا سیگار کشیدن ممکن است.
+        <ul class="choices">
+          <li><span class="key de">a</span><span class="de">Ist es hier verboten zu bleiben?</span></li>
+          <li><span class="key de">b</span><span class="de">Kann man hier rauchen?</span></li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+
+  <div class="task">
+    <h3>تکلیف ۳</h3>
+    <p class="instr">ایمیل را بخوان و برای هر سؤال یک گزینه انتخاب کن.</p>
+
+    <div class="letter de">Guten Abend Frau Klein,
+
+ich kann heute Abend leider nicht kommen, weil ich mich nicht gut fühle. Ich möchte Sie sehr gern sehen, aber heute ist es nicht möglich.
+
+Haben Sie morgen Zeit? Ich habe morgen die Gelegenheit, hier zu bleiben. Wir können morgen Abend Kaffee trinken. Ich weiß nicht, um wie viel Uhr ich fertig bin, aber ich sage es Ihnen bald.
+
+Das Buch bringe ich auch. Es ist nicht teuer und ich finde es sehr gut.
+
+Besten Dank<span class="from">Michael</span></div>
+
+    <ol class="items">
+      <li>
+        <span class="de">Warum kommt Michael heute Abend nicht?</span>
+        <ul class="choices">
+          <li><span class="key de">a</span><span class="de">Er ist sehr beschäftigt.</span></li>
+          <li><span class="key de">b</span><span class="de">Er fühlt sich nicht gut.</span></li>
+          <li><span class="key de">c</span><span class="de">Er möchte Frau Klein nicht sehen.</span></li>
+        </ul>
+      </li>
+      <li>
+        <span class="de">Was will Michael morgen machen?</span>
+        <ul class="choices">
+          <li><span class="key de">a</span><span class="de">Er will das Buch kaufen.</span></li>
+          <li><span class="key de">b</span><span class="de">Er will zu Hause bleiben.</span></li>
+          <li><span class="key de">c</span><span class="de">Er will mit Frau Klein Kaffee trinken.</span></li>
+        </ul>
+      </li>
+      <li>
+        <span class="de">Was ist richtig?</span>
+        <ul class="choices">
+          <li><span class="key de">a</span><span class="de">Michael weiß nicht, um wie viel Uhr er fertig ist.</span></li>
+          <li><span class="key de">b</span><span class="de">Michael ist morgen nicht hier.</span></li>
+          <li><span class="key de">c</span><span class="de">Michael findet das Buch zu teuer.</span></li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ SCHREIBEN ============ -->
+<section class="part">
+  <div class="part-head">
+    <h2>بخش دو — نوشتن</h2>
+    <span class="stamp">Schreiben · 15 Min. · 15 P.</span>
+  </div>
+  <p class="part-note">دو تکلیف. تکلیف ۱ پنج نمره، تکلیف ۲ ده نمره.</p>
+
+  <div class="task">
+    <h3>تکلیف ۱</h3>
+    <p class="instr">جای خالی را پر کن. هر کدام یک نمره.</p>
+
+    <ol class="items">
+      <li>
+        <span class="de">Ich habe <span class="gap"></span> Zeit.</span>
+        <div class="rf">kein / keine / keinen</div>
+      </li>
+      <li><span class="de">Wir müssen <span class="gap"></span> beeilen.</span></li>
+      <li>
+        <span class="de">Er <span class="gap"></span> sich heute nicht gut.</span>
+        <div class="rf">fühlen</div>
+      </li>
+      <li>
+        <span class="de">Ich habe keine Zeit, heute <span class="gap"></span>.</span>
+        <div class="rf">ankommen</div>
+      </li>
+      <li>
+        <span class="de">Ich verstehe <span class="gap"></span>.</span>
+        <div class="rf">هیچ چیز نمی‌فهمم</div>
+      </li>
+    </ol>
+  </div>
+
+  <div class="task">
+    <h3>تکلیف ۲</h3>
+    <p class="instr">به خانم Berger یک پیام کوتاه بنویس، حدود ۳۰ تا ۴۰ کلمه. هر سه نکته باید در پیام بیاید.</p>
+
+    <ol class="items">
+      <li>بگو امشب نمی‌توانی بیایی.</li>
+      <li>دلیلش را بگو و از <span class="inline-de">weil</span> استفاده کن.</li>
+      <li>فردا را پیشنهاد بده و بپرس آیا ممکن است.</li>
+    </ol>
+
+    <div class="lines">
+      <i></i><i></i><i></i><i></i><i></i><i></i>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SPRECHEN ============ -->
+<section class="part">
+  <div class="part-head">
+    <h2>بخش سه — گفتن</h2>
+    <span class="stamp">Sprechen · 10 Min. · 25 P.</span>
+  </div>
+  <p class="part-note">۱۰ دقیقه وقت آماده‌سازی داری. بعد ضبط را روشن کن و هر سه تکلیف را پشت هم بگو.</p>
+
+  <div class="task">
+    <h3>تکلیف ۱ — درباره‌ی خودت</h3>
+    <p class="instr">پنج جمله درباره‌ی خودت بگو. برای هر نکته یک جمله. ۸ نمره.</p>
+    <ol class="items">
+      <li>کاری که می‌خواهی انجام دهی.</li>
+      <li>کاری که مجبوری انجام دهی.</li>
+      <li>چیزی که به آن علاقه داری.</li>
+      <li>یک جمله با <span class="inline-de">weil</span>.</li>
+      <li>یک جمله درباره‌ی فردا.</li>
+    </ol>
+  </div>
+
+  <div class="task">
+    <h3>تکلیف ۲ — موقعیت‌ها</h3>
+    <p class="instr">هر جمله را به آلمانی بگو. ۹ نمره.</p>
+    <ol class="items">
+      <li>متأسفم، امروز وقت ندارم شما را ببینم.</li>
+      <li>چرا باید عجله کنم؟</li>
+      <li>می‌خواهم بدانم چقدر قیمتش است.</li>
+      <li>نمی‌توانم بیایم، چون خیلی مشغولم.</li>
+      <li>آدم می‌تواند اینجا سیگار بکشد؟</li>
+    </ol>
+  </div>
+
+  <div class="task">
+    <h3>تکلیف ۳ — نقش‌بازی</h3>
+    <p class="instr">تلفنی با خانم Klein حرف می‌زنی. دیر کرده‌ای. ۸ نمره.</p>
+    <ol class="items">
+      <li>سلام کن و عذرخواهی کن.</li>
+      <li>بگو که باید عجله کنی.</li>
+      <li>بخواه که همان‌جا منتظرت بماند.</li>
+      <li>بگو کِی می‌رسی و خداحافظی تلفنی کن.</li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ ANSWER SHEET ============ -->
+<section class="part answersheet">
+  <div class="part-head">
+    <h2>برگه‌ی پاسخ و اطمینان</h2>
+  </div>
+  <p class="part-note">جواب‌های بخش خواندن را اینجا هم بنویس، و کنارش عددِ اطمینانت را از ۱ تا ۵.</p>
+
+  <table>
+    <thead>
+      <tr><th>تکلیف</th><th>۱</th><th>۲</th><th>۳</th><th>۴</th></tr>
+    </thead>
+    <tbody>
+      <tr><td class="lbl">خواندن ۱ — پاسخ</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+      <tr><td class="lbl">خواندن ۱ — اطمینان</td><td class="conf">۱۲۳۴۵</td><td class="conf">۱۲۳۴۵</td><td class="conf">۱۲۳۴۵</td><td class="conf">۱۲۳۴۵</td></tr>
+      <tr><td class="lbl">خواندن ۲ — پاسخ</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>—</td></tr>
+      <tr><td class="lbl">خواندن ۲ — اطمینان</td><td class="conf">۱۲۳۴۵</td><td class="conf">۱۲۳۴۵</td><td class="conf">۱۲۳۴۵</td><td>—</td></tr>
+      <tr><td class="lbl">خواندن ۳ — پاسخ</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>—</td></tr>
+      <tr><td class="lbl">خواندن ۳ — اطمینان</td><td class="conf">۱۲۳۴۵</td><td class="conf">۱۲۳۴۵</td><td class="conf">۱۲۳۴۵</td><td>—</td></tr>
+      <tr><td class="lbl">نوشتن ۱ — اطمینان</td><td class="conf">۱۲۳۴۵</td><td class="conf">۱۲۳۴۵</td><td class="conf">۱۲۳۴۵</td><td class="conf">۱۲۳۴۵</td></tr>
+    </tbody>
+  </table>
+
+  <p class="foot">
+    وقتی هر سه بخش را زدی، بگو تا کلید پاسخ و نمره‌گذاری بخش نوشتن و گفتن را برایت بفرستم.
+    فایل صوتی بخش گفتن را هم می‌توانی بفرستی تا با معیارهای ÖSD بررسی کنم.
+  </p>
+</section>
+
+</div>
+</body>
+</html>

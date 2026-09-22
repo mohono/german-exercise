@@ -1,0 +1,777 @@
+<title>جعبه‌ابزار درس ششم</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --bg:#EDF1F5; --surface:#FFFFFF; --surface2:#F4F8FA;
+    --ink:#10202C; --ink2:#46596B; --ink3:#71879A;
+    --line:#CBD8E2; --line2:#E2EAF1;
+    --accent:#0B6E80; --accent-soft:#DAEEF2;
+    --trap:#A63D2F; --trap-soft:#F9E7E3;
+    --good:#1B6B4E; --good-soft:#DCF0E7;
+    --shadow:0 1px 2px rgba(16,32,44,.06),0 8px 24px -12px rgba(16,32,44,.18);
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --bg:#0A131A; --surface:#121F29; --surface2:#182935;
+      --ink:#DCE8F0; --ink2:#9AAFBF; --ink3:#6F8697;
+      --line:#22394A; --line2:#1B2E3C;
+      --accent:#4FC0D4; --accent-soft:#10303A;
+      --trap:#EE8A7B; --trap-soft:#361E1A;
+      --good:#55C598; --good-soft:#11332A;
+      --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px -14px rgba(0,0,0,.7);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0A131A; --surface:#121F29; --surface2:#182935;
+    --ink:#DCE8F0; --ink2:#9AAFBF; --ink3:#6F8697;
+    --line:#22394A; --line2:#1B2E3C;
+    --accent:#4FC0D4; --accent-soft:#10303A;
+    --trap:#EE8A7B; --trap-soft:#361E1A;
+    --good:#55C598; --good-soft:#11332A;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px -14px rgba(0,0,0,.7);
+  }
+
+  *{box-sizing:border-box}
+  body{
+    direction:rtl;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:"Vazirmatn",system-ui,sans-serif;
+    font-size:16px; line-height:1.85;
+    margin:0; padding:0 20px 80px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:800px;margin:0 auto}
+
+  /* ---------- German inline ---------- */
+  .de{
+    direction:ltr; unicode-bidi:isolate;
+    font-family:"IBM Plex Mono","IBM Plex Sans",monospace;
+    font-size:.9em; font-weight:500;
+    color:var(--accent);
+    background:var(--accent-soft);
+    padding:.08em .4em; border-radius:4px;
+    white-space:nowrap;
+  }
+  .de.plain{background:none;padding:0;color:inherit}
+  .de.long{white-space:normal}
+
+  /* ---------- header ---------- */
+  header{padding:52px 0 30px;border-bottom:2px solid var(--ink);margin-bottom:36px}
+  .eyebrow{
+    font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--accent);font-weight:700;font-family:"IBM Plex Sans",sans-serif;
+    direction:ltr;unicode-bidi:isolate;display:inline-block;
+  }
+  h1{
+    font-size:clamp(1.9rem,6vw,2.6rem);line-height:1.25;font-weight:800;
+    margin:.35em 0 .2em;text-wrap:balance;letter-spacing:-.01em;
+  }
+  .sub{color:var(--ink2);font-size:1rem;margin:0;max-width:60ch}
+
+  /* ---------- progress strip ---------- */
+  .blocks{display:flex;gap:5px;margin:26px 0 0;flex-wrap:wrap}
+  .blk{
+    flex:1 1 52px;min-width:52px;text-align:center;padding:9px 4px 8px;
+    border-radius:5px;font-size:.68rem;line-height:1.5;
+    border:1px solid var(--line);background:var(--surface);color:var(--ink3);
+  }
+  .blk b{display:block;font-size:.95rem;font-weight:700;font-family:"IBM Plex Sans",sans-serif}
+  .blk.done{background:var(--good-soft);border-color:transparent;color:var(--good)}
+
+  /* ---------- nav ---------- */
+  nav{
+    position:sticky;top:0;z-index:20;
+    background:var(--bg);
+    padding:12px 0;margin:0 0 8px;
+    border-bottom:1px solid var(--line2);
+    display:flex;gap:7px;flex-wrap:wrap;
+  }
+  nav a{
+    font-size:.78rem;text-decoration:none;padding:5px 11px;border-radius:20px;
+    color:var(--ink2);border:1px solid var(--line);background:var(--surface);
+  }
+  nav a:hover,nav a:focus-visible{color:var(--accent);border-color:var(--accent)}
+
+  /* ---------- sections ---------- */
+  section{padding:38px 0 4px;scroll-margin-top:64px}
+  section+section{border-top:1px solid var(--line2)}
+  h2{
+    font-size:1.42rem;font-weight:700;margin:0 0 6px;
+    display:flex;align-items:baseline;gap:.5rem;text-wrap:balance;
+  }
+  h2 .num{
+    font-family:"IBM Plex Mono",monospace;font-size:.8rem;color:var(--accent);
+    direction:ltr;unicode-bidi:isolate;font-weight:600;
+  }
+  .lede{color:var(--ink2);margin:0 0 22px;font-size:.94rem;max-width:62ch}
+  h3{font-size:1.02rem;font-weight:700;margin:26px 0 10px}
+
+  /* ---------- tool cards ---------- */
+  .tools{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:10px}
+  .tool{
+    background:var(--surface);border:1px solid var(--line2);border-radius:8px;
+    padding:13px 15px;display:flex;gap:11px;align-items:flex-start;
+  }
+  .tool .ico{font-size:1.3rem;line-height:1.4;flex:0 0 auto}
+  .tool b{display:block;font-size:.92rem;font-weight:700;margin-bottom:1px}
+  .tool span{font-size:.82rem;color:var(--ink2);line-height:1.7;display:block}
+
+  /* ---------- tables ---------- */
+  .tw{overflow-x:auto;margin:14px 0;border:1px solid var(--line2);border-radius:8px;background:var(--surface)}
+  table{width:100%;border-collapse:collapse;font-size:.88rem}
+  th,td{padding:9px 13px;text-align:right;border-bottom:1px solid var(--line2);vertical-align:top}
+  thead th{
+    background:var(--surface2);font-weight:700;font-size:.76rem;
+    letter-spacing:.03em;color:var(--ink2);white-space:nowrap;
+  }
+  tbody tr:last-child td{border-bottom:none}
+  td.c{text-align:center}
+  .bad{color:var(--trap);font-weight:600}
+  .ok{color:var(--good);font-weight:600}
+  .why{color:var(--ink2);font-size:.85rem}
+  .cnt{
+    display:inline-block;min-width:1.5rem;text-align:center;
+    background:var(--trap-soft);color:var(--trap);border-radius:4px;
+    font-family:"IBM Plex Mono",monospace;font-size:.75rem;font-weight:600;
+    padding:1px 5px;
+  }
+
+  /* ---------- callout ---------- */
+  .key{
+    background:var(--surface);border-inline-start:3px solid var(--accent);
+    border-radius:0 8px 8px 0;padding:14px 17px;margin:18px 0;
+    font-size:.95rem;box-shadow:var(--shadow);
+  }
+  .key b{color:var(--accent)}
+  .key.warn{border-inline-start-color:var(--trap)}
+  .key.warn b{color:var(--trap)}
+  .key p{margin:0}
+  .key p+p{margin-top:8px}
+
+  /* ---------- Q&A ---------- */
+  details{
+    background:var(--surface);border:1px solid var(--line2);
+    border-radius:8px;margin-bottom:8px;overflow:hidden;
+  }
+  summary{
+    padding:12px 16px;cursor:pointer;font-weight:600;font-size:.93rem;
+    list-style:none;display:flex;gap:9px;align-items:baseline;
+  }
+  summary::-webkit-details-marker{display:none}
+  summary::before{content:"؟";color:var(--accent);font-weight:800;flex:0 0 auto}
+  summary:hover{color:var(--accent)}
+  details[open] summary{border-bottom:1px solid var(--line2);background:var(--surface2)}
+  .ans{padding:13px 16px 15px;font-size:.9rem;color:var(--ink2)}
+  .ans p{margin:0 0 9px}
+  .ans p:last-child{margin:0}
+  .ans strong{color:var(--ink)}
+
+  .qlbl{
+    display:block;font-size:.68rem;letter-spacing:.1em;font-weight:700;
+    color:var(--ink3);text-transform:uppercase;margin-bottom:1px;
+  }
+  .unlock{
+    background:var(--accent-soft);border-radius:7px;
+    padding:12px 14px;margin:13px 0;color:var(--ink);
+  }
+  .unlock .qlbl{color:var(--accent)}
+  .ans .tw{background:var(--surface2)}
+  .ans .tw table{font-size:.85rem}
+  p.rule{
+    border-top:1px dashed var(--line);padding-top:11px;margin:14px 0 0;
+    color:var(--ink);font-weight:600;
+  }
+
+  /* ---------- sentence bank ---------- */
+  .bankhead{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+  button#testToggle{
+    font-family:inherit;font-size:.82rem;font-weight:600;cursor:pointer;
+    background:var(--accent);color:var(--bg);border:none;
+    padding:7px 16px;border-radius:20px;
+  }
+  button#testToggle:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+  .decell{cursor:default}
+  body.test .decell{cursor:pointer}
+  body.test .decell:not(.shown) .de{
+    filter:blur(6px);user-select:none;
+  }
+  @media (prefers-reduced-motion:no-preference){
+    .decell .de{transition:filter .18s ease}
+  }
+
+  /* ---------- checklist ---------- */
+  ol.check{counter-reset:c;list-style:none;padding:0;margin:14px 0;display:grid;gap:8px}
+  ol.check li{
+    counter-increment:c;background:var(--surface);border:1px solid var(--line2);
+    border-radius:8px;padding:12px 15px 12px 15px;font-size:.92rem;
+    display:flex;gap:11px;align-items:baseline;
+  }
+  ol.check li::before{
+    content:counter(c);flex:0 0 auto;
+    width:1.55rem;height:1.55rem;border-radius:50%;
+    background:var(--accent-soft);color:var(--accent);
+    font-family:"IBM Plex Mono",monospace;font-size:.75rem;font-weight:600;
+    display:grid;place-items:center;
+  }
+
+  /* ---------- spaced repetition ---------- */
+  .sr{display:grid;gap:9px;margin:16px 0}
+  .srrow{
+    background:var(--surface);border:1px solid var(--line2);border-radius:9px;
+    padding:12px 15px;display:grid;grid-template-columns:auto 1fr auto;
+    gap:13px;align-items:center;
+  }
+  .srrow.on{background:var(--good-soft);border-color:transparent}
+  .srbox{
+    width:1.5rem;height:1.5rem;border-radius:6px;border:2px solid var(--line);
+    background:var(--surface);cursor:pointer;display:grid;place-items:center;
+    font-size:.9rem;color:var(--good);font-weight:800;padding:0;font-family:inherit;
+  }
+  .srrow.on .srbox{border-color:var(--good);background:var(--good-soft)}
+  .srmeta b{display:block;font-size:.94rem;font-weight:700}
+  .srmeta span{font-size:.8rem;color:var(--ink2)}
+  .srwhen{
+    font-family:"IBM Plex Mono",monospace;font-size:.78rem;color:var(--ink3);
+    direction:ltr;unicode-bidi:isolate;text-align:left;white-space:nowrap;
+  }
+  .srnote{font-size:.82rem;color:var(--ink3);margin-top:10px}
+
+  footer{
+    margin-top:44px;padding-top:22px;border-top:1px solid var(--line2);
+    color:var(--ink3);font-size:.82rem;
+  }
+</style>
+
+<div class="wrap">
+
+<header>
+  <span class="eyebrow">Michel Thomas · Lektion 6</span>
+  <h1>جعبه‌ابزار درس ششم</h1>
+  <p class="sub">هرچه امروز با هم ساختیم — ابزارهای ذهنی، خطاهای تکراری، و سؤال‌هایی که مسیر را عوض کردند.</p>
+  <div class="blocks">
+    <div class="blk done"><b>۱</b>später</div>
+    <div class="blk done"><b>۲</b>fahren</div>
+    <div class="blk done"><b>۳</b>werden</div>
+    <div class="blk done"><b>۴</b>würde</div>
+    <div class="blk done"><b>۵</b>weil</div>
+    <div class="blk"><b>۶</b>غیرمستقیم</div>
+    <div class="blk"><b>۷</b>wenn</div>
+    <div class="blk"><b>۸</b>ob</div>
+    <div class="blk"><b>۹</b>seit</div>
+    <div class="blk"><b>۱۰</b>جمع‌بندی</div>
+  </div>
+</header>
+
+<nav>
+  <a href="#tools">ابزارها</a>
+  <a href="#verb">فعل کجاست</a>
+  <a href="#errors">خطاهای من</a>
+  <a href="#asked">سؤال‌هایم</a>
+  <a href="#ref">جدول‌های مرجع</a>
+  <a href="#bank">جمله‌ها</a>
+  <a href="#check">چک‌لیست</a>
+  <a href="#sr">📅 تقویم مرور</a>
+</nav>
+
+<section id="tools">
+  <h2><span class="num">01</span>هفت ابزار ذهنی</h2>
+  <p class="lede">اینها استعاره نیستند، میان‌بُر هستند. هر کدام یک تصمیم گرامری را به یک تصویر تبدیل می‌کند.</p>
+  <div class="tools">
+    <div class="tool"><span class="ico">🏠</span><div><b>خانه‌ی فعل</b><span>ته جمله خانه‌ی فعل است. پیشوند هیچ‌وقت تکان نمی‌خورد — این فعل است که کوچ می‌کند.</span></div></div>
+    <div class="tool"><span class="ico">🚪</span><div><b>راهروی شش‌دَر</b><span>فعل قوی فقط در دو اتاق وسط (du و er) مصوتش باریک می‌شود. چهار اتاق دیگر بزرگ‌اند.</span></div></div>
+    <div class="tool"><span class="ico">🛌</span><div><b>پیژامه</b><span>فعلی که خانه می‌ماند لباس عوض نمی‌کند: مصدرِ خام. فقط آن‌که به جای دوم می‌رود صرف می‌شود.</span></div></div>
+    <div class="tool"><span class="ico">🧲</span><div><b>آهنربا</b><span>قلب جمله (مفعولِ بی‌آرتیکل یا صفت) آخر می‌چسبد؛ قیدها جلوتر می‌نشینند.</span></div></div>
+    <div class="tool"><span class="ico">🎈</span><div><b>بادکنک</b><span>ضمیر مفعولی سبک است — می‌چسبد به فاعل، قبل از هر قیدی. اسم سنگین است و عقب می‌ماند.</span></div></div>
+    <div class="tool"><span class="ico">🌉</span><div><b>پل zu</b><span>فعل به فعل مستقیم وصل می‌شود. اسم یا صفت به فعل؟ بینشان پل <span class="de">zu</span> لازم است.</span></div></div>
+    <div class="tool"><span class="ico">📜</span><div><b>e قایم‌شده</b><span>دو نقطه‌ی اوملات در اصل یک <span class="de plain">e</span> ریز بوده. باز که می‌شود، همیشه <span class="de plain">e</span> در می‌آید: ae · oe · ue.</span></div></div>
+    <div class="tool"><span class="ico">🧴</span><div><b>روغن‌کاری</b><span>آن <span class="de plain">e</span> در <span class="de">wartet</span> پسوند نیست — فقط وقتی می‌آید که ریشه به <span class="de plain">t</span> یا <span class="de plain">d</span> ختم شود.</span></div></div>
+  </div>
+</section>
+
+<section id="verb">
+  <h2><span class="num">02</span>فعل صرف‌شده کجا می‌نشیند؟</h2>
+  <p class="lede">بزرگ‌ترین سوءتفاهم امروز این بود که «سؤالی بودن» فعل را ته جمله می‌بَرَد. نمی‌بَرَد. عاملْ <strong>فرعی بودن</strong> است.</p>
+  <div class="tw"><table>
+    <thead><tr><th>نوع جمله</th><th>جای فعل</th><th>نمونه</th></tr></thead>
+    <tbody>
+      <tr><td>خبری</td><td class="ok">جای دوم</td><td><span class="de">Sie sprechen Deutsch.</span></td></tr>
+      <tr><td>سؤال با کلمه‌ی پرسشی</td><td class="ok">جای دوم</td><td><span class="de">Wie sagt man es auf Deutsch?</span></td></tr>
+      <tr><td>سؤال بله/خیر</td><td class="ok">جای <b>اول</b></td><td><span class="de">Sprechen Sie Deutsch?</span></td></tr>
+      <tr><td>جمله‌ی فرعی</td><td class="bad">آخرین کلمه</td><td><span class="de long">…, weil er Deutsch spricht.</span></td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="key">
+    <p><b>تستِ کامل / نصفه —</b> تیکه را تنها بگو. بعدش نقطه می‌گذاری یا مجبوری ویرگول بگذاری و ادامه بدهی؟ ویرگول ⟵ فرعی است ⟵ فعل می‌رود آخر.</p>
+    <p>منتظرِ <strong>جوابِ طرف مقابل</strong> بودن ≠ منتظرِ <strong>ادامه‌ی جمله</strong> بودن. سؤال مستقل کامل است.</p>
+  </div>
+
+  <h3>💎 نکته‌ی طلایی درس ۶ — وقتی دو فعل داری</h3>
+  <div class="tw"><table>
+    <thead><tr><th>جمله</th><th>ترتیب دو فعل</th></tr></thead>
+    <tbody>
+      <tr><td>عادی</td><td><span class="de long">Ich kann es heute nicht tun.</span></td></tr>
+      <tr><td>با <span class="de">weil</span></td><td><span class="de long">…, weil ich es heute nicht tun kann.</span></td></tr>
+    </tbody>
+  </table></div>
+  <div class="key warn">
+    <p><b>اینجا فارسی کمکت نمی‌کند.</b> فارسی می‌گوید «چون <u>نمی‌توانم</u> انجامش <u>دهم</u>» — مدال جلو. آلمانی برعکس: مدال آخر.</p>
+    <p><strong>روش سه‌قدمی:</strong> ① جمله را عادی بساز ② کلمه‌ی رابط را جلویش بچسبان ③ فعل صرف‌شده را بردار و بگذار آخر. فقط یک کلمه جابه‌جا می‌شود.</p>
+  </div>
+
+  <h3>ADUSO — پنج استثنایی که فعل را ته جمله نمی‌فرستند</h3>
+  <p class="lede"><span class="de">aber</span> اما · <span class="de">denn</span> چون · <span class="de">und</span> و · <span class="de">sondern</span> بلکه · <span class="de">oder</span> یا — و <em>هر رابط دیگری</em> فعل را می‌فرستد آخر.</p>
+  <div class="key">
+    <p><b>مدرک اینکه معنی تصمیم نمی‌گیرد:</b> <span class="de long">…, weil ich heute arbeite.</span> و <span class="de long">…, denn ich arbeite heute.</span> — ترجمه‌ی فارسی هر دو حرف‌به‌حرف یکی است.</p>
+    <p>توصیه: تا وقتی دستت راه بیفتد، همیشه <span class="de">weil</span> بزن. <span class="de">denn</span> را فقط بشناس.</p>
+  </div>
+</section>
+
+<section id="errors">
+  <h2><span class="num">03</span>هفت خطای تکراری من</h2>
+  <p class="lede">اینها بی‌دقتی نیستند — هر کدام یک ریشه‌ی مشخص دارد. ریشه را که بگیری، خطا تکرار نمی‌شود.</p>
+  <div class="tw"><table>
+    <thead><tr><th>تعداد</th><th class="bad">نوشتم</th><th class="ok">درست</th><th>ریشه‌ی واقعی</th></tr></thead>
+    <tbody>
+      <tr>
+        <td class="c"><span class="cnt">۵×</span></td>
+        <td><span class="de">seht · fahrt · sprecht · werdet · würdet</span></td>
+        <td><span class="de">sieht · fährt · spricht · wird · würde</span></td>
+        <td class="why"><b>دامِ ihr.</b> ریشه + <span class="de plain">t</span> همیشه شکلِ <span class="de">ihr</span> را می‌سازد، نه <span class="de">er</span>. هر وقت برای <span class="de">er</span> نوشتی، بپرس: «نکند این مالِ ihr باشد؟»</td>
+      </tr>
+      <tr>
+        <td class="c"><span class="cnt">۴×</span></td>
+        <td><span class="de">moaglich</span></td>
+        <td><span class="de">moeglich</span></td>
+        <td class="why"><b>ae را یک واحد حفظ کرده بودم</b> و <span class="de plain">a</span> را بردم سراغ <span class="de plain">o</span>. آن <span class="de plain">a</span> جزو ریشه است. حرفِ اوملات همیشه <span class="de plain">e</span> است. 📜</td>
+      </tr>
+      <tr>
+        <td class="c"><span class="cnt">۳×</span></td>
+        <td><span class="de">konnen · mussen · sparter</span></td>
+        <td><span class="de">können · müssen · später</span></td>
+        <td class="why"><b>حذف کامل اوملات.</b> اوملات حرف است، نه تزیین. <span class="de">muss</span> و <span class="de">müssen</span> دو شخص متفاوت‌اند.</td>
+      </tr>
+      <tr>
+        <td class="c"><span class="cnt">۲×</span></td>
+        <td><span class="de">spechen · faeht</span></td>
+        <td><span class="de">sprechen · fährt</span></td>
+        <td class="why"><b>حذف r از خوشه‌ی همخوان.</b> فارسی خوشه‌ی آغازین ندارد (اسپرینگ، استرس)، پس مغز یکی را می‌اندازد. <span class="de plain">spr</span> و <span class="de plain">fahr</span> را یک تکه ببین.</td>
+      </tr>
+      <tr>
+        <td class="c"><span class="cnt">۲×</span></td>
+        <td><span class="de">huete</span></td>
+        <td><span class="de">heute</span></td>
+        <td class="why"><b>برخوردِ eu با ue.</b> چون <span class="de plain">ue</span> را برای <span class="de plain">ü</span> استفاده می‌کنم، این دو قاطی می‌شوند. <span class="de">huete</span> یعنی <span class="de">hüte</span> (کلاه‌ها)! قلاب: <span class="de plain">eu</span> همان eu ی <span class="de">Deutsch</span> است.</td>
+      </tr>
+      <tr>
+        <td class="c"><span class="cnt">۲×</span></td>
+        <td><span class="de">sie · rufen (برای er/ich)</span></td>
+        <td><span class="de">Sie · ruft/rufe</span></td>
+        <td class="why"><b>سرعت.</b> <span class="de">Sie</span> با S بزرگ = شما؛ با s کوچک = او/آن‌ها. و صرف را جا انداختن، نه ندانستن.</td>
+      </tr>
+      <tr>
+        <td class="c"><span class="cnt">۲×</span></td>
+        <td><span class="de long">werde es zu tun · kann, es zu tun</span></td>
+        <td><span class="de long">werde es tun · tun kann</span></td>
+        <td class="why"><b>پل اضافی.</b> بعد از فعل مدال و <span class="de">werden</span> هیچ‌وقت <span class="de">zu</span> نمی‌آید و ویرگول هم لازم نیست. 🌉</td>
+      </tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section id="asked">
+  <h2><span class="num">04</span>هشت سؤالی که خودم پرسیدم</h2>
+  <p class="lede">این بخش قلبِ امروز است. هیچ‌کدام از این‌ها در جزوه نبود — هر کدام از یک غلطِ خودم یا یک شکِ خودم شروع شد، و به چیزی رسید که کل درس را عوض کرد.</p>
+
+  <details>
+    <summary>«صرف شدن» یعنی چی؟ و اولویت با کیه؟</summary>
+    <div class="ans">
+      <p><span class="qlbl">جرقه</span> نوشتم <span class="de long">sie spartet mich rufen an</span> — یعنی <span class="de">später</span> را <em>صرف کردم</em>، انگار فعل است.</p>
+      <p><span class="qlbl">باور غلطم</span> فکر می‌کردم چند کلمه با هم سرِ صرف‌شدن رقابت می‌کنند و باید بدانم اولویت با کیست.</p>
+      <div class="unlock">
+        <span class="qlbl">مثالی که قفل را باز کرد</span>
+        <p style="margin:.4em 0 0">من <b>دیر</b> می‌رو<b>م</b> · تو <b>دیر</b> می‌رو<b>ی</b> · او <b>دیر</b> می‌رو<b>د</b></p>
+        <p style="margin:.4em 0 0">هیچ‌وقت نگفته‌ام «او دیرد». چون «دیر» فعل نیست — قید است. و قید سنگ است. 🧊</p>
+      </div>
+      <p>و آن «صرف» که دنبالش بودم، همان دُمِ <b>م / ی / د</b> است که هر روز در فارسی به‌کار می‌برم.</p>
+      <div class="tw" style="margin:12px 0 0"><table>
+        <thead><tr><th>کلمه</th><th>تغییر می‌کند؟</th><th>به‌خاطر چه؟</th></tr></thead>
+        <tbody>
+          <tr><td>فعل</td><td class="ok">بله</td><td><b>فاعل</b> — اسمش همین «صرف» است</td></tr>
+          <tr><td>صفت</td><td class="ok">بله</td><td>اسمِ بغل‌دستش — <span class="de">ein guter Mann</span></td></tr>
+          <tr><td>ضمیر مفعولی</td><td class="ok">بله</td><td>نقشش در جمله</td></tr>
+          <tr><td>قید</td><td class="bad">هرگز</td><td>—</td></tr>
+        </tbody>
+      </table></div>
+      <p class="rule">✦ اولویتی وجود ندارد چون رقیبی وجود ندارد: <b>فقط فعل به فاعل نگاه می‌کند.</b> بقیه هر کدام به سؤال دیگری جواب می‌دهند.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>چرا <span class="de">anrufen</span> یک بار جدا شد و یک بار نه؟</summary>
+    <div class="ans">
+      <p><span class="qlbl">جرقه</span> توضیح اولم غلط‌انداز بود — گفتم «پیشوند جدا می‌شود و می‌رود ته جمله». همان تصویر گیجم کرد.</p>
+      <p><span class="qlbl">باور غلطم</span> فکر می‌کردم خبری یا سؤالی بودنِ جمله تعیین می‌کند.</p>
+      <div class="unlock">
+        <span class="qlbl">مثالی که قفل را باز کرد</span>
+        <p style="margin:.4em 0 0"><span class="de long">Sie rufen mich später.</span> ⟵ شما بعداً <b>صدایم می‌زنید</b> 📢</p>
+        <p style="margin:.2em 0 0"><span class="de long">Sie rufen mich später an.</span> ⟵ شما بعداً <b>تلفن می‌زنید</b> ☎️</p>
+        <p style="margin:.4em 0 0">کلِ معنی در همان دو حرفِ آخر است. برای همین آلمانی نگهش می‌دارد برای آخر.</p>
+      </div>
+      <p><b>حقیقت برعکس بود:</b> <span class="de plain">an</span> اصلاً تکان نمی‌خورد — همیشه ته جمله است. این <span class="de plain">rufen</span> است که گاهی خانه را ترک می‌کند و می‌رود جای دوم؛ آن‌وقت <span class="de plain">an</span> تنها می‌ماند. 🏠</p>
+      <p>و همین را در انگلیسی از قبل بلد بودم: <span class="de long">I turn the light on.</span> در برابر <span class="de long">I want to turn on the light.</span></p>
+      <p class="rule">✦ رئیسی هست (مدال یا <span class="de">werden</span>)؟ ⟵ <span class="de plain">rufen</span> جایی نمی‌رود و <span class="de">anrufen</span> سرِ هم می‌ماند. 🎧 و در Hören یعنی: حق ندارم وسط جمله تصمیم بگیرم که فهمیده‌ام.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>چرا <span class="de">ankommen</span> نشد؟ مگر غلط بود؟</summary>
+    <div class="ans">
+      <p><span class="qlbl">جرقه</span> برای «فردا خواهد آمد» نوشتم <span class="de long">Er wird morgen ankommen.</span> — غلط نبود، ولی معنی‌اش «خواهد <b>رسید</b>» است.</p>
+      <div class="unlock">
+        <span class="qlbl">چیزی که مجانی به دست آمد</span>
+        <p style="margin:.4em 0 0">پیشوند <span class="de plain">an</span> معنی دارد: <b>برخورد به یک نقطه</b> 🎯</p>
+        <div class="tw" style="margin:10px 0 0"><table>
+          <tbody>
+            <tr><td><span class="de">rufen</span> صدا زدن</td><td>←</td><td><span class="de">anrufen</span> با صدا به کسی رسیدن ☎️</td></tr>
+            <tr><td><span class="de">kommen</span> آمدن</td><td>←</td><td><span class="de">ankommen</span> به جایی رسیدن 🎯</td></tr>
+            <tr><td><span class="de">fangen</span> گرفتن</td><td>←</td><td><span class="de">anfangen</span> نقطه‌ی آغاز 🏁</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+      <p class="rule">✦ پیشوندها تصادفی نیستند. به‌جای حفظ کردن صد فعل، ده پیشوند یاد می‌گیرم و بقیه را حدس می‌زنم.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>از کجا بفهمم <span class="de">sich</span> بگذارم یا <span class="de">Sie</span>؟ روش می‌خواهم، نه «اینه!»</summary>
+    <div class="ans">
+      <p><span class="qlbl">جرقه</span> نوشتم <span class="de long">ich rufe sich heute an</span> — در حالی که منظورم «به <b>شما</b>» بود.</p>
+      <div class="unlock">
+        <span class="qlbl">کشفی که کار را نصف کرد</span>
+        <p style="margin:.4em 0 0">در اول‌شخص و دوم‌شخص، ستون مفعولی و ستون انعکاسی <b>دقیقاً یکی‌اند</b>:</p>
+        <p style="margin:.3em 0 0"><span class="de">ich ▸ mich / mich</span> · <span class="de">du ▸ dich / dich</span> · <span class="de">wir ▸ uns / uns</span></p>
+        <p style="margin:.4em 0 0">پس آنجا اصلاً تصمیمی وجود ندارد که بخواهم بگیرم.</p>
+      </div>
+      <p><span class="qlbl">قفل عملی</span> اگر فاعلم <span class="de">ich</span> · <span class="de">du</span> · <span class="de">wir</span> · <span class="de">ihr</span> باشد، کلمه‌ی <span class="de">sich</span> <b>اصلاً وجود ندارد</b>. قلمش می‌کنم — بدون فکر کردن به معنی.</p>
+      <p><span class="qlbl">و چرا اصلاً <span class="de">sich</span> ساخته شد</span> چون فقط سوم‌شخص ابهام داشت:</p>
+      <div class="tw" style="margin:10px 0"><table>
+        <tbody>
+          <tr><td><span class="de">Er sieht ihn.</span></td><td>او <b>آن مرد دیگر</b> را می‌بیند 👤👤</td></tr>
+          <tr><td><span class="de">Er sieht sich.</span></td><td>او <b>خودش</b> را می‌بیند 🤳</td></tr>
+        </tbody>
+      </table></div>
+      <p>در اول‌شخص چنین مشکلی نبود («من» فقط یعنی من)، پس چنین کلمه‌ای هم نگرفت.</p>
+      <p class="rule">✦ روش سه‌سؤالی: ① فاعل است یا مفعول؟ ② کدام حالت — Akkusativ یا Dativ؟ (<b>فعل تعیین می‌کند، نه من</b>) ③ همان فاعل است؟ ⟵ ستون انعکاسی.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>فعل‌های قوی فقط همین‌ها هستند؟</summary>
+    <div class="ans">
+      <p><span class="qlbl">جرقه</span> سه بار پشت سر هم <span class="de">seht</span> · <span class="de">fahrt</span> · <span class="de">sprecht</span> نوشتم و خواستم بدانم این لیست تا کجا ادامه دارد.</p>
+      <div class="unlock">
+        <span class="qlbl">فیلتری که کار را نصف کرد</span>
+        <p style="margin:.4em 0 0">فقط سه مصوت اجازه‌ی تغییر دارند: <span class="de plain">a</span> ← ä · <span class="de plain">e</span> ← i/ie · <span class="de plain">au</span> ← äu</p>
+        <p style="margin:.4em 0 0">هر مصوت دیگری (<span class="de plain">i · o · u · ei · ie</span>) <b>هرگز</b> عوض نمی‌شود. پس <span class="de">wohnen</span> · <span class="de">trinken</span> · <span class="de">schreiben</span> اصلاً لازم نیست بهشان فکر کنم.</p>
+      </div>
+      <p><span class="qlbl">تله‌ای که کشف شد</span> هر پنج باری که اشتباه کردم، چیزی که ساختم <b>شکلِ <span class="de">ihr</span></b> بود — نه یک شکل بی‌معنی. <span class="de">seht</span> برای <span class="de">ihr</span> کاملاً درست است. پس ابزار تشخیصم این شد: «نکند این مالِ <span class="de">ihr</span> باشد؟»</p>
+      <p><span class="qlbl">دو مفهوم که نباید قاطی شوند</span> تغییر مصوت در <b>زمان حال</b> (الان) با <b>گذشته‌ی بی‌قاعده</b> (هفته‌های آینده) یک لیست نیستند: <span class="de">gehen</span> در حال کاملاً عادی است (<span class="de">er geht</span>) ولی گذشته‌اش <span class="de">ging</span> است.</p>
+      <p class="rule">✦ حدود ۵۰ فعل در کل زبان، ~۲۵ تا تا B2. هر فعل جدید را با شکلِ <span class="de">er</span> ثبت می‌کنم: «<span class="de">sprechen · er spricht</span> · صحبت کردن» — نه فقط مصدر.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>در جمله‌ی سؤالی فعل نمی‌رود آخر؟ پس چرا در جزوه سر جایش است؟</summary>
+    <div class="ans">
+      <p><span class="qlbl">جرقه</span> در جزوه جمله‌هایی دیدم که فعلشان آخر بود و با سؤال‌های عادی جور در نمی‌آمد.</p>
+      <p><span class="qlbl">باور غلطم</span> فکر می‌کردم «سؤالی شدن» فعل را ته جمله می‌برد. <b>نمی‌برد.</b> در سؤال بله/خیر فعل می‌پرد <b>جلو</b>، نه عقب.</p>
+      <div class="unlock">
+        <span class="qlbl">چیزی که واقعاً قفل را باز کرد — خودِ فارسی</span>
+        <p style="margin:.4em 0 0">فارسی <b>همیشه</b> فعل را آخر می‌گذارد: «من آلمانی صحبت <b>می‌کنم</b>».</p>
+        <p style="margin:.4em 0 0">جمله‌ی <em>اصلی</em> آلمانی برعکس فارسی است (فعل جای دوم) — این سخت است.</p>
+        <p style="margin:.2em 0 0">جمله‌ی <em>فرعی</em> آلمانی <b>دقیقاً مثل فارسی</b> است — این را از قبل بلدم. 🎁</p>
+      </div>
+      <p><span class="qlbl">جفتی که از خودِ جزوه‌ام درآمد</span></p>
+      <div class="tw" style="margin:10px 0"><table>
+        <tbody>
+          <tr><td><span class="de long">Wann wird er hier sein?</span></td><td>مستقل ⟵ فعل جای دوم</td></tr>
+          <tr><td><span class="de long">Ich möchte wissen, wann er hier sein wird.</span></td><td>فرعی ⟵ فعل آخر</td></tr>
+        </tbody>
+      </table></div>
+      <p>هر دو «سؤال»‌اند و معنی‌شان یکی است. پس <b>سؤالی بودن عاملش نیست</b> — مستقل یا فرعی بودن است.</p>
+      <p><span class="qlbl">و یک تمایز ظریف که در تمرین گیرم انداخت</span> «چه زمانی او می‌آید؟» را <em>نصفه</em> حساب کردم، چون منتظر چیزی بودم. ولی آنجا منتظرِ <b>جوابِ طرف مقابل</b> بودم، نه منتظرِ <b>ادامه‌ی جمله</b>.</p>
+      <p class="rule">✦ تست دقیق: بعد از این تیکه <b>نقطه/علامت سؤال</b> می‌گذارم، یا مجبورم <b>ویرگول</b> بگذارم و ادامه بدهم؟ ویرگول ⟵ فرعی ⟵ فعل می‌رود آخر.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>پس یعنی ضمیر قبل از قید می‌آید؟</summary>
+    <div class="ans">
+      <p><span class="qlbl">جرقه</span> نوشتم <span class="de long">Würden Sie später mich anrufen?</span> — و همان <span class="de plain">mich</span> را در بلوک ۱ درست گذاشته بودم.</p>
+      <div class="unlock">
+        <span class="qlbl">تفاوتی که تا آخر ماند</span>
+        <p style="margin:.4em 0 0">🎈 <span class="de long">Ich rufe dich morgen an.</span> ⟵ <b>ضمیر</b> سبک است، جلو می‌زند</p>
+        <p style="margin:.2em 0 0">🪨 <span class="de long">Ich rufe morgen meine Mutter an.</span> ⟵ <b>اسم</b> سنگین است، عقب می‌ماند</p>
+      </div>
+      <p><span class="qlbl">و یک هدیه</span> ترتیب قیدها (کِی · چرا · چطور · کجا) در فارسی <b>مو به مو همان است</b>:</p>
+      <p style="margin:.2em 0 0">«<b>فردا</b> <b>با ماشین</b> <b>به برلین</b> می‌روم» ⟵ <span class="de long">Ich fahre morgen mit dem Auto nach Berlin.</span></p>
+      <p class="rule">✦ ترتیب کامل وسط جمله: 🎈 ضمیر ← ⏰ کِی ← 🤔 چرا ← 🎨 چطور ← 📍 کجا ← 🧲 قلب جمله. و ضمیر مفعولی همیشه <b>می‌چسبد به فاعل</b>، هر جا که فاعل باشد.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary><span class="de">denn</span> جزو آن کلمه‌ها نبود که فعل را شوت کند آخر؟</summary>
+    <div class="ans">
+      <p><span class="qlbl">جرقه</span> نوشتم <span class="de long">Denn es fertig sein werde.</span> — کلمه را از یک دسته برداشتم و چیدمان را از دسته‌ی دیگر.</p>
+      <div class="unlock">
+        <span class="qlbl">مدرکی که ثابت کرد معنی تصمیم نمی‌گیرد</span>
+        <p style="margin:.4em 0 0"><span class="de long">Ich habe keine Zeit, weil ich heute arbeite.</span></p>
+        <p style="margin:.2em 0 0"><span class="de long">Ich habe keine Zeit, denn ich arbeite heute.</span></p>
+        <p style="margin:.4em 0 0">ترجمه‌ی فارسی هر دو <b>حرف‌به‌حرف یکی است</b>: «وقت ندارم، چون امروز کار می‌کنم.» ولی جای فعل فرق دارد.</p>
+      </div>
+      <p>و هر دو نسخه‌ی درستِ آن جمله‌ی من وجود دارد — فقط باید کلمه و چیدمان با هم بخوانند:</p>
+      <p style="margin:.2em 0 0"><span class="de long">…, weil es heute fertig sein wird.</span> · <span class="de long">…, denn es wird heute fertig sein.</span></p>
+      <p class="rule">✦ سؤال درست «این کلمه چه معنی می‌دهد؟» نیست — «<b>جزو ADUSO هست یا نه؟</b>» است. و تا وقتی دستم راه بیفتد، همیشه <span class="de">weil</span> می‌زنم: یک تصمیم کمتر، نصف خطا.</p>
+    </div>
+  </details>
+</section>
+
+<section id="ref">
+  <h2><span class="num">05</span>جدول‌های مرجع</h2>
+
+  <h3>ضمایر — سه ستون + انعکاسی</h3>
+  <div class="tw"><table>
+    <thead><tr><th>Nominativ</th><th>Akkusativ</th><th>Dativ</th><th>انعکاسی 🤳</th></tr></thead>
+    <tbody>
+      <tr><td><span class="de">ich</span></td><td><span class="de">mich</span></td><td><span class="de">mir</span></td><td><span class="de">mich / mir</span></td></tr>
+      <tr><td><span class="de">du</span></td><td><span class="de">dich</span></td><td><span class="de">dir</span></td><td><span class="de">dich / dir</span></td></tr>
+      <tr><td><span class="de">er</span></td><td><span class="de">ihn</span></td><td><span class="de">ihm</span></td><td class="ok"><span class="de">sich</span></td></tr>
+      <tr><td><span class="de">sie</span> (او)</td><td><span class="de">sie</span></td><td><span class="de">ihr</span></td><td class="ok"><span class="de">sich</span></td></tr>
+      <tr><td><span class="de">es</span></td><td><span class="de">es</span></td><td><span class="de">ihm</span></td><td class="ok"><span class="de">sich</span></td></tr>
+      <tr><td><span class="de">wir</span></td><td><span class="de">uns</span></td><td><span class="de">uns</span></td><td><span class="de">uns</span></td></tr>
+      <tr><td><span class="de">ihr</span></td><td><span class="de">euch</span></td><td><span class="de">euch</span></td><td><span class="de">euch</span></td></tr>
+      <tr><td><span class="de">Sie / sie</span></td><td><span class="de">Sie / sie</span></td><td><span class="de">Ihnen / ihnen</span></td><td class="ok"><span class="de">sich</span></td></tr>
+    </tbody>
+  </table></div>
+  <div class="key"><p>در سوم‌شخص، <span class="de">sich</span> <b>هم Akkusativ است هم Dativ</b> — یک کلمه، دو کار. آنجا اصلاً لازم نیست حالت را تشخیص بدهی. 🎉</p></div>
+
+  <h3>سه فعل کمکیِ درس ۶ — راهروی شش‌دَر 🚪</h3>
+  <div class="tw"><table>
+    <thead><tr><th>اتاق</th><th><span class="de">werden</span> ✅ واقعی</th><th><span class="de">würde</span> 🤔 فرضی</th></tr></thead>
+    <tbody>
+      <tr><td><span class="de">ich</span></td><td><span class="de">werde</span></td><td><span class="de">würde</span></td></tr>
+      <tr><td><span class="de">du</span></td><td class="bad"><span class="de">wirst</span></td><td><span class="de">würdest</span></td></tr>
+      <tr><td><span class="de">er/sie/es</span></td><td class="bad"><span class="de">wird</span></td><td><span class="de">würde</span></td></tr>
+      <tr><td><span class="de">wir</span></td><td><span class="de">werden</span></td><td><span class="de">würden</span></td></tr>
+      <tr><td><span class="de">ihr</span></td><td><span class="de">werdet</span></td><td><span class="de">würdet</span></td></tr>
+      <tr><td><span class="de">Sie/sie</span></td><td><span class="de">werden</span></td><td><span class="de">würden</span></td></tr>
+    </tbody>
+  </table></div>
+  <div class="key"><p><b><span class="de">würde</span> فعل قوی نیست</b> — هیچ اتاقی مصوتش را عوض نمی‌کند، و مثل مدال‌ها <span class="de">ich</span> و <span class="de">er</span> یک‌شکل‌اند. کاربرد واقعی‌اش: <b>ادب</b> 🎩 — <span class="de long">Würden Sie mir helfen?</span></p></div>
+
+  <h3>فعل‌های قوی که امروز دیدم</h3>
+  <div class="tw"><table>
+    <thead><tr><th>خانواده</th><th>مصدر ← <span class="de">er</span></th></tr></thead>
+    <tbody>
+      <tr><td>e ← i</td><td><span class="de">sprechen ▸ spricht</span> · <span class="de">helfen ▸ hilft</span> · <span class="de">geben ▸ gibt</span> · <span class="de">nehmen ▸ nimmt</span> · <span class="de">essen ▸ isst</span></td></tr>
+      <tr><td>e ← ie</td><td><span class="de">sehen ▸ sieht</span> · <span class="de">lesen ▸ liest</span></td></tr>
+      <tr><td>a ← ä</td><td><span class="de">fahren ▸ fährt</span> · <span class="de">waschen ▸ wäscht</span> · <span class="de">schlafen ▸ schläft</span> · <span class="de">tragen ▸ trägt</span></td></tr>
+      <tr><td>au ← äu</td><td><span class="de">laufen ▸ läuft</span></td></tr>
+      <tr><td class="bad">چهار یاغی</td><td><span class="de">sein ▸ ist</span> · <span class="de">haben ▸ hat</span> · <span class="de">werden ▸ wird</span> · <span class="de">wissen ▸ weiß</span></td></tr>
+      <tr><td class="ok">دام‌ها (تغییر نمی‌کنند)</td><td><span class="de">machen ▸ macht</span> · <span class="de">sagen ▸ sagt</span> · <span class="de">gehen ▸ geht</span> · <span class="de">kommen ▸ kommt</span> · <span class="de">kaufen ▸ kauft</span></td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>🚪 سه دسته‌ی فعل — قانون‌ها همدیگر را نقض نمی‌کنند</h3>
+  <p class="lede">سه قانونی که یاد گرفتم به نظر متناقض می‌آمدند، تا وقتی فهمیدم <b>هر کدام قلمروِ خودش را دارد</b>.</p>
+  <div class="tw"><table>
+    <thead><tr><th>اتاق 🚪</th><th>باقاعده<br><span class="de">machen</span></th><th>قوی<br><span class="de">sprechen</span></th><th>مدال<br><span class="de">können</span></th></tr></thead>
+    <tbody>
+      <tr><td><span class="de">ich</span></td><td><span class="de">mache</span></td><td><span class="de">spreche</span></td><td class="ok"><span class="de">kann</span></td></tr>
+      <tr><td><span class="de">du</span></td><td><span class="de">machst</span></td><td class="bad"><span class="de">sprichst</span></td><td><span class="de">kannst</span></td></tr>
+      <tr><td><span class="de">er</span></td><td><span class="de">macht</span></td><td class="bad"><span class="de">spricht</span></td><td class="ok"><span class="de">kann</span></td></tr>
+      <tr><td><span class="de">wir</span></td><td><b><span class="de">machen</span></b></td><td><b><span class="de">sprechen</span></b></td><td><b><span class="de">können</span></b></td></tr>
+      <tr><td><span class="de">ihr</span></td><td><span class="de">macht</span></td><td><span class="de">sprecht</span></td><td><span class="de">könnt</span></td></tr>
+      <tr><td><span class="de">Sie</span></td><td><b><span class="de">machen</span></b></td><td><b><span class="de">sprechen</span></b></td><td><b><span class="de">können</span></b></td></tr>
+    </tbody>
+  </table></div>
+  <div class="tw"><table>
+    <thead><tr><th>قانون</th><th>قلمرو</th><th>کجای جدول بالا</th></tr></thead>
+    <tbody>
+      <tr><td>① <b><span class="de">wir</span>/<span class="de">Sie</span> = مصدر</b></td><td><b>همه‌ی فعل‌ها</b> 🌍</td><td class="why">دو ردیف پررنگ — در هر سه ستون</td></tr>
+      <tr><td>② <b>تغییر مصوت در <span class="de">du</span>/<span class="de">er</span></b></td><td>فقط <b>قوی‌ها</b></td><td class="why">فقط ستون وسط</td></tr>
+      <tr><td>③ <b><span class="de">ich</span> = <span class="de">er</span></b></td><td>فقط <b>مدال‌ها</b> + <span class="de">wissen</span> · <span class="de">würde</span> · <span class="de">möchte</span></td><td class="why">فقط ستون سوم</td></tr>
+    </tbody>
+  </table></div>
+  <div class="key"><p><b>چرا حس تناقض داشتم؟</b> چون ② و ③ <b>شرط دارند</b> ولی مثل قانون جهانی حفظشان کرده بودم. هیچ فعلی هم‌زمان هر دو را ندارد — یک فعل یا قوی است یا مدال.</p></div>
+
+  <h3>چهار یاغی 🃏 — جدول کامل</h3>
+  <div class="tw"><table>
+    <thead><tr><th>مصدر</th><th><span class="de">ich</span></th><th><span class="de">du</span></th><th><span class="de">er</span></th><th><span class="de">wir</span></th><th><span class="de">ihr</span></th><th><span class="de">Sie</span></th></tr></thead>
+    <tbody>
+      <tr><td><span class="de">sein</span></td><td><span class="de">bin</span></td><td><span class="de">bist</span></td><td><span class="de">ist</span></td><td class="bad"><span class="de">sind</span> ⚠️</td><td><span class="de">seid</span></td><td class="bad"><span class="de">sind</span> ⚠️</td></tr>
+      <tr><td><span class="de">haben</span></td><td><span class="de">habe</span></td><td><span class="de">hast</span></td><td><span class="de">hat</span></td><td class="ok"><span class="de">haben</span> ✅</td><td><span class="de">habt</span></td><td class="ok"><span class="de">haben</span> ✅</td></tr>
+      <tr><td><span class="de">werden</span></td><td><span class="de">werde</span></td><td><span class="de">wirst</span></td><td><span class="de">wird</span></td><td class="ok"><span class="de">werden</span> ✅</td><td><span class="de">werdet</span></td><td class="ok"><span class="de">werden</span> ✅</td></tr>
+      <tr><td><span class="de">wissen</span></td><td class="ok"><span class="de">weiß</span></td><td><span class="de">weißt</span></td><td class="ok"><span class="de">weiß</span></td><td class="ok"><span class="de">wissen</span> ✅</td><td><span class="de">wisst</span></td><td class="ok"><span class="de">wissen</span> ✅</td></tr>
+    </tbody>
+  </table></div>
+  <div class="key warn">
+    <p><b>🏆 <span class="de">sein</span> تنها فعل در کل زبان آلمانی است که <span class="de">wir</span> و <span class="de">Sie</span> اش مصدر نیست.</b> <span class="de">wir sind</span> — نه <span class="de">wir seinen</span>.</p>
+    <p>🧬 و <span class="de">wissen</span> قانون «<span class="de">ich</span> = <span class="de">er</span>» را دارد چون از نظر تاریخی <b>هم‌خانواده‌ی مدال‌هاست</b>. ⚠️ ولی <span class="de">werden</span> جزوش نیست: <span class="de">ich werde</span> / <span class="de">er wird</span>.</p>
+  </div>
+
+  <h3>تصمیم‌های سریع</h3>
+  <div class="tw"><table>
+    <thead><tr><th>سؤال</th><th>جواب</th></tr></thead>
+    <tbody>
+      <tr><td>«خیلی» یا «بیش از حد»؟</td><td><span class="de">sehr</span> = خیلی ✅ · <span class="de">zu</span> = بیش از حد، مشکل دارد ⚠️</td></tr>
+      <tr><td>رفتن با پا یا با چرخ؟</td><td><span class="de">gehen</span> 🚶 · <span class="de">fahren</span> 🚗</td></tr>
+      <tr><td>مقصد روی نقشه‌ی جهان است؟</td><td>بله ⟵ <span class="de">nach</span> 🗺️ · آدم یا ساختمان ⟵ <span class="de">zu</span> 🚪</td></tr>
+      <tr><td>پل <span class="de">zu</span> لازم است؟</td><td>رئیس فعل است ⟵ نه · رئیس اسم یا صفت است ⟵ بله 🌉</td></tr>
+      <tr><td><span class="de">nicht</span> کجا؟</td><td>کل جمله ⟵ ته جمله · یک تیکه‌ی خاص ⟵ درست قبلش</td></tr>
+      <tr><td><span class="de">kein</span> یا <span class="de">nicht</span>؟</td><td>اسم بدون آرتیکل ⟵ <span class="de">kein</span> · اسم با آرتیکل ⟵ <span class="de">nicht</span></td></tr>
+      <tr><td>صدای «ش» یا «خ»؟</td><td><span class="de plain">sch</span> = ش · <span class="de plain">ch</span> بعد از i/e = نرم 🌬️ · بعد از a/o/u = خ</td></tr>
+      <tr><td><span class="de plain">ei</span> یا <span class="de plain">ie</span>؟</td><td>حرف دوم را انگلیسی بخوان: <span class="de plain">ei</span> ⟵ «آی» · <span class="de plain">ie</span> ⟵ «ای»</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section id="bank">
+  <h2><span class="num">06</span>جمله‌های امروز</h2>
+  <div class="bankhead">
+    <p class="lede" style="margin:0">هر جمله را که خودم ساختم. دکمه را بزن تا آلمانی محو شود — بعد روی هر خانه کلیک کن تا جوابش را ببینی.</p>
+    <button id="testToggle" type="button">حالت آزمون</button>
+  </div>
+  <div class="tw"><table>
+    <thead><tr><th>فارسی</th><th>آلمانی</th></tr></thead>
+    <tbody>
+      <tr><td>شما بعداً به من تلفن می‌زنید.</td><td class="decell"><span class="de long">Sie rufen mich später an.</span></td></tr>
+      <tr><td>می‌توانید بعداً به من تلفن بزنید؟</td><td class="decell"><span class="de long">Können Sie mich später anrufen?</span></td></tr>
+      <tr><td>من به برلین می‌روم. (با ماشین)</td><td class="decell"><span class="de long">Ich fahre nach Berlin.</span></td></tr>
+      <tr><td>او به آلمان می‌رود.</td><td class="decell"><span class="de long">Er fährt nach Deutschland.</span></td></tr>
+      <tr><td>شما آلمانی صحبت می‌کنید؟</td><td class="decell"><span class="de long">Sprechen Sie Deutsch?</span></td></tr>
+      <tr><td>او خیلی خوب انگلیسی صحبت می‌کند.</td><td class="decell"><span class="de long">Er spricht sehr gut Englisch.</span></td></tr>
+      <tr><td>چگونه آدم آن را به آلمانی می‌گوید؟</td><td class="decell"><span class="de long">Wie sagt man es auf Deutsch?</span></td></tr>
+      <tr><td>آدم آن را آنطور نمی‌گوید.</td><td class="decell"><span class="de long">Man sagt es nicht so.</span></td></tr>
+      <tr><td>من آن را بعداً انجام خواهم داد.</td><td class="decell"><span class="de long">Ich werde es später tun.</span></td></tr>
+      <tr><td>ما آن را امروز انجام نخواهیم داد.</td><td class="decell"><span class="de long">Wir werden es heute nicht tun.</span></td></tr>
+      <tr><td>او به‌زودی اینجا خواهد بود.</td><td class="decell"><span class="de long">Er wird bald hier sein.</span></td></tr>
+      <tr><td>ممکن نخواهد بود، آن را الان انجام دادن.</td><td class="decell"><span class="de long">Es wird nicht möglich sein, es jetzt zu tun.</span></td></tr>
+      <tr><td>من امروز وقت نخواهم داشت، آن را انجام دادن.</td><td class="decell"><span class="de long">Ich werde heute keine Zeit haben, es zu tun.</span></td></tr>
+      <tr><td>من آن را بِخَرَم. 🤔</td><td class="decell"><span class="de long">Ich würde es kaufen.</span></td></tr>
+      <tr><td>می‌شود بعداً به من تلفن بزنید؟ 🎩</td><td class="decell"><span class="de long">Würden Sie mich später anrufen?</span></td></tr>
+      <tr><td>او امروز خیلی مشغول است.</td><td class="decell"><span class="de long">Er ist heute sehr beschäftigt.</span></td></tr>
+      <tr><td>چون او امروز خیلی مشغول است.</td><td class="decell"><span class="de long">…, weil er heute sehr beschäftigt ist.</span></td></tr>
+      <tr><td>چون من امروز نمی‌توانم آن را انجام دهم.</td><td class="decell"><span class="de long">…, weil ich es heute nicht tun kann.</span></td></tr>
+      <tr><td>چون من آن را امروز انجام نخواهم داد.</td><td class="decell"><span class="de long">…, weil ich es heute nicht tun werde.</span></td></tr>
+      <tr><td>چون آن امروز آماده خواهد بود.</td><td class="decell"><span class="de long">…, weil es heute fertig sein wird.</span></td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section id="check">
+  <h2><span class="num">07</span>چک‌لیست پنج ثانیه‌ای</h2>
+  <p class="lede">قبل از فرستادن هر جمله. پنج ثانیه وقت می‌گیرد و بیشتر خطاهای بالا را می‌گیرد.</p>
+  <ol class="check">
+    <li>انگشتت را بگذار روی <strong>فاعل</strong>، بعد روی <strong>فعل</strong>. با هم می‌خوانند؟ نکند این شکل مالِ <span class="de">ihr</span> باشد؟</li>
+    <li>هر اوملاتی نوشتم، با <span class="de plain">e</span> تمام شده؟ <span class="de plain">ae</span> · <span class="de plain">oe</span> · <span class="de plain">ue</span> — هیچ‌وقت <span class="de plain">oa</span>.</li>
+    <li>اسم‌ها و <span class="de">Sie</span> حرف بزرگ دارند؟</li>
+    <li>خوشه‌های همخوان کاملند؟ <span class="de plain">spr</span> · <span class="de plain">fahr</span> · <span class="de plain">sch</span> — چیزی نیفتاده؟</li>
+    <li>کلمه‌ی رابط دارم؟ جزو ADUSO است یا فعل باید برود آخر؟</li>
+    <li>دو فعل دارم؟ کدام صرف شد و کدام پیژامه پوشید؟ 🛌 و پل <span class="de">zu</span> لازم بود یا نه؟ 🌉</li>
+  </ol>
+</section>
+
+<section id="sr">
+  <h2><span class="num">08</span>📅 تقویم مرور — منحنی فراموشی</h2>
+  <p class="lede">اِبینگهاوس نشان داد که بدون مرور، تا فردا حدود نیمی از این را از دست می‌دهم. با پنج مرورِ فاصله‌دار، همین محتوا به حافظه‌ی بلندمدت می‌رود. هر بار که مرور کردی، مربع را بزن.</p>
+
+  <div class="sr" id="srBox">
+    <div class="srrow on" data-k="d1">
+      <button class="srbox" type="button" aria-label="مرور ۱ — انجام شد ✅">✓</button>
+      <div class="srmeta"><b>مرور ۱ — انجام شد ✅</b><span>گرم‌کردنِ ابتدای جلسه‌ی روز دوم</span></div>
+      <div class="srwhen">۱۷ شهریور<br>2026-09-08</div>
+    </div>
+    <div class="srrow on" data-k="d3">
+      <button class="srbox" type="button" aria-label="مرور ۲ — انجام شد ✅">✓</button>
+      <div class="srmeta"><b>مرور ۲ — انجام شد ✅</b><span>بانک جمله در حالت آزمون</span></div>
+      <div class="srwhen">۲۰ شهریور<br>2026-09-11</div>
+    </div>
+    <div class="srrow" data-k="d7">
+      <button class="srbox" type="button" aria-label="مرور ۳ — چهار روز بعد"></button>
+      <div class="srmeta"><b>مرور ۳ — چهار روز بعد</b><span>کل فایل + فایل روز دوم کنار هم</span></div>
+      <div class="srwhen">۲۴ شهریور<br>2026-09-15</div>
+    </div>
+    <div class="srrow" data-k="d14">
+      <button class="srbox" type="button" aria-label="مرور ۴ — یک هفته بعد"></button>
+      <div class="srmeta"><b>مرور ۴ — یک هفته بعد</b><span>فقط چیزهایی که در مرور ۳ لغزیدند</span></div>
+      <div class="srwhen">۳۱ شهریور<br>2026-09-22</div>
+    </div>
+    <div class="srrow" data-k="d30">
+      <button class="srbox" type="button" aria-label="مرور ۵ — دو هفته‌ونیم بعد"></button>
+      <div class="srmeta"><b>مرور ۵ — دو هفته‌ونیم بعد</b><span>تست نهایی: بانک جمله بدون نگاه کردن</span></div>
+      <div class="srwhen">۱۶ مهر<br>2026-10-08</div>
+    </div>
+  </div>
+
+  <p class="srnote">🔄 <b>تقویم از ۲۰ شهریور دوباره تنظیم شد.</b> چون یکی دو مرور دیرتر انجام شدند، فاصله‌های باقی‌مانده از همان روزِ آخرین مرور از نو چیده شده‌اند — منحنی دست‌نخورده می‌ماند. اگر باز هم یکی جا افتاد، همان یکی را زودتر انجام بده و بقیه را از نو نچین.</p>
+
+  <div class="key">
+    <p><b>🔗 این فایل و فایل روز دوم جفت‌اند.</b> تاریخ‌های مرورشان یک روز با هم فاصله دارند، پس عملاً هر بار هر دو را کنار هم می‌بینی: این یکی پایه‌ها را دارد (صرف · ضمایر · قلاب جمله)، آن یکی درخت تصمیم و جمله‌ی فرعی را.</p>
+  </div>
+</section>
+
+<footer>
+  ✅ <b>درس ۶ کامل شد</b> — ۱۰ بلوک در دو روز. این فایل روز اول است (بلوک‌های ۱ تا ۵: صرف، ضمایر، قلاب جمله، <span class="de">werden</span> و <span class="de">würde</span>، و <span class="de">weil</span>). ادامه‌اش در فایل روز دوم است.
+</footer>
+
+</div>
+
+<script>
+  (function () {
+    var btn = document.getElementById('testToggle');
+    btn.addEventListener('click', function () {
+      var on = document.body.classList.toggle('test');
+      btn.textContent = on ? 'نمایش همه' : 'حالت آزمون';
+      if (!on) {
+        document.querySelectorAll('.decell.shown').forEach(function (c) {
+          c.classList.remove('shown');
+        });
+      }
+    });
+    document.querySelectorAll('.decell').forEach(function (cell) {
+      cell.addEventListener('click', function () {
+        if (document.body.classList.contains('test')) cell.classList.toggle('shown');
+      });
+    });
+
+    // spaced repetition tracker
+    var KEY = 'l6t1-sr';
+    function load() {
+      try { return JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) { return {}; }
+    }
+    function save(st) {
+      try { localStorage.setItem(KEY, JSON.stringify(st)); } catch (e) { /* fine */ }
+    }
+    var state = load();
+    document.querySelectorAll('.srrow').forEach(function (row) {
+      var k = row.dataset.k;
+      var box = row.querySelector('.srbox');
+      function paint() {
+        var on = !!state[k];
+        row.classList.toggle('on', on);
+        box.textContent = on ? '\u2713' : '';
+        box.setAttribute('aria-pressed', on ? 'true' : 'false');
+      }
+      box.addEventListener('click', function () {
+        state[k] = !state[k];
+        if (!state[k]) delete state[k];
+        save(state);
+        paint();
+      });
+      paint();
+    });
+  })();
+</script>

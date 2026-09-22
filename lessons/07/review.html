@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>مرور درس ۷ — میشل توماس</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#EDF1F5; --surface:#FFFFFF; --surface2:#F4F8FA;
+  --ink:#10202C; --ink2:#46596B; --ink3:#71879A;
+  --line:#CBD8E2; --line2:#E2EAF1;
+  --accent:#0B6E80; --accent-soft:#DAEEF2;
+  --warn:#A63D2F; --warn-soft:#F9E7E3;
+  --danger:#A63D2F; --danger-soft:#F9E7E3;
+  --info:#0B6E80; --info-soft:#DAEEF2;
+  --gold:#1B6B4E; --gold-soft:#DCF0E7;
+  --shadow:0 1px 2px rgba(16,32,44,.06),0 8px 24px -12px rgba(16,32,44,.18);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0A131A; --surface:#121F29; --surface2:#182935;
+    --ink:#DCE8F0; --ink2:#9AAFBF; --ink3:#6F8697;
+    --line:#22394A; --line2:#1B2E3C;
+    --accent:#4FC0D4; --accent-soft:#10303A;
+    --warn:#EE8A7B; --warn-soft:#361E1A;
+    --danger:#EE8A7B; --danger-soft:#361E1A;
+    --info:#4FC0D4; --info-soft:#10303A;
+    --gold:#55C598; --gold-soft:#11332A;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px -14px rgba(0,0,0,.7);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0A131A; --surface:#121F29; --surface2:#182935;
+  --ink:#DCE8F0; --ink2:#9AAFBF; --ink3:#6F8697;
+  --line:#22394A; --line2:#1B2E3C;
+  --accent:#4FC0D4; --accent-soft:#10303A;
+  --warn:#EE8A7B; --warn-soft:#361E1A;
+  --danger:#EE8A7B; --danger-soft:#361E1A;
+  --info:#4FC0D4; --info-soft:#10303A;
+  --gold:#55C598; --gold-soft:#11332A;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px -14px rgba(0,0,0,.7);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Vazirmatn,system-ui,sans-serif;
+  font-size:16px;line-height:1.85;-webkit-text-size-adjust:100%}
+.wrap{max-width:840px;margin:0 auto;padding:22px 16px 90px}
+.de{font-family:"IBM Plex Mono","IBM Plex Sans",monospace;direction:ltr;unicode-bidi:isolate;
+  display:inline-block;color:var(--accent);background:var(--accent-soft);border-radius:4px;
+  padding:.08em .4em;font-size:.9em;font-weight:500;white-space:nowrap}
+.de.blk{display:block;white-space:pre;padding:.6em .8em;text-align:left;line-height:1.7;
+  overflow-x:auto;border-radius:7px}
+
+header.top{background:var(--surface);border:1px solid var(--line2);border-radius:12px;padding:24px;margin-bottom:20px;box-shadow:var(--shadow)}
+header.top h1{margin:0 0 4px;font-size:1.5rem;line-height:1.4}
+header.top .sub{color:var(--ink2);font-size:.9rem;margin-bottom:16px}
+.bar{display:flex;gap:4px;flex-wrap:wrap}
+.bar span{flex:1 1 34px;min-width:34px;text-align:center;padding:7px 0;border-radius:5px;
+  background:var(--gold-soft);color:var(--gold);font-size:.8rem;font-weight:700;
+  border:1px solid transparent;font-family:"IBM Plex Sans",sans-serif}
+.stats{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.stat{flex:1 1 110px;background:var(--surface2);border:1px solid var(--line2);border-radius:8px;padding:9px 11px}
+.stat b{display:block;font-size:1.3rem;color:var(--accent);line-height:1.3}
+.stat i{font-style:normal;font-size:.76rem;color:var(--ink2)}
+
+section{background:var(--surface);border:1px solid var(--line2);border-radius:12px;padding:22px;margin-bottom:18px;box-shadow:var(--shadow)}
+section>h2{margin:0 0 14px;font-size:1.2rem;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+h3{font-size:1rem;margin:20px 0 8px}
+h3:first-of-type{margin-top:6px}
+p{margin:.6em 0}
+.lead{color:var(--ink2);font-size:.92rem;margin-top:-6px;margin-bottom:14px}
+
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:14px 0;border:1px solid var(--line2);border-radius:8px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:.88rem;min-width:340px}
+th,td{padding:9px 13px;text-align:right;border-bottom:1px solid var(--line2);vertical-align:top}
+thead th{background:var(--surface2);font-weight:700;font-size:.76rem;letter-spacing:.03em;color:var(--ink2);white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+td.c,th.c{text-align:center}
+
+.core{background:var(--accent-soft);border-radius:9px;padding:16px 20px;margin:16px 0}
+.core ol{margin:0;padding-inline-start:1.2em}
+.core li{margin:.45em 0}
+.nine{background:var(--gold-soft);border:1px dashed var(--gold);border-radius:9px;padding:14px 16px;margin:14px 0;text-align:center}
+.nine .de{margin:3px;font-size:.95em}
+
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:10px;margin-top:12px}
+.card{background:var(--surface2);border:1px solid var(--line2);border-radius:8px;padding:13px 15px}
+.card b{display:block;font-size:.95rem;margin-bottom:3px}
+.card small{color:var(--ink2);font-size:.83rem;line-height:1.6;display:block}
+
+.box{background:var(--surface);border-inline-start:3px solid var(--accent);
+  border-radius:0 8px 8px 0;padding:14px 17px;margin:16px 0;box-shadow:var(--shadow)}
+.box.w{border-inline-start-color:var(--warn);background:var(--warn-soft)}
+.box.d{border-inline-start-color:var(--danger);background:var(--danger-soft)}
+.box.i{border-inline-start-color:var(--info);background:var(--info-soft)}
+.box.g{border-inline-start-color:var(--gold);background:var(--gold-soft)}
+.box p:first-child{margin-top:0}.box p:last-child{margin-bottom:0}
+
+details{border:1px solid var(--line2);border-radius:8px;margin:9px 0;background:var(--surface2);overflow:hidden}
+details>summary{cursor:pointer;padding:11px 14px;font-weight:500;list-style:none;font-size:.95rem}
+details>summary::-webkit-details-marker{display:none}
+details>summary::before{content:"▸ ";color:var(--accent);font-weight:700}
+details[open]>summary::before{content:"▾ "}
+details[open]>summary{border-bottom:1px solid var(--line)}
+.dbody{padding:4px 14px 14px}
+
+.layer{margin:11px 0}
+.layer .lbl{font-size:.76rem;font-weight:700;color:var(--ink2);letter-spacing:.02em}
+.unlock{background:var(--accent-soft);border-radius:7px;padding:12px 14px;margin:12px 0;color:var(--ink)}
+.unlock .lbl{color:var(--accent)}
+.kept{border-top:1px dashed var(--line);margin-top:13px;padding-top:11px;font-weight:700;color:var(--ink);font-size:.93rem}
+
+.bank-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+button{font-family:inherit;font-size:.88rem;padding:8px 15px;border-radius:9px;border:1px solid var(--accent);
+  background:var(--accent);color:var(--bg);cursor:pointer;font-weight:600}
+button.ghost{background:transparent;color:var(--accent)}
+button:active{transform:translateY(1px)}
+.hint{font-size:.8rem;color:var(--ink2)}
+.quiz .hide{filter:blur(6px);opacity:.5;cursor:pointer;transition:filter .12s,opacity .12s;border-radius:5px}
+.quiz .hide.show{filter:none;opacity:1}
+
+.cal td:first-child{width:34px;text-align:center}
+.cal input{width:19px;height:19px;accent-color:var(--gold);cursor:pointer}
+.cal tr.done td{opacity:.55;background:var(--gold-soft)}
+.cal tr.done td:nth-child(3){text-decoration:line-through}
+
+.ft{text-align:center;color:var(--ink2);font-size:.82rem;margin-top:26px;line-height:1.9}
+@media(max-width:560px){
+  body{font-size:15px}.wrap{padding:14px 10px 70px}section{padding:15px}
+  th,td{padding:7px 8px;font-size:.85rem}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <h1>📘 مرور درس ۷ — میشل توماس</h1>
+  <div class="sub">۲۰ و ۲۱ شهریور ۱۴۰۵ · یازده بلوک، همه بسته · موضوع اصلی: <b>گذشته و حالت فرضی</b></div>
+  <div class="bar">
+    <span>۱</span><span>۲</span><span>۳</span><span>۴</span><span>۵</span><span>۶</span>
+    <span>۷</span><span>۸</span><span>۹</span><span>۱۰</span><span>۱۱</span>
+  </div>
+  <div class="stats">
+    <div class="stat"><b>۱۱</b><i>بلوک بسته‌شده</i></div>
+    <div class="stat"><b>۳۴</b><i>جمله‌ای که خودم ساختم</i></div>
+    <div class="stat"><b>۶</b><i>سؤالی که پرسیدم</i></div>
+    <div class="stat"><b>۸</b><i>لغزش در خود جزوه</i></div>
+  </div>
+</header>
+
+<!-- ۱ · نقشه -->
+<section>
+  <h2>🧭 نقشه — قبل از هر جمله این را بخوان</h2>
+  <p class="lead">این بخش برای وقتی است که حس کردم «دارم توی قوانین گم می‌شوم». قوانین یک لیست سی‌تایی نیستند؛ یک درخت سه‌طبقه‌اند.</p>
+
+  <h3>درخت سه‌طبقه</h3>
+  <div class="tw"><table>
+    <thead><tr><th>طبقه</th><th>سؤالش</th><th>چه چیزی توی این طبقه است</th></tr></thead>
+    <tbody>
+      <tr><td><b>۱ · اسکلت</b></td><td>فعل صرف‌شده کجا می‌نشیند؟</td><td>🌳 درخت تصمیم · تعداد فعل صرف‌شده = تعداد جمله‌ها</td></tr>
+      <tr><td><b>۲ · شکل فعل</b></td><td>کدام ستون؟</td><td>حال · گذشته · فرضی (جدول ۹ فعل)</td></tr>
+      <tr><td><b>۳ · چیدمان</b></td><td>بقیه کجا بنشینند؟</td><td>🪜 نردبون · TeKaMoLo · جای <span class="de">nicht</span></td></tr>
+    </tbody>
+  </table></div>
+  <p>هر چیزی که تا حالا یاد گرفته‌ام، دقیقاً در یکی از این سه طبقه است. هیچ قانون سرگردانی وجود ندارد.</p>
+
+  <h3>چک‌لیست چهار سؤالی</h3>
+  <div class="tw"><table>
+    <thead><tr><th class="c">#</th><th>می‌پرسم</th><th>نتیجه</th></tr></thead>
+    <tbody>
+      <tr><td class="c">①</td><td>چند تیکه؟ رابط دارم؟</td><td>🌳 جای فعل معلوم می‌شود</td></tr>
+      <tr><td class="c">②</td><td>زمانش چیست؟</td><td>حال / گذشته / آینده</td></tr>
+      <tr><td class="c">③</td><td>فارسی‌ام «می‌شود / بهتر است / ای کاش» دارد؟</td><td><b>نه ⟵ رد شو</b> (اغلب اوقات)</td></tr>
+      <tr><td class="c">④</td><td>بقیه را بچین</td><td>🪜 نردبون</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="box g">
+    <p><b>🟢 پیش‌فرض، فرضی نیست.</b></p>
+    <p>فرضی یک تله نیست که ناخواسته توش بیفتم — یک انتخاب آگاهانه است. فقط وقتی سراغش می‌روم که فارسی‌ام یکی از این‌ها را داشته باشد:</p>
+    <div class="tw"><table>
+      <thead><tr><th>اگر فارسی‌ام این را داشت</th><th>⟵ فرضی</th></tr></thead>
+      <tbody>
+        <tr><td>«می‌شود…؟» · «می‌شد…؟»</td><td><span class="de">koennten</span></td></tr>
+        <tr><td>«بهتر است»</td><td><span class="de">sollten</span></td></tr>
+        <tr><td>«مایلم» · «دوست دارم»</td><td><span class="de">moechte</span></td></tr>
+        <tr><td>«ای کاش» · «اگر … بود»</td><td><span class="de">waere</span> · <span class="de">haette</span></td></tr>
+      </tbody>
+    </table></div>
+    <p>۹ تا از هر ۱۰ جمله‌ای که می‌سازم، فرضی <b>نیستند</b>.</p>
+  </div>
+</section>
+
+<!-- ۲ · دستاورد -->
+<section>
+  <h2>⭐ بزرگ‌ترین دستاورد این جلسه: «یک قانون، چهار فعل»</h2>
+  <p class="lead">این را خودم پیدا کردم، نه اینکه بهم گفته شود.</p>
+
+  <p>از اینجا شروع شد که فهمیدم <span class="de">wurde</span> گذشته‌ی <span class="de">werden</span> است و <span class="de">wuerde</span> فرضیِ آن. بعد دیدم همین الگو روی هر چهار فعل پرکاربرد سوار است:</p>
+
+  <div class="tw"><table>
+    <thead><tr><th>حال</th><th>گذشته</th><th>فرضی = گذشته + اوملات</th></tr></thead>
+    <tbody>
+      <tr><td><span class="de">kann</span></td><td><span class="de">konnte</span></td><td><span class="de">koennte</span></td></tr>
+      <tr><td><span class="de">hat</span></td><td><span class="de">hatte</span></td><td><span class="de">haette</span></td></tr>
+      <tr><td><span class="de">ist</span></td><td><span class="de">war</span></td><td><span class="de">waere</span></td></tr>
+      <tr><td><span class="de">wird</span></td><td><span class="de">wurde</span></td><td><span class="de">wuerde</span></td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="box g"><p><b>حرف خودم:</b> «این یه قانون و چهار تا فعل.»</p>
+  <p>یعنی <span class="de">wuerde</span> که در درس ۶ یک چیز جدا به نظر می‌رسید، <b>استثنا نبود — همین قانون بود</b>.</p></div>
+
+  <h3>و این یک معمای قدیمی را هم حل کرد</h3>
+  <p>چرا آلمانی اصلاً <span class="de">wuerde</span> را اختراع کرد؟ چون فعل‌های معمولی اوملات ندارند — <span class="de">machte</span> هیچ <span class="de">a</span>ای ندارد که دو نقطه بگیرد. پس گذشته و فرضی‌شان عین هم می‌شوند. راه‌حل: اوملات را می‌گذارد روی یک فعل کمکی که <b>می‌تواند</b> بگیردش.</p>
+
+  <div class="box i"><p>🟢 <b>نتیجه‌ی عملی برای نوشتن:</b> اگر خود فعل شکل فرضی دارد، مستقیم از آن استفاده کن. <span class="de">wuerde</span> فقط برای فعل‌هایی است که نمی‌توانند.</p>
+  <p><span class="de blk">Es waere nicht moeglich.  ✅ بهتر
+Es wuerde nicht moeglich sein.  ⚠️ درست ولی طولانی</span></p></div>
+</section>
+
+<!-- ۳ · فاکتور کلی -->
+<section>
+  <h2>🧬 فاکتور کلی — کمترین چیزی که باید بلد باشم</h2>
+  <p class="lead">همه‌ی جدول‌های این درس از این چهار خط + نُه کلمه <b>تولید</b> می‌شوند. لازم نیست هیچ جدولی را حفظ کنم.</p>
+
+  <div class="core"><ol>
+    <li><b>فرضی = گذشته + اوملات.</b> اوملات نداشت؟ همان گذشته می‌ماند.</li>
+    <li><b>در گذشته و فرضی:</b> <span class="de">ich</span> = <span class="de">er</span> · جمع = مفرد + <span class="de">(e)n</span> — بدون استثنا.</li>
+    <li><b>مدال در حال:</b> <span class="de">ich</span> = <span class="de">er</span> بدون پسوند · جمع = خودِ مصدر (پس اوملات دارد).</li>
+    <li><b>غیرمدال در حال:</b> اتاق‌ها فرق دارند — <span class="de">werde</span> / <span class="de">wird</span>.</li>
+  </ol></div>
+
+  <p><b>و تنها چیزی که واقعاً باید حفظ کنم، نُه کلمه است:</b></p>
+  <div class="nine">
+    <span class="de">konnte</span><span class="de">musste</span><span class="de">durfte</span><span class="de">mochte</span><span class="de">wollte</span><span class="de">sollte</span><span class="de">hatte</span><span class="de">war</span><span class="de">wurde</span>
+  </div>
+  <p class="hint" style="text-align:center">سه تای اولشان را همین حالا بدون فکر به کار می‌برم. بقیه با تکرار می‌آیند.</p>
+
+  <div class="box i">
+    <p>🔍 <b>دقیق‌تر — قانون ② دقیقاً کجا کار می‌کند؟</b> اینجا خودم یک برداشت اشتباه را اصلاح کردم: فکر می‌کردم «فقط مدال‌ها اول‌شخص و سوم‌شخصشان یک‌جور صرف می‌شوند». نصفش درست بود، نصفش نه — این دو تا با هم قاطی شده بودند:</p>
+  </div>
+
+  <div class="tw"><table>
+    <thead><tr><th>فعل</th><th><span class="de">ich</span> حال</th><th><span class="de">er</span> حال</th><th>برابرند؟</th><th><span class="de">ich</span> گذشته</th><th><span class="de">er</span> گذشته</th><th>برابرند؟</th></tr></thead>
+    <tbody>
+      <tr><td><span class="de">haben</span> (غیرمدال)</td><td><span class="de">habe</span></td><td><span class="de">hat</span></td><td>❌</td><td><span class="de">hatte</span></td><td><span class="de">hatte</span></td><td>✅</td></tr>
+      <tr><td><span class="de">sein</span> (غیرمدال)</td><td><span class="de">bin</span></td><td><span class="de">ist</span></td><td>❌</td><td><span class="de">war</span></td><td><span class="de">war</span></td><td>✅</td></tr>
+      <tr><td><span class="de">muessen</span> (مدال)</td><td><span class="de">muss</span></td><td><span class="de">muss</span></td><td>✅</td><td><span class="de">musste</span></td><td><span class="de">musste</span></td><td>✅</td></tr>
+    </tbody>
+  </table></div>
+
+  <p>نتیجه‌ی درست: در <b>حال</b>، برابری <span class="de">ich</span>=<span class="de">er</span> فقط مال ۷ کلمه است — ۶ مدال + <span class="de">wissen</span>. اما در <b>گذشته</b>، این برابری مال همه‌ی فعل‌های آلمانی است، بدون استثنا — چون در گذشته، فعل اصلاً برای هیچ‌کدام از این دو ضمیر پسوند نمی‌گیرد.</p>
+
+  <p><b>و آن <span class="de">(e)n</span> جمع چه می‌گوید؟</b> فقط یک قانون املایی است، نه دستوری: اگر کلمه‌ی گذشته از قبل به <span class="de">e</span> ختم شده باشد (مثل <span class="de">konnte hatte wurde</span>) فقط <span class="de">n</span> اضافه می‌کنم؛ اگر نشده باشد (فقط <span class="de">war</span> از نُه کلمه) باید <span class="de">en</span> کامل بگذارم تا دو صامت به هم نچسبند.</p>
+
+  <div class="tw"><table>
+    <thead><tr><th>ضمیر</th><th><span class="de">musste</span> (پایه به <span class="de">e</span> ختم شده)</th><th><span class="de">war</span> (پایه به <span class="de">e</span> ختم نشده)</th></tr></thead>
+    <tbody>
+      <tr><td><span class="de">ich</span></td><td><span class="de">musste</span></td><td><span class="de">war</span></td></tr>
+      <tr><td><span class="de">er</span></td><td><span class="de">musste</span></td><td><span class="de">war</span></td></tr>
+      <tr><td><span class="de">du</span></td><td><span class="de">musstest</span></td><td><span class="de">warst</span></td></tr>
+      <tr><td><span class="de">ihr</span></td><td><span class="de">musstet</span></td><td><span class="de">wart</span></td></tr>
+      <tr><td><span class="de">wir · Sie</span></td><td><span class="de">musste<b>n</b></span> (+n چون به e ختم شده)</td><td><span class="de">war<b>en</b></span> (+en چون به e ختم نشده)</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="box g">
+    <p>🧩 <b>مثال جامع — قدم‌به‌قدم:</b> «ما نمی‌خواستیم اینجا بمانیم» را بساز.</p>
+    <p><b>۱. کدام کلمه؟</b> «می‌خواستیم» ⟵ گذشته‌ی <span class="de">wollen</span> ⟵ از نُه کلمه: <span class="de">wollte</span>.<br>
+    <b>۲. فرضی لازم است؟</b> نه — جمله‌ی واقعی گذشته است، نه آرزو یا مؤدبانه. همان <span class="de">wollte</span> می‌ماند.<br>
+    <b>۳. کدام اتاق؟</b> فاعل <span class="de">wir</span> است ⟵ جمع ⟵ قانون ②: مفرد + <span class="de">(e)n</span>. <span class="de">wollte</span> به <span class="de">e</span> ختم شده، پس فقط <span class="de">+n</span>: <span class="de">wollten</span>.</p>
+    <p class="de blk">Wir wollten hier nicht bleiben.</p>
+  </div>
+</section>
+
+<!-- ۴ · ابزارهای ذهنی -->
+<section>
+  <h2>🧰 ابزارهای ذهنی</h2>
+  <div class="cards">
+    <div class="card"><b>🏠 خانه‌ی ته جمله</b><small>مصدر لخت آنجا می‌نشیند. <span class="de">nicht</span> آخرین کلمه قبل از آن است.</small></div>
+    <div class="card"><b>🪜 نردبون</b><small>فعل · ضمیر · زمان · بقیه · <span class="de">nicht</span> · خانه</small></div>
+    <div class="card"><b>🚪 راهروی شش‌دَر</b><small>فعل قوی فقط در اتاق <span class="de">du</span> و <span class="de">er</span> مصوتش عوض می‌شود.</small></div>
+    <div class="card"><b>🎈 بادکنک / 🪨 سنگ</b><small>ضمیر سبک جلوی قید · اسم سنگین پشت قید.</small></div>
+    <div class="card"><b>🧷 چسب ADUSO</b><small><span class="de">aber denn und sondern oder</span> — داخل جمله را دست نمی‌زنند.</small></div>
+    <div class="card"><b>🌳 درخت تصمیم</b><small>رابط داری؟ ⟵ فعل آخر. نه؟ جای اول پر است؟ ⟵ دوم، وگرنه اول.</small></div>
+    <div class="card"><b>📜 e قایم‌شده</b><small>اوملات یک <span class="de">e</span> ریز بوده ⟵ <span class="de">ae oe ue</span></small></div>
+    <div class="card"><b>🥪 ساندویچ</b><small><span class="de">bleiben</span> — دو تا <span class="de">b</span>، و <span class="de">l</span> بلافاصله بعد از اولی.</small></div>
+    <div class="card"><b>🤳 سلفی</b><small>ضمیر انعکاسی با <b>فاعل</b> هماهنگ است، نه با فعل.</small></div>
+    <div class="card"><b>🌉 پل zu</b><small>بین دو چیز ناهم‌جنس. هشت کلمه پل نمی‌خواهند.</small></div>
+  </div>
+</section>
+
+<!-- ۵ · یک حرف دو معنی -->
+<section>
+  <h2>⚠️ یک حرف، دو معنی</h2>
+  <p class="lead">این‌ها ترسناک به نظر می‌رسیدند تا وقتی پخش بودند. یکجا که جمع شدند، معلوم شد فقط <b>هشت جفت‌اند</b> — نه هشتاد قانون.</p>
+
+  <div class="bank-head">
+    <button class="ghost" onclick="tgl('p1',this)">🙈 حالت آزمون</button>
+    <span class="hint">ستون معنی محو می‌شود — روی هر خانه کلیک کن تا نشانش دهد.</span>
+  </div>
+
+  <div class="tw" id="p1"><table>
+    <thead><tr><th>A</th><th>معنی</th><th>B</th><th>معنی</th><th>فرق در</th></tr></thead>
+    <tbody>
+      <tr><td><span class="de">konnten</span></td><td class="m">توانستند</td><td><span class="de">koennten</span></td><td class="m">می‌شود…؟ (مؤدبانه)</td><td>اوملات</td></tr>
+      <tr><td><span class="de">mochte</span></td><td class="m">دوست داشتم</td><td><span class="de">moechte</span></td><td class="m">مایلم</td><td>اوملات</td></tr>
+      <tr><td><span class="de">will</span></td><td class="m">می‌خواهد</td><td><span class="de">wird</span></td><td class="m">خواهد داد</td><td>یک حرف</td></tr>
+      <tr><td><span class="de">soll</span></td><td class="m">قرار است</td><td><span class="de">sollte</span></td><td class="m">بهتر است</td><td><span class="de">-te-</span></td></tr>
+      <tr><td><span class="de">bleiben</span></td><td class="m">ماندن</td><td><span class="de">blieben</span></td><td class="m">ماندیم</td><td><span class="de">ei</span> ⟷ <span class="de">ie</span></td></tr>
+      <tr><td><span class="de">teuer</span></td><td class="m">گران</td><td><span class="de">tuer</span></td><td class="m">در (Tür)</td><td><span class="de">eu</span> ⟷ <span class="de">ue</span></td></tr>
+      <tr><td><span class="de">man</span></td><td class="m">آدم</td><td><span class="de">Mann</span></td><td class="m">مرد</td><td>حرف بزرگ</td></tr>
+      <tr><td><span class="de">sie</span></td><td class="m">او</td><td><span class="de">Sie</span></td><td class="m">شما</td><td>حرف بزرگ</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>قلاب‌ها</h3>
+  <div class="tw"><table>
+    <thead><tr><th>جفت</th><th>قلاب</th></tr></thead>
+    <tbody>
+      <tr><td><span class="de">ei</span> / <span class="de">ie</span></td><td><b>حرف دوم، صدایش را می‌گوید.</b> «بْل<b>ای</b>بن» ⟵ صدای «آی» ⟵ <span class="de">ei</span></td></tr>
+      <tr><td><span class="de">eu</span> / <span class="de">ue</span></td><td>اول <span class="de">e</span> ⟵ دیفتونگ واقعی · اول <span class="de">u</span> ⟵ نوشتنِ <span class="de">ü</span></td></tr>
+      <tr><td><span class="de">man</span> / <span class="de">Mann</span></td><td>ضمیرها کوچک‌اند، اسم‌ها بزرگ. <span class="de">Sie</span> تنها استثناست</td></tr>
+      <tr><td><span class="de">will</span> / <span class="de">wird</span></td><td><span class="de">wollen</span> مدال است (<span class="de">ich</span>=<span class="de">er</span>) · <span class="de">werden</span> نیست</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="box i"><p><b>🌍 قابی که آرامم کرد:</b> آلمانی سخت‌گیر است ولی <b>قابل پیش‌بینی</b>. انگلیسی می‌گوید <span class="de">though</span> · <span class="de">through</span> · <span class="de">tough</span> · <span class="de">cough</span> — یک املا، چهار تلفظ، بدون هیچ منطقی. آلمانی: <span class="de">ei</span> همیشه «آی»، <span class="de">ie</span> همیشه «ایـی». استثنا ندارد.</p>
+  <p>و در مکالمه‌ی واقعی زمینه تقریباً همیشه نجاتم می‌دهد. این‌ها برای <b>آزمون کتبی</b> مهم‌اند — برای همین فهرست‌شان کرده‌ام، نه چون خطرناک‌اند.</p></div>
+</section>
+
+<!-- ۶ · خطاها -->
+<section>
+  <h2>🔧 خطاهای این جلسه — با ریشه‌شان</h2>
+
+  <div class="tw"><table>
+    <thead><tr><th class="c">بار</th><th>نوشتم</th><th>درست</th><th>ریشه</th></tr></thead>
+    <tbody>
+      <tr><td class="c"><b>۵</b></td><td><span class="de">gerten</span> <span class="de">verechten</span> <span class="de">kontten</span> <span class="de">beliben</span> <span class="de">beilen</span></td><td><span class="de">gestern</span> <span class="de">verstehen</span> <span class="de">konnten</span> <span class="de">bleiben</span></td><td><b>خوشه‌ی همخوان.</b> فارسی هیچ کلمه‌ای با <span class="de">bl</span> یا <span class="de">st</span> شروع نمی‌کند، پس مغزم یک مصوت وسطشان می‌چپاند — همان کاری که با «اسپری» و «استکان» می‌کند</td></tr>
+      <tr><td class="c"><b>۵</b></td><td><span class="de">heir</span> <span class="de">blieben</span></td><td><span class="de">hier</span> <span class="de">bleiben</span></td><td><span class="de">ei</span>/<span class="de">ie</span> — <b>تنها خطایی که با یک تصحیح حل نشد.</b> بخش تمرین جدا دارد ↓</td></tr>
+      <tr><td class="c">۴</td><td>حرف کوچک اول جمله</td><td>حرف بزرگ</td><td>سرعت</td></tr>
+      <tr><td class="c">۳</td><td><span class="de">Konnen</span> <span class="de">konnen</span> <span class="de">bescheftigt</span></td><td><span class="de">Koennen</span> <span class="de">beschaeftigt</span></td><td>حذف اوملات. قانون: <b>هیچ‌وقت خودم حذفش نکنم</b></td></tr>
+      <tr><td class="c">۲</td><td><span class="de">hier gestern</span></td><td><span class="de">gestern hier</span></td><td>TeKaMoLo — زمان قبل از مکان. فارسی هم همین است: «دیروز اینجا»</td></tr>
+      <tr><td class="c">۲</td><td>مدال عوضی</td><td>—</td><td>«می‌خواست» ⟵ <span class="de">wollen</span> · «قرار است» ⟵ <span class="de">sollen</span>. هر دو زیر خستگی</td></tr>
+      <tr><td class="c">۱</td><td><span class="de">tuer</span></td><td><span class="de">teuer</span></td><td>⚠️ خطرناک — <span class="de">tuer</span> در قرارداد خودم یعنی «در»</td></tr>
+      <tr><td class="c">۱</td><td><span class="de">zehr</span></td><td><span class="de">sehr</span></td><td><b>گوشم درست شنیده بود.</b> <span class="de">s</span> قبل از مصوت صدای «ز» می‌دهد. حرف <span class="de">z</span> صدای «تْس» است</td></tr>
+      <tr><td class="c">۱</td><td><span class="de">ohne sie</span></td><td><span class="de">ohne Sie</span></td><td>معنی عوض می‌شود: «بدون او» در برابر «بدون شما»</td></tr>
+      <tr><td class="c">۲</td><td><span class="de">keine Zeit es zu tun</span></td><td><span class="de">keine Zeit, es zu tun</span></td><td>بخش <span class="de">zu</span> همیشه ویرگول می‌گیرد</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="box d">
+    <p><b>🎯 تمرین جدا برای <span class="de">ei</span> / <span class="de">ie</span></b> — این تنها خطایی است که با توضیح حل نشد و پنج بار برگشت. چند روز، هر روز یک بار، این پنج کلمه را <b>با صدای بلند</b> بگو و بنویس:</p>
+    <p><span class="de blk">hier    bleiben    nein    mein    heute</span></p>
+    <p>قاعده: صدای «آی» ⟵ <span class="de">ei</span> · صدای «ایـی» کشیده ⟵ <span class="de">ie</span></p>
+  </div>
+
+  <h3>😴 الگوی خستگی — که خودم باید بشناسم</h3>
+  <p>دو بار در این جلسه، بعد از حدود ۴۵ دقیقه کار پیوسته، این نشانه‌ها ظاهر شدند:</p>
+  <div class="tw"><table>
+    <thead><tr><th>نشانه</th><th>نمونه</th></tr></thead>
+    <tbody>
+      <tr><td>همخوان سه‌برابر</td><td><span class="de">habbben</span></td></tr>
+      <tr><td>فاعل و مفعول جابه‌جا</td><td><span class="de">weil es Sie haben wuerden</span></td></tr>
+      <tr><td><b>سرریز کلمات از جمله‌ی قبلی</b></td><td><span class="de">Er sollten hier beilen</span> — <span class="de">hier</span> و <span class="de">bleiben</span> از جمله‌ی قبلی آمده بودند</td></tr>
+      <tr><td>خراب‌شدن جمله‌ای که ده دقیقه قبل درست زده بودم</td><td>—</td></tr>
+    </tbody>
+  </table></div>
+  <p>وقتی این‌ها را دیدم، ادامه دادن فقط خطای بی‌ربط می‌سازد. <b>پانزده دقیقه استراحت ارزان‌تر از یک ساعت تمرینِ خراب است.</b></p>
+
+  <h3>🏆 و چیزهایی که این بار نباختم</h3>
+  <div class="tw"><table>
+    <thead><tr><th>خطای درس ۶</th><th>آن موقع</th><th>این بار</th></tr></thead>
+    <tbody>
+      <tr><td><span class="de">aber</span> را تغییردهنده گرفتن</td><td>۲ بار</td><td>✅ چسب ماند</td></tr>
+      <tr><td>انداختن <span class="de">sein</span> کنار صفت</td><td>۴ بار</td><td>✅ سر جایش</td></tr>
+      <tr><td>شکل <span class="de">ihr</span> به‌جای <span class="de">er</span></td><td>۵ بار</td><td>⚠️ ۲ بار — بهتر شد</td></tr>
+      <tr><td><span class="de">ihn</span> / <span class="de">ihr</span> (پرونده‌ی باز)</td><td>نیمه‌کاره</td><td>✅ بسته شد</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ۷ · سوال‌ها -->
+<section>
+  <h2>💡 سؤال‌هایی که خودم پرسیدم</h2>
+  <p class="lead">مهم‌ترین بخش این فایل. چهار بار از این شش سؤال، یک قانون را <b>دقیق‌تر</b> کرد — یعنی نسخه‌ی قبلی‌اش ناقص بود و من گیرش انداختم.</p>
+
+  <details><summary>① «واقعاً اول‌شخص و سوم‌شخص همه‌ی فعل‌ها یک‌جورند؟»</summary><div class="dbody">
+    <div class="layer"><div class="lbl">جرقه</div>فهمیدم <span class="de">ich konnte</span> و <span class="de">er konnte</span> یکی‌اند و فکر کردم این فقط مال مدال‌هاست.</div>
+    <div class="layer"><div class="lbl">باور غلطم</div>«یکی‌بودنِ اول‌شخص و سوم‌شخص، خاصیتِ مدال‌هاست.»</div>
+    <div class="unlock"><b>مثالی که قفل را باز کرد:</b> از شش جور فعل مختلف مثال آمد و هیچ‌کدام نشکست —
+      <span class="de blk">sein → war / war      gehen → ging / ging
+haben → hatte / hatte  machen → machte / machte</span>
+      ولی در <b>حال</b> فقط ۷ کلمه این خاصیت را دارند: شش مدال + <span class="de">wissen</span>.</div>
+    <div class="kept">🟢 گذشته ⟵ همه‌ی فعل‌ها دوقلو. حال ⟵ فقط ۷ کلمه.</div>
+    <div class="box w" style="margin-top:10px"><p>⚠️ دو لیست هفت‌تایی دارم و <b>یکی نیستند</b>: «بدون <span class="de">zu</span>» = ۶ مدال + <span class="de">werden</span> · «<span class="de">ich</span>=<span class="de">er</span> در حال» = ۶ مدال + <span class="de">wissen</span>.</p></div>
+  </div></details>
+
+  <details><summary>② «کلمات بدون اوملات مؤدبانه نیستند؟»</summary><div class="dbody">
+    <div class="layer"><div class="lbl">جرقه</div>یاد گرفتم <span class="de">koennten</span> مؤدبانه است، پس نتیجه گرفتم بدون اوملات یعنی نامؤدب.</div>
+    <div class="layer"><div class="lbl">باور غلطم</div>«اوملات = نشانه‌ی ادب.»</div>
+    <div class="unlock"><b>مثالی که قفل را باز کرد:</b> برای <span class="de">Sie</span> سه شکل هست و اولی هم اوملات دارد ولی فرضی نیست —
+      <span class="de blk">koennen Sie warten?   حال (اوملات دارد، ولی -te- ندارد)
+konnten Sie warten?   گذشته
+koennten Sie warten?  فرضی / مؤدبانه</span>
+      پس اوملات به‌تنهایی کاری نمی‌کند؛ باید روی یک <b>شکل گذشته</b> بنشیند.</div>
+    <div class="kept">🟢 حامل اصلی ادب در آلمانی خودِ <span class="de">Sie</span> است، نه اوملات. ادب پله‌پله است، نه روشن/خاموش.</div>
+  </div></details>
+
+  <details><summary>③ «<span class="de">moechte</span> بدون اوملات معنی‌اش چیست؟ مگر اوملات ذاتیِ کلمه نیست؟»</summary><div class="dbody">
+    <div class="layer"><div class="lbl">جرقه</div>تا آن لحظه فکر می‌کردم اوملات بخشی از شناسنامه‌ی هر کلمه است و عوض نمی‌شود.</div>
+    <div class="layer"><div class="lbl">باور غلطم</div>«اوملات ذاتیِ کلمه است و برداشتنش فقط غلط املایی می‌سازد.»</div>
+    <div class="unlock"><b>مثالی که قفل را باز کرد:</b> هر دو کلمه‌ی واقعی‌اند و معنی‌شان فرق دارد —
+      <span class="de blk">Ich mochte das Buch.    آن کتاب را دوست داشتم
+Ich moechte das Buch.   آن کتاب را می‌خواهم</span>
+      و این پدیده جدید نبود: <span class="de">er faehrt</span> و <span class="de">du waeschst</span> را از درس ۵ داشتم.</div>
+    <div class="kept">🟢 اوملات دو نوع است: 🧬 ذاتی (<span class="de">fuer</span> · <span class="de">hoeren</span>) و ⚙️ دستوری (<span class="de">koennte</span>). <b>فعل‌ها هم اوملات ذاتی دارند</b> — پس «فعل ⟵ دستوری» غلط است.</div>
+  </div></details>
+
+  <details><summary>④ «پس کاری که باید بکنم فقط فعل‌های قوی <span class="de">du</span>/<span class="de">er</span> است؟»</summary><div class="dbody">
+    <div class="layer"><div class="lbl">جرقه</div>گفتم دایره‌ی لغاتم کم است و نمی‌توانم تشخیص بدهم کدام اوملات ذاتی است.</div>
+    <div class="layer"><div class="lbl">باور غلطم</div>«برای درست نوشتن باید همه‌ی اوملات‌ها را دسته‌بندی کنم.»</div>
+    <div class="unlock"><b>چیزی که قفل را باز کرد:</b> من زبان‌آموزم، نه زبان‌شناس. لازم نیست دسته‌بندی کنم — فقط باید بدانم <b>کِی خودم اوملات اضافه می‌کنم</b>. و آن فقط <b>دو جا</b>ست:
+      <span class="de blk">fahren → er faehrt     (فعل قوی، اتاق du/er)
+konnte → koennte       (ساختن فرضی از گذشته)</span></div>
+    <div class="kept">🟢 ① همیشه اوملات را بنویس، هیچ‌وقت خودت حذفش نکن. ② فقط در آن دو موقعیت خودت اضافه‌اش کن.<br>و فعل قوی همیشه اوملات نمی‌گیرد: <span class="de">a o au</span> ⟵ اوملات · <span class="de">e</span> ⟵ <span class="de">i</span>/<span class="de">ie</span> (مثل <span class="de">spricht</span>).</div>
+  </div></details>
+
+  <details><summary>⑤ «<span class="de">wuerden</span>؟» — سؤالی که یک قانون را اصلاح کرد</summary><div class="dbody">
+    <div class="layer"><div class="lbl">جرقه</div>سر ترجمه‌ی <span class="de">Er wird es tun</span> گیر کردم و پرسیدم نکند <span class="de">wuerden</span> باشد.</div>
+    <div class="layer"><div class="lbl">باور غلطم</div>در واقع باور غلط مالِ <b>قانونی بود که به من داده شده بود</b>: «تست دو قدمی: <span class="de">-te-</span> دارد؟» — یعنی ببین کلمه این دو حرف را کنار هم دارد یا نه، مثل وسط <span class="de">konnte</span>.</div>
+    <div class="unlock"><b>مثالی که قفل را باز کرد:</b> هفت از نُه کلمه‌ی گذشته واقعاً <span class="de">te</span> دارند —
+      <span class="de blk">konnte musste durfte mochte wollte sollte hatte   ⟵ همه te دارند</span>
+      ولی دو‌تای دیگر که خودشان هم گذشته‌اند، اصلاً <span class="de">te</span> ندارند:
+      <span class="de blk">war    ⟵ te ندارد، با این‌حال گذشته است
+wurde  ⟵ te ندارد، با این‌حال گذشته است</span>
+      یعنی «te دارد» یک <b>حدس از روی شکل ظاهری</b> بود، و دقیقاً همین دو تا از قلم افتادند. نسخه‌ی درست دیگر به شکل کلمه کاری ندارد، فقط عضویتش در جدول ۹ فعل را می‌پرسد:
+      <span class="de blk">① این کلمه کدام‌یک از نُه‌تاست؟         (جدول ۹ فعل)
+② آن ستون اوملات دارد؟  نه ⟵ گذشته · آره ⟵ فرضی
+
+مثال: war ⟵ توی جدول، ستون گذشته · اوملات ندارد ⟵ همان گذشته می‌ماند ✅</span></div>
+    <div class="kept">🟢 قانون باید از <b>لیست بسته</b> ساخته شود، نه از توصیفِ شکل کلمه. «<span class="de">te</span> دارد» حدسی از روی ظاهر بود و دو کلمه را جا انداخت؛ «جدول ۹ فعل» یک فهرست کامل است — کلمه را در آن پیدا می‌کنم، حدس نمی‌زنم، پس چیزی از قلم نمی‌افتد.</div>
+  </div></details>
+
+  <details><summary>⑥ «چرا <span class="de">will</span> برای دوم‌شخص هم به کار رفت؟»</summary><div class="dbody">
+    <div class="layer"><div class="lbl">جرقه</div>در جدول مرجع، ستون «حال» فقط <span class="de">will</span> را نشان می‌داد و من نتیجه گرفتم یعنی برای همه‌ی اشخاص.</div>
+    <div class="layer"><div class="lbl">باور غلطم</div>باز هم مالِ جدول بود، نه من: ستون «حال» نام‌گذاری اشتباه داشت.</div>
+    <div class="unlock"><b>اصلاح:</b> آن ستون در واقع «حالِ <span class="de">ich</span>/<span class="de">er</span>» بود. دوم‌شخص فرق دارد —
+      <span class="de blk">ich will · du willst · er will
+wir wollen · ihr wollt · Sie wollen</span></div>
+    <div class="kept">🟢 دو قاعده‌ی طلایی مدال: <span class="de">ich</span> = <span class="de">er</span> بدون پسوند · <span class="de">wir</span> = <span class="de">Sie</span> = خودِ مصدر.</div>
+  </div></details>
+</section>
+
+<!-- ۸ · جدول‌های مرجع -->
+<section>
+  <h2>📊 جدول‌های مرجع</h2>
+  <p class="lead">این‌ها تاشوند چون هر روز لازمشان ندارم — فقط وقتی شک کردم بازشان می‌کنم. چیزی که هر روز نگاه می‌کنم، «فاکتور کلی» بالاست.</p>
+
+  <details open><summary>🔑 جدول اصلی — ۹ فعل × ۳ ستون</summary><div class="dbody">
+    <div class="tw"><table>
+      <thead><tr><th>مصدر</th><th>حالِ <span class="de">ich</span>/<span class="de">er</span></th><th>گذشته</th><th>فرضی</th></tr></thead>
+      <tbody>
+        <tr><td><span class="de">koennen</span></td><td><span class="de">kann</span></td><td><span class="de">konnte</span></td><td><span class="de">koennte</span></td></tr>
+        <tr><td><span class="de">muessen</span></td><td><span class="de">muss</span></td><td><span class="de">musste</span></td><td><span class="de">muesste</span></td></tr>
+        <tr><td><span class="de">duerfen</span></td><td><span class="de">darf</span></td><td><span class="de">durfte</span></td><td><span class="de">duerfte</span></td></tr>
+        <tr><td><span class="de">moegen</span></td><td><span class="de">mag</span></td><td><span class="de">mochte</span></td><td><span class="de">moechte</span></td></tr>
+        <tr><td><span class="de">wollen</span></td><td><span class="de">will</span></td><td><span class="de">wollte</span></td><td><span class="de">wollte</span> ⚠️ همان شکل</td></tr>
+        <tr><td><span class="de">sollen</span></td><td><span class="de">soll</span></td><td><span class="de">sollte</span></td><td><span class="de">sollte</span> ⚠️ همان شکل</td></tr>
+        <tr><td><span class="de">haben</span></td><td><span class="de">hat</span></td><td><span class="de">hatte</span></td><td><span class="de">haette</span></td></tr>
+        <tr><td><span class="de">sein</span></td><td><span class="de">ist</span></td><td><span class="de">war</span></td><td><span class="de">waere</span></td></tr>
+        <tr><td><span class="de">werden</span></td><td><span class="de">wird</span></td><td><span class="de">wurde</span></td><td><span class="de">wuerde</span></td></tr>
+      </tbody>
+    </table></div>
+    <p>⚠️ ردیف آخر: <span class="de">wird</span> در ستون <b>حال</b> است، نه گذشته — برای همین نمی‌تواند فرضی باشد.</p>
+    <p>⚠️ دو ردیفی که اوملات ندارند (<span class="de">wollen</span> · <span class="de">sollen</span>)، گذشته و فرضی‌شان یک شکل است. جمله تصمیم می‌گیرد کدام منظور است، نه خود کلمه.</p>
+  </div></details>
+
+  <details><summary>🚪 الگوهای صرف — فقط سه تا در کل زبان</summary><div class="dbody">
+    <div class="tw"><table>
+      <thead><tr><th>الگو</th><th><span class="de">ich</span> · <span class="de">er</span></th><th><span class="de">du</span></th><th><span class="de">ihr</span></th><th><span class="de">wir</span> · <span class="de">Sie</span></th></tr></thead>
+      <tbody>
+        <tr><td><b>① مدال در حال</b></td><td>بدون پسوند</td><td>+<span class="de">st</span></td><td>+<span class="de">t</span></td><td>= مصدر (اوملات دارد)</td></tr>
+        <tr><td><b>② هر فعلی در گذشته و فرضی</b></td><td>یکی‌اند</td><td>+<span class="de">st</span></td><td>+<span class="de">t</span></td><td>+<span class="de">n</span></td></tr>
+        <tr><td><b>③ فعل معمولی در حال</b></td><td>-<span class="de">e</span> / -<span class="de">t</span></td><td>-<span class="de">st</span></td><td>-<span class="de">et</span></td><td>-<span class="de">en</span></td></tr>
+      </tbody>
+    </table></div>
+    <p><b>نمونه‌ی الگو ①</b></p>
+    <div class="tw"><table>
+      <thead><tr><th>اتاق</th><th><span class="de">sollen</span></th><th><span class="de">wollen</span></th><th><span class="de">koennen</span></th></tr></thead>
+      <tbody>
+        <tr><td><span class="de">ich</span></td><td><span class="de">soll</span></td><td><span class="de">will</span></td><td><span class="de">kann</span></td></tr>
+        <tr><td><span class="de">du</span></td><td><span class="de">sollst</span></td><td><span class="de">willst</span></td><td><span class="de">kannst</span></td></tr>
+        <tr><td><span class="de">er</span></td><td><span class="de">soll</span></td><td><span class="de">will</span></td><td><span class="de">kann</span></td></tr>
+        <tr><td><span class="de">wir</span>·<span class="de">Sie</span></td><td><span class="de">sollen</span></td><td><span class="de">wollen</span></td><td><span class="de">koennen</span></td></tr>
+        <tr><td><span class="de">ihr</span></td><td><span class="de">sollt</span></td><td><span class="de">wollt</span></td><td><span class="de">koennt</span></td></tr>
+      </tbody>
+    </table></div>
+    <p><b>نمونه‌ی الگو ③ — <span class="de">werden</span></b>، تنها فعل غیرمدال این درس. چرا <span class="de">wird</span> این شکلی است:</p>
+    <div class="de blk">werd + t  →  wirdt  →  wird    (فعل قوی e→i، بعد 🧴 روغن‌کاری)
+werd + st →  wirdst →  wirst</div>
+    <p>⚠️ ریشه‌ی خطای «<span class="de">werdet</span> به‌جای <span class="de">wird</span>» که در درس ۶ پنج بار تکرار شد، همین‌جاست.</p>
+  </div></details>
+
+  <details><summary>🪜 نردبون وسط جمله</summary><div class="dbody">
+    <div class="tw"><table>
+      <thead><tr><th class="c">پله</th><th>چه می‌نشیند</th><th>نمونه</th></tr></thead>
+      <tbody>
+        <tr><td class="c">۱</td><td>فعل صرف‌شده</td><td><span class="de">konnte</span></td></tr>
+        <tr><td class="c">۲</td><td>ضمیر 🎈</td><td><span class="de">es</span></td></tr>
+        <tr><td class="c">۳</td><td>زمان (Te)</td><td><span class="de">gestern</span></td></tr>
+        <tr><td class="c">۴</td><td>بقیه: مکان، حرف اضافه</td><td><span class="de">ohne Sie</span></td></tr>
+        <tr><td class="c">۵</td><td><span class="de">nicht</span></td><td><span class="de">nicht</span></td></tr>
+        <tr><td class="c">۶</td><td>خانه‌ی ته جمله 🏠</td><td><span class="de">tun</span></td></tr>
+      </tbody>
+    </table></div>
+    <div class="de blk">Ich konnte es gestern ohne Sie nicht tun.</div>
+    <p>🟢 <b><span class="de">nicht</span> آخرین کلمه قبل از خانه است.</b> خانه خالی بود؟ <span class="de">nicht</span> می‌رود ته جمله (<span class="de">Ich verstehe Sie nicht.</span>).</p>
+    <p>و اگر <span class="de">nicht</span> را جلوتر بگذارم، معنی عوض می‌شود و تأکیدی می‌شود:</p>
+    <div class="tw"><table><tbody>
+      <tr><td><span class="de">Man darf hier nicht bleiben.</span></td><td>آدم اجازه ندارد اینجا بماند ✅</td></tr>
+      <tr><td><span class="de">Man darf nicht hier bleiben.</span></td><td>اجازه ندارد <b>اینجا</b> بماند (جای دیگر بله)</td></tr>
+    </tbody></table></div>
+  </div></details>
+
+  <details><summary>🧷 رابط‌ها — چسب در برابر تغییردهنده</summary><div class="dbody">
+    <div class="tw"><table>
+      <thead><tr><th>نوع</th><th>چه می‌کند</th><th>لیست</th></tr></thead>
+      <tbody>
+        <tr><td>🧷 چسب — <b>ADUSO</b></td><td>هیچی. فعل جای دوم می‌ماند</td><td><span class="de">aber</span> <span class="de">denn</span> <span class="de">und</span> <span class="de">sondern</span> <span class="de">oder</span></td></tr>
+        <tr><td>🅰️ تغییردهنده</td><td>جمله‌ی فرعی ⟵ فعل صرف‌شده آخرین کلمه 🔚</td><td><span class="de">weil</span> <span class="de">wenn</span> <span class="de">ob</span> <span class="de">dass</span> و بقیه</td></tr>
+      </tbody>
+    </table></div>
+    <p><b>مدرکی که خودم ساختم</b> — همان معنی، همان کلمات، فقط رابط عوض شد:</p>
+    <div class="de blk">Er wird es nicht tun, denn es ist unmoeglich.
+Er wird es nicht tun, weil es unmoeglich ist.</div>
+    <p>🟢 ADUSO فقط <b>پنج</b> کلمه است. هر رابط دیگری تغییردهنده است. لیست بسته ⟵ نمی‌شکند.</p>
+    <p>و نکته‌ی ظریف: فعلی که ته <b>جمله‌ی فرعی</b> می‌نشیند <b>صرف‌شده</b> است، نه لخت 👔 — حتی اگر بعد از یک مصدر بیاید:</p>
+    <div class="de blk">Er wollte es haben.                       جمله‌ی اصلی
+..., weil er es haben wollte.             جمله‌ی فرعی — ترتیب برعکس</div>
+  </div></details>
+
+  <details><summary>🌉 لیست بسته‌ی «بدون <span class="de">zu</span>» — نسخه‌ی به‌روز</summary><div class="dbody">
+    <div class="tw"><table>
+      <thead><tr><th>بدون <span class="de">zu</span> — لیست کامل</th><th>با <span class="de">zu</span></th></tr></thead>
+      <tbody><tr>
+        <td><span class="de">koennen</span> <span class="de">muessen</span> <span class="de">wollen</span> <span class="de">sollen</span> <span class="de">duerfen</span> <span class="de">moegen</span> <span class="de">werden</span> <b><span class="de">lassen</span></b></td>
+        <td>هر چیز دیگری: اسم · صفت · بقیه‌ی فعل‌ها</td>
+      </tr></tbody>
+    </table></div>
+    <div class="box g"><p><b>از ۷ به ۸ رسید — ولی قانون نشکست.</b> اضافه‌شدن <span class="de">lassen</span> در جزوه‌ی درس ۶ از قبل اعلام شده بود. تنها افزوده‌ی آینده: <span class="de">sehen</span> و <span class="de">hoeren</span> در سطح B1.</p></div>
+    <p><b><span class="de">lassen</span> دقیقاً مثل یک مدال رفتار می‌کند:</b></p>
+    <div class="tw"><table>
+      <thead><tr><th>موقعیت</th><th>جمله</th><th><span class="de">lassen</span> کجاست</th></tr></thead>
+      <tbody>
+        <tr><td>تنها فعل رئیس</td><td><span class="de">Ich lasse es reparieren.</span></td><td>صرف‌شده، جای دوم</td></tr>
+        <tr><td>مدال دیگری رئیس است</td><td><span class="de">Ich muss es reparieren lassen.</span></td><td>لخت، آخرین کلمه 🏠</td></tr>
+        <tr><td>جمله‌ی فرعی</td><td><span class="de">..., weil ich es reparieren lassen muss.</span></td><td>لخت، قبل از فعل صرف‌شده</td></tr>
+      </tbody>
+    </table></div>
+    <p><b>معنی‌اش: سببی (Kausativ)</b> — همان «دادن» فارسی:</p>
+    <div class="tw"><table><tbody>
+      <tr><td><span class="de">Ich werde es reparieren.</span></td><td>🔧 خودم تعمیرش می‌کنم</td></tr>
+      <tr><td><span class="de">Ich werde es reparieren lassen.</span></td><td>🏪 می‌دهم تعمیرش کنند</td></tr>
+      <tr><td><span class="de">Es wird repariert.</span></td><td>مجهول — فاعل حذف شده (فاز ۲)</td></tr>
+    </tbody></table></div>
+  </div></details>
+</section>
+
+<!-- ۹ · واژه‌نامه -->
+<section>
+  <h2>📖 اسم فنیِ چیزهایی که یاد گرفتم</h2>
+  <p class="lead">این‌ها را می‌دانم تا وقتی در ویدئوی دوره یا کتاب آزمون به اسم فنی‌شان برخوردم، بشناسم که همان چیزی است که بلدم — نه اینکه دو بار یادشان بگیرم.</p>
+  <div class="tw"><table>
+    <thead><tr><th>اسم شهودی</th><th>اسم فنی</th><th>🔮 کجا دوباره می‌بینمش</th></tr></thead>
+    <tbody>
+      <tr><td>گذشته‌ی ساده (<span class="de">war</span> · <span class="de">konnte</span>)</td><td><b>Präteritum</b></td><td>فاز ۲ — همه‌ی متن‌های داستانی با همین نوشته شده‌اند</td></tr>
+      <tr><td>گذشته + اوملات (<span class="de">waere</span> · <span class="de">koennte</span>)</td><td><b>Konjunktiv II</b></td><td>Schreiben B2 — نامه‌ی رسمی بدون این نمره نمی‌گیرد · هفته ۷ نقشه‌ی راه</td></tr>
+      <tr><td>جمله‌ی فرعی (فعل آخر 🔚)</td><td><b>Nebensatz</b></td><td>هفته ۹–۱۰ — مجموعه‌ی کامل حروف ربط</td></tr>
+      <tr><td>چسب ADUSO 🧷</td><td><b>koordinierende Konjunktionen</b></td><td>هفته ۱۲ — Konnektoren پیشرفته</td></tr>
+      <tr><td>نردبون وسط جمله 🪜</td><td><b>Mittelfeld</b></td><td>صرف صفت (فاز ۱) و بعد همه‌جا</td></tr>
+      <tr><td>خانه‌ی ته جمله 🏠</td><td><b>Satzklammer</b> (قلاب جمله)</td><td>Perfekt و مجهول — فاز ۲</td></tr>
+      <tr><td><span class="de">lassen</span> سببی</td><td><b>Kausativ</b></td><td>در Perfekt شکل عجیبی می‌گیرد (<span class="de">Ich habe es reparieren lassen</span>) — فاز ۲</td></tr>
+    </tbody>
+  </table></div>
+  <div class="box g"><p>🎯 <b>جلوتر از برنامه‌ام.</b> در نقشه‌ی راه، <b>Präteritum</b> برای هفته‌ی ۱–۲ و <b>Konjunktiv II</b> برای هفته‌ی ۷ برنامه‌ریزی شده بود. من هفته‌ی ۱ هستم و هر دو را پوشش دادم.</p></div>
+</section>
+
+<!-- ۱۰ · لغزش جزوه -->
+<section>
+  <h2>🔍 لغزش‌های خودِ جزوه‌ی PDF</h2>
+  <p class="lead">هشت مورد. این‌ها را می‌دانم چون اگر از روی جزوه حفظ کنم، غلط یاد می‌گیرم.</p>
+  <div class="tw"><table>
+    <thead><tr><th class="c">#</th><th>در جزوه</th><th>درست</th><th>چرا مهم است</th></tr></thead>
+    <tbody>
+      <tr><td class="c">۱</td><td><span class="de">ich werde es wachen lassen</span></td><td><span class="de">waschen</span></td><td><span class="de">wachen</span> یعنی «بیدار بودن»، نه «شستن»</td></tr>
+      <tr><td class="c">۲</td><td><span class="de">wollen Sie bitte es tun</span></td><td><span class="de">wollen Sie es bitte tun</span></td><td>ضمیر سبک 🎈 قبل از <span class="de">bitte</span></td></tr>
+      <tr><td class="c">۳</td><td><span class="de">wollen Sie bitte mir sagen</span></td><td><span class="de">wollen Sie mir bitte sagen</span></td><td>همان</td></tr>
+      <tr><td class="c">۴</td><td><span class="de">duerfen</span> = «قادر بودن»</td><td>فقط «اجازه داشتن»</td><td>⚠️ «قادر بودن» مالِ <span class="de">koennen</span> است — <b>معنی را عوض می‌کند</b></td></tr>
+      <tr><td class="c">۵</td><td><span class="de">ich war da gestern Abend</span></td><td><span class="de">gestern Abend da</span></td><td>TeKaMoLo. غلط نیست ولی غیرخنثی است؛ در آزمون ترتیب خنثی را بنویس</td></tr>
+      <tr><td class="c">۶</td><td>«حال و گذشته‌ی <span class="de">sollen</span> یک معنا می‌دهد»</td><td>دو معنی متفاوت‌اند</td><td>چیزی که یک <b>شکل</b> دارد، <span class="de">sollte</span>ی گذشته و <span class="de">sollte</span>ی توصیه است. <b>همین لغزش در جزوه‌ی درس ۵ هم بود</b></td></tr>
+      <tr><td class="c">۷</td><td><span class="de">rein</span> و <span class="de">sauber</span> هر دو «تمیز»</td><td><span class="de">sauber</span> = تمیز · <span class="de">rein</span> = خالص</td><td>در روزمره <span class="de">sauber</span> را بگو</td></tr>
+      <tr><td class="c">۸</td><td>«منظر» · «دشت»</td><td>منتظر · داشت</td><td>تایپی فارسی</td></tr>
+    </tbody>
+  </table></div>
+  <div class="box w"><p><b>الگو، نه اتفاق:</b> موارد ۲ و ۳ یک چیزند — جزوه مدام ضمیر را بعد از قید می‌گذارد. در درس ۶ هم دو بار همین کار را کرده بود (<span class="de">heute es zu tun</span>). پس یک <b>عادتِ جزوه</b> است، نه یک اشتباه تکی. <b>همیشه ضمیر را جلو بینداز.</b> 🎈</p></div>
+</section>
+
+<!-- ۱۱ · بانک جمله -->
+<section>
+  <h2>🗂️ بانک جمله — ۳۴ جمله‌ای که خودم ساختم</h2>
+  <p class="lead">هیچ‌کدام از این‌ها را از جزوه کپی نکرده‌ام. همه را در کلاس ساختم.</p>
+  <div class="bank-head">
+    <button onclick="tgl('bank',this)">🙈 حالت آزمون</button>
+    <span class="hint">آلمانی محو می‌شود — اول خودت بساز، بعد روی خانه کلیک کن.</span>
+  </div>
+  <div class="tw" id="bank"><table>
+    <thead><tr><th class="c">#</th><th>فارسی</th><th>آلمانی</th></tr></thead>
+    <tbody>
+      <tr><td class="c">۱</td><td>آن می‌تواند امروز آماده باشد.</td><td class="m"><span class="de">Es kann heute fertig sein.</span></td></tr>
+      <tr><td class="c">۲</td><td>می‌توانید به من بگویید که آیا آن را می‌توانید انجام دهید؟</td><td class="m"><span class="de">Koennen Sie mir sagen, ob Sie es tun koennen?</span></td></tr>
+      <tr><td class="c">۳</td><td>آن را فردا خواهم خرید، اگر زمان داشته باشم.</td><td class="m"><span class="de">Ich werde es morgen kaufen, wenn ich die Zeit habe.</span></td></tr>
+      <tr><td class="c">۴</td><td>دیروز نتوانستم آن را پیدا کنم.</td><td class="m"><span class="de">Ich konnte es gestern nicht finden.</span></td></tr>
+      <tr><td class="c">۵</td><td>نتوانستم شما را بفهمم.</td><td class="m"><span class="de">Ich konnte Sie nicht verstehen.</span></td></tr>
+      <tr><td class="c">۶</td><td>او دیروز عصر نتوانست اینجا منتظر بماند.</td><td class="m"><span class="de">Sie konnte gestern Abend hier nicht warten.</span></td></tr>
+      <tr><td class="c">۷</td><td>دیروز عصر آنجا بودم.</td><td class="m"><span class="de">Ich war gestern Abend da.</span></td></tr>
+      <tr><td class="c">۸</td><td>اما آن آماده نبود.</td><td class="m"><span class="de">Aber es war nicht fertig.</span></td></tr>
+      <tr><td class="c">۹</td><td>وقت نداشتم آن را انجام بدهم، چون خیلی مشغول بودم.</td><td class="m"><span class="de">Ich hatte keine Zeit, es zu tun, weil ich sehr beschaeftigt war.</span></td></tr>
+      <tr><td class="c">۱۰</td><td>می‌شود شما با من بیایید؟</td><td class="m"><span class="de">Koennten Sie mit mir kommen?</span></td></tr>
+      <tr><td class="c">۱۱</td><td>ما نتوانستیم دیروز اینجا منتظر بمانیم.</td><td class="m"><span class="de">Wir konnten gestern hier nicht warten.</span></td></tr>
+      <tr><td class="c">۱۲</td><td>می‌شود به من بگویید که آیا آن آماده است؟</td><td class="m"><span class="de">Koennten Sie mir sagen, ob es fertig ist?</span></td></tr>
+      <tr><td class="c">۱۳</td><td>نمی‌توانم آن را بدون شما انجام دهم.</td><td class="m"><span class="de">Ich kann es ohne Sie nicht tun.</span></td></tr>
+      <tr><td class="c">۱۴</td><td>دیروز نتوانستم آن را بدون شما انجام دهم.</td><td class="m"><span class="de">Ich konnte es gestern ohne Sie nicht tun.</span></td></tr>
+      <tr><td class="c">۱۵</td><td>نمی‌توانیم بدون او منتظر بمانیم.</td><td class="m"><span class="de">Wir koennen ohne ihn nicht warten.</span></td></tr>
+      <tr><td class="c">۱۶</td><td>باید اینجا می‌ماندم.</td><td class="m"><span class="de">Ich musste hier bleiben.</span></td></tr>
+      <tr><td class="c">۱۷</td><td>او نمی‌تواند آن را بخرد، چون خیلی گران است.</td><td class="m"><span class="de">Sie kann es nicht kaufen, weil es sehr teuer ist.</span></td></tr>
+      <tr><td class="c">۱۸</td><td>او می‌خواست آن را بخرد، چون می‌خواست آن را داشته باشد.</td><td class="m"><span class="de">Er wollte es kaufen, weil er es haben wollte.</span></td></tr>
+      <tr><td class="c">۱۹</td><td>قرار است اینجا بمانیم.</td><td class="m"><span class="de">Wir sollen hier bleiben.</span></td></tr>
+      <tr><td class="c">۲۰</td><td>انتظار می‌رفت او منتظر من بماند.</td><td class="m"><span class="de">Er sollte auf mich warten.</span></td></tr>
+      <tr><td class="c">۲۱</td><td>اما او نتوانست منتظر بماند.</td><td class="m"><span class="de">Aber er konnte nicht warten.</span></td></tr>
+      <tr><td class="c">۲۲</td><td>اجازه دارم آن را ببینم؟</td><td class="m"><span class="de">Darf ich es sehen?</span></td></tr>
+      <tr><td class="c">۲۳</td><td>آدم اجازه ندارد اینجا بماند.</td><td class="m"><span class="de">Man darf hier nicht bleiben.</span></td></tr>
+      <tr><td class="c">۲۴</td><td>اجازه هست آن را پرو کنم؟</td><td class="m"><span class="de">Darf ich es anprobieren?</span></td></tr>
+      <tr><td class="c">۲۵</td><td>او آن را انجام نخواهد داد، چون ممکن نیست. (چسب)</td><td class="m"><span class="de">Er wird es nicht tun, denn es ist unmoeglich.</span></td></tr>
+      <tr><td class="c">۲۶</td><td>او آن را انجام نخواهد داد، چون ممکن نیست. (تغییردهنده)</td><td class="m"><span class="de">Er wird es nicht tun, weil es unmoeglich ist.</span></td></tr>
+      <tr><td class="c">۲۷</td><td>نمی‌توانم بیایم، چون وقت ندارم.</td><td class="m"><span class="de">Ich kann nicht kommen, weil ich keine Zeit habe.</span></td></tr>
+      <tr><td class="c">۲۸</td><td>حوصله ندارم آن را انجام دهم.</td><td class="m"><span class="de">Ich habe keine Lust, es zu tun.</span></td></tr>
+      <tr><td class="c">۲۹</td><td>خوشحال می‌شوم شما را ببینم.</td><td class="m"><span class="de">Ich freue mich, Sie zu sehen.</span></td></tr>
+      <tr><td class="c">۳۰</td><td>آن ممکن نَبود، انجام دادنش.</td><td class="m"><span class="de">Es waere unmoeglich, es zu tun.</span></td></tr>
+      <tr><td class="c">۳۱</td><td>آن را تعمیر خواهم کرد.</td><td class="m"><span class="de">Ich werde es reparieren.</span></td></tr>
+      <tr><td class="c">۳۲</td><td>خواهم داد آن را تعمیر کنند.</td><td class="m"><span class="de">Ich werde es reparieren lassen.</span></td></tr>
+      <tr><td class="c">۳۳</td><td>باید بدهم آن را تمیز کنند.</td><td class="m"><span class="de">Ich muss es reinigen lassen.</span></td></tr>
+      <tr><td class="c">۳۴</td><td>او آن را فردا انجام خواهد داد.</td><td class="m"><span class="de">Er wird es morgen tun.</span></td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ۱۲ · تقویم -->
+<section>
+  <h2>📅 تقویم مرور</h2>
+  <p class="lead">این مهم‌ترین بخش عملیِ فایل است. حس «نکند اشتباه کنم» با فهمیدنِ بیشتر از بین نمی‌رود — با <b>تکرار فاصله‌دار</b> از بین می‌رود. تیک‌ها ذخیره می‌شوند.</p>
+  <div class="tw"><table class="cal">
+    <thead><tr><th class="c">✓</th><th>مرور</th><th>تاریخ</th><th>چه کار کنم</th></tr></thead>
+    <tbody>
+      <tr data-k="r1"><td class="c"><input type="checkbox"></td><td><b>۱</b></td><td>۲۲ شهریور<br><span class="hint">یک‌شنبه — امروز</span></td><td>فقط <b>فاکتور کلی</b> و <b>نُه کلمه</b>. ده دقیقه.</td></tr>
+      <tr data-k="r2"><td class="c"><input type="checkbox"></td><td><b>۲</b></td><td>۲۵ شهریور<br><span class="hint">چهارشنبه</span></td><td>بانک جمله در <b>حالت آزمون</b> — ۱۰ جمله‌ی اول. بعد بخش <span class="de">ei</span>/<span class="de">ie</span>.</td></tr>
+      <tr data-k="r3"><td class="c"><input type="checkbox"></td><td><b>۳</b></td><td>۲۹ شهریور<br><span class="hint">یک‌شنبه</span></td><td>جدول «یک حرف، دو معنی» در حالت آزمون + جدول ۹ فعل از حفظ روی کاغذ.</td></tr>
+      <tr data-k="r4"><td class="c"><input type="checkbox"></td><td><b>۴</b></td><td>۵ مهر<br><span class="hint">یک‌شنبه</span></td><td>کل بانک جمله در حالت آزمون. هر جمله‌ای که لنگید، علامت بزن.</td></tr>
+      <tr data-k="r5"><td class="c"><input type="checkbox"></td><td><b>۵</b></td><td>۲۱ مهر<br><span class="hint">سه‌شنبه</span></td><td>بدون باز کردن فایل، ۵ جمله‌ی <b>تازه</b> بساز با <span class="de">koennte</span> · <span class="de">waere</span> · <span class="de">lassen</span> · <span class="de">denn</span> · <span class="de">ohne</span>.</td></tr>
+    </tbody>
+  </table></div>
+  <div class="box i"><p><b>چرا این کار می‌کند:</b> تلاش برای به‌یادآوردن — حتی وقتی ناموفق باشد — حافظه را بیشتر می‌سازد تا دوباره‌خواندن. پس همیشه <b>اول</b> حالت آزمون، <b>بعد</b> نگاه کردن.</p></div>
+</section>
+
+<div class="ft">
+  درس ۷ میشل توماس · یازده بلوک · ۲۰ و ۲۱ شهریور ۱۴۰۵<br>
+  <b>بعدی: درس ۸</b>
+</div>
+
+</div>
+
+<script>
+function tgl(id,btn){
+  var box=document.getElementById(id);
+  var on=box.classList.toggle('quiz');
+  box.querySelectorAll('td.m').forEach(function(c){
+    c.classList.toggle('hide',on); c.classList.remove('show');
+  });
+  btn.textContent = on ? '👁️ نمایش همه' : '🙈 حالت آزمون';
+}
+document.addEventListener('click',function(e){
+  var c=e.target.closest('td.m.hide');
+  if(c) c.classList.toggle('show');
+});
+var KEY='mt-l7-review-v1';
+function load(){try{return JSON.parse(localStorage.getItem(KEY))||{}}catch(e){return {}}}
+function save(s){try{localStorage.setItem(KEY,JSON.stringify(s))}catch(e){}}
+(function(){
+  var st=load();
+  document.querySelectorAll('.cal tr[data-k]').forEach(function(tr){
+    var k=tr.dataset.k, box=tr.querySelector('input');
+    if(st[k]){box.checked=true;tr.classList.add('done');}
+    box.addEventListener('change',function(){
+      tr.classList.toggle('done',box.checked);
+      var s=load(); s[k]=box.checked; save(s);
+    });
+  });
+})();
+</script>
+</body>
+</html>
