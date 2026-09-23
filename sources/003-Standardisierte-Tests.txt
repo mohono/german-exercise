@@ -1,0 +1,1089 @@
+video: KBOP8GMTOwQ
+fa-title: آیا باید آزمون‌های استاندارد را کنار بگذاریم؟
+
+de: Die ersten uns bekannten standardisierten Tests
+fa: نخستین آزمون‌های استانداردی که برای ما شناخته‌شده‌اند
+- Die | (حرف تعریف) | جمع، فاعلی (Nominativ)
+- ersten | نخستین | عدد ترتیبی <de>erst-</de> با پایان صفتی <de>-en</de> (جمع، بعد از <de>die</de>)
+- uns | برای ما | ضمیر datif از <de>wir</de>
+- bekannten | شناخته‌شده | صفت از <de>bekannt</de>؛ پایان <de>-en</de> مثل بقیهٔ صفت‌های این گروه
+- standardisierten | استاندارد، استانداردشده | اسم مفعول <de>standardisieren</de> که صفت شده؛ پایان <de>-en</de>
+- Tests | آزمون‌ها | مذکر: <de>der Test</de>، جمع: <de>die Tests</de>
+* صفت مفصّل: <de>die ersten uns bekannten … Tests</de> یعنی «نخستین آزمون‌هایی که برای ما شناخته‌شده‌اند». آلمانی به‌جای جملهٔ «که…» همهٔ توضیح را پیش از اسم می‌چیند؛ این ساخت در متن‌های رسمی و آزمون B2 زیاد است.
+* همهٔ صفت‌های بعد از <de>die</de> جمع، پایان <de>-en</de> می‌گیرند.
+
+de: wurden vor über 2000 Jahren in China durchgeführt,
+fa: بیش از ۲۰۰۰ سال پیش در چین برگزار شدند،
+- wurden | شدند | گذشتهٔ ساده از <de>werden</de>؛ اینجا کمک‌فعل مجهول
+- vor | پیش | <de>vor</de> + زمان = «… پیش»؛ datif می‌گیرد
+- über | بیش از | اینجا قید مقدار، نه «روی»
+- 2000 | ۲۰۰۰ | <de>zweitausend</de>
+- Jahren | سال | خنثی: <de>das Jahr</de>، جمع: <de>die Jahre</de>؛ <de>-n</de> اضافه نشانهٔ datif جمع است
+- in | در | حرف اضافه
+- China | چین | نام کشور، خنثی و بدون حرف تعریف
+- durchgeführt | برگزار‌شده | اسم مفعول از <de>durchführen</de> (اجرا/برگزار کردن)؛ جداشدنی: <de>durch-ge-führt</de>
+* مجهول گذشته = <de>wurden</de> + اسم مفعول در آخر: <de>wurden … durchgeführt</de> «برگزار شدند».
+* <de>vor</de> + زمان همیشه datif است و اسم جمع در datif یک <de>-n</de> می‌گیرد: <de>vor 2000 Jahren</de>.
+
+de: während der Han-Dynastie.
+fa: در دوران سلسلهٔ هان.
+- während | در طولِ | حرف اضافه با Genitiv
+- der | (حرف تعریف) | مؤنث، Genitiv
+- Han-Dynastie | سلسلهٔ هان | مؤنث: <de>die Dynastie</de>؛ کلمهٔ مرکب با خط تیره
+* <de>während</de> حالت Genitiv می‌خواهد؛ حرف تعریف مؤنث در Genitiv <de>der</de> است.
+
+de: Chinesische Beamte bestimmten mit ihnen,
+fa: کارمندان دولتی چینی به کمک آن‌ها تعیین می‌کردند
+- Chinesische | چینی | صفت جمع بدون حرف تعریف، پایان <de>-e</de>
+- Beamte | کارمندان دولت | <de>der Beamte</de>؛ صفتِ اسم‌شده، پس مثل صفت پایان می‌گیرد
+- bestimmten | تعیین می‌کردند | گذشتهٔ ساده از <de>bestimmen</de>؛ باقاعده: <de>-te</de>
+- mit | با | همیشه datif
+- ihnen | آن‌ها | ضمیر datif جمع (منظور: آزمون‌ها)
+* گذشتهٔ سادهٔ فعل باقاعده: ریشه + <de>-te</de>: <de>bestimm-te-n</de>.
+
+de: wer sich für Regierungsposten eignete.
+fa: چه کسی برای منصب‌های دولتی مناسب است.
+- wer | چه کسی | ضمیر پرسشی؛ اینجا جملهٔ فرعی می‌سازد و فعل آخر می‌رود
+- sich | (خود) | ضمیر انعکاسی
+- für | برای | همیشه akkusativ
+- Regierungsposten | منصب‌های دولتی | مرکب: <de>die Regierung</de> (دولت) + <de>der Posten</de> (منصب)؛ جمع بدون تغییر
+- eignete | مناسب بود | گذشتهٔ ساده از <de>sich eignen für</de> (مناسبِ چیزی بودن)
+* <de>sich eignen für</de> = «مناسبِ … بودن»؛ فعل انعکاسی با حرف اضافهٔ ثابت.
+* کلمهٔ مرکب: جنسش را آخرین جزء تعیین می‌کند (<de>der Posten</de>)، و <de>-s-</de> وسطش فقط اتصال است.
+
+de: Es wurde Philosophie abgefragt, Ackerbau und sogar militärische Strategie.
+fa: فلسفه پرسیده می‌شد، کشاورزی و حتی راهبرد نظامی.
+- Es | (فاعلِ پرکننده) | فقط جای اول را پر می‌کند؛ فاعل واقعی <de>Philosophie</de> است
+- wurde | می‌شد | گذشتهٔ ساده از <de>werden</de>، کمک‌فعل مجهول
+- Philosophie | فلسفه | مؤنث: <de>die Philosophie</de>
+- abgefragt | پرسیده‌شده | اسم مفعول از <de>abfragen</de> (امتحان گرفتن از، پرسیدن)؛ جداشدنی
+- Ackerbau | کشاورزی | مذکر: <de>der Ackerbau</de>؛ مرکب از <de>Acker</de> (مزرعه) + <de>Bau</de>
+- und | و | حرف ربط
+- sogar | حتی | قید
+- militärische | نظامی | صفت، پایان <de>-e</de> (مؤنث، بدون حرف تعریف)
+- Strategie | راهبرد، استراتژی | مؤنث: <de>die Strategie</de>
+* <de>Es</de> در اول جملهٔ مجهول فقط جای اول را نگه می‌دارد تا فعل در جای دوم بماند (قاعدهٔ V2). فارسی به آن نیاز ندارد.
+
+de: 2000 Jahre lang verwendete man standardisierte Tests weltweit.
+fa: ۲۰۰۰ سال تمام، در سراسر جهان از آزمون‌های استاندارد استفاده می‌شد.
+- 2000 | ۲۰۰۰ | <de>zweitausend</de>
+- Jahre | سال | جمع؛ اینجا akkusativِ مدت
+- lang | (به مدتِ) | <de>… Jahre lang</de> = «… سال تمام»
+- verwendete | استفاده می‌کرد | گذشتهٔ ساده از <de>verwenden</de> (به کار بردن)
+- man | آدم، (کسی) | ضمیر نامعین؛ فعل سوم‌شخص مفرد
+- standardisierte | استاندارد | صفت جمع بدون حرف تعریف، پایان <de>-e</de>
+- Tests | آزمون‌ها | جمع
+- weltweit | در سراسر جهان | قید
+* <de>man</de> فاعلِ کلی است؛ فارسی بیشتر آن را مجهول ترجمه می‌کند («استفاده می‌شد»).
+* جای اول را عبارت زمانی گرفته، پس فعل (<de>verwendete</de>) دوم و فاعل (<de>man</de>) سوم آمده — باز هم V2.
+
+de: Heute verwendet man sie für alles,
+fa: امروز از آن‌ها برای همه‌چیز استفاده می‌شود،
++para
+- Heute | امروز | قید؛ جای اول
+- verwendet | استفاده می‌کند | زمان حال از <de>verwenden</de>
+- man | آدم | ضمیر نامعین
+- sie | آن‌ها را | ضمیر akkusativ جمع
+- für | برای | akkusativ
+- alles | همه‌چیز | ضمیر نامعین خنثی
+* مثل بالا: قید در جای اول ← فعل دوم ← فاعل سوم.
+
+de: ob um Treppensteigen der Feuerwehr in Frankreich zu bewerten,
+fa: چه برای ارزیابی پله‌بالارفتنِ آتش‌نشان‌ها در فرانسه،
+- ob | چه (…چه) | اینجا برای برشمردن گزینه‌ها
+- um | برای اینکه | شروع ساخت <de>um … zu</de>
+- Treppensteigen | پله‌بالارفتن | خنثی: <de>das Treppensteigen</de>؛ مصدرِ اسم‌شده از <de>die Treppe</de> + <de>steigen</de>
+- der | (حرف تعریف) | مؤنث، Genitiv
+- Feuerwehr | آتش‌نشانی | مؤنث: <de>die Feuerwehr</de>
+- in | در | حرف اضافه
+- Frankreich | فرانسه | نام کشور
+- zu | (نشانهٔ مصدر) | بخش دوم <de>um … zu</de>
+- bewerten | ارزیابی کردن | مصدر؛ آخر جمله
+* <de>um … zu</de> + مصدر = «برای اینکه …»؛ مصدر همیشه آخر می‌آید.
+* هر مصدری با حرف بزرگ اسمِ خنثی می‌شود: <de>steigen → das Steigen</de>.
+
+de: Sprachtests für Diplomaten in Kanada abzunehmen
+fa: برای گرفتن آزمون زبان از دیپلمات‌ها در کانادا
+- Sprachtests | آزمون‌های زبان | مرکب: <de>die Sprache</de> + <de>der Test</de>؛ جمع
+- für | برای | akkusativ
+- Diplomaten | دیپلمات‌ها | مذکر: <de>der Diplomat</de>، جمع: <de>die Diplomaten</de>
+- in | در | حرف اضافه
+- Kanada | کانادا | نام کشور
+- abzunehmen | گرفتن (آزمون) | از <de>abnehmen</de>؛ جداشدنی، پس <de>zu</de> وسطش می‌رود: <de>ab-zu-nehmen</de>
+* فعل جداشدنی در ساخت <de>zu</de> + مصدر، <de>zu</de> را بین پیشوند و ریشه می‌گیرد: <de>abzunehmen</de>.
+* <de>einen Test abnehmen</de> = «آزمون گرفتن (از کسی)»؛ اصطلاح ثابت.
+
+de: oder um Schüler zu bewerten.
+fa: یا برای ارزیابی دانش‌آموزان.
+- oder | یا | حرف ربط هم‌پایه
+- um | برای اینکه | <de>um … zu</de>
+- Schüler | دانش‌آموزان | مذکر: <de>der Schüler</de>، جمع بدون تغییر
+- zu | (نشانهٔ مصدر) |
+- bewerten | ارزیابی کردن | مصدر
+
+de: Einige standardisierte Tests messen Punkte nur in Relation zu anderen Testteilnehmern.
+fa: برخی آزمون‌های استاندارد امتیاز را فقط در نسبت با دیگر شرکت‌کنندگان آزمون می‌سنجند.
++para
+- Einige | برخی | ضمیر/صفت نامعین جمع
+- standardisierte | استاندارد | صفت، پایان <de>-e</de> بعد از <de>einige</de>
+- Tests | آزمون‌ها | جمع
+- messen | می‌سنجند | از <de>messen</de>؛ بی‌قاعده: <de>messen → maß → gemessen</de>
+- Punkte | امتیازها | مذکر: <de>der Punkt</de>، جمع: <de>die Punkte</de>
+- nur | فقط | قید
+- in | در | حرف اضافه
+- Relation | نسبت | مؤنث: <de>die Relation</de>؛ <de>in Relation zu</de> = «در نسبت با»
+- zu | با، به | همیشه datif
+- anderen | دیگر | صفت، datif جمع
+- Testteilnehmern | شرکت‌کنندگان آزمون | مذکر: <de>der Teilnehmer</de>؛ <de>-n</de> آخر نشانهٔ datif جمع
+* datif جمع همیشه به <de>-n</de> ختم می‌شود: <de>die Testteilnehmer → zu den Testteilnehmern</de>.
+
+de: Andere messen Leistung an Kriterien, die vorher festgelegt werden.
+fa: برخی دیگر عملکرد را با معیارهایی می‌سنجند که از پیش تعیین می‌شوند.
+- Andere | برخی دیگر | ضمیر جمع
+- messen | می‌سنجند | از <de>messen</de>
+- Leistung | عملکرد، کارایی | مؤنث: <de>die Leistung</de>
+- an | با، بر پایهٔ | <de>messen an</de> + datif = «سنجیدن با معیارِ…»
+- Kriterien | معیارها | خنثی: <de>das Kriterium</de>، جمع: <de>die Kriterien</de>
+- die | که | ضمیر موصولی جمع؛ فعل را آخر می‌برد
+- vorher | از پیش | قید
+- festgelegt | تعیین‌شده | اسم مفعول از <de>festlegen</de>؛ جداشدنی
+- werden | می‌شوند | کمک‌فعل مجهول، زمان حال
+* جملهٔ موصولی با <de>die/der/das</de> شروع می‌شود و فعلش آخر است: <de>…, die vorher festgelegt werden</de>.
+* <de>Kriterium → Kriterien</de>: جمعِ نامنظمِ کلمه‌های لاتینی.
+
+de: Das Treppensteigen der Feuerwehr kann gemessen werden
+fa: پله‌بالارفتنِ آتش‌نشان‌ها را می‌شود سنجید
+- Das | (حرف تعریف) | خنثی، فاعلی
+- Treppensteigen | پله‌بالارفتن | خنثی
+- der | (حرف تعریف) | Genitiv مؤنث
+- Feuerwehr | آتش‌نشانی | مؤنث
+- kann | می‌تواند | از فعل وجهی <de>können</de>
+- gemessen | سنجیده | اسم مفعول از <de>messen</de>
+- werden | شدن | مصدرِ کمک‌فعل مجهول
+* مجهول با فعل وجهی: <de>kann</de> + اسم مفعول + <de>werden</de> (آخر) = «می‌تواند سنجیده شود».
+
+de: indem man die benötigte Zeit vergleicht mit der aller anderen Feuerwehrleute.
+fa: به این صورت که زمانِ صرف‌شده را با زمانِ همهٔ آتش‌نشان‌های دیگر مقایسه کنیم.
+- indem | با این کار که، به این صورت که | حرف ربط؛ فعل را آخر می‌برد
+- man | آدم | ضمیر نامعین
+- die | (حرف تعریف) | مؤنث، akkusativ
+- benötigte | لازم‌شده، صرف‌شده | اسم مفعول <de>benötigen</de> که صفت شده؛ پایان <de>-e</de>
+- Zeit | زمان | مؤنث: <de>die Zeit</de>
+- vergleicht | مقایسه می‌کند | از <de>vergleichen</de>؛ <de>vergleichen mit</de>
+- mit | با | datif
+- der | آنِ | ضمیر اشاره (= <de>der Zeit</de>)، datif مؤنث
+- aller | همهٔ | Genitiv جمع
+- anderen | دیگر | صفت Genitiv جمع
+- Feuerwehrleute | آتش‌نشان‌ها | جمعِ <de>der Feuerwehrmann</de>
+* <de>indem</de> «روشِ» کار را می‌گوید (با … کردن). قاعده‌اش فعل آخر است، ولی گوینده اینجا <de>mit der …</de> را بعد از فعل آورده — در گفتار رایج است.
+* <de>der</de> اینجا حرف تعریف نیست، ضمیر است و جای <de>Zeit</de> را می‌گیرد تا تکرار نشود.
+
+de: Man könnte das in einer Glockenkurve darstellen.
+fa: می‌شد این را در یک منحنی زنگوله‌ای نمایش داد.
+- Man | آدم | ضمیر نامعین
+- könnte | می‌توانست | Konjunktiv II از <de>können</de>؛ پیشنهاد مؤدبانه/احتمال
+- das | این را | ضمیر اشاره، akkusativ
+- in | در | اینجا datif (مکان)
+- einer | یک | حرف تعریف نامعین، datif مؤنث
+- Glockenkurve | منحنی زنگوله‌ای | مرکب: <de>die Glocke</de> (زنگ) + <de>die Kurve</de>
+- darstellen | نمایش دادن | مصدر؛ جداشدنی (<de>dar-stellen</de>)
+* <de>könnte</de> (با اوملاوت) = «می‌شد/می‌توانست»؛ بدون اوملاوت (<de>konnte</de>) یعنی «توانست» در گذشتهٔ واقعی.
+
+de: Oder man könnte es in Bezug auf festgelegte Kriterien bewerten,
+fa: یا می‌شد آن را با توجه به معیارهای تعیین‌شده ارزیابی کرد،
+- Oder | یا | حرف ربط هم‌پایه؛ جای اول حساب نمی‌شود
+- man | آدم | فاعل
+- könnte | می‌توانست | Konjunktiv II از <de>können</de>
+- es | آن را | ضمیر akkusativ خنثی
+- in | در | بخشی از <de>in Bezug auf</de>
+- Bezug | ارتباط | مذکر: <de>der Bezug</de>؛ <de>in Bezug auf</de> + akkusativ = «در رابطه با، با توجه به»
+- auf | به | akkusativ
+- festgelegte | تعیین‌شده | اسم مفعول-صفت، پایان <de>-e</de> (جمع، بدون حرف تعریف)
+- Kriterien | معیارها | جمع
+- bewerten | ارزیابی کردن | مصدر، آخر
+* <de>oder/und/aber</de> خانهٔ صفر را می‌گیرند؛ بعدشان جملهٔ معمولی با فاعل و فعل دوم می‌آید.
+
+de: etwa indem man ein bestimmtes Gewicht eine bestimmte Distanz trägt,
+fa: مثلاً به این صورت که وزن مشخصی را مسافت مشخصی حمل کنیم،
+- etwa | مثلاً | قید
+- indem | به این صورت که | فعل آخر
+- man | آدم | فاعل
+- ein | یک | خنثی، akkusativ
+- bestimmtes | مشخص | صفت، <de>-es</de> چون <de>ein</de> جنس خنثی را نشان نمی‌دهد
+- Gewicht | وزن | خنثی: <de>das Gewicht</de>
+- eine | یک | مؤنث، akkusativ
+- bestimmte | مشخص | صفت، پایان <de>-e</de>
+- Distanz | مسافت | مؤنث: <de>die Distanz</de>
+- trägt | حمل می‌کند | از <de>tragen</de>؛ بی‌قاعده: <de>trägt → trug → getragen</de>
+* دو akkusativ پشت هم: <de>ein bestimmtes Gewicht</de> (چه چیزی) و <de>eine bestimmte Distanz</de> (چه مقدار مسافت). اندازه و مدت بدون حرف اضافه، akkusativ می‌گیرند.
+
+de: über eine bestimmte Anzahl von Stufen.
+fa: روی تعداد مشخصی پله.
+- über | روی، از فراز | اینجا akkusativ (حرکت از روی چیزی)
+- eine | یک | مؤنث، akkusativ
+- bestimmte | مشخص | صفت
+- Anzahl | تعداد | مؤنث: <de>die Anzahl</de>
+- von | از | همیشه datif
+- Stufen | پله‌ها | مؤنث: <de>die Stufe</de>، جمع: <de>die Stufen</de>
+* <de>über</de> حرف اضافهٔ دوحالته است: حرکت ← akkusativ، مکانِ ثابت ← datif.
+
+de: Ebenso kann ein Diplomat gemessen werden an den anderen Diplomaten
+fa: به همین ترتیب یک دیپلمات را می‌شود با دیگر دیپلمات‌ها سنجید
+- Ebenso | به همین ترتیب | قید؛ جای اول
+- kann | می‌تواند | از <de>können</de>؛ جای دوم
+- ein | یک | مذکر، فاعلی
+- Diplomat | دیپلمات | مذکر: <de>der Diplomat</de>؛ اسم ضعیف: در همهٔ حالت‌ها جز فاعلیِ مفرد <de>-en</de> می‌گیرد
+- gemessen | سنجیده | اسم مفعول <de>messen</de>
+- werden | شدن | کمک‌فعل مجهول
+- an | با، بر پایهٔ | <de>messen an</de> + datif
+- den | (حرف تعریف) | datif جمع
+- anderen | دیگر | صفت datif جمع
+- Diplomaten | دیپلمات‌ها | datif جمع
+* مثل بالا: <de>kann … gemessen werden</de>. اینجا <de>an den anderen Diplomaten</de> بعد از قاب فعلی آمده؛ در گفتار مجاز است.
+
+de: oder gegen festgelegte Kriterien, die verschiedene Level von Sprachfähigkeiten reflektieren.
+fa: یا در برابر معیارهای تعیین‌شده‌ای که سطح‌های مختلف توانایی زبانی را بازتاب می‌دهند.
+- oder | یا | حرف ربط
+- gegen | در برابر | همیشه akkusativ
+- festgelegte | تعیین‌شده | صفت جمع، <de>-e</de>
+- Kriterien | معیارها | جمع
+- die | که | ضمیر موصولی جمع
+- verschiedene | مختلف | صفت جمع، <de>-e</de>
+- Level | سطح‌ها | خنثی: <de>das Level</de>، جمع بدون تغییر
+- von | از | datif
+- Sprachfähigkeiten | توانایی‌های زبانی | مرکب: <de>die Sprache</de> + <de>die Fähigkeit</de>
+- reflektieren | بازتاب می‌دهند | فعل جملهٔ موصولی، آخر
+* پسوند <de>-keit/-heit/-ung</de> همیشه اسم مؤنث می‌سازد: <de>die Fähigkeit</de>.
+
+de: All diese Resultate kann man in Perzentilen ausdrücken.
+fa: همهٔ این نتایج را می‌شود به صورت صدک بیان کرد.
++para
+- All | همهٔ | بدون پایان پیش از <de>diese</de>
+- diese | این | ضمیر اشاره، جمع akkusativ
+- Resultate | نتایج | خنثی: <de>das Resultat</de>، جمع: <de>die Resultate</de>
+- kann | می‌تواند | از <de>können</de>
+- man | آدم | فاعل
+- in | در، به صورتِ | datif
+- Perzentilen | صدک‌ها | خنثی: <de>das Perzentil</de>؛ <de>-n</de> آخر برای datif جمع
+- ausdrücken | بیان کردن | مصدر؛ جداشدنی
+* مفعول (<de>All diese Resultate</de>) در جای اول است و فاعل (<de>man</de>) بعد از فعل؛ ترتیب آزاد است ولی فعل همیشه دوم.
+
+de: Punktet ein Diplomat im 70. Perzentil, liegen 70 % der Testteilnehmer darunter.
+fa: اگر دیپلماتی در صدک ۷۰ امتیاز بگیرد، ۷۰ درصد شرکت‌کنندگان پایین‌تر از او قرار دارند.
+- Punktet | امتیاز بگیرد | از <de>punkten</de>؛ در اول جمله یعنی «اگر»
+- ein | یک | مذکر، فاعلی
+- Diplomat | دیپلمات | مذکر
+- im | در | ادغام: <de>im = in + dem</de>
+- 70 | هفتادم | <de>siebzigsten</de>؛ نقطه بعد از عدد یعنی ترتیبی
+- Perzentil | صدک | خنثی
+- liegen | قرار دارند | از <de>liegen</de>
+- 70 | ۷۰ | <de>siebzig Prozent</de>
+- der | (حرف تعریف) | Genitiv جمع
+- Testteilnehmer | شرکت‌کنندگان آزمون | جمع
+- darunter | زیرِ آن | <de>da + unter</de>
+* شرط بدون <de>wenn</de>: فعل به اول جمله می‌آید (<de>Punktet ein Diplomat …</de> = <de>Wenn ein Diplomat … punktet</de>). جملهٔ دوم هم با فعل شروع می‌شود (<de>liegen</de>).
+* <de>70.</de> با نقطه عدد ترتیبی است و «هفتادم» خوانده می‌شود.
+
+de: Punktet sie im 30. Perzentil, liegen 70 % der Testteilnehmer über ihr.
+fa: اگر او در صدک ۳۰ امتیاز بگیرد، ۷۰ درصد شرکت‌کنندگان بالاتر از او قرار دارند.
+- Punktet | امتیاز بگیرد | شرط بدون <de>wenn</de>
+- sie | او (زن) | ضمیر فاعلی مؤنث
+- im | در | <de>in + dem</de>
+- 30 | سی‌ام | <de>dreißigsten</de>
+- Perzentil | صدک | خنثی
+- liegen | قرار دارند | از <de>liegen</de>
+- 70 | ۷۰ | <de>siebzig Prozent</de>
+- der | (حرف تعریف) | Genitiv جمع
+- Testteilnehmer | شرکت‌کنندگان آزمون | جمع
+- über | بالای | مکان ثابت، پس datif
+- ihr | او (زن) | ضمیر datif مؤنث از <de>sie</de>
+* مثل بالا. <de>über</de> اینجا مکان ثابت است ← datif (<de>über ihr</de>).
+
+de: Obwohl standardisierte Tests manchmal umstritten sind, sind sie ein Werkzeug.
+fa: گرچه آزمون‌های استاندارد گاهی بحث‌برانگیزند، ابزار هستند.
++para
+- Obwohl | گرچه | حرف ربط؛ فعل را آخر می‌برد
+- standardisierte | استاندارد | صفت جمع
+- Tests | آزمون‌ها | جمع
+- manchmal | گاهی | قید
+- umstritten | بحث‌برانگیز | صفت (از <de>umstreiten</de>)
+- sind | هستند | از <de>sein</de>؛ آخر جملهٔ فرعی
+- sind | هستند | فعل جملهٔ اصلی
+- sie | آن‌ها | فاعل
+- ein | یک | خنثی، فاعلی
+- Werkzeug | ابزار | خنثی: <de>das Werkzeug</de>
+* جملهٔ فرعی که اول بیاید، خودش «جای اول» حساب می‌شود؛ پس فعل جملهٔ اصلی بلافاصله بعدش می‌آید: <de>…, sind sie</de>. دو <de>sind</de> پشت‌سرهم از همین است.
+
+de: Stell dir als Gedankenexperiment einen standardisierten Test als Lineal vor.
+fa: به‌عنوان یک آزمایش ذهنی، یک آزمون استاندارد را مثل یک خط‌کش تصور کن.
+- Stell | تصور کن | امر از <de>sich vorstellen</de>؛ جداشدنی
+- dir | (برای خودت) | ضمیر انعکاسی datif
+- als | به‌عنوانِ |
+- Gedankenexperiment | آزمایش ذهنی | مرکب: <de>der Gedanke</de> + <de>das Experiment</de>؛ خنثی
+- einen | یک | مذکر، akkusativ
+- standardisierten | استاندارد | صفت، <de>-en</de> در akkusativ مذکر
+- Test | آزمون | مذکر
+- als | به‌عنوانِ، مثلِ |
+- Lineal | خط‌کش | خنثی: <de>das Lineal</de>
+- vor | (جزء فعل) | جزء جداشدهٔ <de>vorstellen</de>؛ ته جمله
+* <de>sich (Dat.) etwas vorstellen</de> = «چیزی را تصور کردن»؛ ضمیرش datif است (<de>dir</de>، نه <de>dich</de>) چون مفعول مستقیمِ جداگانه دارد.
+* در امر، فعل اول می‌آید و جزء جداشدنی آخر: <de>Stell … vor</de>.
+
+de: Der Nutzen eines Lineals hängt von zwei Aspekten ab.
+fa: فایدهٔ یک خط‌کش به دو جنبه بستگی دارد.
+- Der | (حرف تعریف) | مذکر، فاعلی
+- Nutzen | فایده | مذکر: <de>der Nutzen</de>
+- eines | یک | Genitiv خنثی
+- Lineals | خط‌کش | Genitiv با <de>-s</de>
+- hängt | بستگی دارد | از <de>abhängen</de>؛ جداشدنی
+- von | از، به | datif
+- zwei | دو | عدد
+- Aspekten | جنبه‌ها | مذکر: <de>der Aspekt</de>؛ datif جمع
+- ab | (جزء فعل) | جزء جداشدهٔ <de>abhängen</de>
+* <de>abhängen von</de> + datif = «بستگی داشتن به». یکی از پرکاربردترین فعل‌ها در نوشتن B2.
+
+de: Zunächst davon, was es tun soll.
+fa: اول به اینکه قرار است چه کاری انجام دهد.
+- Zunächst | اول، نخست | قید
+- davon | به این | <de>da + von</de>؛ ادامهٔ <de>abhängen von</de>
+- was | چه چیزی | ضمیر پرسشی؛ جملهٔ فرعی، فعل آخر
+- es | آن | ضمیر خنثی (= <de>das Lineal</de>)
+- tun | انجام دادن | مصدر
+- soll | باید، قرار است | از فعل وجهی <de>sollen</de>
+* <de>davon</de> جای <de>von</de> + یک جملهٔ کامل را می‌گیرد: <de>abhängen davon, was …</de>.
+
+de: Unser Lineal kann keine Temperatur messen oder wie laut jemand singt.
+fa: خط‌کش ما نمی‌تواند دما را اندازه بگیرد یا اینکه کسی چقدر بلند آواز می‌خواند.
+- Unser | (مالِ) ما | صفت ملکی، خنثی فاعلی
+- Lineal | خط‌کش | خنثی
+- kann | می‌تواند | از <de>können</de>
+- keine | هیچ | نفیِ اسم؛ مؤنث akkusativ
+- Temperatur | دما | مؤنث: <de>die Temperatur</de>
+- messen | اندازه گرفتن | مصدر؛ آخر قاب
+- oder | یا | حرف ربط
+- wie | چقدر | پرسشی؛ فعل آخر
+- laut | بلند | صفت/قید
+- jemand | کسی | ضمیر نامعین
+- singt | آواز می‌خواند | از <de>singen</de>
+* اسم را با <de>kein</de> منفی می‌کنند (نه <de>nicht</de>): <de>keine Temperatur</de> = «هیچ دمایی».
+
+de: Zweitens hängt sein Nutzen von seiner Konstruktion ab.
+fa: دوم اینکه فایده‌اش به ساختارش بستگی دارد.
+- Zweitens | دوم اینکه | قید؛ جای اول
+- hängt | بستگی دارد | از <de>abhängen</de>
+- sein | (مالِ) آن | صفت ملکی خنثی/مذکر؛ مذکر فاعلی
+- Nutzen | فایده | مذکر
+- von | به | datif
+- seiner | (مالِ) آن | صفت ملکی، datif مؤنث
+- Konstruktion | ساختار، ساخت | مؤنث: <de>die Konstruktion</de>
+- ab | (جزء فعل) | <de>abhängen</de>
+* <de>sein</de> هم برای مالکِ مذکر است هم خنثی (<de>das Lineal → sein Nutzen</de>).
+
+de: Sagen wir, es geht darum, den Umfang einer Orange zu messen.
+fa: فرض کنیم موضوع این است که محیط یک پرتقال را اندازه بگیریم.
+- Sagen | بگوییم | از <de>sagen</de>؛ امرِ اول‌شخص جمع
+- wir | ما |
+- es | (فاعلِ پرکننده) | در <de>es geht um</de>
+- geht | می‌رود | از <de>gehen</de>؛ <de>es geht um</de> = «موضوع … است»
+- darum | دربارهٔ این | <de>da + um</de>
+- den | (حرف تعریف) | مذکر، akkusativ
+- Umfang | محیط | مذکر: <de>der Umfang</de>
+- einer | یک | Genitiv مؤنث
+- Orange | پرتقال | مؤنث: <de>die Orange</de>
+- zu | (نشانهٔ مصدر) |
+- messen | اندازه گرفتن | مصدر
+* <de>Sagen wir</de> (فعل + <de>wir</de>) = «بیایید بگوییم / فرض کنیم».
+* <de>es geht um</de> + akkusativ = «موضوع … است»؛ عبارت ثابت و بسیار پرکاربرد.
+
+de: Unser Lineal misst Länge, was die richtige Einheit ist,
+fa: خط‌کش ما طول را اندازه می‌گیرد، که واحد درستی است،
+- Unser | (مالِ) ما |
+- Lineal | خط‌کش | خنثی
+- misst | اندازه می‌گیرد | از <de>messen</de>؛ <de>e → i</de> در سوم‌شخص
+- Länge | طول | مؤنث: <de>die Länge</de>
+- was | که (این) | ضمیر موصولی برای کل جملهٔ قبل
+- die | (حرف تعریف) | مؤنث فاعلی
+- richtige | درست | صفت، <de>-e</de> بعد از <de>die</de>
+- Einheit | واحد | مؤنث: <de>die Einheit</de>
+- ist | است | آخر جملهٔ فرعی
+* <de>was</de> وقتی به کلِ جملهٔ قبل اشاره کند (نه به یک اسم)، ضمیر موصولی است: <de>…, was die richtige Einheit ist</de>.
+
+de: aber es besitzt nicht die Flexibilität, die für diese Aufgabe benötigt wird.
+fa: اما انعطافی را که برای این کار لازم است، ندارد.
+- aber | اما | حرف ربط
+- es | آن | ضمیر خنثی (خط‌کش)
+- besitzt | دارد | از <de>besitzen</de> (دارا بودن)
+- nicht | نه | قید نفی
+- die | (حرف تعریف) | مؤنث akkusativ
+- Flexibilität | انعطاف | مؤنث: <de>die Flexibilität</de>
+- die | که | ضمیر موصولی مؤنث
+- für | برای | akkusativ
+- diese | این | مؤنث akkusativ
+- Aufgabe | کار، وظیفه | مؤنث: <de>die Aufgabe</de>
+- benötigt | لازم‌شده | اسم مفعول <de>benötigen</de>
+- wird | می‌شود | کمک‌فعل مجهول، آخر
+* <de>benötigt wird</de> = «لازم است» (به‌معنای لفظی «نیاز داشته می‌شود»). مجهولِ زمان حال: <de>wird</de> + اسم مفعول.
+
+de: Gibt man standardisierten Tests die verkehrte Aufgabe
+fa: اگر به آزمون‌های استاندارد کارِ اشتباهی سپرده شود
+- Gibt | بدهد | از <de>geben</de>؛ اول جمله = شرط
+- man | آدم | فاعل
+- standardisierten | استاندارد | صفت datif جمع
+- Tests | آزمون‌ها | datif جمع (به <de>-s</de> ختم است، پس <de>-n</de> نمی‌گیرد)
+- die | (حرف تعریف) | مؤنث akkusativ
+- verkehrte | اشتباه، وارونه | صفت
+- Aufgabe | کار، وظیفه | مؤنث
+* شرط بدون <de>wenn</de> (مثل <de>Punktet</de> بالا).
+* <de>geben</de>: گیرنده datif (<de>standardisierten Tests</de>)، چیزِ داده‌شده akkusativ (<de>die … Aufgabe</de>).
+
+de: oder sind sie nicht gut konstruiert, messen sie verkehrte Dinge.
+fa: یا خوب ساخته نشده باشند، چیزهای اشتباهی را می‌سنجند.
+- oder | یا | حرف ربط
+- sind | باشند | از <de>sein</de>؛ شرطِ دوم با فعل اول
+- sie | آن‌ها | فاعل
+- nicht | نه | نفی
+- gut | خوب | قید
+- konstruiert | ساخته‌شده | اسم مفعول <de>konstruieren</de>؛ فعل‌های <de>-ieren</de> پیشوند <de>ge-</de> نمی‌گیرند
+- messen | می‌سنجند | فعل جملهٔ اصلی، اول (بعد از شرط)
+- sie | آن‌ها | فاعل
+- verkehrte | اشتباه | صفت جمع، <de>-e</de>
+- Dinge | چیزها | خنثی: <de>das Ding</de>، جمع: <de>die Dinge</de>
+* <de>sind … konstruiert</de> مجهولِ حالت (Zustandspassiv) است: «ساخته‌شده هستند».
+
+de: Im Fall einer Schule haben Schüler mit Testangst es schwer,
+fa: در مورد مدرسه، دانش‌آموزانی که اضطراب امتحان دارند، به سختی می‌توانند
++para
+- Im | در | <de>im = in + dem</de>
+- Fall | مورد | مذکر: <de>der Fall</de>، جمع: <de>die Fälle</de>
+- einer | یک | Genitiv مؤنث
+- Schule | مدرسه | مؤنث: <de>die Schule</de>
+- haben | دارند | از <de>haben</de>
+- Schüler | دانش‌آموزان | جمع
+- mit | با | datif
+- Testangst | اضطراب امتحان | مرکب: <de>der Test</de> + <de>die Angst</de>؛ مؤنث
+- es | آن را | در اصطلاح <de>es schwer haben</de>
+- schwer | سخت | صفت/قید
+* <de>es schwer haben</de> = «دشواری داشتن، به سختی افتادن». <de>es</de> جزء ثابت اصطلاح است.
+
+de: ihr Bestes zu geben bei einem standardisierten Test,
+fa: در یک آزمون استاندارد بهترینِ خود را ارائه دهند،
+- ihr | (مالِ) آن‌ها | صفت ملکی جمع
+- Bestes | بهترین | صفتِ اسم‌شده: <de>das Beste</de>
+- zu | (نشانهٔ مصدر) |
+- geben | دادن | مصدر
+- bei | در، هنگامِ | همیشه datif
+- einem | یک | datif مذکر
+- standardisierten | استاندارد | صفت، <de>-en</de>
+- Test | آزمون | مذکر
+* <de>sein Bestes geben</de> = «همهٔ تلاشش را کردن».
+* <de>es schwer haben, … zu</de> + مصدر: «به سختی می‌تواند … کند».
+
+de: nicht, weil sie nichts wissen,
+fa: نه به این خاطر که چیزی نمی‌دانند،
+- nicht | نه | نفی
+- weil | چون | حرف ربط؛ فعل را آخر می‌برد
+- sie | آن‌ها | فاعل
+- nichts | هیچ‌چیز | ضمیر نفی
+- wissen | می‌دانند | از <de>wissen</de>
+* <de>nicht, weil … sondern weil …</de> = «نه به این خاطر که … بلکه به این خاطر که …».
+
+de: sondern weil sie zu nervös sind,
+fa: بلکه به این خاطر که بیش از حد مضطرب‌اند
+- sondern | بلکه | بعد از نفی می‌آید
+- weil | چون | فعل آخر
+- sie | آن‌ها | فاعل
+- zu | بیش از حد | قید مقدار
+- nervös | مضطرب، عصبی | صفت
+- sind | هستند | آخر جملهٔ فرعی
+* <de>sondern</de> فقط بعد از نفی (<de>nicht/kein</de>) می‌آید؛ <de>aber</de> «اما»ی معمولی است.
+
+de: um zu zeigen, was sie gelernt haben.
+fa: که بتوانند نشان دهند چه یاد گرفته‌اند.
+- um | برای اینکه | <de>zu … um zu</de>
+- zu | (نشانهٔ مصدر) |
+- zeigen | نشان دادن | مصدر
+- was | چه چیزی | پرسشی؛ فعل آخر
+- sie | آن‌ها | فاعل
+- gelernt | یاد گرفته | اسم مفعول <de>lernen</de>
+- haben | اند | کمک‌فعل Perfekt؛ آخر جملهٔ فرعی
+* <de>zu</de> + صفت + <de>um … zu</de> = «بیش از حد … که بتواند …»: <de>zu nervös, um zu zeigen</de>.
+
+de: Schüler mit Leseschwierigkeiten kämpfen mit der Formulierung eines Matheproblems,
+fa: دانش‌آموزانی که در خواندن مشکل دارند، با صورت‌بندی یک مسئلهٔ ریاضی کلنجار می‌روند،
+- Schüler | دانش‌آموزان | جمع
+- mit | با | datif
+- Leseschwierigkeiten | مشکلات خواندن | مرکب: <de>lesen</de> + <de>die Schwierigkeit</de>
+- kämpfen | می‌جنگند، کلنجار می‌روند | از <de>kämpfen mit</de>
+- mit | با | datif
+- der | (حرف تعریف) | datif مؤنث
+- Formulierung | صورت‌بندی | مؤنث: <de>die Formulierung</de>
+- eines | یک | Genitiv خنثی
+- Matheproblems | مسئلهٔ ریاضی | مرکب: <de>die Mathe</de> + <de>das Problem</de>؛ Genitiv با <de>-s</de>
+* <de>kämpfen mit</de> + datif = «با چیزی درگیر بودن/کلنجار رفتن».
+
+de: so dass ein Testergebnis eher ihre Lesekompetenz spiegelt
+fa: به‌طوری که نتیجهٔ آزمون بیشتر مهارت خواندنشان را بازتاب می‌دهد
+- so | چنان | با <de>dass</de>: <de>so dass</de> = «به‌طوری که»
+- dass | که | فعل آخر
+- ein | یک | خنثی فاعلی
+- Testergebnis | نتیجهٔ آزمون | خنثی: <de>das Ergebnis</de>
+- eher | بیشتر، بیشتر تا | با <de>als</de>: <de>eher … als</de>
+- ihre | (مالِ) آن‌ها | مؤنث akkusativ
+- Lesekompetenz | مهارت خواندن | مؤنث: <de>die Kompetenz</de>
+- spiegelt | بازتاب می‌دهد | از <de>spiegeln</de> (منعکس کردن)
+* <de>so dass</de> نتیجه را می‌گوید و فعل را آخر می‌برد.
+
+de: als ihre Rechenfähigkeiten.
+fa: تا توانایی حسابشان را.
+- als | تا (در مقایسه) | <de>eher … als</de>
+- ihre | (مالِ) آن‌ها | جمع
+- Rechenfähigkeiten | توانایی‌های حساب | مرکب: <de>rechnen</de> + <de>die Fähigkeit</de>
+* <de>eher A als B</de> = «بیشتر A تا B».
+
+de: Schüler, die von Beispielen verwirrt sind,
+fa: دانش‌آموزانی که از مثال‌ها گیج می‌شوند،
+- Schüler | دانش‌آموزان | جمع
+- die | که | ضمیر موصولی جمع
+- von | از | datif
+- Beispielen | مثال‌ها | خنثی: <de>das Beispiel</de>؛ datif جمع
+- verwirrt | گیج‌شده | اسم مفعول <de>verwirren</de>
+- sind | هستند | آخر جملهٔ موصولی
+
+de: bei Tests mit ihnen unbekannten kulturellen Anspielungen, schneiden schlecht ab,
+fa: در آزمون‌هایی با اشاره‌های فرهنگیِ ناآشنا برایشان، نتیجهٔ بدی می‌گیرند،
+- bei | در | datif
+- Tests | آزمون‌ها | datif جمع
+- mit | با | datif
+- ihnen | برای آن‌ها | ضمیر datif جمع
+- unbekannten | ناشناخته | صفت datif جمع، <de>-en</de>
+- kulturellen | فرهنگی | صفت datif جمع، <de>-en</de>
+- Anspielungen | اشاره‌ها، کنایه‌ها | مؤنث: <de>die Anspielung</de>
+- schneiden | نتیجه می‌گیرند | از <de>abschneiden</de>؛ جداشدنی
+- schlecht | بد | قید
+- ab | (جزء فعل) | جزء <de>abschneiden</de>
+* صفت مفصّل دوباره: <de>mit ihnen unbekannten … Anspielungen</de> = «با اشاره‌هایی که برای آن‌ها ناآشناست».
+* <de>gut/schlecht abschneiden</de> = «نتیجهٔ خوب/بد گرفتن (در آزمون)». برای B2 مهم است.
+
+de: was mehr darüber sagt, wie vertraut sie mit der Kultur sind
+fa: که بیشتر نشان می‌دهد چقدر با آن فرهنگ آشنا هستند
+- was | که (این) | موصولی برای کل جمله
+- mehr | بیشتر |
+- darüber | دربارهٔ این | <de>da + über</de>
+- sagt | می‌گوید | از <de>sagen</de>؛ آخر جملهٔ <de>was</de>
+- wie | چقدر | پرسشی؛ فعل آخر
+- vertraut | آشنا | صفت؛ <de>vertraut mit</de>
+- sie | آن‌ها | فاعل
+- mit | با | datif
+- der | (حرف تعریف) | datif مؤنث
+- Kultur | فرهنگ | مؤنث: <de>die Kultur</de>
+- sind | هستند | آخر
+* <de>etwas sagt etwas über</de> + akk = «چیزی دربارهٔ … نشان می‌دهد». <de>vertraut sein mit</de> = «آشنا بودن با».
+
+de: als darüber, wie gut sie gelernt haben.
+fa: تا اینکه چقدر خوب درس خوانده‌اند.
+- als | تا | ادامهٔ <de>mehr … als</de>
+- darüber | دربارهٔ این |
+- wie | چقدر | فعل آخر
+- gut | خوب |
+- sie | آن‌ها |
+- gelernt | یاد گرفته | اسم مفعول <de>lernen</de>
+- haben | اند | کمک‌فعل Perfekt
+
+de: In diesen Fällen kann es sein,
+fa: در این موارد ممکن است
+- In | در | datif
+- diesen | این | datif جمع
+- Fällen | موارد | مذکر: <de>der Fall</de>، جمع: <de>die Fälle</de>؛ datif <de>-n</de>
+- kann | می‌تواند | از <de>können</de>
+- es | (فاعلِ پرکننده) |
+- sein | بودن | مصدر
+* <de>Es kann sein, dass …</de> = «ممکن است که …».
+
+de: dass der Test anders gestaltet werden muss.
+fa: که آزمون باید جور دیگری طراحی شود.
+- dass | که | فعل آخر
+- der | (حرف تعریف) | مذکر فاعلی
+- Test | آزمون | مذکر
+- anders | جور دیگر | قید
+- gestaltet | طراحی‌شده | اسم مفعول <de>gestalten</de>
+- werden | شدن | کمک‌فعل مجهول
+- muss | باید | از <de>müssen</de>؛ فعل صرف‌شده، آخرِ آخر
+* ته جملهٔ فرعی با مجهول و فعل وجهی: اسم مفعول ← <de>werden</de> ← فعل وجهی: <de>gestaltet werden muss</de>.
+
+de: Standardisierte Tests sind auch nicht gut darin,
+fa: آزمون‌های استاندارد همچنین در این کار خوب نیستند که
++para
+- Standardisierte | استاندارد | صفت جمع
+- Tests | آزمون‌ها |
+- sind | هستند |
+- auch | همچنین |
+- nicht | نه |
+- gut | خوب |
+- darin | در این | <de>da + in</de>؛ به <de>zu</de> + مصدرِ بعدی اشاره می‌کند
+* <de>gut darin sein, etwas zu tun</de> = «در انجام کاری خوب بودن».
+
+de: abstrakte Eigenschaften oder Fähigkeiten zu messen,
+fa: ویژگی‌ها یا توانایی‌های انتزاعی را بسنجند،
+- abstrakte | انتزاعی | صفت جمع
+- Eigenschaften | ویژگی‌ها | مؤنث: <de>die Eigenschaft</de>
+- oder | یا |
+- Fähigkeiten | توانایی‌ها | مؤنث: <de>die Fähigkeit</de>
+- zu | (نشانهٔ مصدر) |
+- messen | سنجیدن | مصدر
+* <de>-schaft</de> هم مثل <de>-keit/-ung</de> اسم مؤنث می‌سازد.
+
+de: wie Kreativität, kritisches Denken oder Zusammenarbeit.
+fa: مثل خلاقیت، تفکر انتقادی یا همکاری.
+- wie | مثلِ |
+- Kreativität | خلاقیت | مؤنث: <de>die Kreativität</de>؛ <de>-tät</de> همیشه مؤنث
+- kritisches | انتقادی | صفت خنثی بدون حرف تعریف، <de>-es</de>
+- Denken | تفکر | خنثی: <de>das Denken</de>؛ مصدرِ اسم‌شده
+- oder | یا |
+- Zusammenarbeit | همکاری | مؤنث: <de>die Zusammenarbeit</de>
+
+de: Wenn ein Test schlecht gestaltet ist oder für falsche Zwecke verwendet wird
+fa: اگر آزمونی بد طراحی شده باشد یا برای هدف‌های نادرست به کار رود
+- Wenn | اگر | فعل آخر
+- ein | یک | مذکر فاعلی
+- Test | آزمون |
+- schlecht | بد |
+- gestaltet | طراحی‌شده | اسم مفعول
+- ist | است | مجهولِ حالت؛ آخر
+- oder | یا |
+- für | برای | akkusativ
+- falsche | نادرست | صفت جمع
+- Zwecke | هدف‌ها | مذکر: <de>der Zweck</de>، جمع: <de>die Zwecke</de>
+- verwendet | به‌کاررفته | اسم مفعول <de>verwenden</de>
+- wird | می‌شود | مجهول حال؛ آخر
+* <de>ist gestaltet</de> = حالت (طراحی‌شده است)؛ <de>wird verwendet</de> = عمل (به کار برده می‌شود).
+
+de: oder für Zwecke, die er nicht gut kann,
+fa: یا برای هدف‌هایی که از پسشان خوب برنمی‌آید،
+- oder | یا |
+- für | برای |
+- Zwecke | هدف‌ها |
+- die | که | موصولی جمع، akkusativ
+- er | آن | ضمیر مذکر (آزمون)
+- nicht | نه |
+- gut | خوب |
+- kann | بلد است، از پسش برمی‌آید | <de>können</de> بدون مصدر = «بلد بودن»
+
+de: sind seine Resultate nicht reliabel oder valide.
+fa: نتایجش پایا یا روا نیستند.
+- sind | هستند | فعل اصلی بلافاصله بعد از جملهٔ فرعی
+- seine | (مالِ) آن | صفت ملکی جمع
+- Resultate | نتایج | جمع
+- nicht | نه |
+- reliabel | پایا (قابل‌اعتماد) | صفت؛ اصطلاح علمی
+- oder | یا |
+- valide | روا (معتبر) | صفت؛ اصطلاح علمی
+* مثل بالا: جملهٔ فرعیِ <de>wenn</de> جای اول است، پس فعل اصلی (<de>sind</de>) فوراً بعدش.
+
+de: Reliabilität und Validität sind äußerst wichtig,
+fa: پایایی و روایی بی‌نهایت مهم‌اند،
++para
+- Reliabilität | پایایی | مؤنث: <de>die Reliabilität</de>
+- und | و |
+- Validität | روایی | مؤنث: <de>die Validität</de>
+- sind | هستند |
+- äußerst | بی‌نهایت | قید تشدید
+- wichtig | مهم | صفت
+
+de: wenn man standardisierte Tests verstehen will.
+fa: اگر آدم بخواهد آزمون‌های استاندارد را بفهمد.
+- wenn | اگر | فعل آخر
+- man | آدم |
+- standardisierte | استاندارد |
+- Tests | آزمون‌ها |
+- verstehen | فهمیدن | مصدر
+- will | می‌خواهد | از فعل وجهی <de>wollen</de>؛ آخرِ آخر
+
+de: Um ihren Unterschied zu verstehen,
+fa: برای اینکه تفاوتشان را بفهمیم،
+- Um | برای اینکه | <de>um … zu</de>
+- ihren | (مالِ) آن‌ها | مذکر akkusativ
+- Unterschied | تفاوت | مذکر: <de>der Unterschied</de>
+- zu | (نشانهٔ مصدر) |
+- verstehen | فهمیدن | مصدر
+
+de: können wir ein kaputtes Thermometer als Metapher verwenden.
+fa: می‌توانیم یک دماسنج خراب را به‌عنوان استعاره به کار ببریم.
+- können | می‌توانیم | فعل اصلی بعد از عبارت <de>um … zu</de>
+- wir | ما |
+- ein | یک | خنثی akkusativ
+- kaputtes | خراب | صفت، <de>-es</de> بعد از <de>ein</de> خنثی
+- Thermometer | دماسنج | خنثی: <de>das Thermometer</de>
+- als | به‌عنوانِ |
+- Metapher | استعاره | مؤنث: <de>die Metapher</de>
+- verwenden | به کار بردن | مصدر، آخر
+* عبارت <de>Um … zu verstehen</de> جای اول را گرفته، پس فعل (<de>können</de>) دوم است.
+
+de: Ein Thermometer, das nicht reliabel ist,
+fa: دماسنجی که پایا نیست،
+- Ein | یک | خنثی فاعلی
+- Thermometer | دماسنج | خنثی
+- das | که | ضمیر موصولی خنثی
+- nicht | نه |
+- reliabel | پایا |
+- ist | است | آخر
+
+de: gibt uns bei jeder Messung eine andere Temperatur,
+fa: در هر اندازه‌گیری دمای متفاوتی به ما می‌دهد،
+- gibt | می‌دهد | از <de>geben</de>
+- uns | به ما | datif
+- bei | در | datif
+- jeder | هر | datif مؤنث
+- Messung | اندازه‌گیری | مؤنث: <de>die Messung</de>
+- eine | یک | مؤنث akkusativ
+- andere | دیگر، متفاوت | صفت، <de>-e</de>
+- Temperatur | دما | مؤنث
+
+de: und ein reliables, aber nicht valides Thermometer zeigt immer 10 Grad zu viel.
+fa: و یک دماسنج پایا ولی ناروا همیشه ۱۰ درجه بیشتر نشان می‌دهد.
+- und | و |
+- ein | یک | خنثی فاعلی
+- reliables | پایا | صفت، <de>-es</de>
+- aber | اما |
+- nicht | نه |
+- valides | روا | صفت، <de>-es</de>
+- Thermometer | دماسنج | خنثی
+- zeigt | نشان می‌دهد | از <de>zeigen</de>
+- immer | همیشه |
+- 10 | ۱۰ | <de>zehn</de>
+- Grad | درجه | <de>der/das Grad</de>؛ بعد از عدد جمع نمی‌گیرد
+- zu | بیش از حد |
+- viel | زیاد | <de>zu viel</de> = «زیادی»
+* <de>ein</de> + صفت + اسم خنثی: صفت <de>-es</de> می‌گیرد، چون <de>ein</de> خودش جنس را نشان نمی‌دهد (مثل <de>ein kaputtes Thermometer</de>).
+
+de: Validität hängt auch von der richtigen Interpretation der Ergebnisse ab.
+fa: روایی همچنین به تفسیر درستِ نتایج بستگی دارد.
+- Validität | روایی | مؤنث
+- hängt | بستگی دارد | <de>abhängen</de>
+- auch | همچنین |
+- von | به | datif
+- der | (حرف تعریف) | datif مؤنث
+- richtigen | درست | صفت datif، <de>-en</de>
+- Interpretation | تفسیر | مؤنث: <de>die Interpretation</de>
+- der | (حرف تعریف) | Genitiv جمع
+- Ergebnisse | نتایج | خنثی: <de>das Ergebnis</de>، جمع: <de>die Ergebnisse</de>
+- ab | (جزء فعل) | <de>abhängen</de>
+* مثل بالا: <de>abhängen von</de>.
+
+de: Behauptet man, dass ein Testergebnis bedeutet, was es nicht bedeutet,
+fa: اگر ادعا شود که نتیجهٔ آزمون معنایی دارد که ندارد،
+- Behauptet | ادعا کند | از <de>behaupten</de>؛ شرط بدون <de>wenn</de>
+- man | آدم |
+- dass | که | فعل آخر
+- ein | یک |
+- Testergebnis | نتیجهٔ آزمون | خنثی
+- bedeutet | معنی می‌دهد | از <de>bedeuten</de>
+- was | چیزی که | موصولی
+- es | آن | ضمیر خنثی
+- nicht | نه |
+- bedeutet | معنی می‌دهد | آخر
+* باز شرط بدون <de>wenn</de>: <de>Behauptet man …</de> = <de>Wenn man behauptet …</de>.
+
+de: hat der Test ein Problem mit Validität.
+fa: آزمون مشکل روایی دارد.
+- hat | دارد | از <de>haben</de>؛ فعل اصلی اولِ جمله بعد از شرط
+- der | (حرف تعریف) | مذکر فاعلی
+- Test | آزمون |
+- ein | یک | خنثی akkusativ
+- Problem | مشکل | خنثی: <de>das Problem</de>
+- mit | با | datif
+- Validität | روایی |
+
+de: Wie ein Lineal nicht angibt, wie viel ein Elefant wiegt
+fa: همان‌طور که یک خط‌کش نشان نمی‌دهد یک فیل چقدر وزن دارد
++para
+- Wie | همان‌طور که | حرف ربط مقایسه؛ فعل آخر
+- ein | یک |
+- Lineal | خط‌کش |
+- nicht | نه |
+- angibt | نشان می‌دهد، اعلام می‌کند | از <de>angeben</de>؛ در جملهٔ فرعی جزءش جدا نمی‌شود
+- wie | چقدر |
+- viel | زیاد | <de>wie viel</de> = «چقدر»
+- ein | یک | مذکر فاعلی
+- Elefant | فیل | مذکر: <de>der Elefant</de>؛ اسم ضعیف (<de>den Elefanten</de>)
+- wiegt | وزن دارد | از <de>wiegen</de>
+* فعل جداشدنی در آخر جملهٔ فرعی دوباره به هم می‌چسبد: <de>angibt</de> (در جملهٔ اصلی: <de>gibt … an</de>).
+
+de: oder was er zum Frühstück hatte,
+fa: یا صبحانه چه خورده بود،
+- oder | یا |
+- was | چه چیزی | فعل آخر
+- er | او | (فیل)
+- zum | برای | <de>zum = zu + dem</de>
+- Frühstück | صبحانه | خنثی: <de>das Frühstück</de>
+- hatte | داشت | گذشتهٔ ساده از <de>haben</de>
+* <de>zum Frühstück haben</de> = «برای صبحانه خوردن/داشتن».
+
+de: gibt ein standardisierter Test allein nicht an, wie schlau jemand ist,
+fa: یک آزمون استاندارد به‌تنهایی نشان نمی‌دهد کسی چقدر باهوش است،
+- gibt | نشان می‌دهد | از <de>angeben</de>؛ فعل اصلی بلافاصله بعد از جملهٔ <de>wie</de>
+- ein | یک | مذکر فاعلی
+- standardisierter | استاندارد | صفت، <de>-er</de> چون <de>ein</de> جنس مذکر را نشان نمی‌دهد
+- Test | آزمون |
+- allein | به‌تنهایی |
+- nicht | نه |
+- an | (جزء فعل) | جزء <de>angeben</de>
+- wie | چقدر |
+- schlau | باهوش | صفت
+- jemand | کسی |
+- ist | است | آخر
+* اینجا در جملهٔ اصلی، <de>gibt … an</de> باز از هم جدا شده — در مقایسه با <de>angibt</de> در واحد قبل.
+
+de: wie Diplomaten Schwierigkeiten händeln
+fa: دیپلمات‌ها چطور از پس دشواری‌ها برمی‌آیند
+- wie | چطور | فعل آخر
+- Diplomaten | دیپلمات‌ها | جمع
+- Schwierigkeiten | دشواری‌ها | مؤنث: <de>die Schwierigkeit</de>
+- händeln | از پس … برآمدن | محاوره‌ای (از انگلیسی handle)؛ رسمی‌اش <de>bewältigen</de>
+* <de>händeln</de> محاوره‌ای است؛ در نوشتن آزمون <de>mit Schwierigkeiten umgehen</de> یا <de>bewältigen</de> بهتر است.
+
+de: oder wie tapfer ein Feuerwehrmann sein wird.
+fa: یا یک آتش‌نشان چقدر شجاع خواهد بود.
+- oder | یا |
+- wie | چقدر |
+- tapfer | شجاع | صفت
+- ein | یک | مذکر فاعلی
+- Feuerwehrmann | آتش‌نشان | مذکر: <de>der Feuerwehrmann</de>، جمع: <de>die Feuerwehrleute</de>
+- sein | بودن | مصدر
+- wird | خواهد | از <de>werden</de>؛ آینده (Futur I)
+* آینده = <de>werden</de> + مصدر؛ در جملهٔ فرعی ترتیبش <de>sein wird</de> است.
+
+de: Genormte Tests helfen uns, in kurzer Zeit,
+fa: آزمون‌های استانداردشده به ما کمک می‌کنند در زمانی کوتاه
+- Genormte | استانداردشده | اسم مفعول <de>normen</de> به‌عنوان صفت؛ هم‌معنی <de>standardisiert</de>
+- Tests | آزمون‌ها |
+- helfen | کمک می‌کنند | از <de>helfen</de>؛ مفعولش datif است
+- uns | به ما | datif
+- in | در | datif
+- kurzer | کوتاه | صفت datif مؤنث بدون حرف تعریف، <de>-er</de>
+- Zeit | زمان | مؤنث
+* <de>helfen</de> مفعولِ datif می‌گیرد (<de>uns</de>، <de>dir</de>، <de>ihm</de>) — تلهٔ رایج.
+
+de: ein wenig über viele Leute zu erfahren,
+fa: کمی دربارهٔ آدم‌های زیادی بفهمیم،
+- ein | (یک) | در <de>ein wenig</de>
+- wenig | کم | <de>ein wenig</de> = «کمی»
+- über | دربارهٔ | اینجا akkusativ
+- viele | زیاد | جمع akkusativ
+- Leute | مردم، آدم‌ها | فقط جمع: <de>die Leute</de>
+- zu | (نشانهٔ مصدر) |
+- erfahren | فهمیدن، اطلاع یافتن | مصدر
+* <de>über</de> به معنی «دربارهٔ» همیشه akkusativ است.
+
+de: aber sie sagen uns meistens nicht besonders viel über eine einzelne Person.
+fa: اما معمولاً چیز خیلی زیادی دربارهٔ یک فرد به ما نمی‌گویند.
+- aber | اما |
+- sie | آن‌ها |
+- sagen | می‌گویند |
+- uns | به ما | datif
+- meistens | معمولاً، بیشتر وقت‌ها |
+- nicht | نه |
+- besonders | خیلی، به‌ویژه |
+- viel | زیاد |
+- über | دربارهٔ | akkusativ
+- eine | یک | مؤنث akkusativ
+- einzelne | تک، منفرد | صفت، <de>-e</de>
+- Person | فرد | مؤنث: <de>die Person</de>
+* <de>nicht besonders</de> = «نه چندان»؛ راهی مؤدبانه برای کم‌رنگ کردن نفی.
+
+de: Viele Sozialwissenschaftler sorgen sich,
+fa: بسیاری از دانشمندان علوم اجتماعی نگران‌اند
++para
+- Viele | بسیاری | جمع
+- Sozialwissenschaftler | دانشمندان علوم اجتماعی | مرکب: <de>sozial</de> + <de>der Wissenschaftler</de>؛ جمع بدون تغییر
+- sorgen | نگران‌اند | از <de>sich sorgen</de>
+- sich | (خود) | ضمیر انعکاسی
+* <de>sich sorgen (um)</de> = «نگران بودن (دربارهٔ)».
+
+de: dass Testergebnisse pauschale und negative Veränderungen für Testteilnehmer haben,
+fa: که نتایج آزمون برای شرکت‌کنندگان تغییرات کلی و منفی در پی داشته باشد،
+- dass | که | فعل آخر
+- Testergebnisse | نتایج آزمون | جمع
+- pauschale | کلی، سرسری | صفت جمع
+- und | و |
+- negative | منفی | صفت جمع
+- Veränderungen | تغییرات | مؤنث: <de>die Veränderung</de>
+- für | برای | akkusativ
+- Testteilnehmer | شرکت‌کنندگان آزمون | جمع
+- haben | دارند | آخر
+* جمله کمی ناهموار است (در اصل انگلیسی «اثر» بوده)؛ معنی: نتایج آزمون پیامدهای کلی و منفی برای شرکت‌کنندگان دارد.
+
+de: manchmal mit weitreichenden Folgen für ihr Leben.
+fa: گاهی با پیامدهای گسترده برای زندگی‌شان.
+- manchmal | گاهی |
+- mit | با | datif
+- weitreichenden | گسترده | صفت datif جمع، <de>-en</de>
+- Folgen | پیامدها | مؤنث: <de>die Folge</de>
+- für | برای | akkusativ
+- ihr | (مالِ) آن‌ها | خنثی akkusativ
+- Leben | زندگی | خنثی: <de>das Leben</de>
+
+de: Tests sind hieran nicht schuld.
+fa: آزمون‌ها در این مورد مقصر نیستند.
+- Tests | آزمون‌ها |
+- sind | هستند |
+- hieran | در این | <de>hier + an</de>؛ از <de>schuld sein an</de>
+- nicht | نه |
+- schuld | مقصر | فقط با <de>sein</de>: <de>schuld sein an</de>
+* <de>an etwas schuld sein</de> = «مقصرِ چیزی بودن».
+
+de: Es ist unsere Aufgabe, richtige Tests für die richtige Aufgabe zu wählen
+fa: وظیفهٔ ماست که آزمون‌های درست را برای کار درست انتخاب کنیم
+- Es | این | اشاره به عبارت <de>zu</de> + مصدر
+- ist | است |
+- unsere | (مالِ) ما | مؤنث فاعلی
+- Aufgabe | وظیفه | مؤنث
+- richtige | درست | صفت جمع
+- Tests | آزمون‌ها |
+- für | برای | akkusativ
+- die | (حرف تعریف) | مؤنث akkusativ
+- richtige | درست |
+- Aufgabe | کار |
+- zu | (نشانهٔ مصدر) |
+- wählen | انتخاب کردن | مصدر
+* <de>Es ist … , etwas zu tun</de>: <de>es</de> جای عبارت مصدری را که بعد می‌آید نگه می‌دارد.
+
+de: und die Ergebnisse richtig zu interpretieren.
+fa: و نتایج را درست تفسیر کنیم.
+- und | و |
+- die | (حرف تعریف) | جمع akkusativ
+- Ergebnisse | نتایج | جمع
+- richtig | درست | قید
+- zu | (نشانهٔ مصدر) |
+- interpretieren | تفسیر کردن | مصدر
+
+de: Möchtet ihr mehr über das Thema erfahren,
+fa: اگر می‌خواهید دربارهٔ این موضوع بیشتر بدانید،
++para
+- Möchtet | می‌خواهید | از <de>möchten</de>؛ شرط بدون <de>wenn</de>
+- ihr | شما (جمعِ خودمانی) | ضمیر دوم‌شخص جمع
+- mehr | بیشتر |
+- über | دربارهٔ | akkusativ
+- das | (حرف تعریف) | خنثی akkusativ
+- Thema | موضوع | خنثی: <de>das Thema</de>، جمع: <de>die Themen</de>
+- erfahren | دانستن، اطلاع یافتن | مصدر
+* <de>ihr</de> = «شما»ی جمعِ خودمانی؛ فعلش <de>-t</de> می‌گیرد: <de>ihr möchtet</de>.
+
+de: empfehlen wir das vielverkaufte Buch "The End of Average"
+fa: کتاب پرفروش «پایان میانگین» را پیشنهاد می‌کنیم
+- empfehlen | پیشنهاد می‌کنیم | از <de>empfehlen</de>؛ بی‌قاعده: <de>empfahl → empfohlen</de>
+- wir | ما |
+- das | (حرف تعریف) | خنثی akkusativ
+- vielverkaufte | پرفروش | صفت، <de>-e</de> بعد از <de>das</de>
+- Buch | کتاب | خنثی: <de>das Buch</de>، جمع: <de>die Bücher</de>
+- The | (عنوان انگلیسی) |
+- End | پایان | انگلیسی
+- of | (ـِ) | انگلیسی
+- Average | میانگین | انگلیسی
+* مثل بالا: بعد از شرط، فعل اصلی (<de>empfehlen</de>) اول می‌آید.
+
+de: von Harvard Professor Todd Rose.
+fa: از استاد دانشگاه هاروارد، تاد رُز.
+- von | از | datif
+- Harvard | هاروارد | نام خاص
+- Professor | استاد | مذکر: <de>der Professor</de>، جمع: <de>die Professoren</de>
+- Todd | تاد | نام کوچک
+- Rose | رُز | نام خانوادگی
+
+de: Rose untersucht die weitverbreitete Fehlanwendung standardisierter Tests
+fa: رُز کاربرد نادرستِ رایجِ آزمون‌های استاندارد را بررسی می‌کند
+- Rose | رُز | نام
+- untersucht | بررسی می‌کند | از <de>untersuchen</de>؛ جدانشدنی
+- die | (حرف تعریف) | مؤنث akkusativ
+- weitverbreitete | رایج، گسترده | صفت، <de>-e</de>
+- Fehlanwendung | کاربرد نادرست | مرکب: <de>fehl-</de> (نادرست) + <de>die Anwendung</de>
+- standardisierter | استاندارد | صفت Genitiv جمع بدون حرف تعریف، <de>-er</de>
+- Tests | آزمون‌ها | Genitiv جمع
+* Genitiv جمع بدون حرف تعریف را صفت نشان می‌دهد: <de>standardisierter Tests</de> = «ِ آزمون‌های استاندارد».
+
+de: in aller Deutlichkeit und Dringlichkeit.
+fa: با کمال صراحت و فوریت.
+- in | در | datif
+- aller | کمالِ، تمامِ | datif مؤنث از <de>all</de>
+- Deutlichkeit | صراحت، وضوح | مؤنث: <de>die Deutlichkeit</de>
+- und | و |
+- Dringlichkeit | فوریت | مؤنث: <de>die Dringlichkeit</de>
+* <de>in aller Deutlichkeit</de> = «با کمال صراحت»؛ عبارت ثابت.
+
+de: Und er hat Lösungsvorschläge.
+fa: و پیشنهادهایی برای راه‌حل دارد.
+- Und | و |
+- er | او |
+- hat | دارد | از <de>haben</de>
+- Lösungsvorschläge | پیشنهادهای راه‌حل | مرکب: <de>die Lösung</de> + <de>der Vorschlag</de>، جمع: <de>die Vorschläge</de>
+
+de: Ihr könnt kostenlos eine Hörbuchversion bei audible.com/teded herunterladen.
+fa: می‌توانید نسخهٔ کتاب صوتی را رایگان از audible.com/teded دانلود کنید.
+- Ihr | شما | دوم‌شخص جمع
+- könnt | می‌توانید | از <de>können</de>
+- kostenlos | رایگان | قید
+- eine | یک | مؤنث akkusativ
+- Hörbuchversion | نسخهٔ کتاب صوتی | مرکب: <de>das Hörbuch</de> + <de>die Version</de>
+- bei | از، نزدِ | datif
+- audible.com/teded | (نشانی وب) |
+- herunterladen | دانلود کردن | مصدر؛ جداشدنی (<de>lädt … herunter</de>)
+* <de>herunterladen</de> = «دانلود کردن»؛ حرفِ <de>kostenlos</de> = «بدون هزینه».
+
+de: Jeder Klick motiviert audible, TED-Eds gemeinnützige Aktion zu unterstützen.
+fa: هر کلیک به audible انگیزه می‌دهد که از کارزار خیریهٔ TED-Ed پشتیبانی کند.
+- Jeder | هر | مذکر فاعلی
+- Klick | کلیک | مذکر: <de>der Klick</de>
+- motiviert | انگیزه می‌دهد | از <de>motivieren</de>
+- audible | آدیبل | نام شرکت
+- TED-Eds | ـِ TED-Ed | Genitiv نام خاص با <de>-s</de>
+- gemeinnützige | خیریه، عام‌المنفعه | صفت
+- Aktion | کارزار، اقدام | مؤنث: <de>die Aktion</de>
+- zu | (نشانهٔ مصدر) |
+- unterstützen | پشتیبانی کردن | مصدر؛ جدانشدنی
+* <de>TED-Eds Aktion</de> = <de>die Aktion von TED-Ed</de>؛ نام خاص با <de>-s</de> پیش از اسم.
+
+de: Die Aktion ist uns sehr wichtig.
+fa: این کارزار برای ما خیلی مهم است.
+- Die | (حرف تعریف) | مؤنث فاعلی
+- Aktion | کارزار | مؤنث
+- ist | است |
+- uns | برای ما | datif
+- sehr | خیلی |
+- wichtig | مهم |
+* <de>jemandem wichtig sein</de> = «برای کسی مهم بودن»؛ کسی که برایش مهم است datif می‌گیرد.
+
+de: Wir sind jedem TED-Ed-Mitglied dankbar,
+fa: از هر عضو TED-Ed سپاسگزاریم
+- Wir | ما |
+- sind | هستیم |
+- jedem | هر | datif خنثی
+- TED-Ed-Mitglied | عضو TED-Ed | خنثی: <de>das Mitglied</de>
+- dankbar | سپاسگزار | صفت؛ <de>jemandem dankbar sein</de>
+* <de>dankbar</de> هم مثل <de>wichtig</de> بالا کسِ مربوط را datif می‌خواهد.
+
+de: das sich die Zeit nimmt, das Buch zu lesen oder zu hören.
+fa: که وقت می‌گذارد تا کتاب را بخواند یا گوش کند.
+- das | که | ضمیر موصولی خنثی (<de>Mitglied</de>)
+- sich | (برای خود) | ضمیر انعکاسی datif
+- die | (حرف تعریف) | مؤنث akkusativ
+- Zeit | وقت | مؤنث
+- nimmt | برمی‌دارد | از <de>nehmen</de>؛ بی‌قاعده: <de>nimmt → nahm → genommen</de>
+- das | (حرف تعریف) | خنثی akkusativ
+- Buch | کتاب |
+- zu | (نشانهٔ مصدر) |
+- lesen | خواندن |
+- oder | یا |
+- zu | (نشانهٔ مصدر) |
+- hören | گوش دادن |
+* <de>sich (die) Zeit nehmen, etwas zu tun</de> = «وقت گذاشتن برای کاری».
+
+de: Danke fürs Zuhören und danke für eure Unterstützung.
+fa: ممنون که گوش دادید و ممنون از پشتیبانی‌تان.
+- Danke | ممنون |
+- fürs | برای | ادغام <de>fürs = für + das</de>
+- Zuhören | گوش دادن | مصدرِ اسم‌شده، خنثی: <de>das Zuhören</de>
+- und | و |
+- danke | ممنون |
+- für | برای | akkusativ
+- eure | (مالِ) شما | صفت ملکیِ <de>ihr</de>، مؤنث akkusativ
+- Unterstützung | پشتیبانی | مؤنث: <de>die Unterstützung</de>
+* <de>Danke für</de> + akkusativ = «ممنون بابتِ …».
