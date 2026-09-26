@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>آزمون جمعه ۱ — درس ۶ تا ۸</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FBFBF9;
+  --ink:#1A2733;
+  --ink-soft:#5A6B78;
+  --rule:#D8DCDF;
+  --mark:#9E2B25;
+  --mark-wash:#F6EDEC;
+  --fa:'Vazirmatn',system-ui,'Segoe UI',Tahoma,sans-serif;
+  --de:'Source Serif 4',Georgia,'Times New Roman',serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--fa);font-size:16px;line-height:1.95;
+}
+.sheet{max-width:760px;margin:0 auto;padding:48px 28px 90px}
+
+.masthead{border-bottom:2px solid var(--ink);padding-bottom:18px;margin-bottom:8px}
+.masthead h1{font-size:1.9rem;font-weight:700;margin:0 0 4px;letter-spacing:-.01em;line-height:1.4}
+.masthead .sub{color:var(--ink-soft);font-size:.95rem;margin:0}
+.meta{
+  display:flex;flex-wrap:wrap;gap:0 34px;
+  border-bottom:1px solid var(--rule);padding:14px 0 16px;margin-bottom:34px;
+  font-size:.88rem;color:var(--ink-soft);line-height:2.1;
+}
+.meta b{color:var(--ink);font-weight:500}
+
+.namefield{display:flex;flex-wrap:wrap;gap:26px;margin:0 0 34px;font-size:.9rem;color:var(--ink-soft)}
+.namefield span{flex:1 1 200px;border-bottom:1px solid var(--rule);padding-bottom:6px}
+
+.rules{background:var(--mark-wash);border-right:3px solid var(--mark);padding:18px 22px;margin:0 0 44px;border-radius:2px}
+.rules h2{margin:0 0 8px;font-size:1rem;font-weight:700}
+.rules ol{margin:0;padding-right:20px;font-size:.92rem;line-height:2.05}
+.rules li{margin-bottom:3px}
+
+.part{margin:0 0 12px;padding-top:26px;border-top:2px solid var(--ink)}
+.part-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:6px}
+.part-head h2{font-size:1.35rem;font-weight:700;margin:0}
+.part-head .stamp{font-size:.85rem;color:var(--ink-soft);font-family:var(--de);direction:ltr;unicode-bidi:isolate}
+.part-note{color:var(--ink-soft);font-size:.9rem;margin:0 0 26px}
+
+.task{margin:0 0 40px;padding-right:18px;border-right:1px solid var(--rule)}
+.task h3{font-size:1.02rem;font-weight:700;margin:0 0 2px}
+.task .instr{color:var(--ink-soft);font-size:.92rem;margin:0 0 16px}
+
+.de{direction:ltr;unicode-bidi:isolate;text-align:left;font-family:var(--de);font-size:1.02rem;line-height:1.85}
+.letter{background:#fff;border:1px solid var(--rule);border-radius:3px;padding:18px 22px;margin:0 0 18px;white-space:pre-line}
+.letter .from{display:block;margin-top:12px;color:var(--ink-soft);font-style:italic;font-size:.95rem}
+.inline-de{direction:ltr;unicode-bidi:isolate;font-family:var(--de);font-weight:600}
+
+ol.items{margin:0;padding-right:0;list-style:none}
+ol.items>li{position:relative;padding:11px 40px 11px 0;border-bottom:1px dotted var(--rule)}
+ol.items>li::before{
+  content:attr(data-n);position:absolute;right:0;top:12px;
+  width:26px;height:26px;line-height:26px;text-align:center;
+  border:1px solid var(--mark);color:var(--mark);border-radius:50%;
+  font-size:.8rem;font-family:var(--de);
+}
+ol.items>li:last-child{border-bottom:none}
+.choices{list-style:none;margin:8px 0 0;padding:0}
+.choices li{padding:3px 0;display:flex;gap:9px;align-items:flex-start}
+.choices .key{flex:none;font-family:var(--de);color:var(--mark);font-weight:600;min-width:16px}
+.rf{color:var(--ink-soft);font-size:.85rem;margin-top:5px;font-family:var(--de);direction:ltr;unicode-bidi:isolate;text-align:left}
+
+.clip{background:#fff;border:1px solid var(--rule);border-radius:3px;padding:14px 18px;margin:0 0 16px}
+.clip .label{font-size:.9rem;font-weight:500;margin:0 0 8px}
+.clip audio{width:100%;direction:ltr}
+
+.lines{margin:14px 0 0}
+.lines i{display:block;border-bottom:1px solid var(--rule);height:34px}
+.gap{display:inline-block;min-width:96px;border-bottom:1.5px solid var(--mark);margin:0 4px}
+
+.answersheet{margin-top:40px}
+table{width:100%;border-collapse:collapse;font-size:.9rem}
+th,td{border:1px solid var(--rule);padding:9px 8px;text-align:center}
+th{background:#F2F3F1;font-weight:500;color:var(--ink-soft);font-size:.82rem}
+td.lbl{text-align:right;color:var(--ink-soft);width:34%}
+td.blank{height:36px}
+.conf{letter-spacing:6px;color:var(--rule);font-family:var(--de)}
+
+.foot{margin-top:44px;padding-top:16px;border-top:1px solid var(--rule);color:var(--ink-soft);font-size:.85rem}
+
+@media (max-width:520px){
+  .sheet{padding:32px 16px 70px}
+  .masthead h1{font-size:1.5rem}
+  .task{padding-right:10px}
+  table{font-size:.8rem}
+  th,td{padding:7px 4px}
+}
+@media print{
+  body{background:#fff;font-size:11.5pt;line-height:1.7}
+  .sheet{max-width:none;padding:0}
+  .part{break-before:page;padding-top:0;border-top:none}
+  .part:first-of-type{break-before:avoid}
+  .task,.letter,.rules,table{break-inside:avoid}
+  .rules{background:#fff;border-right:2px solid #000}
+}
+</style>
+</head>
+<body>
+<div class="sheet">
+
+<header class="masthead">
+  <h1>آزمون جمعه ۱ — درس ۶ تا ۸</h1>
+  <p class="sub">هم‌ساختار با Mini-ZA1 (ÖSD) · این بار با بخش شنیدن · محتوای درس ۶ تا ۸ میشل توماس</p>
+</header>
+
+<div class="meta">
+  <div><b>چهار بخش:</b> خواندن، شنیدن، نوشتن، گفتن</div>
+  <div><b>زمان کتبی:</b> حدود ۴۰ دقیقه</div>
+  <div><b>زمان شفاهی:</b> ۱۰ دقیقه آماده‌سازی + ضبط</div>
+  <div><b>نمره‌ی کل:</b> ۷۵ — قبولی ۴۵ (۶۰٪)</div>
+</div>
+
+<div class="namefield">
+  <span>نام</span><span>تاریخ</span><span>ساعت شروع</span><span>ساعت پایان</span>
+</div>
+
+<section class="rules">
+  <h2>قبل از شروع بخوان</h2>
+  <ol>
+    <li>جزوه و فایل مرور بسته. اگر یادت نیامد، خالی بگذار و برو جلو — مثل آزمون واقعی.</li>
+    <li>تایمر واقعی بگذار: خواندن ۱۵ دقیقه · شنیدن حدود ۱۰ دقیقه · نوشتن ۱۵ دقیقه. جدا جدا.</li>
+    <li><b>شنیدن:</b> هر فایل را حداکثر <b>دو بار</b> پخش کن. اول سؤال‌ها را بخوان، بعد پخش کن. عقب زدن وسط فایل ممنوع.</li>
+    <li>جواب‌ها را روی کاغذ بنویس. کنار هر جواب یک عدد ۱ تا ۵: چقدر مطمئنی.</li>
+    <li>بخش گفتن را ضبط کن. ۱۰ دقیقه فکر کن، بعد ضبط را بزن و یک‌نفس برو جلو.</li>
+    <li>کیبورد آلمانی نداری؟ <span class="inline-de">ae · oe · ue · ss</span> کاملاً قبول است.</li>
+  </ol>
+</section>
+
+<!-- ============ LESEN ============ -->
+<section class="part">
+  <div class="part-head">
+    <h2>بخش یک — خواندن</h2>
+    <span class="stamp">Lesen · 15 Min. · 20 P.</span>
+  </div>
+  <p class="part-note">سه تکلیف، ده سؤال. هر جواب درست ۲ نمره.</p>
+
+  <div class="task">
+    <h3>تکلیف ۱</h3>
+    <p class="instr">دو پیام را بخوان. هر جمله درست است یا غلط؟</p>
+
+    <div class="letter de">Guten Tag Herr Keller,
+
+ich komme morgen früh in Wien an. Leider konnte ich Sie heute nicht anrufen, denn ich hatte keine Zeit. Könnten Sie mich morgen Vormittag abholen? Ich weiß noch nicht, wann genau ich ankomme, aber ich rufe Sie später an.
+
+Viele Grüße<span class="from">Anna</span></div>
+
+    <div class="letter de">Hallo Maria,
+
+seit drei Tagen bin ich krank und ich bleibe zu Hause. Ich würde sehr gern heute Abend mit dir ausgehen, aber es geht leider nicht. Wir könnten übermorgen ausgehen, wenn es mir besser geht.
+
+Bis bald<span class="from">Tom</span></div>
+
+    <ol class="items">
+      <li data-n="1"><span class="de">Anna kommt morgen früh in Wien an.</span><div class="rf">richtig / falsch</div></li>
+      <li data-n="2"><span class="de">Anna konnte Herrn Keller heute anrufen.</span><div class="rf">richtig / falsch</div></li>
+      <li data-n="3"><span class="de">Tom ist seit drei Tagen krank.</span><div class="rf">richtig / falsch</div></li>
+      <li data-n="4"><span class="de">Tom geht heute Abend mit Maria aus.</span><div class="rf">richtig / falsch</div></li>
+    </ol>
+  </div>
+
+  <div class="task">
+    <h3>تکلیف ۲</h3>
+    <p class="instr">برای هر موقعیت، جمله‌ی درست را انتخاب کن — a یا b.</p>
+
+    <ol class="items">
+      <li data-n="5">
+        در خانه‌ی کسی هستی و می‌خواهی مؤدبانه بپرسی اجازه داری پنجره را باز کنی.
+        <ul class="choices">
+          <li><span class="key de">a</span><span class="de">Darf ich das Fenster aufmachen?</span></li>
+          <li><span class="key de">b</span><span class="de">Muss ich das Fenster aufmachen?</span></li>
+        </ul>
+      </li>
+      <li data-n="6">
+        می‌خواهی بگویی هر وقت آماده شدی، به او زنگ می‌زنی.
+        <ul class="choices">
+          <li><span class="key de">a</span><span class="de">Ich rufe ihn an, wenn ich fertig bin.</span></li>
+          <li><span class="key de">b</span><span class="de">Ich rufe ihn an, wann ich fertig bin.</span></li>
+        </ul>
+      </li>
+      <li data-n="7">
+        برای یک قرار، مؤدبانه پیشنهاد می‌دهی: «فردا وقتم آزاد است — اگر برایتان مناسب باشد.»
+        <ul class="choices">
+          <li><span class="key de">a</span><span class="de">Morgen hatte ich Zeit.</span></li>
+          <li><span class="key de">b</span><span class="de">Morgen hätte ich Zeit.</span></li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+
+  <div class="task">
+    <h3>تکلیف ۳</h3>
+    <p class="instr">ایمیل را بخوان و برای هر سؤال یک گزینه انتخاب کن.</p>
+
+    <div class="letter de">Liebe Sara,
+
+wir ziehen übermorgen um! Die neue Wohnung ist nicht sehr groß, aber sie ist sehr gemütlich. Ich wollte dich gestern anrufen, aber ich konnte nicht, weil ich so viel zu tun hatte.
+
+Hättest du morgen Nachmittag Zeit? Wir müssen noch viel machen, und ich würde mich sehr freuen, wenn du kommen könntest. Du musst nicht lange bleiben.
+
+Kannst du mich bitte anrufen oder mir schreiben, ob es geht?
+
+Liebe Grüße<span class="from">Julia</span></div>
+
+    <ol class="items">
+      <li data-n="8">
+        <span class="de">Was macht Julia übermorgen?</span>
+        <ul class="choices">
+          <li><span class="key de">a</span><span class="de">Sie zieht um.</span></li>
+          <li><span class="key de">b</span><span class="de">Sie zieht sich an.</span></li>
+          <li><span class="key de">c</span><span class="de">Sie geht aus.</span></li>
+        </ul>
+      </li>
+      <li data-n="9">
+        <span class="de">Warum konnte Julia gestern nicht anrufen?</span>
+        <ul class="choices">
+          <li><span class="key de">a</span><span class="de">Sie war krank.</span></li>
+          <li><span class="key de">b</span><span class="de">Sie hatte viel zu tun.</span></li>
+          <li><span class="key de">c</span><span class="de">Sie wollte nicht.</span></li>
+        </ul>
+      </li>
+      <li data-n="10">
+        <span class="de">Was möchte Julia wissen?</span>
+        <ul class="choices">
+          <li><span class="key de">a</span><span class="de">ob Sara morgen Nachmittag kommen kann</span></li>
+          <li><span class="key de">b</span><span class="de">wann Sara umzieht</span></li>
+          <li><span class="key de">c</span><span class="de">ob Sara lange bleiben kann</span></li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ HÖREN ============ -->
+<section class="part">
+  <div class="part-head">
+    <h2>بخش دو — شنیدن</h2>
+    <span class="stamp">Hören · ca. 10 Min. · 15 P.</span>
+  </div>
+  <p class="part-note">دو تکلیف. اول سؤال‌ها را بخوان، بعد پخش کن. هر فایل حداکثر دو بار.</p>
+
+  <div class="task">
+    <h3>تکلیف ۱ — سه پیغام تلفنی</h3>
+    <p class="instr">برای هر پیغام یک گزینه انتخاب کن. هر جواب درست ۳ نمره.</p>
+
+    <div class="clip">
+      <p class="label">پیغام ۱</p>
+      <audio controls preload="none" data-tts="Hallo, hier ist Peter. Ich wollte dir nur sagen: Der Zug fährt heute nicht um acht Uhr ab, sondern um neun Uhr. Ich komme dann um elf Uhr an. Kannst du mich abholen? Danke!"></audio>
+    </div>
+    <ol class="items">
+      <li data-n="11">
+        <span class="de">Wann kommt Peter an?</span>
+        <ul class="choices">
+          <li><span class="key de">a</span><span class="de">um acht Uhr</span></li>
+          <li><span class="key de">b</span><span class="de">um neun Uhr</span></li>
+          <li><span class="key de">c</span><span class="de">um elf Uhr</span></li>
+        </ul>
+      </li>
+    </ol>
+
+    <div class="clip">
+      <p class="label">پیغام ۲</p>
+      <audio controls preload="none" data-tts="Guten Tag, Frau Weber, hier ist Müller. Leider kann ich morgen nicht kommen, denn meine Frau ist krank. Ich hätte aber übermorgen Vormittag Zeit. Wäre das für Sie möglich? Bitte rufen Sie mich an. Auf Wiederhören."></audio>
+    </div>
+    <ol class="items">
+      <li data-n="12">
+        <span class="de">Was möchte Herr Müller?</span>
+        <ul class="choices">
+          <li><span class="key de">a</span><span class="de">Er möchte morgen kommen.</span></li>
+          <li><span class="key de">b</span><span class="de">Er möchte übermorgen Vormittag kommen.</span></li>
+          <li><span class="key de">c</span><span class="de">Er möchte, dass seine Frau kommt.</span></li>
+        </ul>
+      </li>
+    </ol>
+
+    <div class="clip">
+      <p class="label">پیغام ۳</p>
+      <audio controls preload="none" data-tts="Hallo Sara, hier ist Lena. Ich weiß nicht, ob du heute Abend Lust hast, aber wir gehen ins Kino. Wenn du mitkommen willst, kannst du mich bis sechs Uhr anrufen. Bis später!"></audio>
+    </div>
+    <ol class="items">
+      <li data-n="13">
+        <span class="de">Was muss Sara machen, wenn sie mitkommen will?</span>
+        <ul class="choices">
+          <li><span class="key de">a</span><span class="de">Sie muss Lena bis sechs Uhr anrufen.</span></li>
+          <li><span class="key de">b</span><span class="de">Sie muss um sechs Uhr im Kino sein.</span></li>
+          <li><span class="key de">c</span><span class="de">Sie muss heute Abend zu Hause bleiben.</span></li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+
+  <div class="task">
+    <h3>تکلیف ۲ — یک نفر از برنامه‌اش می‌گوید</h3>
+    <p class="instr">گوش کن. هر جمله درست است یا غلط؟ هر جواب درست ۲ نمره.</p>
+
+    <div class="clip">
+      <p class="label">متن</p>
+      <audio controls preload="none" data-tts="Seit zwei Jahren wohne ich in Graz. Letztes Jahr wollte ich schon umziehen, aber ich konnte nicht, denn ich hatte keine Zeit. Jetzt ist es so weit: Übermorgen ziehe ich nach Wien um. Die neue Wohnung ist klein, aber sehr gemütlich. Heute muss ich noch viel machen. Am Nachmittag rufe ich meine Freunde an, um sie zu fragen, ob sie mir helfen können. Ich hoffe, dass es nicht zu schwer wird."></audio>
+    </div>
+    <ol class="items">
+      <li data-n="14"><span class="de">Die Person wollte letztes Jahr nicht umziehen.</span><div class="rf">richtig / falsch</div></li>
+      <li data-n="15"><span class="de">Die Person zieht morgen um.</span><div class="rf">richtig / falsch</div></li>
+      <li data-n="16"><span class="de">Am Nachmittag ruft die Person ihre Freunde an.</span><div class="rf">richtig / falsch</div></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ SCHREIBEN ============ -->
+<section class="part">
+  <div class="part-head">
+    <h2>بخش سه — نوشتن</h2>
+    <span class="stamp">Schreiben · 15 Min. · 15 P.</span>
+  </div>
+  <p class="part-note">دو تکلیف. تکلیف ۱ پنج نمره، تکلیف ۲ ده نمره.</p>
+
+  <div class="task">
+    <h3>تکلیف ۱</h3>
+    <p class="instr">جاهای خالی را پر کن. هر ردیف یک نمره — همه‌ی جاهای خالیِ یک ردیف باید درست باشد.</p>
+
+    <ol class="items">
+      <li data-n="17">
+        <span class="de">Er <span class="gap"></span> morgen früh <span class="gap"></span> .</span>
+        <div class="rf">ankommen</div>
+      </li>
+      <li data-n="18">
+        <span class="de">Gestern <span class="gap"></span> ich keine Zeit.</span>
+        <div class="rf">haben</div>
+      </li>
+      <li data-n="19">
+        <span class="de"><span class="gap"></span> Sie mir bitte helfen?</span>
+        <div class="rf">können — مؤدبانه</div>
+      </li>
+      <li data-n="20">
+        <span class="de">Ich möchte wissen, wann er hier <span class="gap"></span> <span class="gap"></span> .</span>
+        <div class="rf">sein · werden — آینده</div>
+      </li>
+      <li data-n="21">
+        <span class="de">Ich rufe Sie an, <span class="gap"></span> Sie <span class="gap"></span> fragen.</span>
+        <div class="rf">به منظور اینکه</div>
+      </li>
+    </ol>
+  </div>
+
+  <div class="task">
+    <h3>تکلیف ۲</h3>
+    <p class="instr">به دوستت <span class="inline-de">Lena</span> یک پیام کوتاه بنویس، حدود ۴۰ کلمه. هر سه نکته باید در پیام بیاید.</p>
+
+    <ol class="items">
+      <li data-n="22a">بگو فردا عصر نمی‌توانی بیایی، و دلیلش را بگو — با <span class="inline-de">weil</span> یا <span class="inline-de">denn</span>.</li>
+      <li data-n="22b">پیشنهاد بده پس‌فردا با هم بیرون بروید.</li>
+      <li data-n="22c">مؤدبانه بپرس آیا می‌تواند تو را از خانه بردارد.</li>
+    </ol>
+
+    <div class="lines">
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SPRECHEN ============ -->
+<section class="part">
+  <div class="part-head">
+    <h2>بخش چهار — گفتن</h2>
+    <span class="stamp">Sprechen · 10 Min. Vorbereitung · 25 P.</span>
+  </div>
+  <p class="part-note">۱۰ دقیقه وقت آماده‌سازی داری — فقط کلمه‌های کلیدی یادداشت کن، نه جمله‌ی کامل. بعد ضبط را روشن کن و هر سه تکلیف را پشت هم بگو.</p>
+
+  <div class="task">
+    <h3>تکلیف ۱ — درباره‌ی خودت</h3>
+    <p class="instr">برای هر نکته یک جمله. هر جمله ۲ نمره.</p>
+    <ol class="items">
+      <li data-n="23">کاری که دیروز می‌خواستی بکنی ولی نتوانستی — و چرا.</li>
+      <li data-n="24">کاری که فردا می‌کنی — با یک فعل لگویی.</li>
+      <li data-n="25">از کِی آلمانی یاد می‌گیری.</li>
+      <li data-n="26">کاری که خیلی دوست داشتی بکنی (فرضی).</li>
+      <li data-n="27">یک جمله با <span class="inline-de">um … zu</span>.</li>
+    </ol>
+  </div>
+
+  <div class="task">
+    <h3>تکلیف ۲ — موقعیت‌ها</h3>
+    <p class="instr">هر جمله را به آلمانی بگو. هر جمله ۲ نمره.</p>
+    <ol class="items">
+      <li data-n="28">می‌توانید لطفاً تکرارش کنید؟ من آن را نمی‌فهمم.</li>
+      <li data-n="29">نمی‌دانم آیا فردا وقت دارم.</li>
+      <li data-n="30">اجازه دارم اینجا بمانم؟</li>
+      <li data-n="31">من فردا صبح زود راه می‌افتم.</li>
+      <li data-n="32">اگر وقت داشتم، می‌آمدم.</li>
+    </ol>
+  </div>
+
+  <div class="task">
+    <h3>تکلیف ۳ — نقش‌بازی تلفنی</h3>
+    <p class="instr">با آقای <span class="inline-de">Keller</span> تلفنی حرف می‌زنی. قطارت دیر شده. ۵ نمره.</p>
+    <ol class="items">
+      <li data-n="33a">سلام کن و خودت را معرفی کن.</li>
+      <li data-n="33b">بگو دیرتر می‌رسی و بگو ساعت چند.</li>
+      <li data-n="33c">مؤدبانه بپرس آیا می‌تواند تو را از ایستگاه بردارد.</li>
+      <li data-n="33d">بگو بعداً دوباره زنگ می‌زنی، و خداحافظی تلفنی کن.</li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ ANSWER SHEET ============ -->
+<section class="part answersheet">
+  <div class="part-head">
+    <h2>برگه‌ی پاسخ و اطمینان</h2>
+  </div>
+  <p class="part-note">جواب‌های خواندن و شنیدن را اینجا هم بنویس، و کنارش عددِ اطمینانت را از ۱ تا ۵.</p>
+
+  <table>
+    <thead>
+      <tr><th>سؤال</th><th>پاسخ</th><th>اطمینان</th><th>سؤال</th><th>پاسخ</th><th>اطمینان</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>۱</td><td class="blank"></td><td class="conf">۱۲۳۴۵</td><td>۹</td><td class="blank"></td><td class="conf">۱۲۳۴۵</td></tr>
+      <tr><td>۲</td><td class="blank"></td><td class="conf">۱۲۳۴۵</td><td>۱۰</td><td class="blank"></td><td class="conf">۱۲۳۴۵</td></tr>
+      <tr><td>۳</td><td class="blank"></td><td class="conf">۱۲۳۴۵</td><td>۱۱</td><td class="blank"></td><td class="conf">۱۲۳۴۵</td></tr>
+      <tr><td>۴</td><td class="blank"></td><td class="conf">۱۲۳۴۵</td><td>۱۲</td><td class="blank"></td><td class="conf">۱۲۳۴۵</td></tr>
+      <tr><td>۵</td><td class="blank"></td><td class="conf">۱۲۳۴۵</td><td>۱۳</td><td class="blank"></td><td class="conf">۱۲۳۴۵</td></tr>
+      <tr><td>۶</td><td class="blank"></td><td class="conf">۱۲۳۴۵</td><td>۱۴</td><td class="blank"></td><td class="conf">۱۲۳۴۵</td></tr>
+      <tr><td>۷</td><td class="blank"></td><td class="conf">۱۲۳۴۵</td><td>۱۵</td><td class="blank"></td><td class="conf">۱۲۳۴۵</td></tr>
+      <tr><td>۸</td><td class="blank"></td><td class="conf">۱۲۳۴۵</td><td>۱۶</td><td class="blank"></td><td class="conf">۱۲۳۴۵</td></tr>
+    </tbody>
+  </table>
+
+  <p class="foot">
+    وقتی هر چهار بخش را زدی، جواب‌ها را برایم بفرست — خواندن و شنیدن به شکل «۱ r · ۲ f · …»، نوشتن را کامل تایپ کن.
+    فایل صوتی بخش گفتن را هم ذخیره کن؛ یا بفرست، یا جمله‌هایت را از رویش تایپ کن تا با معیارهای ÖSD بررسی کنیم.
+    نمره‌ی هر درس جدا حساب می‌شود و می‌رود در ستون J برگه‌ی «لکسیون».
+  </p>
+</section>
+
+</div>
+</body>
+</html>
