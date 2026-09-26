@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>مرور ۴ مهر — آزمون جمعه ۱</title>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700;800&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FBFBF9;--card:#FFFFFF;--ink:#1A2733;--soft:#5A6B78;--rule:#D8DCDF;
+  --bad:#B3261E;--bad-bg:#FBECEA;--ok:#2E6B3F;--ok-bg:#EAF4EC;--hi:#FFF6D6;
+  --pres:#2F7BD3;--past:#D07C00;--subj:#8A45C4;
+  --fa:'Vazirmatn',system-ui,Tahoma,sans-serif;--de:'Source Serif 4',Georgia,serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#15191D;--card:#1E2429;--ink:#E6EAED;--soft:#9AA7B1;--rule:#35404A;
+  --bad:#F28B82;--bad-bg:#3A2322;--ok:#81C995;--ok-bg:#1F3326;--hi:#3B3520;}}
+:root[data-theme="dark"]{--paper:#15191D;--card:#1E2429;--ink:#E6EAED;--soft:#9AA7B1;--rule:#35404A;
+  --bad:#F28B82;--bad-bg:#3A2322;--ok:#81C995;--ok-bg:#1F3326;--hi:#3B3520;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--fa);font-size:16px;line-height:1.95}
+.sheet{max-width:860px;margin:0 auto;padding:36px 20px 90px}
+header{border-bottom:2px solid var(--ink);padding-bottom:12px;margin-bottom:18px}
+h1{font-size:1.75rem;margin:0}
+.sub{color:var(--soft);margin:2px 0 0;font-size:.95rem}
+.toolbar{position:sticky;top:0;z-index:5;background:var(--paper);padding:10px 0;border-bottom:1px solid var(--rule);margin-bottom:18px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.toolbar button{font-family:var(--fa);font-size:.9rem;padding:6px 14px;border:1.5px solid var(--ink);background:var(--card);color:var(--ink);border-radius:20px;cursor:pointer}
+.toolbar button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.toolbar nav{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:.85rem}
+.toolbar nav a{color:var(--soft)}
+h2{font-size:1.3rem;margin:38px 0 8px;padding-top:14px;border-top:2px solid var(--ink)}
+h3{font-size:1.02rem;margin:22px 0 6px}
+p.note{color:var(--soft);font-size:.92rem;margin:4px 0 12px}
+.de{direction:ltr;unicode-bidi:isolate;font-family:var(--de)}
+table{width:100%;border-collapse:collapse;font-size:.92rem;margin:6px 0 14px;background:var(--card)}
+th,td{border:1px solid var(--rule);padding:7px 9px;vertical-align:top;text-align:right}
+th{background:transparent;color:var(--soft);font-weight:500;font-size:.82rem}
+td.w{color:var(--bad);background:var(--bad-bg)}
+td.r{color:var(--ok);background:var(--ok-bg)}
+td.c{text-align:center;white-space:nowrap}
+.tag{display:inline-block;font-size:.72rem;border:1px solid var(--rule);border-radius:10px;padding:0 7px;color:var(--soft)}
+.card{background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:12px 16px;margin:0 0 12px}
+.card .q{font-weight:700;margin-bottom:4px}
+.card .q::before{content:"❓ "}
+.big{font-size:1.05rem}
+.pat{border-right:4px solid var(--bad);padding-right:12px;margin:0 0 14px}
+.pat.ok{border-right-color:var(--ok)}
+.pat h3{margin:0 0 4px}
+.bank td.de{font-size:1.02rem}
+body.quiz .bank td.de{filter:blur(6px);cursor:pointer;transition:filter .15s}
+body.quiz .bank td.de.show{filter:none}
+.table-wrap{overflow-x:auto}
+@media (max-width:560px){.sheet{padding:24px 14px 70px}h1{font-size:1.4rem}table{font-size:.84rem}th,td{padding:5px 6px}}
+@media print{.toolbar{display:none}body.quiz .bank td.de{filter:none}h2{break-before:auto}.card,table{break-inside:avoid}}
+</style>
+</head>
+<body>
+<div class="sheet">
+
+<header>
+  <h1>مرور ۴ مهر — آزمون جمعه ۱ و سؤال‌هایم</h1>
+  <p class="sub">درس ۶ تا ۸ · گرم‌کردن + آزمون (۴۵.۵ از ۷۵ — قبول ✅) + مرور درس ۷ · همه‌ی اشتباه‌ها، سؤال‌ها، گیرها و شکل درست</p>
+</header>
+
+<div class="toolbar">
+  <button id="quizBtn" aria-pressed="false">🙈 حالت آزمون</button>
+  <nav>
+    <a href="#p">🔍 الگوها</a><a href="#e">❌ اشتباه‌ها</a><a href="#s">🧱 گیرها</a><a href="#q">❓ سؤال‌هایم</a><a href="#b">🏦 بانک جمله</a><a href="#n">▶️ بعد</a>
+  </nav>
+</div>
+
+<!-- ================= PATTERNS ================= -->
+<h2 id="p">🔍 اول تصویر کلی — چهار الگو</h2>
+<p class="note">بیشتر اشتباه‌های امروز از همین چهار ریشه‌اند. اگر فقط یک بخش را مرور می‌کنی، این باشد.</p>
+
+<div class="pat">
+  <h3>① شکلِ فرضی را <u>می‌شناسم</u> ولی زیر فشار <u>تولید</u> نمی‌کنم <span class="tag">درس ۷ · ۵ بار</span></h3>
+  وقتی باید خودم بسازم، ناخودآگاه به حال (<span class="de">können</span>) یا گذشته (<span class="de">hatte</span>) برمی‌گردم.
+  <br>🔧 <b>راه‌حل:</b> هر جا «مؤدبانه / اگر… / دوست داشتم / پیشنهاد» دیدم ⟵ دو چشم 👀: <span class="de">könnte · hätte · wäre · würde</span>. فعلی که فرضی ساده ندارد ⟵ <span class="de">würde</span> + مصدر ته جمله.
+</div>
+
+<div class="pat">
+  <h3>② <span class="de">denn</span> را مثل <span class="de">weil</span> صرف می‌کنم <span class="tag">درس ۶ · ۳ بار</span></h3>
+  هر دو «چون»اند ولی رفتارشان برعکس است. و وقتی <span class="de">denn</span> را درست کردم، <span class="de">aber</span> را خراب کردم.
+  <br>🔧 <b>راه‌حل:</b> بعد از هر جمله‌ی چندتیکه بپرس: <b>«چند در 🚪 دارم؟»</b> ADUSO (<span class="de">aber · denn · und · sondern · oder</span>) چسب 🧷 است، در نیست. صفر در ⟵ هیچ فعلی ته جمله نیست.
+</div>
+
+<div class="pat">
+  <h3>③ وقتی ذهنم درگیر چیز تازه است، صرف یا جای مصدر از دستم می‌رود <span class="tag">درس ۶–۸</span></h3>
+  <span class="de">ankommen</span> · <span class="de">Ich lesen</span> · <span class="de">wiederholen bitte</span> — ولی هر بار با یک سؤال خودم درستش کردم. یعنی بلدم؛ فقط چک نمی‌کنم.
+  <br>🔧 <b>راه‌حل:</b> چک دوسؤالی بعد از هر جمله: <b>👔 کت تن کیه؟</b> و <b>🛌 مصدر ته جمله است؟</b>
+</div>
+
+<div class="pat">
+  <h3>④ شنیدنِ آلمانیِ واقعی و عددها <span class="tag">مهارت، نه قانون</span></h3>
+  متن طولانی با سرعت عادی، عددها، کلمه‌های تازه — اولین بار بود. «باید فراتر از جزوه آلمانی را حس کنم.»
+  <br>🔧 <b>راه‌حل:</b> ورودی روزانه ۲۰–۳۰ دقیقه · واحد عددها · در آزمون: کلمه‌ی کلیدی سؤال را قبل از پخش علامت بزن و <b>هیچ‌وقت خالی نگذار</b>.
+</div>
+
+<div class="pat ok">
+  <h3>✅ آنچه محکم است</h3>
+  ساختار جمله‌ی چندتیکه‌ای (<span class="de">sein wird</span> · <span class="de">Wenn…, kommte ich</span> با فعل اول) · لگوها در همه‌ی حالت‌ها · <span class="de">um … zu</span> · خواندن متن طولانی از روی ساختار (۸۰٪) · <span class="de">Darf ich hier bleiben?</span> با <span class="de">ei</span> درست · <span class="de">Auf Wiederhören</span>.
+</div>
+
+<!-- ================= ERRORS ================= -->
+<h2 id="e">❌ همه‌ی اشتباه‌ها — نوشتم / درست / چرا</h2>
+
+<h3>گرم‌کردن</h3>
+<div class="table-wrap"><table>
+<tr><th>فارسی</th><th>نوشتم</th><th>درست</th><th>چرا</th></tr>
+<tr><td>من امروز عصر بیرون می‌روم</td><td class="w de">Ich gehe huete abend ause.</td><td class="r de">Ich gehe heute Abend aus.</td><td><span class="de">eu</span>: «هویته» — اول e بعد u · اسم ⟵ حرف بزرگ · پیشوند کلمه‌ی کامل است، e ندارد <span class="tag">۸</span></td></tr>
+<tr><td>امیدوارم که او فردا برسد</td><td class="w de">…, dass er morgen ankommen.</td><td class="r de">…, dass er morgen ankommt.</td><td>👔 کت تن کیه؟ هیچ فعل کمکی نیست ⟵ خود فعل صرف می‌شود: <span class="de">er</span> ⟵ <span class="de">-t</span> <span class="tag">۸</span></td></tr>
+</table></div>
+
+<h3>📖 خواندن</h3>
+<div class="table-wrap"><table>
+<tr><th>#</th><th>زدم</th><th>درست</th><th>چرا</th></tr>
+<tr><td class="c">۶</td><td class="w de">…, wann ich fertig bin.</td><td class="r de">…, wenn ich fertig bin.</td><td>«<b>هر وقت</b> / اگر» ⟵ <span class="de">wenn</span> · «<b>کِی</b>؟» ⟵ <span class="de">wann</span> <span class="tag">۶</span></td></tr>
+<tr><td class="c">۷</td><td class="w de">Morgen hatte ich Zeit.</td><td class="r de">Morgen hätte ich Zeit.</td><td>گذشته با «فردا» جور نیست · پیشنهاد مؤدبانه ⟵ 👀 <span class="tag">۷</span></td></tr>
+</table></div>
+
+<h3>🎧 شنیدن</h3>
+<div class="table-wrap"><table>
+<tr><th>#</th><th>جمله</th><th>جواب</th><th>نکته</th></tr>
+<tr><td class="c">۱۳</td><td class="de">Was muss Sara machen, wenn sie mitkommen will?</td><td class="r de">a — Lena bis sechs Uhr anrufen</td><td>در پیغام: <span class="de">Wenn du mitkommen willst, kannst du mich bis sechs Uhr anrufen.</span> <span class="tag">۶</span></td></tr>
+<tr><td class="c">۱۴</td><td class="de">Die Person wollte letztes Jahr nicht umziehen.</td><td class="r">falsch</td><td>کلید: <span class="de">letztes Jahr</span> ⟵ <span class="de">wollte … aber ich konnte nicht</span> — می‌خواست، نتوانست <span class="tag">۷</span></td></tr>
+<tr><td class="c">۱۵</td><td class="de">Die Person zieht morgen um.</td><td class="r">falsch</td><td>متن: <span class="de">Übermorgen</span> — به پیشوند گوش کن <span class="tag">۸</span></td></tr>
+<tr><td class="c">۱۶</td><td class="de">Am Nachmittag ruft die Person ihre Freunde an.</td><td class="r">richtig</td><td>کلید: <span class="de">Nachmittag</span> <span class="tag">۸</span></td></tr>
+</table></div>
+<p class="note">۱۴ تا ۱۶ را جواب ندادم — متن طولانی بود. درست/غلط یعنی ۵۰٪ شانس؛ خالی یعنی صفر.</p>
+
+<h3>✍️ نوشتن ۱</h3>
+<div class="table-wrap"><table>
+<tr><th>#</th><th>نوشتم</th><th>درست</th><th>چرا</th></tr>
+<tr><td class="c">۱۹</td><td class="w de">Können Sie mir bitte helfen?</td><td class="r de">Könnten Sie mir bitte helfen?</td><td>جمله‌ام دستوری درست بود، ولی «مؤدبانه» خواسته بود ⟵ فرضی = گذشته (<span class="de">konnten</span>) + 👀. <span class="de">t</span>ِ گذشته جا افتاد <span class="tag">۷</span></td></tr>
+</table></div>
+
+<h3>✍️ نوشتن ۲ — پیام به Lena</h3>
+<div class="table-wrap"><table>
+<tr><th>نوشتم</th><th>درست</th><th>چرا</th></tr>
+<tr><td class="w de">Hallo Lenna.</td><td class="r de">Hallo Lena,</td><td>اسم در سؤال داده شده بود</td></tr>
+<tr><td class="w de">denn ich keine Zeit habe</td><td class="r de">denn ich habe keine Zeit</td><td>🧷 <span class="de">denn</span> چسب است ⟵ فعل جای دوم. «فعل ته» مال <span class="de">weil</span> است <span class="tag">۶</span></td></tr>
+<tr><td class="w de">ich bleibe nach Mittag zu Hause</td><td class="r de">(حذف — به‌جایش پیشنهاد)</td><td><span class="de">Nachmittag</span> یک کلمه است · حرف بزرگ اول جمله</td></tr>
+<tr><td class="w de">koennen Sie mir abholen?</td><td class="r de">Könntest du mich zu Hause abholen?</td><td>دوست ⟵ <span class="de">du</span> · مؤدبانه ⟵ فرضی · برداشتنِ «منو» ⟵ <span class="de">mich</span> نه <span class="de">mir</span> <span class="tag">۷</span></td></tr>
+<tr><td class="w de">widasehen</td><td class="r de">Liebe Grüße</td><td><span class="de">Auf Wiedersehen</span> برای خداحافظی حضوری است؛ پیام دوستانه ⟵ <span class="de">Liebe Grüße</span> یا <span class="de">Bis bald</span></td></tr>
+<tr><td class="w">— (نیامد)</td><td class="r de">Wir könnten übermorgen ausgehen.</td><td>پیشنهاد پس‌فردا — <span class="de">könnten</span> ابزار پیشنهاد است <span class="tag">۷</span></td></tr>
+</table></div>
+<div class="card"><b>نسخه‌ی کامل درست:</b>
+<div class="de" style="text-align:left;white-space:pre-line;margin-top:6px">Hallo Lena,
+ich kann morgen Abend leider nicht kommen, denn ich habe keine Zeit. Wir könnten übermorgen ausgehen. Könntest du mich zu Hause abholen?
+Liebe Grüße</div></div>
+
+<h3>🗣️ گفتن</h3>
+<div class="table-wrap"><table>
+<tr><th>#</th><th>گفتم</th><th>درست</th><th>چرا</th></tr>
+<tr><td class="c">۲۳</td><td class="w de">Ich konnte gestern Abend nicht versuchen, weil ich keine Zeit hatte.</td><td class="r de">Gestern wollte ich es versuchen, aber ich konnte nicht, weil ich keine Zeit hatte.</td><td><span class="de">versuchen</span> مفعول می‌خواهد (<span class="de">es</span>) · «می‌خواستم» جا افتاد. تیکه‌ی <span class="de">weil</span> بی‌نقص بود ✅ <span class="tag">۷</span></td></tr>
+<tr><td class="c">۲۵</td><td class="w de">seit drie Tagen!</td><td class="r de">Ich lerne seit drei Wochen Deutsch.</td><td>جمله‌ی کامل بگو · <span class="de">seit</span> + <b>حال</b> · <span class="de">drei</span> با <span class="de">ei</span> (حرف دوم i ⟵ «آی») <span class="tag">۶</span></td></tr>
+<tr><td class="c">۲۶</td><td class="w">— (فقط می‌دانستم با <span class="de">Ich würde</span> شروع می‌شود)</td><td class="r de">Ich würde sehr gern in Deutschland studieren.</td><td><span class="de">würde</span> کت را می‌پوشد ⟵ مصدر لخت ته جمله · <span class="de">gern</span> بعد از فعل <span class="tag">۷</span></td></tr>
+<tr><td class="c">۲۸</td><td class="w de">Können Sie widerholen bitte? Ich kann es nicht verstehen.</td><td class="r de">Können Sie es bitte wiederholen? Ich verstehe es nicht.</td><td>مصدر <b>آخرِ آخر</b> · <span class="de">es</span> جا افتاد · جمله‌ی دوم من هم درست بود ✅ · تلفظ: <span class="de">wie-der-<b>HO</b>-len</span> <span class="tag">۸</span></td></tr>
+<tr><td class="c">۲۹</td><td class="w de">Ich wiss nicht, ob ich morgen die Zeit habe.</td><td class="r de">Ich weiß nicht, ob ich morgen Zeit habe.</td><td><span class="de">wissen</span> ⟵ <span class="de">ich weiß</span> (مثل مدال‌ها، پوستر ردیف ۷) · <span class="de">Zeit haben</span> بی‌آرتیکل · <span class="de">ob</span> و فعل ته ✅ <span class="tag">۶</span></td></tr>
+<tr><td class="c">۳۱</td><td class="w de">Ich hole morgen früh ab.</td><td class="r de">Ich fahre morgen früh ab.</td><td>«راه افتادن» ⟵ <span class="de">abfahren</span> · <span class="de">abholen</span> = دنبال کسی رفتن. فعل می‌گوید چه کاری، پیشوند کدام طرف <span class="tag">۸</span></td></tr>
+<tr><td class="c">۳۲</td><td class="w de">Wenn ich die Zeit hatte, kommte ich.</td><td class="r de">Wenn ich Zeit hätte, würde ich kommen.</td><td>خیالی ⟵ <span class="de">hätte</span> · <span class="de">kommte</span> وجود ندارد ⟵ <span class="de">würde … kommen</span>. اسکلت (فعل اول بعد از تیکه‌ی <span class="de">wenn</span>) درست بود ✅ <span class="tag">۷</span></td></tr>
+<tr><td class="c">۳۳</td><td class="w de">Hallo, ich bin Fateme. Ich komme später an ???. Können Sie bitte mir abholen? Ich rufe später widerholen an.</td><td class="r de">Guten Tag, Herr Keller, hier ist Fatemeh. Ich komme später an, um elf Uhr. Können Sie mich bitte abholen? Ich rufe Sie später wieder an. Auf Wiederhören!</td><td>تلفن ⟵ <span class="de">hier ist …</span> · ساعت: <span class="de">um</span> + عدد + <span class="de">Uhr</span> · <span class="de">mich</span> · «دوباره» ⟵ <span class="de">wieder</span>، نه <span class="de">wiederholen</span> (تکرار کردن) <span class="tag">کلی</span></td></tr>
+</table></div>
+
+<h3>🧩 تمرین‌های وسط تصحیح</h3>
+<div class="table-wrap"><table>
+<tr><th>نوشتم</th><th>درست</th><th>چرا</th></tr>
+<tr><td class="w de">Gestern wollte ich kommen, aber ich konnte , denn ich kranke war.</td><td class="r de">Gestern wollte ich kommen, aber ich konnte nicht, denn ich war krank.</td><td><span class="de">nicht</span> جا افتاد (معنی برعکس شد) · <span class="de">denn</span> ⟵ فعل جای دوم · صفت بعد از <span class="de">sein</span> پایانه نمی‌گیرد</td></tr>
+<tr><td class="w de">…, aber ich nicht konnte, denn ich war krank.</td><td class="r de">…, aber ich konnte nicht, denn ich war krank.</td><td><span class="de">denn</span> درست شد، <span class="de">aber</span> خراب شد — هر دو چسب‌اند 🧷</td></tr>
+<tr><td class="w de">Ich lesen gern das Buch.</td><td class="r de">Ich lese gern Bücher.</td><td>👔 صرف · «کتاب» به‌طور کلی ⟵ جمع بی‌آرتیکل · <span class="de">gern</span> درست نشست ✅</td></tr>
+</table></div>
+
+<!-- ================= STUCK ================= -->
+<h2 id="s">🧱 جاهایی که گیر کردم — و راه‌حل</h2>
+
+<div class="card"><div class="q">پیشنهاد دادن برای پس‌فردا</div>
+با <span class="de">könnten</span> (پیشنهاد) یا سؤال با <span class="de">hätte</span>:
+<div class="de big" style="text-align:left">Wir könnten übermorgen ausgehen. · Hättest du übermorgen Zeit?</div></div>
+
+<div class="card"><div class="q">«بیا منو از خونه بردار»</div>
+<div class="de big" style="text-align:left">Könntest du mich zu Hause abholen?</div>
+<span class="de">zu Hause</span> خودم در جمله‌ام داشتم — فقط باید بین <span class="de">mich</span> و <span class="de">abholen</span> می‌رفت.</div>
+
+<div class="card"><div class="q">جمله‌ی فرضی «خیلی دوست داشتم…» (سؤال ۲۶)</div>
+اسکلت: <span class="de">Ich würde</span> + (<span class="de">sehr</span>) <span class="de">gern</span> + … + <b>مصدر ته جمله</b> 🛌
+<div class="de big" style="text-align:left">Ich würde sehr gern in Deutschland studieren.</div></div>
+
+<div class="card"><div class="q">شنیدن: متن طولانی و عددها</div>
+قبل از پخش کلمه‌ی کلیدیِ هر جمله را علامت بزن (<span class="de">letztes Jahr · morgen · Nachmittag</span>) و فقط منتظر همان‌ها باش. عددها: <span class="de">um</span> + عدد + <span class="de">Uhr</span> — و دنبال فعلِ کنارشان باش (<span class="de">abfahren</span> ≠ <span class="de">ankommen</span>). واحد عددها در راه است.</div>
+
+<div class="card"><div class="q">بخش گفتن: وقت کم آوردم</div>
+در آماده‌سازی فقط کلمه‌ی کلیدی بنویس، نه جمله‌ی کامل. آزمون بعدی وقت بیشتری دارد.</div>
+
+<!-- ================= QUESTIONS ================= -->
+<h2 id="q">❓ سؤال‌هایی که پرسیدم</h2>
+
+<div class="card"><div class="q">آن <span class="de">(e)n</span> جمعِ گذشته چه می‌گوید؟</div>
+جمع = مفرد + <span class="de">n</span>. پرانتز یعنی <span class="de">e</span> <b>فقط اگر لازم باشد</b>. هشت کلمه از نُه تا به <span class="de">e</span> ختم می‌شوند ⟵ فقط <span class="de">n</span> (<span class="de">konnten · hatten · wurden</span>). فقط <span class="de">war</span> ⟵ <span class="de">waren</span>، چون <span class="de">warn</span> تلفظ‌شدنی نیست. 🧴 همان قانون روغنِ درس ۸ است — یک قانون، نه دو تا.</div>
+
+<div class="card"><div class="q">چرا <span class="de">will</span> / <span class="de">konnten</span> ضمیر مخصوص ندارند؟ من <span class="de">will</span> را با <span class="de">ich</span> و <span class="de">wird</span> را با <span class="de">er</span> یادم می‌آید.</div>
+جدولِ «یک حرف دو معنی» برای فرق معنی بود و مجبور شد یک شخص فارسی انتخاب کند. قانون درس ۷: <b>در گذشته، فرضی و مدال‌های حال: <span class="de">ich</span> = <span class="de">er</span></b>.
+<span class="de">will</span> ⟵ <span class="de">ich</span> <b>و</b> <span class="de">er</span> · <span class="de">wird</span> ⟵ <b>فقط</b> <span class="de">er</span> (چون <span class="de">werden</span> مدال نیست: <span class="de">ich werde</span>) · <span class="de">konnten/könnten</span> ⟵ <span class="de">wir/sie/Sie</span>.
+کنجکاوی: مدال‌ها فعل‌های خیلی قدیمی‌اند که حالشان در اصل یک گذشته‌ی قدیمی بوده؛ برای همین <span class="de">ich</span> = <span class="de">er</span> مانده.</div>
+
+<div class="card"><div class="q"><span class="de">soll</span> با <span class="de">sollte</span> فرق دارد؟ در انکی همه یکی‌اند!</div>
+دو محور: <b>ضمیر</b> (بالا به پایین) ⟵ <span class="de">ich soll</span> = <span class="de">er soll</span>، یکی‌اند ✅ · <b>زمان</b> (چپ به راست) ⟵ <span class="de">soll</span> ≠ <span class="de">sollte</span>.
+<span class="de">Ich soll arbeiten</span> = قرار است/باید (دیگری خواسته) · <span class="de">Ich sollte arbeiten</span> = بهتر است (توصیه) یا قرار بود. ⚠️ <span class="de">sollt</span> بدون e = شکلِ <span class="de">ihr</span>.</div>
+
+<div class="card"><div class="q"><span class="de">wird · wurde · werden · will</span> — این w-دارها را قاطی می‌کنم</div>
+دو فعل جدا: <b>L ⟵ خواستن</b> (<span class="de">will · wollen · wollte</span>) · <b>R ⟵ شدن/آینده</b> (<span class="de">werde · wird · wurde · würde</span>). ⚠️ انگلیسیِ <span class="de">will</span> = آینده؛ آلمانیِ <span class="de">will</span> = <b>می‌خواهم</b>. <span class="de">Ich will kommen</span> = می‌خواهم بیایم · <span class="de">Ich werde kommen</span> = خواهم آمد. (دک انکی: <span class="de">lesson07-wollen-werden</span>)</div>
+
+<div class="card"><div class="q">راهی بده که <span class="de">soll/sollte</span> و <span class="de">konnten/könnten</span> را قاطی نکنم</div>
+«<b>تِ = توصیه</b>»: <span class="de">soll</span> دستور · <span class="de">sollte</span> توصیه (≈ <span class="de">shall/should</span>). «<b>دو نقطه = دو چشم خیال‌پرداز</b> 👀»: <span class="de">konnten</span> واقعیت و گذشته · <span class="de">könnten</span> خیال یا درخواست. سرنخ: سؤالِ درخواستی با <span class="de">Sie</span> ⟵ تقریباً همیشه 👀.</div>
+
+<div class="card"><div class="q">می‌توانم استنتاج کنم فرضی فقط اوملات می‌گیرد اگر مصدر هم اوملات داشته باشد؟</div>
+استنتاج خوبی بود ولی تست شد و شکست: در مدال‌ها ۶ از ۶ درست، ولی <span class="de">haben · sein · werden</span> مصدرشان اوملات ندارد و فرضی‌شان دارد (<span class="de">hätte · wäre · würde</span>). برچسب: 🔵 موقت.
+<b>قانون درست 🟢: فرضی = گذشته + 👀 — به‌جز دوقلوهای <span class="de">-ollen</span> (<span class="de">wollte · sollte</span>).</b> ۹ از ۹.</div>
+
+<div class="card"><div class="q">صرف ضمیرهای دیگر لازم نیست توی پوستر باشد؟ چرا؟</div>
+پوستر فقط چیزی را نشان می‌دهد که قابل ساختن نیست. <span class="de">du</span> = شکل <span class="de">ich/er</span> + <span class="de">-st</span> · <span class="de">ihr</span> = ریشه‌ی جمع + <span class="de">-t</span> — راهروی شش‌دَر می‌سازدشان. استثناهایی که باید حفظ شوند: <span class="de">bist · seid · hast · wirst</span> (+ <span class="de">sind</span>).</div>
+
+<div class="card"><div class="q"><span class="de">wissen</span> و <span class="de">werden</span> لازم نیست در پوستر باشند؟</div>
+<span class="de">werden</span> از قبل بود. <span class="de">wissen</span> را خوب گرفتم: هفتمین کلمه‌ی «<span class="de">ich</span> = <span class="de">er</span>» (<span class="de">weiß · weiß · wissen · wusste · wüsste</span>). ⚠️ با لیست «بدون <span class="de">zu</span>» (۶ مدال + <span class="de">werden</span> + <span class="de">lassen</span>) قاطی نشود.</div>
+
+<div class="card"><div class="q">این ساختار جمله خیلی طبیعی‌تر است؛ چطوری این‌طوری بسازم؟</div>
+چهار قدم: ① قصه را فارسی به تیکه بشکن · ② هر تیکه را جدا ساده بساز · ③ رابط هر تیکه را انتخاب کن (🧷 چسب یا 🚪 در) · ④ بچسبان، ویرگول قبل از هر رابط. برای طبیعی‌تر شدن، زمان را جای اول بیاور (فعل جای دوم می‌ماند).
+قالب آماده: <span class="de">… wollte ich …, aber ich konnte nicht, weil/denn …</span></div>
+
+<div class="card"><div class="q"><span class="de">gern</span> توی جمله چطور استفاده می‌شود؟</div>
+یعنی «با کمال میل». آلمانی برای «دوست دارم کاری بکنم» فعل جدا ندارد: فعل اصلی صرف می‌شود + <span class="de">gern</span> کنارش. ① <span class="de">Ich trinke gern Kaffee.</span> ② <span class="de">Ich würde gern in Wien wohnen.</span> ③ <span class="de">Ich möchte gern ein Glas Wasser.</span> جایش: درست بعد از فعل صرف‌شده و ضمیرها · <span class="de">sehr gern</span> · <span class="de">nicht gern</span>. ⚠️ نه <span class="de">Ich mag trinken Kaffee</span>.</div>
+
+<div class="card"><div class="q">معنی <span class="de">Ich lerne seit drei Wochen Deutsch.</span>؟</div>
+«سه هفته است آلمانی یاد می‌گیرم.» <span class="de">Wochen</span> با <span class="de">n</span> — دوقلوی <span class="de">seit</span> · زمان حال چون هنوز ادامه دارد (فارسی هم همین را می‌گوید).</div>
+
+<div class="card"><div class="q"><span class="de">Herr Keller</span> و <span class="de">um elf Uhr</span> یعنی چی؟</div>
+<span class="de">Herr</span> = آقا (قبل از فامیلی) · <span class="de">Frau</span> = خانم. <span class="de">um</span> + عدد + <span class="de">Uhr</span> = ساعتِ …: <span class="de">um acht / neun / elf Uhr</span>.</div>
+
+<!-- ================= BANK ================= -->
+<h2 id="b">🏦 بانک جمله — شکل‌های درست</h2>
+<p class="note">«حالت آزمون» را بالا روشن کن: ستون آلمانی مات می‌شود. اول خودت بساز، بعد روی خانه بزن.</p>
+<div class="table-wrap"><table class="bank">
+<tr><th>#</th><th>فارسی</th><th>آلمانی</th></tr>
+<tr><td class="c">۱</td><td>من امروز عصر بیرون می‌روم.</td><td class="de">Ich gehe heute Abend aus.</td></tr>
+<tr><td class="c">۲</td><td>امیدوارم که او فردا برسد.</td><td class="de">Ich hoffe, dass er morgen ankommt.</td></tr>
+<tr><td class="c">۳</td><td>بعداً به شما تلفن می‌کنم.</td><td class="de">Ich rufe Sie später an.</td></tr>
+<tr><td class="c">۴</td><td>وقتی آماده شدم، به او زنگ می‌زنم.</td><td class="de">Ich rufe ihn an, wenn ich fertig bin.</td></tr>
+<tr><td class="c">۵</td><td>فردا وقتم آزاد است (پیشنهاد مؤدبانه).</td><td class="de">Morgen hätte ich Zeit.</td></tr>
+<tr><td class="c">۶</td><td>ممکن است لطفاً کمکم کنید؟</td><td class="de">Könnten Sie mir bitte helfen?</td></tr>
+<tr><td class="c">۷</td><td>می‌خواهم بدانم او کِی اینجا خواهد بود.</td><td class="de">Ich möchte wissen, wann er hier sein wird.</td></tr>
+<tr><td class="c">۸</td><td>فردا عصر نمی‌توانم بیایم، چون وقت ندارم. (denn)</td><td class="de">Ich kann morgen Abend nicht kommen, denn ich habe keine Zeit.</td></tr>
+<tr><td class="c">۹</td><td>همان، با weil.</td><td class="de">Ich kann morgen Abend nicht kommen, weil ich keine Zeit habe.</td></tr>
+<tr><td class="c">۱۰</td><td>می‌توانیم پس‌فردا بیرون برویم.</td><td class="de">Wir könnten übermorgen ausgehen.</td></tr>
+<tr><td class="c">۱۱</td><td>می‌شود از خانه دنبالم بیایی؟</td><td class="de">Könntest du mich zu Hause abholen?</td></tr>
+<tr><td class="c">۱۲</td><td>دیروز می‌خواستم امتحانش کنم، ولی نتوانستم، چون وقت نداشتم.</td><td class="de">Gestern wollte ich es versuchen, aber ich konnte nicht, weil ich keine Zeit hatte.</td></tr>
+<tr><td class="c">۱۳</td><td>دیروز می‌خواستم بیایم، ولی نتوانستم، چون مریض بودم.</td><td class="de">Gestern wollte ich kommen, aber ich konnte nicht, denn ich war krank.</td></tr>
+<tr><td class="c">۱۴</td><td>سه هفته است آلمانی یاد می‌گیرم.</td><td class="de">Ich lerne seit drei Wochen Deutsch.</td></tr>
+<tr><td class="c">۱۵</td><td>خیلی دوست داشتم در آلمان درس بخوانم.</td><td class="de">Ich würde sehr gern in Deutschland studieren.</td></tr>
+<tr><td class="c">۱۶</td><td>دوست دارم کتاب بخوانم.</td><td class="de">Ich lese gern Bücher.</td></tr>
+<tr><td class="c">۱۷</td><td>می‌توانید لطفاً تکرارش کنید؟ نمی‌فهممش.</td><td class="de">Können Sie es bitte wiederholen? Ich verstehe es nicht.</td></tr>
+<tr><td class="c">۱۸</td><td>نمی‌دانم آیا فردا وقت دارم.</td><td class="de">Ich weiß nicht, ob ich morgen Zeit habe.</td></tr>
+<tr><td class="c">۱۹</td><td>اجازه دارم اینجا بمانم؟</td><td class="de">Darf ich hier bleiben?</td></tr>
+<tr><td class="c">۲۰</td><td>من فردا صبح زود راه می‌افتم.</td><td class="de">Ich fahre morgen früh ab.</td></tr>
+<tr><td class="c">۲۱</td><td>اگر وقت داشتم، می‌آمدم.</td><td class="de">Wenn ich Zeit hätte, würde ich kommen.</td></tr>
+<tr><td class="c">۲۲</td><td>ساعت یازده می‌رسم.</td><td class="de">Ich komme um elf Uhr an.</td></tr>
+<tr><td class="c">۲۳</td><td>بعداً دوباره به شما زنگ می‌زنم.</td><td class="de">Ich rufe Sie später wieder an.</td></tr>
+<tr><td class="c">۲۴</td><td>می‌خواهم بیایم. / خواهم آمد.</td><td class="de">Ich will kommen. / Ich werde kommen.</td></tr>
+<tr><td class="c">۲۵</td><td>بهتر است بیشتر بخوابی.</td><td class="de">Du solltest mehr schlafen.</td></tr>
+</table></div>
+
+<!-- ================= NEXT ================= -->
+<h2 id="n">▶️ از اینجا به بعد</h2>
+<ol>
+  <li><b>گرم‌کردن هر جلسه:</b> یک جمله‌ی فرضی تولیدی (<span class="de">könnte / hätte / würde</span>) + یک جمله‌ی سه‌تیکه با <span class="de">aber</span> و <span class="de">denn</span>.</li>
+  <li><b>چک دوسؤالی</b> بعد از هر جمله: 👔 کت تن کیه؟ · 🚪 چند در دارم؟</li>
+  <li><b>واحد عددها</b> (۱–۱۰۰، ساعت) با انکی و صدای طبیعی.</li>
+  <li><b>ورودی روزانه</b> ۲۰–۳۰ دقیقه: فایل‌های صوتی همین آزمون با ترجمه (در کلید) · TED-Ed · Nicos Weg.</li>
+  <li><b>آزمون جمعه‌ی بعد</b> (درس ۹ تا ۱۱): گفتن با وقت بیشتر.</li>
+</ol>
+<p class="note">جزئیات و نمره‌ها: <a href="tahlil.md">tahlil.md</a> · کلید و ترجمه: <a href="KELID.html">KELID.html</a></p>
+
+</div>
+<script>
+(function(){
+  var btn=document.getElementById('quizBtn');
+  function set(on){document.body.classList.toggle('quiz',on);btn.setAttribute('aria-pressed',on);
+    try{localStorage.setItem('moror-quiz',on?'1':'0')}catch(e){}}
+  try{set(localStorage.getItem('moror-quiz')==='1')}catch(e){}
+  btn.addEventListener('click',function(){set(!document.body.classList.contains('quiz'))});
+  document.querySelectorAll('.bank td.de').forEach(function(td){
+    td.addEventListener('click',function(){td.classList.toggle('show')});});
+})();
+</script>
+</body>
+</html>
