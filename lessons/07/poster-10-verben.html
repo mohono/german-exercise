@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>یک قانون، ده فعل</title>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;800&family=Source+Serif+4:opsz,wght@8..60,500;8..60,700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#1A2733;--soft:#5A6B78;--rule:#CFD5DA;--paper:#FFFFFF;
+  --pres:#2F7BD3;--past:#D07C00;--subj:#8A45C4;--warn:#B3261E;
+  --fa:'Vazirmatn',system-ui,Tahoma,sans-serif;--de:'Source Serif 4',Georgia,serif;
+}
+@page{size:A4 landscape;margin:9mm}
+*{box-sizing:border-box}
+body{margin:0;background:#EEF0F2;color:var(--ink);font-family:var(--fa)}
+.page{
+  width:297mm;height:210mm;margin:16px auto;background:var(--paper);
+  padding:9mm 11mm;display:flex;flex-direction:column;gap:2.5mm;
+  box-shadow:0 2px 14px rgba(0,0,0,.12);
+}
+header{display:flex;align-items:baseline;justify-content:space-between;border-bottom:2.5px solid var(--ink);padding-bottom:2mm}
+h1{margin:0;font-size:21pt;font-weight:800;letter-spacing:-.01em}
+h1 .de{font-size:.72em;font-weight:700;color:var(--soft)}
+.legend{font-size:10.5pt;display:flex;gap:14px}
+.legend b{font-weight:600}
+.de{direction:ltr;unicode-bidi:isolate;font-family:var(--de)}
+
+table{width:100%;border-collapse:collapse}
+th{font-size:11pt;font-weight:600;padding:1.4mm 2mm;border-bottom:2px solid var(--ink)}
+th.pres{color:var(--pres)} th.past{color:var(--past)} th.subj{color:var(--subj)}
+td{padding:.35mm 2mm;border-bottom:1px solid var(--rule);text-align:center;vertical-align:middle}
+td.verb{text-align:right;white-space:nowrap}
+td.verb .de{font-size:15pt;font-weight:700}
+td.verb .fa{font-size:10pt;color:var(--soft);margin-right:6px}
+td.f{font-family:var(--de);direction:ltr;font-size:16.5pt;font-weight:500}
+td.pres{color:var(--pres)} td.past{color:var(--past)} td.subj{color:var(--subj)}
+u{text-decoration:none;border-bottom:3px solid currentColor;font-weight:700}
+.w{color:var(--warn);font-size:.6em;vertical-align:super;margin-left:2px}
+.st{font-size:.55em;vertical-align:super;color:var(--warn)}
+tr.split td{border-bottom:3px double var(--ink)}
+tr.group td{padding:.3mm 2mm;font-size:9pt;color:var(--soft);text-align:right;border-bottom:none;background:#F5F7F8}
+
+.boxes{display:grid;grid-template-columns:1.35fr 1fr .8fr;gap:3.5mm;margin-top:auto}
+.box{border:1.5px solid var(--rule);border-radius:2mm;padding:1.8mm 3.2mm;font-size:9.8pt;line-height:1.6}
+.box h2{margin:0 0 1mm;font-size:11pt;font-weight:800}
+.box ol,.box ul{margin:0;padding-right:5mm}
+.box.key{border-color:var(--warn)}
+.box.key .big{font-family:var(--de);direction:ltr;unicode-bidi:isolate;font-size:17pt;font-weight:700;display:block;text-align:center;letter-spacing:.02em}
+.foot{font-size:9pt;color:var(--soft);border-top:1px solid var(--rule);padding-top:1.5mm}
+
+@media screen and (max-width:1150px){
+  .page{width:auto;height:auto;margin:0;padding:18px 14px;box-shadow:none}
+  .table-wrap{overflow-x:auto}
+  .boxes{grid-template-columns:1fr}
+  td.f{font-size:15pt} td.verb .de{font-size:14pt}
+}
+@media print{
+  body{background:#fff}
+  .page{margin:0;box-shadow:none;width:auto;height:192mm;padding:0}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<header>
+  <h1>یک قانون، ده فعل <span class="de">Modalverben · wissen · haben · sein · werden</span></h1>
+  <div class="legend"><b style="color:var(--pres)">● حال</b><b style="color:var(--past)">● گذشته</b><b style="color:var(--subj)">● فرضی 👀</b></div>
+</header>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:right">فعل</th>
+      <th class="pres">حال <span class="de">ich</span></th>
+      <th class="pres">حال <span class="de">er/sie/es</span></th>
+      <th class="pres">حال <span class="de">wir/sie/Sie</span></th>
+      <th class="past">گذشته</th>
+      <th class="subj">فرضی</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="group"><td colspan="6">۶ مدال + <span class="de">wissen</span> — در حال: <span class="de">ich</span> = <span class="de">er</span>، بدون پایانه</td></tr>
+    <tr><td class="verb"><span class="de">können</span><span class="fa">توانستن</span></td><td class="f pres">kann</td><td class="f pres">kann</td><td class="f pres">k<u>ö</u>nnen</td><td class="f past">konnte</td><td class="f subj">k<u>ö</u>nnte</td></tr>
+    <tr><td class="verb"><span class="de">müssen</span><span class="fa">باید، مجبور بودن</span></td><td class="f pres">muss</td><td class="f pres">muss</td><td class="f pres">m<u>ü</u>ssen</td><td class="f past">musste</td><td class="f subj">m<u>ü</u>sste</td></tr>
+    <tr><td class="verb"><span class="de">dürfen</span><span class="fa">اجازه داشتن</span></td><td class="f pres">darf</td><td class="f pres">darf</td><td class="f pres">d<u>ü</u>rfen</td><td class="f past">durfte</td><td class="f subj">d<u>ü</u>rfte</td></tr>
+    <tr><td class="verb"><span class="de">mögen</span><span class="fa">دوست داشتن</span></td><td class="f pres">mag</td><td class="f pres">mag</td><td class="f pres">m<u>ö</u>gen</td><td class="f past">mochte</td><td class="f subj">m<u>ö</u>chte</td></tr>
+    <tr><td class="verb"><span class="de">wollen</span><span class="fa">خواستن</span></td><td class="f pres">will</td><td class="f pres">will</td><td class="f pres">wollen</td><td class="f past">wollte</td><td class="f subj">wollte<span class="w">⚠️</span></td></tr>
+    <tr><td class="verb"><span class="de">sollen</span><span class="fa">قرار بودن</span></td><td class="f pres">soll</td><td class="f pres">soll</td><td class="f pres">sollen</td><td class="f past">sollte</td><td class="f subj">sollte<span class="w">⚠️</span></td></tr>
+    <tr class="split"><td class="verb"><span class="de">wissen</span><span class="fa">دانستن</span></td><td class="f pres">weiß</td><td class="f pres">weiß</td><td class="f pres">wissen</td><td class="f past">wusste</td><td class="f subj">w<u>ü</u>sste</td></tr>
+    <tr class="group"><td colspan="6">سه فعل اصلی — در حال: <span class="de">ich</span> ≠ <span class="de">er</span></td></tr>
+    <tr><td class="verb"><span class="de">haben</span><span class="fa">داشتن</span></td><td class="f pres">habe</td><td class="f pres">hat</td><td class="f pres">haben</td><td class="f past">hatte</td><td class="f subj">h<u>ä</u>tte</td></tr>
+    <tr><td class="verb"><span class="de">sein</span><span class="fa">بودن</span></td><td class="f pres">bin</td><td class="f pres">ist</td><td class="f pres">sind<span class="st">★</span></td><td class="f past">war</td><td class="f subj">w<u>ä</u>re</td></tr>
+    <tr><td class="verb"><span class="de">werden</span><span class="fa">شدن · آینده</span></td><td class="f pres">werde</td><td class="f pres">wird</td><td class="f pres">werden</td><td class="f past">wurde</td><td class="f subj">w<u>ü</u>rde</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="boxes">
+  <div class="box">
+    <h2>📏 سه قانون که کل جدول را می‌سازند</h2>
+    <ol>
+      <li><b>حال:</b> مدال‌ها و <span class="de">wissen</span> اوملاتِ مصدر را در مفرد می‌اندازند، در جمع برمی‌گردانند.</li>
+      <li><b>گذشته:</b> بدون اوملات، با <span class="de">-te</span>. جمع: فقط <span class="de">-n</span> (<span class="de">war</span>: <span class="de">waren</span>).</li>
+      <li><b>فرضی = گذشته + 👀</b> — به‌جز دوقلوهای <span class="de">-ollen</span>: <span class="de">wollte · sollte</span> ⚠️</li>
+    </ol>
+  </div>
+  <div class="box">
+    <h2>🧠 ترفندها</h2>
+    <ul>
+      <li>👀 دو نقطه = دو چشم خیال‌پرداز: فرضی یا مؤدبانه</li>
+      <li>«تِ» = توصیه: <span class="de">soll</span> دستور · <span class="de">sollte</span> توصیه</li>
+      <li><span class="de">L</span> خواستن (<span class="de">will</span>) · <span class="de">R</span> شدن (<span class="de">wird</span>) — انگلیسیِ <span class="de">will</span> را فراموش کن</li>
+    </ul>
+  </div>
+  <div class="box key">
+    <h2>⭐ فقط این‌ها را حفظ کن</h2>
+    <span class="big">bist · seid · hast · wirst</span>
+    <div style="font-size:9.5pt;text-align:center">+ <span class="de">sind</span>★ · بقیه‌ی ضمیرها را راهروی شش‌دَر می‌سازد</div>
+  </div>
+</div>
+
+<div class="foot">
+  دو لیست هفت‌تایی، قاطی نشوند:
+  <b><span class="de">ich</span> = <span class="de">er</span></b> ← ۶ مدال + <span class="de">wissen</span>
+  &nbsp;·&nbsp;
+  <b>بدون <span class="de">zu</span></b> ← ۶ مدال + <span class="de">werden</span> (+ <span class="de">lassen</span>)
+  &nbsp;&nbsp;|&nbsp;&nbsp; از درس ۷ و ۸ میشل توماس
+</div>
+
+</div>
+</body>
+</html>
