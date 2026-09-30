@@ -18,7 +18,7 @@
 | ۴ | Perfekt ①: اسکلت | ✅ (۷ مهر، حدود ۱ ساعت بعد از شروع جلسه، بدون نشانه‌ی خستگی) |
 | ۵ | `noch` / `noch nicht` | ✅ |
 | ۶ | Perfekt ②: لگوها `verkauft`/`eingekauft` | ✅ |
-| ۷ | Perfekt ③: `-ieren` + `gesagt/gewartet/gesucht` | ⬜ |
+| ۷ | Perfekt ③: `-ieren` + `gesagt/gewartet/gesucht` | ✅ |
 | ۸ | Perfekt ④: قوی‌ها `gesehen` | ⬜ |
 | ۹ | اسم مفعول به‌عنوان صفت | ⬜ |
 | ۱۰ | Präteritum یا Perfekt؟ | ⬜ |
@@ -199,6 +199,20 @@
 | من آن را فروختم | `Ich verkaufte es.` ⟵ `Ich habe es verkauft.` | — | Präteritum درست ساخته شد ولی برای گفتار Perfekt (verkaufen در لیست بسته نیست) · verkauft بی ge ✅ |
 | او دنبالم آمد | `Er hate mich abgehollt.` ⟵ `Er hat mich abgeholt.` | — | `abgeholt` ge وسط ✅ · mich ✅ · hate ⟵ hat · یک l |
 | ما پنجره را باز کردیم | `Wir haben das Fenster aufgemacht.` | — | ✅ بی‌نقص |
+
+## بلوک ۷ — `-ieren` + gesagt/gewartet/gesucht ✅
+
+- سؤال خودش: «اینا یعنی یه دسته‌ی خاص از فعلان؟» ⟵ بله: قرضی (لاتین/فرانسوی، هم‌ریشه‌ی انگلیسی)، همه `-ieren`، تکیه روی `ie`، همه باقاعده · 🟡 تله: `verlieren` (ie جزو ریشه) جزو دسته نیست
+- کشف خودش: «گ‌پذیر نیست، شاید به خاطر آواش که خیلی اگزجره می‌شه» ✅ · «خودشم t داشت و باید روغن‌کاری می‌شد» ✅
+- 🟢 **قانون یکپارچه:** `ge` فقط وقتی تکیه روی هجای اول فعل است ⟵ جدانشدنی‌ها و `-ieren` هر دو بدون ge (`KAU-fen` / `ver-KAU-fen` / `re-pa-RIE-ren`)
+
+| فارسی | نوشت | درست | نکته |
+|---|---|---|---|
+| من آن را تعمیر کردم | `Ich habe es repariert.` | — | ✅ |
+| چه مدت منتظر بودید؟ | `Wie lange haben Sie aufgewartet?` ⟵ `…gewartet?` | — | ⚠️ `auf … warten` را لگو گرفت — تقصیر نمایش لغت با سه‌نقطه (من) · `auf` حرف اضافه‌ی مفعول است (`auf mich`)، نه پیشوند · تست: بعد از auf کی/چی می‌آید؟ |
+| جستجو کردم ولی نتوانستم پیدا کنم | `Ich habe es gesucht, aber ich konnte es nicht finden.` | — | 🎉 بی‌نقص — هر دو گذشته درست انتخاب شد (suchen ⟵ Perfekt، können ⟵ Präteritum) = بلوک ۱۰ پیش از رسیدن · `nicht` بعد از konnte این بار آمد |
+
+- 🔧 درس برای خودم: لغت‌های حرف‌اضافه‌دار را با سه‌نقطه (`auf … warten`) ننویس — شبیه لگو می‌شود؛ بنویس `auf + کسی + warten` یا با مثال
 
 ## فایل‌ها
 
