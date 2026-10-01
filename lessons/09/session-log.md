@@ -19,7 +19,7 @@
 | ۵ | `noch` / `noch nicht` | ✅ |
 | ۶ | Perfekt ②: لگوها `verkauft`/`eingekauft` | ✅ |
 | ۷ | Perfekt ③: `-ieren` + `gesagt/gewartet/gesucht` | ✅ |
-| ۸ | Perfekt ④: قوی‌ها `gesehen` | ⬜ |
+| ۸ | Perfekt ④: قوی‌ها `gesehen` | ✅ (۹ مهر، بعد از بازآموزی) |
 | ۹ | اسم مفعول به‌عنوان صفت | ⬜ |
 | ۱۰ | Präteritum یا Perfekt؟ | ⬜ |
 | ۱۱ | Plusquamperfekt | ⬜ |
@@ -239,6 +239,13 @@
   - «مدال‌ها چند تا بودن؟» ⟵ شش (+ sein · haben · werden · wissen = ده)
   - ایده‌ی ۲ (haben/sein): چک ۴/۴ ✅ · تست: «از یه جا رفتم به جای دیگه؟»
   - 🔴 **قاطی‌شدن `kommen` با `können`:** «توی آخری مگه مدال نیست؟ نباید تنها بیاد؟» ⟵ `können` 👀 + nn = توانستن (مدال) · `kommen` بی‌چشم + mm = آمدن (حرکتی) ⟵ **بخش دوقلوها در فایل مرور**
+
+
+| فارسی | نوشت | درست | نکته |
+|---|---|---|---|
+| من دیروز آمدم | `Ich bin gestern gekommen.` | — | ✅ بی‌نقص |
+| آن را دیدی؟ (du) | `Hast du geshen es ?` ⟵ `Hast du es geshehn?` ⟵ `gesehen` | `Hast du es gesehen?` | ⚠️ `es` بعد از اسم مفعول — **اثر انگلیسی** (Have you seen it?) · 🔴 `gesehen` املا ۳ بار ⟵ خطای حرکتی، هجابه‌هجا `ge·se·hen`، **تمرین روزانه در فایل مرور** |
+| ما پیدایش کردیم | `Wir gefunden es.` ⟵ `Wir haben es gefunden` | — | ⚠️ کمکی جا افتاد (فارسی «پیدا کردیم» یک کلمه است) · اسم مفعول کت نمی‌پوشد |
 
 ## فایل‌ها
 
