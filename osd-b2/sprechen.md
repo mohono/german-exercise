@@ -41,3 +41,8 @@
 | `… wollte ich …, aber ich konnte nicht, weil/denn …` | می‌خواستم…، ولی نتوانستم، چون… | هر جا از برنامه‌ی خراب‌شده حرف می‌زنی · آزمون جمعه ۱ (۴ مهر) |
 | `Guten Tag, Herr/Frau …, hier ist …` | روز بخیر…، … هستم | شروع تماس تلفنی |
 | `Auf Wiederhören!` | خداحافظ (تلفنی) | پایان تماس — درست زد ✅ |
+| `Ich habe … gemacht / Ich bin … gefahren` | … کردم / … رفتم | تعریف کردن تجربه — در گفتار Perfekt، نه Präteritum (به‌جز ده فعل خاص) · درس ۹ |
+| `Ich würde gern …` | خیلی دوست دارم… | آرزو و برنامه · درس ۹ |
+| `Das wäre gut / schön.` | خوب می‌شد / عالی می‌شد | واکنش به پیشنهاد هم‌گروهی · درس ۹ |
+| `Ich hätte eine Frage.` | یک سؤال داشتم | شروع مؤدبانه · درس ۹ |
+| `Du solltest / Sie sollten …` | بهتر است… | توصیه در بحث · درس ۹ |

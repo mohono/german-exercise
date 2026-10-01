@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>مرور درس ۹ — میشل توماس</title>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#EDF1F5; --surface:#FFFFFF; --surface2:#F4F8FA;
+  --ink:#10202C; --ink2:#46596B; --ink3:#71879A;
+  --line:#CBD8E2; --line2:#E2EAF1;
+  --accent:#0B6E80; --accent-soft:#DAEEF2;
+  --trap:#A63D2F;  --trap-soft:#F9E7E3;
+  --good:#1B6B4E;  --good-soft:#DCF0E7;
+  --warn:#8A6212;  --warn-soft:#F7EEDA;
+  --shadow:0 1px 2px rgba(16,32,44,.06),0 8px 24px -12px rgba(16,32,44,.18);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0A131A; --surface:#121F29; --surface2:#182935;
+  --ink:#DCE8F0; --ink2:#9AAFBF; --ink3:#6F8697;
+  --line:#22394A; --line2:#1B2E3C;
+  --accent:#4FC0D4; --accent-soft:#10303A;
+  --trap:#EE8A7B;  --trap-soft:#361E1A;
+  --good:#55C598;  --good-soft:#11332A;
+  --warn:#E0B45C;  --warn-soft:#332A15;
+}}
+:root[data-theme="dark"]{
+  --bg:#0A131A; --surface:#121F29; --surface2:#182935;
+  --ink:#DCE8F0; --ink2:#9AAFBF; --ink3:#6F8697;
+  --line:#22394A; --line2:#1B2E3C;
+  --accent:#4FC0D4; --accent-soft:#10303A;
+  --trap:#EE8A7B;  --trap-soft:#361E1A;
+  --good:#55C598;  --good-soft:#11332A;
+  --warn:#E0B45C;  --warn-soft:#332A15;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Vazirmatn',system-ui,Tahoma,sans-serif;font-size:16px;line-height:1.85}
+.wrap{max-width:800px;margin:0 auto;padding:28px 16px 100px}
+.de{direction:ltr;unicode-bidi:isolate;font-family:'IBM Plex Mono',monospace;color:var(--accent);background:var(--accent-soft);padding:.08em .4em;border-radius:4px;font-weight:500;font-size:.93em}
+.x{color:var(--trap);text-decoration:line-through}
+.v{color:var(--good);border-bottom:2px solid var(--good)}
+.m{background:var(--warn-soft)}
+header h1{font-size:1.65rem;margin:0 0 4px;font-weight:800}
+.meta{color:var(--ink2);font-size:.92rem}
+.bar{display:flex;gap:3px;margin:12px 0 8px}
+.bar span{flex:1;height:9px;border-radius:3px;background:var(--good)}
+.nums{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:.88rem;color:var(--ink2);margin:6px 0 10px}
+.nums b{color:var(--ink);font-size:1.05rem}
+.quote{border-right:3px solid var(--accent);background:var(--surface2);padding:8px 12px;border-radius:4px;font-size:.93rem;color:var(--ink2)}
+section{border-top:2px solid var(--ink);margin-top:34px;padding-top:12px}
+h2{font-size:1.28rem;margin:0 0 8px;font-weight:800}
+h3{font-size:1.02rem;margin:18px 0 6px}
+.note{color:var(--ink2);font-size:.9rem}
+.tw{overflow-x:auto;border:1px solid var(--line2);border-radius:8px;margin:8px 0 12px;background:var(--surface)}
+table{width:100%;border-collapse:collapse;font-size:.92rem}
+th,td{padding:7px 9px;border-bottom:1px solid var(--line2);text-align:right;vertical-align:top}
+th{color:var(--ink3);font-weight:500;font-size:.82rem;background:var(--surface2)}
+tr:last-child td{border-bottom:none}
+.rule{background:var(--good-soft);border-radius:6px;padding:8px 12px;margin:8px 0;font-size:.95rem}
+.rule.y{background:var(--warn-soft)}
+.trapbox{background:var(--trap-soft);border-radius:6px;padding:8px 12px;margin:8px 0;font-size:.93rem}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:6px 0}
+.pair div{border-radius:6px;padding:6px 10px;font-size:.92rem}
+.pair .no{background:var(--trap-soft)} .pair .ok{background:var(--good-soft)}
+.home{background:var(--surface);border:1px solid var(--line2);border-radius:8px;padding:10px 14px;margin:12px 0;box-shadow:var(--shadow)}
+.home h3{margin-top:0}
+.road{font-size:.84rem;color:var(--ink3);margin-top:6px}
+details{background:var(--surface);border:1px solid var(--line2);border-radius:8px;margin:8px 0;padding:0 12px}
+details summary{cursor:pointer;padding:9px 0;font-weight:700;font-size:.95rem}
+details[open]{padding-bottom:10px}
+.lay{margin:6px 0;font-size:.93rem}
+.lay b{display:inline-block;min-width:118px;color:var(--ink2)}
+.unlock{background:var(--accent-soft);border-radius:6px;padding:6px 10px;margin:6px 0;font-size:.93rem}
+.kept{border-top:1px dashed var(--line);padding-top:6px;margin-top:6px;font-weight:600}
+ol.map{padding-right:20px;margin:6px 0}
+.check td:first-child{width:36px;text-align:center}
+.bank td.de, .bank td .de{font-size:.9em}
+body.quiz .bank td.q{filter:blur(6px);cursor:pointer}
+body.quiz .bank td.q.show{filter:none}
+.fab{position:fixed;bottom:16px;left:16px;display:flex;gap:6px;z-index:9}
+.fab button{font-family:inherit;font-size:.85rem;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:20px;padding:7px 13px;cursor:pointer;box-shadow:var(--shadow)}
+.fab button[aria-pressed="true"]{background:var(--ink);color:var(--surface)}
+.tag{font-size:.75rem;color:var(--ink3);border:1px solid var(--line);border-radius:10px;padding:0 6px;white-space:nowrap}
+.combo{font-size:.75rem;color:var(--accent);white-space:nowrap}
+@media (max-width:560px){.pair{grid-template-columns:1fr}th,td{padding:6px 6px}.lay b{display:block}}
+@media print{.fab{display:none}body.quiz .bank td.q{filter:none}details{display:block}details>*{display:block}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<!-- ========== ۱ سربرگ ========== -->
+<header>
+  <h1>📘 مرور درس ۹ — میشل توماس</h1>
+  <div class="meta">شروع: سه‌شنبه ۷ مهر ۱۴۰۵ · بسته شد: پنج‌شنبه ۹ مهر ۱۴۰۵ · سه جلسه · موضوع: <b>گذشته‌ی گفتاری (Perfekt)</b></div>
+  <div class="bar" title="۱۲ از ۱۲ بلوک"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+  <div class="nums"><span><b>۱۲</b> بلوک</span><span><b>۳۶</b> جمله‌ی خودم</span><span><b>۲۰+</b> سؤال خودم</span><span><b>۷</b> لغزش جزوه</span><span><b>۴</b> باور غلط که شکست</span></div>
+  <div class="quote">⭐ «جمع این بلوک یا کلاً تقابل فعل‌هایی که تا الان یاد گرفتم یه جا… یه تجمیع هوشمندانه برای مرتب کردن ذهنم» — همین درخواست، نقشه‌ی زیر را ساخت.</div>
+</header>
+
+<!-- ========== ۲ نقشه ========== -->
+<section id="map">
+  <h2>🗺️ نقشه‌ی گذشته‌ی گفتاری — سه سؤال، به ترتیب</h2>
+  <p class="note">قبل از ساختن هر جمله‌ی گذشته. نسخه‌ی چاپی A4: <span class="de">naghshe-gozashte.html</span></p>
+
+  <h3>❶ فعل از ده فعل خاص است؟ (پوستر 🖼️)</h3>
+  <p><span class="de">sein · haben · werden</span> · ۶ مدال (<span class="de">können · müssen · dürfen · mögen · wollen · sollen</span>) · <span class="de">wissen</span></p>
+  <div class="pair"><div class="ok"><b>آره ⟵ تنها</b> (یک کلمه، Präteritum)<br><span class="de">Ich war müde.</span> <span class="de">Ich konnte nicht.</span></div><div><b>نه ⟵ برو ❷</b><br>با کمکی می‌آید (دو تیکه، Perfekt)</div></div>
+
+  <h3>❷ کدام کمکی؟ حرکت یا تغییر است؟</h3>
+  <div class="pair"><div class="ok"><b>🚶‍♀️ حرکت/تغییر ⟵ <span class="de">sein</span></b><br><span class="de">kommen · gehen · fahren · bleiben</span> (+لگوهایشان)<br><span class="de">Ich bin gekommen.</span></div><div><b>بقیه ⟵ <span class="de">haben</span></b><br><span class="de">Ich habe es gekauft.</span></div></div>
+
+  <h3>❸ اسم مفعول چه شکلی است؟</h3>
+  <div class="tw"><table>
+    <tr><th>آخرش</th><th>نمونه</th></tr>
+    <tr><td><b>‑t</b> — باقاعده (پیش‌فرض)</td><td><span class="de">gekauft · gemacht · gesagt · repariert</span></td></tr>
+    <tr><td><b>‑en</b> — ⚡ قوی (هر کدام یک بسته 🧳)</td><td><span class="de">gesehen · gef<span class="v">u</span>nden · gekommen · geg<span class="v">a</span>ngen</span></td></tr>
+  </table></div>
+  <div class="tw"><table>
+    <tr><th><span class="de">ge</span> کجا؟ 🎵 فقط وقتی تکیه روی هجای اول فعل است</th><th>نمونه</th></tr>
+    <tr><td>ساده ⟵ <b>اول</b></td><td><span class="de">gekauft</span></td></tr>
+    <tr><td>لگوی جداشدنی 🧱 ⟵ <b>وسط</b></td><td><span class="de">ein<span class="v">ge</span>kauft · ab<span class="v">ge</span>holt</span></td></tr>
+    <tr><td>جدانشدنی 🔒 <span class="de">be·emp·ent·er·ge·miss·ver·zer</span> ⟵ <b>ندارد</b></td><td><span class="de">verkauft</span></td></tr>
+    <tr><td><span class="de">-ieren</span> 🔧 ⟵ <b>ندارد</b></td><td><span class="de">repariert</span></td></tr>
+    <tr><td>ریشه‌ی <span class="de">d/t</span> ⟵ روغن 🧴</td><td><span class="de">gewart<span class="v">e</span>t</span></td></tr>
+  </table></div>
+
+  <div class="rule">🔒 <b>سه چیز که هیچ‌وقت عوض نمی‌شوند:</b> ① کمکی جای دوم و صرف‌شده 👔 ② اسم مفعول آخرِ آخر 🏠 — حتی <span class="de">es</span> قبلش: <span class="de">Hast du es gesehen?</span> ③ اسم مفعول با فاعل عوض نمی‌شود 🧊: <span class="de">ich habe gelacht · wir haben gelacht</span></div>
+
+  <h3>✅ چک‌لیست قبل از نوشتن</h3>
+  <div class="tw"><table class="check">
+    <tr><td>۱</td><td>جمله گذشته است؟ ⟵ نقشه‌ی بالا · <b>نپرس «کدام بلوکیم؟»</b></td></tr>
+    <tr><td>۲</td><td>👔 کت تن کیه؟ فقط یکی صرف می‌شود — و اسم مفعول هیچ‌وقت</td></tr>
+    <tr><td>۳</td><td>🚪 چند در دارم؟ صفر ⟵ هیچ فعلی ته جمله نیست</td></tr>
+    <tr><td>۴</td><td>🪑 فاعل هر تیکه هست؟ (حذف فقط بعد از <span class="de">und/oder</span>)</td></tr>
+    <tr><td>۵</td><td>فعل فارسی با «نـ» شروع شد؟ ⟵ <span class="de">nicht</span> · «ـی» ⟵ <span class="de">du</span> · «ـید» ⟵ <span class="de">Sie</span></td></tr>
+  </table></div>
+</section>
+
+<!-- ========== ۳ گذشته‌ها ========== -->
+<section id="past">
+  <h2>⭐ گذشته‌ها: Perfekt · کِی کدام · گذشته‌ی دور · حالت</h2>
+
+  <div class="home">
+    <h3>🗜 Perfekt — اسکلت <span class="tag">Perfekt · Partizip II</span></h3>
+    <p>همان گازانبر مدال‌ها: کمکی جای دوم، اسم مفعول ته جمله. فقط شکلِ ته جمله تازه است.</p>
+    <div class="tw"><table>
+      <tr><th></th><th>جای دوم 👔</th><th>ته 🏠</th></tr>
+      <tr><td>مدال</td><td><span class="de">Ich kann es</span></td><td><span class="de">kaufen.</span></td></tr>
+      <tr><td>Perfekt</td><td><span class="de">Ich habe es</span></td><td><span class="de">gekauft.</span></td></tr>
+    </table></div>
+    <div class="rule">🟢 کمکی تعیین می‌کند ته جمله چه شکلی باشد: مدال/<span class="de">werden</span> ⟵ مصدر · <span class="de">haben/sein</span> ⟵ اسم مفعول</div>
+    <div class="pair"><div class="no"><span class="de">Ich möchte noch etwas <span class="x">gekauft</span>.</span></div><div class="ok"><span class="de">Ich möchte noch etwas <span class="v">kaufen</span>.</span></div></div>
+    <div class="trapbox">⚠️ <b>«حال» کامل ⟵ کمکی در زمانِ حال.</b> گذشته‌بودن را فقط اسم مفعول نشان می‌دهد. <span class="de">I have made</span> / <span class="de">I had made</span>
+      <div class="pair"><div class="no"><span class="de">Ich <span class="m">hatte</span> es gemacht.</span> = درست کرده بودم</div><div class="ok"><span class="de">Ich <span class="v">habe</span> es gemacht.</span> = درست کردم</div></div></div>
+    <div class="road">🔗 «خریدم» و «خریده‌ام» هر دو ⟵ <span class="de">Ich habe es gekauft.</span> · کمکی <span class="de">sein</span> برای حرکت ⟵ نقشه ❷</div>
+  </div>
+
+  <div class="home">
+    <h3>⚖️ کِی Präteritum، کِی Perfekt؟</h3>
+    <div class="tw"><table>
+      <tr><th>موقعیت</th><th>کدام</th></tr>
+      <tr><td>🗣️ حرف زدن، پیام، نامه‌ی دوستانه، Sprechen</td><td><b>Perfekt</b> — به‌جز ده فعل خاص</td></tr>
+      <tr><td>📖 داستان، کتاب، خبر</td><td><b>Präteritum</b> برای همه 🟡 فاز ۲</td></tr>
+    </table></div>
+    <p>چرا ده فعل خاص حتی در گفتار Präteritum؟ Perfektشان سنگین است: <span class="de">Ich bin müde gewesen</span> ⟵ <span class="de">Ich war müde.</span></p>
+    <div class="rule">🟢 هر فعل جدا تصمیم می‌گیرد — یک جمله می‌تواند هر دو را داشته باشد. رابط (چسب یا در) فقط <b>جای</b> فعل را عوض می‌کند، نه نوع گذشته را.</div>
+    <p><span class="de">Ich war gestern müde, denn ich habe viel gearbeitet.</span><br><span class="de">Ich habe es gesucht, aber ich konnte es nicht finden.</span></p>
+  </div>
+
+  <div class="home">
+    <h3>⏪ گذشته‌ی دور <span class="tag">Plusquamperfekt</span></h3>
+    <div class="rule">🟢 فقط کمکی می‌رود گذشته: <span class="de">hatte</span> / <span class="de">war</span> (حرکت) + اسم مفعول. فارسی: «دیده‌ام ⟵ دیده <b>بودم</b>».</div>
+    <p><span class="de">Ich hatte es gesehen.</span> · <span class="de">Er war gekommen.</span> · <span class="de">Ich hatte es nicht gekauft, weil es sehr teuer war.</span></p>
+    <div class="road">🔗 کاربرد: قبل‌تر از یک گذشته‌ی دیگر · Lesen/Hören · با <span class="de">nachdem</span> فاز ۲ هفته ۱۰ 🟡</div>
+  </div>
+
+  <div class="home">
+    <h3>🏷️ حالت: اسم مفعول به‌عنوان صفت <span class="tag">Zustandspassiv</span></h3>
+    <p>اسم مفعول = «چیزی که این کار رویش انجام شده» ⟵ فارسی هم: درِ <b>بسته</b>، لیوانِ <b>شکسته</b>.</p>
+    <div class="tw"><table>
+      <tr><th>معلوم</th><th>حالت</th></tr>
+      <tr><td><span class="de">Ich habe es repariert.</span> من تعمیرش کردم</td><td><span class="de">Es ist repariert.</span> تعمیر شده است</td></tr>
+    </table></div>
+    <p class="note">سه قدم: کننده را بردار ✂️ ⟵ مفعول می‌شود فاعل 🪑 ⟵ <span class="de">haben</span> ⟵ <span class="de">sein</span></p>
+    <div class="tw"><table>
+      <tr><th>کمکی + اسم مفعول</th><th>می‌سازد</th></tr>
+      <tr><td><span class="de">haben</span></td><td>گذشته‌ی <b>معلوم</b> — 🟢 هیچ‌وقت مجهول نمی‌سازد</td></tr>
+      <tr><td><span class="de">sein</span></td><td>① گذشته‌ی حرکتی <span class="de">Er ist gekommen.</span> ② حالت <span class="de">Es ist verkauft.</span></td></tr>
+      <tr><td><span class="de">werden</span></td><td>مجهولِ کار <span class="de">Es wird verkauft.</span> 🟡 فاز ۲ هفته ۱۱</td></tr>
+    </table></div>
+    <div class="rule">🟢 بعد از <span class="de">sein</span>، صفت و اسم مفعول بی‌پایانه‌اند. قبل از اسم پایانه می‌گیرند (<span class="de">das verkaufte Auto</span>) ⟵ صرف صفت، ویدیوی ۵۱ فاز ۱ 🟡</div>
+    <div class="road">تست: در ترجمه «<b>شده</b>» آمد؟ ⟵ حالت · <span class="de">Es ist repariert worden</span> (Perfekt مجهول) 🟡 فاز ۲–۳</div>
+  </div>
+</section>
+
+<!-- ========== ۴ ته جمله ========== -->
+<section id="end">
+  <h2>🚗 ته جمله: قطار فعل‌ها و لگوها</h2>
+
+  <div class="home">
+    <h3>🔨 چند فعل ته جمله — کمکی سمت راست</h3>
+    <div class="rule">🟢 هر فعل کمکی <b>سمت راستِ</b> فعلی می‌نشیند که به آن کمک می‌کند. تست بی‌ترجمه: «این فعل مصدر دیگری لازم دارد؟»</div>
+    <div class="tw"><table>
+      <tr><th>قدم</th><th>ته جمله</th></tr>
+      <tr><td>فعل اصلی</td><td><span class="de">finden</span></td></tr>
+      <tr><td>+ توانستن</td><td><span class="de">finden können</span></td></tr>
+      <tr><td>+ آینده — آخرین کمکی کت می‌پوشد 👔 و در جمله‌ی اصلی جای دوم می‌پرد</td><td><span class="de">Er wird es nicht finden können.</span></td></tr>
+    </table></div>
+    <p>جمله‌ی فرعی: کت‌پوش ته قطار می‌ماند — <span class="de">…, dass er morgen ankommen kann.</span></p>
+    <div class="pair"><div class="no"><span class="de">…dass er morgen <span class="m">ankommt kommen</span>.</span></div><div class="ok"><span class="de">…dass er morgen <span class="v">ankommen kann</span>.</span></div></div>
+    <div class="rule">🟢 فعل‌های ته جمله یک قطارند — هیچ کلمه‌ای بینشان نمی‌نشیند؛ قید قبل از کل قطار: <span class="de">…, dass wir bald anfangen können.</span></div>
+    <div class="road">🟡 دو مصدر در جمله‌ی فرعی (<span class="de">wird … finden können</span>) ترتیب خاص دارد — B1</div>
+  </div>
+
+  <div class="home">
+    <h3>🧱🤝 لگو کجا «meet» می‌کند؟</h3>
+    <div class="rule">🟢 لگو فقط وقتی یکی می‌شود که <b>خودِ فعل</b> در خانه‌ی ته جمله است. فعل جای دوم ⟵ همیشه جدا، حتی اگر کنار هم بیفتند.</div>
+    <div class="tw"><table>
+      <tr><th>حالت</th><th>نمونه</th></tr>
+      <tr><td>جمله‌ی اصلی — جدا</td><td><span class="de">Ich gehe weg.</span> ↔ <span class="de">Ich gehe heute weg.</span></td></tr>
+      <tr><td>امر — جدا</td><td><span class="de">Holen Sie ihn bitte ab!</span></td></tr>
+      <tr><td>① فرعی</td><td><span class="de">…, dass er morgen ankommt.</span></td></tr>
+      <tr><td>② مدال</td><td><span class="de">Ich muss ihn abholen.</span></td></tr>
+      <tr><td>③ werden</td><td><span class="de">Er wird morgen ankommen.</span></td></tr>
+      <tr><td>④ zu — <span class="de">zu</span> وسط</td><td><span class="de">um ihn ab<span class="v">zu</span>holen</span></td></tr>
+      <tr><td>⑤ اسم مفعول — <span class="de">ge</span> وسط</td><td><span class="de">Ich habe ihn ab<span class="v">ge</span>holt.</span></td></tr>
+    </table></div>
+    <p class="note">جداشدنی یا جدانشدنی؟ فقط یک لیست بسته: <span class="de">be · emp · ent · er · ge · miss · ver · zer</span> ⟵ جدانشدنی؛ هر چیز دیگر ⟵ جداشدنی. (<span class="de">über · um · durch · wieder</span> ⟵ تکیه 🔊)</p>
+  </div>
+</section>
+
+<!-- ========== ۵ فرضی ========== -->
+<section id="konj">
+  <h2>👀 فرضی = فاصله · <span class="de">sollen</span> · <span class="de">werden</span></h2>
+
+  <div class="home">
+    <h3>👀 فرضی = فاصله از واقعیت <span class="tag">Konjunktiv II</span></h3>
+    <div class="tw"><table>
+      <tr><th>کاربرد</th><th>فاصله از</th><th>نمونه</th></tr>
+      <tr><td>۱ خیال و شرط</td><td>واقعیت</td><td><span class="de">Wenn ich Zeit hätte, würde ich kommen.</span></td></tr>
+      <tr><td>۲ آرزو</td><td>آنچه هست</td><td><span class="de">Ich würde gern in Wien wohnen.</span></td></tr>
+      <tr><td>۳ ادب</td><td>رُک بودن</td><td><span class="de">Könnten Sie mir helfen?</span></td></tr>
+      <tr><td>۴ توصیه و پیشنهاد</td><td>دستور</td><td><span class="de">Du solltest…</span> · <span class="de">Wir könnten…</span></td></tr>
+    </table></div>
+    <p>فارسی هم برای فاصله گذشته می‌آورد: اگر پول <b>داشتم</b> · <b>می‌خواستم</b> بپرسم · <b>می‌بایست</b>. انگلیسی: <span class="de">If I were you</span>. آینده نیست (= <span class="de">werden</span>)؛ التزامی هم دقیقاً نیست.</p>
+    <div class="road">🎓 B2: <span class="de">Wir könnten…</span> · <span class="de">Das wäre gut.</span> · <span class="de">Ich würde mich freuen…</span> · <span class="de">Ich hätte eine Frage.</span> — آزمون جمعه ۱: جای خالی شماره ۱ (۵ بار)</div>
+  </div>
+
+  <div class="home">
+    <h3>🎯 <span class="de">sollen</span> — یک معنا: انتظارِ دیگری</h3>
+    <div class="tw"><table>
+      <tr><th>قدم ۱</th><th>قدم ۲ (فقط <span class="de">sollte</span>)</th><th>معنی</th></tr>
+      <tr><td><span class="de">soll</span> (بی t)</td><td>—</td><td>قرار است · <span class="de">Ich soll heute arbeiten.</span></td></tr>
+      <tr><td rowspan="2"><span class="de">sollte</span></td><td>زمان گذشته در جمله؟ (<span class="de">gestern</span>…)</td><td>قرار بود · <span class="de">Ich sollte gestern um acht da sein.</span></td></tr>
+      <tr><td>نصیحت به کسی</td><td>بهتر است · <span class="de">Du solltest mehr schlafen.</span></td></tr>
+    </table></div>
+    <div class="road">🔧 روی پوستر نوشته بود «تِ = توصیه» — ناقص بود؛ <b>خودم گرفتمش</b> و اصلاح شد.</div>
+  </div>
+
+  <div class="home">
+    <h3>🔄 <span class="de">werden</span> — ته جمله را نگاه کن</h3>
+    <div class="tw"><table>
+      <tr><th>ته جمله</th><th>نقش</th><th>نمونه</th></tr>
+      <tr><td>صفت / اسم</td><td>شدن</td><td><span class="de">Es wird kalt.</span> · <span class="de">Es wurde kalt.</span></td></tr>
+      <tr><td>مصدر + <span class="de">wird</span></td><td>آینده</td><td><span class="de">Er wird kommen.</span></td></tr>
+      <tr><td>مصدر + <span class="de">würde</span></td><td>فرضی</td><td><span class="de">Er würde kommen.</span></td></tr>
+      <tr><td>اسم مفعول</td><td>مجهول 🟡 فاز ۲</td><td><span class="de">Es wird gekauft.</span></td></tr>
+    </table></div>
+  </div>
+</section>
+
+<!-- ========== ۶ ضمیرها و ابزارهای کوچک ========== -->
+<section id="small">
+  <h2>🎈 ضمیرها و <span class="de">du</span> · <span class="de">noch</span> · حذف فاعل</h2>
+
+  <div class="home">
+    <h3>👥 <span class="de">sie · Sie · ihr</span> — «واقعاً تفاوت این‌ها را نمی‌دانستم!»</h3>
+    <div class="tw"><table>
+      <tr><th></th><th>«چه کسی؟»</th><th>«به چه کسی؟»</th><th>فعل</th></tr>
+      <tr><td>او (زن)</td><td><span class="de">sie</span></td><td><span class="de">ihr</span></td><td><span class="de">Wo ist sie?</span></td></tr>
+      <tr><td>آن‌ها</td><td><span class="de">sie</span></td><td><span class="de">ihnen</span></td><td><span class="de">Wo sind sie?</span></td></tr>
+      <tr><td>شما (جمعِ تو، خودمانی) = <span class="de">du</span>+<span class="de">du</span> 👥</td><td><span class="de">ihr</span></td><td><span class="de">euch</span></td><td><span class="de">Wo seid ihr?</span></td></tr>
+      <tr><td>شما (رسمی، یک یا چند نفر، بی‌جنسیت)</td><td><span class="de">Sie</span></td><td><span class="de">Ihnen</span></td><td><span class="de">Wo sind Sie?</span></td></tr>
+    </table></div>
+    <div class="rule">🟢 اول فعل: مفرد ⟵ «او». جمع ⟵ حرف اول: کوچک «آن‌ها»، بزرگ «شما». هر چیز «شمای رسمی» همیشه حرف بزرگ.</div>
+    <div class="trapbox">⚠️ باور غلطم: «<span class="de">ihr</span> یعنی آن‌ها، چون آخرین عضو جدول است» — ریشه: ترتیب دک انکی قدیمی (<span class="de">wir · sie · ihr</span>). ترتیب درست: <span class="de">ich · du · er · wir · ihr · sie/Sie</span>.</div>
+  </div>
+
+  <div class="home">
+    <h3>🚪 شکل <span class="de">du</span> — کشف خودم</h3>
+    <div class="rule">🟢 <span class="de">du</span> = شکل <span class="de">ich/er</span> + <span class="de">-st</span> · ختم به <span class="de">s/ss/ß/z</span> ⟵ فقط <span class="de">-t</span> · در گذشته و فرضی هم: <span class="de">warst · hattest · könntest</span> · استثنا: <span class="de">hast · wirst · bist</span></div>
+    <div class="pair"><div class="no"><span class="de">Du kann…</span> · <span class="de">K<span class="m">oen</span>ten <span class="x">Sie</span>…</span> (برای دوست)</div><div class="ok"><span class="de">Du kannst…</span> · <span class="de">Könn<span class="v">test du</span>…</span></div></div>
+  </div>
+
+  <div class="home">
+    <h3>⏳ <span class="de">noch</span> — کلمه‌ی بعدش معنی را تعیین می‌کند</h3>
+    <div class="tw"><table>
+      <tr><th></th><th>معنی</th><th>نمونه</th></tr>
+      <tr><td><span class="de">noch</span> + <span class="de">nicht</span></td><td>هنوز نه (not yet)</td><td><span class="de">Er hat es noch nicht gekauft.</span></td></tr>
+      <tr><td><span class="de">noch</span> + مقدار (<span class="de">etwas · ein bisschen · ein wenig</span>)</td><td>یه کم دیگه (more)</td><td><span class="de">Ich will noch etwas essen.</span></td></tr>
+      <tr><td><span class="de">noch</span> تنها</td><td>هنوز (still)</td><td></td></tr>
+    </table></div>
+    <p class="note">جایش: <span class="de">noch nicht</span> درست قبل از خانه‌ی ته جمله 🪜 (اسم مفعول یا مصدر)</p>
+  </div>
+
+  <div class="home">
+    <h3>🔗 حذف فاعل تکراری</h3>
+    <div class="rule">🟢 <b>فقط بعد از <span class="de">und</span> و <span class="de">oder</span></b> — فاعل یکسان + تیکه‌ی دوم با فعل شروع شود. بعد از <span class="de">denn · aber · sondern</span> و همه‌ی درها ⟵ فاعل حتماً.</div>
+    <div class="pair"><div class="ok"><span class="de">Er kommt heute an und geht morgen weg.</span></div><div class="no"><span class="de">…, denn <span class="x">—</span> haben alles gekauft.</span> ⟵ <span class="de">denn <span class="v">wir</span></span></div></div>
+    <div class="road">ریشه‌ی لغزشم: فارسی «چون گران بود» فاعل نمی‌خواهد؛ آلمانی همیشه — حتی <span class="de">es</span> 🪑</div>
+  </div>
+</section>
+
+<!-- ========== ۷ دوقلوها ========== -->
+<section id="twins">
+  <h2>⚠️ دوقلوها و املاهای باز</h2>
+  <div class="tw"><table>
+    <tr><th>جفت</th><th>یعنی</th><th>چه چیزی جدایشان می‌کند</th></tr>
+    <tr><td><span class="de">können</span> / <span class="de">kommen</span></td><td>توانستن / آمدن</td><td>👀 + <span class="de">nn</span> = مدال (تنها در گذشته) · بی‌چشم + <span class="de">mm</span> = حرکت (<span class="de">bin gekommen</span>)</td></tr>
+    <tr><td><span class="de">wollte</span> / <span class="de">würde</span></td><td>می‌خواستم / می‌…ـدم</td><td><b>L</b> = خواستن · <b>R</b> = شدن/فرضی · «خواستن» در جمله‌ی فارسی هست؟ ⟵ <span class="de">wollte</span></td></tr>
+    <tr><td><span class="de">war · wurde · wusste</span><br><span class="de">wäre · würde · wüsste</span></td><td>بودن / شدن / دانستن</td><td>وسط کلمه: <span class="de">a/ä</span> ⟵ sein · <span class="de">rd</span> ⟵ werden · <span class="de">ss</span> ⟵ wissen (فقط گذشته و فرضی)</td></tr>
+    <tr><td><span class="de">Es ist kalt.</span> / <span class="de">Es wird kalt.</span></td><td>سرد است / سرد می‌شود</td><td>بودن = وضعیت · شدن = تغییر 🔄</td></tr>
+    <tr><td><span class="de">Er ist gekommen.</span> / <span class="de">Es ist verkauft.</span></td><td>آمده است / فروخته شده است</td><td>حرکت ⟵ Perfekt · غیرحرکت ⟵ حالت («شده»)</td></tr>
+    <tr><td><span class="de">auf mich warten</span> / <span class="de">aufmachen</span></td><td>منتظر من بودن / باز کردن</td><td>بعد از <span class="de">auf</span> کی/چی آمد؟ ⟵ حرف اضافه، نه لگو: <span class="de">gewartet</span></td></tr>
+    <tr><td><span class="de">ausgehen</span> / <span class="de">weggehen</span></td><td>بیرون رفتن (تفریح) / رفتن، دور شدن</td><td></td></tr>
+    <tr><td><span class="de">abholen</span> / <span class="de">abfahren</span></td><td>دنبال کسی رفتن / راه افتادن</td><td>فعل پایه: <span class="de">holen</span> آوردن · <span class="de">fahren</span> با وسیله رفتن</td></tr>
+    <tr><td><span class="de">wieder</span> / <span class="de">wiederholen</span></td><td>دوباره / تکرار کردن</td><td><span class="de">Ich rufe Sie später wieder an.</span></td></tr>
+  </table></div>
+
+  <h3>✍️ تمرین روزانه — دو دقیقه، <u>نوشتنی</u></h3>
+  <div class="tw"><table>
+    <tr><th>خطای باز</th><th>بنویس</th></tr>
+    <tr><td><span class="de">gesehen</span> (۳ بار: <span class="de">geshen · geshehn</span>)</td><td><span class="de">ge · se · hen</span> — <span class="de">h</span> وسط است</td></tr>
+    <tr><td>«ش» = <span class="de">sch</span> (عادت انگلیسیِ <span class="de">sh</span>، ۲ بار)</td><td><span class="de">geschlossen · schließen · Schlüssel</span></td></tr>
+    <tr><td><span class="de">ei/ie</span> — 🔴 <span class="de">heir</span> سه درس پشت هم</td><td><span class="de">hier · wieder | bleiben · seid · drei</span> — حرف دوم را انگلیسی بخوان</td></tr>
+    <tr><td><span class="de">eu/ue</span> (<span class="de">huete</span> ۲ بار)</td><td><span class="de">heute · teuer</span> — «هویته»</td></tr>
+  </table></div>
+</section>
+
+<!-- ========== ۸ لغت‌ها ========== -->
+<section id="vocab">
+  <h2>📚 لغت‌های درس ۹ — یعنی چه · کِی · قلاب</h2>
+  <details open><summary>زمان و پرسش</summary><div class="tw"><table>
+    <tr><th>آلمانی</th><th>یعنی</th><th>کِی / قلاب</th></tr>
+    <tr><td><span class="de">wie lange</span></td><td>چه مدت</td><td>سؤال از طول زمان؛ با <span class="de">seit</span> جواب داده می‌شود</td></tr>
+    <tr><td><span class="de">um wie viel Uhr</span></td><td>ساعت چند</td><td>جواب: <span class="de">um</span> + عدد + <span class="de">Uhr</span></td></tr>
+    <tr><td><span class="de">warum</span></td><td>چرا</td><td>فعل جای دوم: <span class="de">Warum hast du…?</span></td></tr>
+    <tr><td><span class="de">nie</span></td><td>هرگز</td><td><span class="de">nicht</span> لازم ندارد</td></tr>
+    <tr><td><span class="de">noch · noch nicht · noch etwas</span></td><td>هنوز · هنوز نه · یه چیز دیگه</td><td>⟵ خانه‌ی ⏳</td></tr>
+    <tr><td><span class="de">ein bisschen = ein wenig</span></td><td>یه کم</td><td>اولی روزمره‌تر</td></tr>
+  </table></div></details>
+  <details><summary>فعل‌ها (با اسم مفعول)</summary><div class="tw"><table>
+    <tr><th>آلمانی</th><th>یعنی</th><th>کِی / قلاب</th></tr>
+    <tr><td><span class="de">kaufen – gekauft</span></td><td>خریدن</td><td>پایه‌ی خانواده</td></tr>
+    <tr><td><span class="de">verkaufen – verkauft</span></td><td>فروختن</td><td>🔒 <span class="de">ver</span> ⟵ بی <span class="de">ge</span></td></tr>
+    <tr><td><span class="de">einkaufen – eingekauft</span></td><td>خرید کردن (روزمره)</td><td>🧱 <span class="de">ge</span> وسط · مفعول نمی‌خواهد</td></tr>
+    <tr><td><span class="de">machen – gemacht</span></td><td>انجام دادن، درست کردن</td><td></td></tr>
+    <tr><td><span class="de">lachen – gelacht</span></td><td>خندیدن</td><td>بی‌روغن (<span class="de">h</span>)</td></tr>
+    <tr><td><span class="de">sagen – gesagt</span></td><td>گفتن</td><td>چیزی را می‌گوید ⟵ <span class="de">es</span> لازم: <span class="de">Er hat es mir gesagt.</span></td></tr>
+    <tr><td><span class="de">suchen – gesucht</span></td><td>جستجو کردن</td><td>≠ <span class="de">finden</span> پیدا کردن</td></tr>
+    <tr><td><span class="de">auf + کسی + warten – gewartet</span></td><td>منتظر کسی بودن</td><td>🧴 روغن · <span class="de">auf</span> حرف اضافه است</td></tr>
+    <tr><td><span class="de">reparieren · organisieren · kontrollieren · spezialisieren</span></td><td>تعمیر · سازمان‌دهی · کنترل · تخصص دادن</td><td>🔧 هم‌ریشه‌ی انگلیسی · <span class="de">-iert</span> بی <span class="de">ge</span></td></tr>
+    <tr><td><span class="de">sehen – gesehen</span> ⚡</td><td>دیدن</td><td>قوی · <span class="de">du siehst</span></td></tr>
+    <tr><td><span class="de">finden – gefunden</span> ⚡</td><td>پیدا کردن</td><td>i ⟵ u</td></tr>
+    <tr><td><span class="de">kommen – gekommen</span> ⚡🚶‍♀️</td><td>آمدن</td><td><span class="de">sein</span> · ≠ <span class="de">können</span></td></tr>
+    <tr><td><span class="de">gehen – gegangen</span> ⚡🚶‍♀️</td><td>رفتن (پیاده)</td><td><span class="de">sein</span></td></tr>
+    <tr><td><span class="de">zurückkommen</span> 🚶‍♀️</td><td>بازگشتن</td><td>از <span class="de">der Rücken</span> پشت — «پشت سر برگشتن» · <span class="de">Er kommt bald zurück.</span></td></tr>
+    <tr><td><span class="de">weggehen</span> 🚶‍♀️</td><td>دور شدن، رفتن</td><td>≠ <span class="de">ausgehen</span> (تفریحی)</td></tr>
+    <tr><td><span class="de">glauben · denken</span></td><td>باور داشتن · فکر کردن</td><td>هر دو با <span class="de">dass</span>؛ هیچ‌کدام <span class="de">sich</span> نمی‌خواهند</td></tr>
+  </table></div></details>
+  <details><summary>صفت، اسم و عبارت</summary><div class="tw"><table>
+    <tr><th>آلمانی</th><th>یعنی</th><th>کِی / قلاب</th></tr>
+    <tr><td><span class="de">Recht haben</span></td><td>حق داشتن</td><td>اسم ⟵ حرف بزرگ: <span class="de">Du hast Recht.</span></td></tr>
+    <tr><td><span class="de">rechts</span></td><td>سمت راست</td><td>کلمه‌ی دیگری است، کوچک و با <span class="de">s</span></td></tr>
+    <tr><td><span class="de">wahr · die Wahrheit · wirklich</span></td><td>درست/راست · حقیقت · واقعاً</td><td><span class="de">Es war wirklich wahr.</span></td></tr>
+    <tr><td><span class="de">beschäftigt</span></td><td>مشغول</td><td>خودش یک اسم مفعول است ⟵ حالت</td></tr>
+    <tr><td><span class="de">teuer</span></td><td>گران</td><td>دو <span class="de">e</span>: t‑e‑u‑e‑r · ≠ <span class="de">Tür</span></td></tr>
+    <tr><td><span class="de">alles</span></td><td>همه‌چیز</td><td><span class="de">Alles ist verkauft.</span></td></tr>
+    <tr><td><span class="de">die Zeitung</span></td><td>روزنامه</td><td><span class="de">Ich werde die Zeitung lesen.</span></td></tr>
+    <tr><td><span class="de">mit mir</span></td><td>با من</td><td></td></tr>
+  </table></div></details>
+  <p class="note">جمله‌ی طبیعی برای <span class="de">spezialisieren</span> و <span class="de">der Rücken</span> با ابزار فعلی‌ام درنمی‌آید — فقط در همین جدول.</p>
+</section>
+
+<!-- ========== ۹ سؤال‌ها ========== -->
+<section id="q">
+  <h2>💡 سؤال‌هایی که خودم پرسیدم</h2>
+
+  <details><summary>① «چطوری بفهمم الان باید Perfekt بزنم؟»</summary>
+    <div class="lay"><b>جرقه:</b> اولین جمله‌ی بلوک ۴ را دیدم و اصلاً حس نکردم باید حال کامل بسازم.</div>
+    <div class="unlock"><span class="de">Gestern hatte ich keine Zeit.</span> (haben ⟵ خاص) ↔ <span class="de">Gestern habe ich ein Buch gekauft.</span> (kaufen ⟵ نه)</div>
+    <div class="kept">قانونی که ماند: ده فعل خاص ⟵ تنها · بقیه ⟵ کمکی + اسم مفعول ⟵ نقشه ❶</div></details>
+
+  <details><summary>② «اون e رو برای چی گذاشتم؟ برای اینکه مفرد و جمع فرق کنن»</summary>
+    <div class="lay"><b>جرقه:</b> <span class="de">Wir haben gel<span class="x">e</span>cht</span>… یعنی <span class="de">gelachet</span></div>
+    <div class="lay"><b>باور غلطم:</b> اسم مفعول باید برای مفرد/جمع فرق کند.</div>
+    <div class="unlock"><span class="de">Ich habe gelacht.</span> · <span class="de">Wir haben gelacht.</span> · <span class="de">Er hat gelacht.</span> — فقط کمکی عوض شد</div>
+    <div class="kept">🟢 اسم مفعول هیچ‌وقت با فاعل عوض نمی‌شود — صرف کار کمکی است 👔</div></details>
+
+  <details><summary>③ «دیروز گفتی فعل‌های خاص haben می‌گیرند و بقیه تنها می‌آیند»</summary>
+    <div class="lay"><b>باور غلطم:</b> وارونه به یادم مانده بود.</div>
+    <div class="unlock"><span class="de">Ich war müde.</span> (خاص ⟵ تنها) · <span class="de">Ich habe es gesehen.</span> · <span class="de">Ich bin gekommen.</span></div>
+    <div class="kept">«فعل‌های خاص پوستر دارند» 🖼️ — شکل گذشته‌ی خودشان را دارند، کمک لازم ندارند</div></details>
+
+  <details><summary>④ «توی آخری مگه مدال نیست؟ نباید تنها بیاد؟» (kommen)</summary>
+    <div class="lay"><b>باور غلطم:</b> <span class="de">kommen</span> = <span class="de">können</span></div>
+    <div class="unlock"><span class="de">k<span class="v">ö</span>n<span class="v">n</span>en</span> توانستن ↔ <span class="de">ko<span class="v">mm</span>en</span> آمدن</div>
+    <div class="kept">👀 + nn ⟵ مدال · بی‌چشم + mm ⟵ حرکت ⟵ <span class="de">bin gekommen</span></div></details>
+
+  <details><summary>⑤ «ihr یعنی آن‌ها، چون آخرین عضو جدوله!» و «پس برای مؤنث چی؟»</summary>
+    <div class="lay"><b>جرقه:</b> ترتیب جدول انکی قدیمی (<span class="de">wir · sie · ihr</span>).</div>
+    <div class="unlock">جدول ۲×۳: <span class="de">ich|wir · du|<b>ihr</b> · er|sie</span> — ihr جمعِ du است</div>
+    <div class="kept">⟵ خانه‌ی 👥 · <span class="de">Sie</span> بی‌جنسیت · <span class="de">sie</span> سه معنی: فعل + حرف اول</div></details>
+
+  <details><summary>⑥ «soll دستور، sollte توصیه؟ پس توصیه در حال یا دستور در گذشته چی؟»</summary>
+    <div class="lay"><b>جرقه:</b> ترفند پوستر «تِ = توصیه» — ناقص بود.</div>
+    <div class="unlock"><span class="de">Ich sollte gestern kommen.</span> قرار بود ↔ <span class="de">Du solltest mehr schlafen.</span> بهتر است</div>
+    <div class="kept">یک معنا: انتظار دیگری · درخت دوقدمی ⟵ خانه‌ی 🎯 · فرضی درباره‌ی الان است</div></details>
+
+  <details><summary>⑦ «فرضی دقیقاً چیه؟ آینده‌ست؟ مؤدبانه‌ست؟ التزامیه؟ چرا شکل گرفته؟»</summary>
+    <div class="unlock">فارسی: «اگر پول <b>داشتم</b>» · «<b>می‌خواستم</b> بپرسم» — گذشته برای فاصله</div>
+    <div class="kept">فرضی = فاصله: خیال · آرزو · ادب · توصیه ⟵ خانه‌ی 👀</div></details>
+
+  <details><summary>⑧ «werden کاربرداش گیج‌کننده‌ست» · «صرف sein رو خوندم فکر کردم werden است!» · «wissen و sein و werden پتانسیل قاطی شدن دارن!»</summary>
+    <div class="kept">werden ⟵ ته جمله را نگاه کن · سه‌قلوها ⟵ وسط کلمه (a/ä · rd · ss) ⟵ تمرین جداکردن ۸ از ۸ ✅</div></details>
+
+  <details><summary>⑨ «bald نمی‌شه قبل از können بیاد؟»</summary>
+    <div class="unlock"><span class="de">Wir können bald anfangen.</span> ↔ <span class="de">…, dass wir bald anfangen können.</span> — bald تکان نخورد، können کوچ کرد</div>
+    <div class="kept">قطار ته جمله 🚗 — هیچ چیز بینشان نمی‌نشیند</div></details>
+
+  <details><summary>⑩ «اینجا ich دیگه نیامد؟» و «برای چه کلماتی می‌شه فاعل رو تکرار نکرد؟»</summary>
+    <div class="kept">فقط <span class="de">und</span> و <span class="de">oder</span> ⟵ خانه‌ی 🔗</div></details>
+
+  <details><summary>⑪ «gehe weg — هیچی ته جمله نیست، قرار نیست بچسبه؟ where they both meet!»</summary>
+    <div class="lay"><b>باور غلطم:</b> فعل و پیشوند کنار هم بیفتند، می‌چسبند.</div>
+    <div class="unlock"><span class="de">Ich gehe weg.</span> ↔ <span class="de">Ich gehe <b>heute</b> weg.</span> — فقط وسط پر شد: هیچ‌وقت یک‌جا نبودند</div>
+    <div class="kept">فقط وقتی خودِ فعل به خانه برسد ⟵ پنج جای meet</div></details>
+
+  <details><summary>⑫ «اسم مفعول صفت شه؟ این همون صرف صفته؟ کننده معلوم نیست ساختار چطوریه؟ مجهول‌ها haben نمی‌گیرن؟»</summary>
+    <div class="unlock">درِ <b>بسته</b> · لیوانِ <b>شکسته</b> · <span class="de">Alles ist geschlossen.</span></div>
+    <div class="kept">⟵ خانه‌ی 🏷️ · haben هیچ‌وقت مجهول نمی‌سازد · <span class="de">sein</span> دو کار: حرکتی + حالت</div></details>
+
+  <details><summary>⑬ «اولش تشخیص دادم ge نمی‌خواد، ولی گفتم بین جمله‌هاست حتماً یه چیز جدیده!»</summary>
+    <div class="kept">نپرس «کدام بلوکیم؟» — بپرس «گذشته است؟ کت تن کیه؟»</div></details>
+</section>
+
+<!-- ========== ۱۰ لغزش‌ها ========== -->
+<section id="slips">
+  <h2>🔧 کجا لغزیدم، کجا جزوه لغزید</h2>
+  <details open><summary>لغزش‌های خودم — با ریشه</summary><div class="tw"><table>
+    <tr><th>نوشتم</th><th>درست</th><th>ریشه</th></tr>
+    <tr><td><span class="de">Ich <span class="m">hatte</span> es gemacht.</span></td><td><span class="de">Ich <span class="v">habe</span> es gemacht.</span></td><td>«گذشته ⟵ کمکی گذشته» — «حال» کامل</td></tr>
+    <tr><td><span class="de">Hast du <span class="m">geshen es</span>?</span></td><td><span class="de">Hast du <span class="v">es gesehen</span>?</span></td><td>انگلیسی: <span class="de">Have you seen it?</span></td></tr>
+    <tr><td><span class="de">Wir <span class="x">—</span> gefunden es.</span></td><td><span class="de">Wir <span class="v">haben</span> es gefunden.</span></td><td>فارسی «پیدا کردیم» یک کلمه است</td></tr>
+    <tr><td><span class="de">Er war gekomm<span class="m">t</span>.</span></td><td><span class="de">Er war gekomm<span class="v">en</span>.</span></td><td>قانون باقاعده روی قوی</td></tr>
+    <tr><td><span class="de">Wir haben gelach<span class="x">e</span>t</span></td><td><span class="de">gelacht</span></td><td>باور مفرد/جمع (سؤال ②)</td></tr>
+    <tr><td><span class="de">Wie lange haben Sie <span class="x">auf</span>gewartet?</span></td><td><span class="de">gewartet</span></td><td><span class="de">auf</span> حرف اضافه است</td></tr>
+    <tr><td><span class="de">…dass er morgen <span class="m">ankommt konnen</span>.</span></td><td><span class="de">ankommen kann</span></td><td>کت را تن فعل اصلی کردم</td></tr>
+    <tr><td><span class="de">Warum <span class="m">du hast</span>…</span> (۲ بار، بار دوم خودم گرفتم)</td><td><span class="de">Warum <span class="v">hast du</span>…</span></td><td>ترتیب فارسی</td></tr>
+    <tr><td><span class="de">…, weil <span class="x">—</span> sehr teuer war.</span></td><td><span class="de">weil <span class="v">es</span> sehr teuer war</span></td><td>فارسی «چون گران بود» فاعل نمی‌خواهد</td></tr>
+    <tr><td><span class="de">aber ich konnte <span class="x">—</span>,</span> (۲ بار)</td><td><span class="de">konnte <span class="v">nicht</span></span></td><td>فارسی «<b>نـ</b>توانستم» یک کلمه است</td></tr>
+    <tr><td><span class="de">K<span class="m">oe</span>nten <span class="m">Sie</span>…</span> به دوست</td><td><span class="de">Könntest du…</span></td><td><span class="de">Sie</span> پیش‌فرض ذهنم (بار ۲) · <span class="de">nn</span></td></tr>
+    <tr><td><span class="de">Er wird es <span class="m">i</span>hnen…</span></td><td><span class="de">Ihnen</span></td><td>حرف بزرگ = معنی</td></tr>
+    <tr><td><span class="de">Ich verkaufte es.</span></td><td><span class="de">Ich habe es verkauft.</span></td><td>درست، ولی کتابی ⟵ گفتار Perfekt</td></tr>
+  </table></div></details>
+  <details><summary>هفت لغزش جزوه‌ی PDF</summary><div class="tw"><table>
+    <tr><th>جزوه</th><th>درست</th></tr>
+    <tr><td><span class="de">noch ein wenig</span> = «<span class="m">هنوز</span> یک کم»</td><td>«<span class="v">یه کم دیگه</span>» (همچنین <span class="de">noch etwas</span>)</td></tr>
+    <tr><td><span class="de">Warum haben Sie <span class="x">—</span> mir nicht gesagt?</span></td><td><span class="de">Sie <span class="v">es</span> mir</span></td></tr>
+    <tr><td><span class="de"><span class="m">es</span> hat es kontrolliert</span></td><td><span class="de"><span class="v">er</span> hat es kontrolliert</span></td></tr>
+    <tr><td><span class="de">…wie lange Sie hier bleiben können<span class="m">?</span></span></td><td>نقطه — <b>همان لغزش درس ۶</b></td></tr>
+    <tr><td><span class="de">könntest du…</span> = «<span class="m">می‌توانی</span>»</td><td>«<span class="v">می‌شه</span>…؟»</td></tr>
+    <tr><td><span class="de">würde … nie tun können</span> = «<span class="m">نتواند</span>»</td><td>«<span class="v">نمی‌توانست</span>»</td></tr>
+    <tr><td><span class="de">Sie</span> ⟵ «<span class="m">نفروختی</span>»</td><td>«<span class="v">نفروختید</span>»</td></tr>
+  </table></div><p class="note">🎯 الگو: لغزش‌ها بیشتر در ترجمه‌ی فارسی، مخصوصاً فرضی ⟵ برای فرضی به قانون «فاصله» تکیه کن، نه ترجمه‌ی جزوه.</p></details>
+  <details><summary>یادداشت‌های معلمم — چک‌شده</summary><div class="tw"><table>
+    <tr><th>یادداشت</th><th></th></tr>
+    <tr><td>گذشته‌ی ساده: مدال‌ها، sein، haben، werden</td><td>✅ + <span class="de">wissen</span></td></tr>
+    <tr><td>Perfekt: «فرم گذشته، ge اول، en بردار t بذار»</td><td>🔧 <span class="de">ge</span> + ریشه‌ی مصدر + <span class="de">t</span></td></tr>
+    <tr><td>haben جای دوم، اسم مفعول آخر</td><td>✅ + حرکت ⟵ <span class="de">sein</span></td></tr>
+    <tr><td>«nach» در حال کامل و منفی</td><td>🔧 <span class="de">noch</span></td></tr>
+    <tr><td>جدانشدنی بی ge، «آهنگ» · جداشدنی ge وسط</td><td>✅ قانون تکیه + <span class="de">-ieren</span></td></tr>
+    <tr><td>صفت از فعل · گذشته‌ی دور</td><td>✅</td></tr>
+    <tr><td>(نبود)</td><td>➕ قوی‌ها با <span class="de">-en</span></td></tr>
+  </table></div></details>
+  <details><summary>قانون‌هایی که در همین درس اصلاح شدند</summary><div class="tw"><table>
+    <tr><th>اول گفته شد</th><th>چرا شکست</th><th>اصلاح</th></tr>
+    <tr><td>«ته جمله = آینه‌ی فارسی»</td><td><b>خودم:</b> «نمی‌تونم فقط به ترجمه اتکا کنم»</td><td>کمکی سمت راستِ فعلی که به آن کمک می‌کند</td></tr>
+    <tr><td>«مدال همیشه آخر» (فرضیه‌ی خودم)</td><td><span class="de">waschen lassen</span> — lassen مدال نیست</td><td>همان قانون بالا</td></tr>
+    <tr><td>«تِ = توصیه» (پوستر)</td><td><b>خودم گرفتم:</b> توصیه در حال؟ دستور در گذشته؟</td><td>sollte = قرار بود یا بهتر است</td></tr>
+    <tr><td>«اول ببر به گذشته، بعد ge»</td><td><span class="de">gekaufte</span> ❌</td><td><span class="de">ge</span> + ریشه + <span class="de">t</span></td></tr>
+  </table></div></details>
+</section>
+
+<!-- ========== ۱۱ بانک جمله ========== -->
+<section id="bank">
+  <h2>🏦 بانک جمله</h2>
+  <p class="note">حالت آزمون (پایین صفحه) ستون آلمانی را مات می‌کند — اول خودت بساز، بعد روی خانه بزن.</p>
+
+  <h3>الف · ۳۶ جمله‌ی خودم <span class="note">(شماره‌ی پررنگ = اصلاح خورده بود)</span></h3>
+  <div class="tw"><table class="bank">
+    <tr><th>#</th><th>فارسی</th><th>آلمانی</th></tr>
+    <tr><td><b>۱</b></td><td>می‌شود لطفاً فردا دنبالم بیایید؟</td><td class="q"><span class="de">Könnten Sie mich morgen bitte abholen?</span></td></tr>
+    <tr><td><b>۲</b></td><td>دیروز می‌خواستم بیایم، اما نتوانستم، چون وقت نداشتم.</td><td class="q"><span class="de">Ich wollte gestern kommen, aber ich konnte nicht, denn ich hatte keine Zeit.</span></td></tr>
+    <tr><td><b>۳</b></td><td>او اینجا خواهد ماند.</td><td class="q"><span class="de">Er wird hier bleiben.</span></td></tr>
+    <tr><td><b>۴</b></td><td>من نخواهم توانست بیایم.</td><td class="q"><span class="de">Ich werde nicht kommen können.</span></td></tr>
+    <tr><td><b>۵</b></td><td>او نخواهد توانست آن را به شما بگوید.</td><td class="q"><span class="de">Er wird es Ihnen nicht sagen können.</span></td></tr>
+    <tr><td>۶</td><td>تو خواهی توانست آن را پیدا کنی.</td><td class="q"><span class="de">Du wirst es finden können.</span></td></tr>
+    <tr><td>۷</td><td>کجا می‌خواهی منتظر من باشی؟</td><td class="q"><span class="de">Wo willst du auf mich warten?</span></td></tr>
+    <tr><td><b>۸</b></td><td>حق با توست، ولی نمی‌دانی کجاست.</td><td class="q"><span class="de">Du hast Recht, aber du weißt nicht, wo es ist.</span></td></tr>
+    <tr><td><b>۹</b></td><td>می‌شود با من بیایی؟</td><td class="q"><span class="de">Könntest du mit mir kommen?</span></td></tr>
+    <tr><td><b>۱۰</b></td><td>من آن را درست کردم.</td><td class="q"><span class="de">Ich habe es gemacht.</span></td></tr>
+    <tr><td><b>۱۱</b></td><td>چرا آن را نخریدی؟</td><td class="q"><span class="de">Warum hast du es nicht gekauft?</span></td></tr>
+    <tr><td><b>۱۲</b></td><td>ما خندیدیم.</td><td class="q"><span class="de">Wir haben gelacht.</span></td></tr>
+    <tr><td>۱۳</td><td>او هنوز آن را درست نکرده است.</td><td class="q"><span class="de">Er hat es noch nicht gemacht.</span></td></tr>
+    <tr><td><b>۱۴</b></td><td>مایلم یه چیز دیگه هم بخرم.</td><td class="q"><span class="de">Ich möchte noch etwas kaufen.</span></td></tr>
+    <tr><td><b>۱۵</b></td><td>چرا هنوز آن را نخریده‌ای؟</td><td class="q"><span class="de">Warum hast du es noch nicht gekauft?</span></td></tr>
+    <tr><td><b>۱۶</b></td><td>آن‌ها کجا هستند؟ / (دو دوست) کجایید؟ / (آقای مسن) شما کجایید؟</td><td class="q"><span class="de">Wo sind sie? / Wo seid ihr? / Wo sind Sie?</span></td></tr>
+    <tr><td><b>۱۷</b></td><td>امیدوارم که او فردا بتواند برسد.</td><td class="q"><span class="de">Ich hoffe, dass er morgen ankommen kann.</span></td></tr>
+    <tr><td><b>۱۸</b></td><td>او امروز می‌رسد و فردا می‌رود.</td><td class="q"><span class="de">Er kommt heute an und geht morgen weg.</span></td></tr>
+    <tr><td><b>۱۹</b></td><td>من آن را فروختم.</td><td class="q"><span class="de">Ich habe es verkauft.</span></td></tr>
+    <tr><td><b>۲۰</b></td><td>او دنبالم آمد.</td><td class="q"><span class="de">Er hat mich abgeholt.</span></td></tr>
+    <tr><td>۲۱</td><td>ما پنجره را باز کردیم.</td><td class="q"><span class="de">Wir haben das Fenster aufgemacht.</span></td></tr>
+    <tr><td>۲۲</td><td>من آن را تعمیر کردم.</td><td class="q"><span class="de">Ich habe es repariert.</span></td></tr>
+    <tr><td><b>۲۳</b></td><td>چه مدت منتظر بودید؟</td><td class="q"><span class="de">Wie lange haben Sie gewartet?</span></td></tr>
+    <tr><td>۲۴</td><td>جستجویش کردم، اما نتوانستم پیدایش کنم.</td><td class="q"><span class="de">Ich habe es gesucht, aber ich konnte es nicht finden.</span></td></tr>
+    <tr><td>۲۵</td><td>من دیروز آمدم.</td><td class="q"><span class="de">Ich bin gestern gekommen.</span></td></tr>
+    <tr><td><b>۲۶</b></td><td>آن را دیدی؟</td><td class="q"><span class="de">Hast du es gesehen?</span></td></tr>
+    <tr><td><b>۲۷</b></td><td>ما پیدایش کردیم.</td><td class="q"><span class="de">Wir haben es gefunden.</span></td></tr>
+    <tr><td>۲۸</td><td>آن تعمیر شده است.</td><td class="q"><span class="de">Es ist repariert.</span></td></tr>
+    <tr><td><b>۲۹</b></td><td>امروز همه‌چیز بسته است.</td><td class="q"><span class="de">Alles ist heute geschlossen.</span></td></tr>
+    <tr><td>۳۰</td><td>آن هنوز تعمیر نشده است.</td><td class="q"><span class="de">Es ist noch nicht repariert.</span></td></tr>
+    <tr><td>۳۱</td><td>دیروز عصر کجا بودی؟</td><td class="q"><span class="de">Wo warst du gestern Abend?</span></td></tr>
+    <tr><td><b>۳۲</b></td><td>ما خیلی مشغول بودیم، چون همه‌چیز را خریدیم.</td><td class="q"><span class="de">Wir waren sehr beschäftigt, denn wir haben alles gekauft.</span></td></tr>
+    <tr><td>۳۳</td><td>آن واقعاً درست بود.</td><td class="q"><span class="de">Es war wirklich wahr.</span></td></tr>
+    <tr><td>۳۴</td><td>آن را دیده بودم.</td><td class="q"><span class="de">Ich hatte es gesehen.</span></td></tr>
+    <tr><td><b>۳۵</b></td><td>او آمده بود.</td><td class="q"><span class="de">Er war gekommen.</span></td></tr>
+    <tr><td><b>۳۶</b></td><td>آن را نخریده بودم، چون خیلی گران بود.</td><td class="q"><span class="de">Ich hatte es nicht gekauft, weil es sehr teuer war.</span></td></tr>
+  </table></div>
+
+  <h3>ب · 🧩 جمله‌های ترکیبی — هر کدام چند جمله‌ی جزوه را یکی کرده</h3>
+  <p class="note">📐 اگر بتوانم بسازمش، از پس هر جمله‌ی کوچک‌ترِ زیرش هم برمی‌آیم. کپی جزوه نیست. 🚫 هیچ جمله‌ای <span class="de">den/dem</span> لازم ندارد.</p>
+  <div class="tw"><table class="bank">
+    <tr><th>#</th><th>فارسی</th><th>آلمانی</th></tr>
+    <tr><td>۱</td><td>چه مدت اینجا خواهید ماند، و ساعت چند اینجا خواهید بود؟ <span class="combo">⟵ ۳ جمله</span></td><td class="q"><span class="de">Wie lange werden Sie hier bleiben, und um wie viel Uhr werden Sie hier sein?</span></td></tr>
+    <tr><td>۲</td><td>نمی‌دانم او چه مدت اینجا خواهد ماند، ولی بعداً به شما خواهم گفت. <span class="combo">⟵ ۳</span></td><td class="q"><span class="de">Ich weiß nicht, wie lange er hier bleiben wird, aber ich werde es Ihnen später sagen.</span></td></tr>
+    <tr><td>۳</td><td>او نخواهد توانست آن را به شما بگوید، چون آن را نمی‌داند. <span class="combo">⟵ ۲</span></td><td class="q"><span class="de">Er wird es Ihnen nicht sagen können, weil er es nicht weiß.</span></td></tr>
+    <tr><td>۴</td><td>کجا می‌خواهی منتظرم باشی؟ من روزنامه خواهم خواند. <span class="combo">⟵ ۲</span></td><td class="q"><span class="de">Wo willst du auf mich warten? Ich werde die Zeitung lesen.</span></td></tr>
+    <tr><td>۵</td><td>حق با توست، او هرگز نمی‌توانست آن را انجام دهد. <span class="combo">⟵ ۲</span></td><td class="q"><span class="de">Du hast Recht, er würde es nie tun können.</span></td></tr>
+    <tr><td>۶</td><td>چرا نمی‌خواهید آن را بخرید، و کجا آن را خواهید خرید؟ <span class="combo">⟵ ۳</span></td><td class="q"><span class="de">Warum wollen Sie es nicht kaufen, und wo werden Sie es kaufen?</span></td></tr>
+    <tr><td>۷</td><td>او هنوز آن را نخریده، چون می‌خواهد یه کم دیگه صبر کند. <span class="combo">⟵ ۳</span></td><td class="q"><span class="de">Er hat es noch nicht gekauft, denn er will noch ein bisschen warten.</span></td></tr>
+    <tr><td>۸</td><td>من دور می‌شوم، چون هنوز باید خرید کنم. <span class="combo">⟵ ۲</span></td><td class="q"><span class="de">Ich gehe weg, denn ich muss noch einkaufen.</span></td></tr>
+    <tr><td>۹</td><td>او به زودی باز می‌گردد، چون همه‌چیز را فروخته است. <span class="combo">⟵ ۳</span></td><td class="q"><span class="de">Er kommt bald zurück, denn er hat alles verkauft.</span></td></tr>
+    <tr><td>۱۰</td><td>چرا هنوز آن را نفروخته‌اید؟ ما به شما گفتیم. <span class="combo">⟵ ۳</span></td><td class="q"><span class="de">Warum haben Sie es noch nicht verkauft? Wir haben es Ihnen gesagt.</span></td></tr>
+    <tr><td>۱۱</td><td>او به من نگفت که آن را انجام خواهد داد. <span class="combo">⟵ ۲</span></td><td class="q"><span class="de">Er hat mir nicht gesagt, dass er es tun wird.</span></td></tr>
+    <tr><td>۱۲</td><td>من آن را تعمیر کردم، او همه‌چیز را سازمان داد و کنترل کرد. <span class="combo">⟵ ۳</span></td><td class="q"><span class="de">Ich habe es repariert, er hat alles organisiert und kontrolliert.</span></td></tr>
+    <tr><td>۱۳</td><td>همه‌چیز خیلی خوب سازمان‌دهی شده، اما هنوز فروخته نشده است. <span class="combo">⟵ ۳</span></td><td class="q"><span class="de">Alles ist sehr gut organisiert, aber es ist noch nicht verkauft.</span></td></tr>
+    <tr><td>۱۴</td><td>ما آن را نخریده بودیم، چون خیلی مشغول بودیم. <span class="combo">⟵ ۳</span></td><td class="q"><span class="de">Wir hatten es nicht gekauft, denn wir waren sehr beschäftigt.</span></td></tr>
+    <tr><td>۱۵</td><td>دیروز عصر کجا بودی؟ او آنجا نبود، ولی من آن را دیده بودم. <span class="combo">⟵ ۳</span></td><td class="q"><span class="de">Wo warst du gestern Abend? Er war nicht da, aber ich hatte es gesehen.</span></td></tr>
+    <tr><td>۱۶</td><td>این واقعاً حقیقت است، ولی باور ندارم که او با ما خواهد آمد. <span class="combo">⟵ ۳</span></td><td class="q"><span class="de">Das ist wirklich die Wahrheit, aber ich glaube nicht, dass er mit uns kommen wird.</span></td></tr>
+    <tr><td>۱۷</td><td>چه مدت منتظر من بودید؟ <span class="combo">⟵ ۲</span></td><td class="q"><span class="de">Wie lange haben Sie auf mich gewartet?</span></td></tr>
+    <tr><td>۱۸</td><td>او آن را جستجو کرد، ولی نخواهد توانست پیدایش کند. <span class="combo">⟵ ۲</span></td><td class="q"><span class="de">Er hat es gesucht, aber er wird es nicht finden können.</span></td></tr>
+  </table></div>
+</section>
+
+<!-- ========== ۱۲ تقویم ========== -->
+<section id="cal">
+  <h2>📅 تقویم مرور — از روز تحویل (۹ مهر)</h2>
+  <div class="tw"><table>
+    <tr><th>✓</th><th>#</th><th>تاریخ</th><th>کار</th></tr>
+    <tr><td><input type="checkbox" data-k="1"></td><td>۱</td><td>جمعه ۱۰ مهر</td><td>🗺️ نقشه + ⭐ گذشته‌ها</td></tr>
+    <tr><td><input type="checkbox" data-k="2"></td><td>۲</td><td>یکشنبه ۱۲ مهر</td><td>🏦 بانک الف</td></tr>
+    <tr><td><input type="checkbox" data-k="3"></td><td>۳</td><td>پنجشنبه ۱۶ مهر</td><td>⚠️ دوقلوها + 💡 سؤال‌ها</td></tr>
+    <tr><td><input type="checkbox" data-k="4"></td><td>۴</td><td>پنجشنبه ۲۳ مهر</td><td>🏦 هر دو بانک</td></tr>
+    <tr><td><input type="checkbox" data-k="5"></td><td>۵</td><td>شنبه ۹ آبان</td><td>✍️ ۵ جمله‌ی تازه، بی‌فایل</td></tr>
+  </table></div>
+  <p class="note">📦 در انکی (جدا): جدول اسم مفعول‌ها · کمکی‌ها · ده فعل خاص · فعل‌های <span class="de">sein</span>دار · دوقلوها و سه‌قلوها · تله‌های خودم · لغت‌ها — این تقویم سراغ آن‌ها نمی‌رود.</p>
+  <p class="note">▶️ درس بعد (۱۰): گرم‌کردن با یک جمله‌ی گذشته‌ی قاطی (یک فعل خاص + یک Perfekt) + یک فرضی تولیدی + یک کلمه با <span class="de">ie</span> یا <span class="de">sch</span>.</p>
+</section>
+
+</div>
+
+<div class="fab">
+  <button id="quiz" aria-pressed="false">🙈 حالت آزمون</button>
+  <button id="theme">🌗</button>
+</div>
+
+<script>
+(function(){
+  var q=document.getElementById('quiz'), th=document.getElementById('theme'), K='review-09-';
+  function get(k){try{return localStorage.getItem(K+k)}catch(e){return null}}
+  function set(k,v){try{localStorage.setItem(K+k,v)}catch(e){}}
+  function quiz(on){document.body.classList.toggle('quiz',on);q.setAttribute('aria-pressed',on);set('quiz',on?'1':'0')}
+  quiz(get('quiz')==='1');
+  q.addEventListener('click',function(){quiz(!document.body.classList.contains('quiz'))});
+  document.querySelectorAll('.bank td.q').forEach(function(td){td.addEventListener('click',function(){td.classList.toggle('show')})});
+  var t=get('theme'); if(t) document.documentElement.setAttribute('data-theme',t);
+  th.addEventListener('click',function(){var dark=document.documentElement.getAttribute('data-theme')==='dark'||(!document.documentElement.getAttribute('data-theme')&&matchMedia('(prefers-color-scheme: dark)').matches);var n=dark?'light':'dark';document.documentElement.setAttribute('data-theme',n);set('theme',n)});
+  document.querySelectorAll('#cal input[type=checkbox]').forEach(function(c){c.checked=get('cal'+c.dataset.k)==='1';c.addEventListener('change',function(){set('cal'+c.dataset.k,c.checked?'1':'0')})});
+})();
+</script>
+</body>
+</html>
