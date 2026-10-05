@@ -8,7 +8,7 @@
 
 | # | بلوک | صفحه | وضعیت |
 |---|------|------|-------|
-| ۱ | 📸 گرم‌کردن سه‌جمله‌ای | — | ⏳ |
+| ۱ | 📸 گرم‌کردن سه‌جمله‌ای | — | ✅ ۱۳ مهر |
 | ۲ | «لازم نیست» `brauchen … zu` · مدال‌ها در گذشته · `niemand` · `es war nicht möglich, … zu` | ۱ | ⬜ |
 | ۳ | `lassen Sie mich …` / `lass mich …` — «بگذارید…» · `in Ruhe` | ۱–۲ | ⬜ |
 | ۴ | بودن یا شدن، حال/گذشته/آینده/فرضی: `müde sein` ↔ `müde werden` · `dunkel` · `zu` = بیش از حد | ۲–۳ | ⬜ |
@@ -54,3 +54,14 @@
 4. «aus = بیرون، یا به کمال رساندن (ausruhen)» ⟵ 🟡 تمایل است نه قانون · جفت همین درس: `auswandern` (بیرون) / `ausruhen` (کامل)
 5. «من نفهمیدم شما چه گفتید — ۵ از ۱۰۰۰» ⟵ `Ich habe nicht verstanden, was Sie gesagt haben.` · تله: در فرعی کمکی ته‌ترین ⟵ بلوک ۹
 6. «صرف ihr: همیشه en حذف، t» ⟵ 🟡 تقریباً: ریشه + t · d/t ⟵ +et (`arbeitet · werdet`) · استثنا `seid` · مدال‌ها مصوت مصدر (`könnt · müsst`)
+
+## بلوک ۱ — 📸 گرم‌کردن (۱۳ مهر)
+| جمله | اول | نهایی |
+|---|---|---|
+| دیروز خسته بودم، چون خیلی کار کردم | `Ich bin sehr muede, denn ich habe zu tun.` ⟵ `Ich war muede gestern, denn ich habe arbeitet.` | ✅ `Ich war gestern muede, denn ich habe viel gearbeitet.` (دور ۳) |
+| می‌شه فردا دنبالم بیای؟ | ✅ `Koenntest du mich morgen abholen?` | — |
+| اینجا همه‌چیز بسته است | ✅ `Alles ist hier geschlossen.` | — |
+
+- ✅ `denn` + فعل جای دوم (خطای باز) · فرضی **تولیدی** درست (🔴 باز) · `du` برای دوست · `nn` · `hier` با ie (🔴 سه درس) · `sch`
+- ⚠️ گذشته‌ی `sein` اول حال زده شد (`bin`) ⟵ سؤالش: «`Ich bin gestern gekommen` را دیدم» ⟵ قدم ⓪ · زمان بعد از توصیف (ترتیب انگلیسی) · `ge` جا افتاد (`arbeitet`) · ترجمه از معنی کلی (`zu tun haben`) به‌جای دنبال کردن فعل‌های فارسی
+- 🔧 **خطای من:** `viel` در جدول لغت نبود (قانون ③) ⟵ خودش گفت · جفت `sehr`/`viel` داده شد
