@@ -16,7 +16,7 @@
 | ۶ | زنجیره‌ی حرکت با `sein`: `gegangen · gefahren · geblieben · angekommen · zurückgekommen · aufgestanden` · `dort`/`dorthin` · `nach` | ۳–۵ | ⬜ |
 | ۷ | 🤳 انعکاسی در Perfekt: `sich beeilen · sich ausruhen · sich erinnern an` — `mich` کجا می‌نشیند | ۴–۵، ۸ | ⬜ |
 | ۸ | `man` — «آدم» · `Manchmal muss man…` (وارونگی) | ۵–۶ | ⬜ |
-| ۹ | فعل‌های تازه در Perfekt: `geschlafen · verstanden · geschickt · erhalten · behalten · geantwortet · angerufen` · `gehören` + به‌چه‌کسی · `meinen` · `bei` · جمله‌ی بلند `um … zu … dass` | ۶–۸ | ⬜ |
+| ۹ | 🚪 سؤال داخل جمله + فعل‌های تازه در Perfekt: `geschlafen · verstanden · geschickt · erhalten · behalten · geantwortet · angerufen` · `gehören` + به‌چه‌کسی · `meinen` · `bei` · جمله‌ی بلند `um … zu … dass` | ۶–۸ | ⬜ |
 | ۱۰ | (۱۱؟) `ihr` در عمل: `ihr könnt · wollt · müsst` · `euch` · به او: `ihm`/`ihr` · `helfen` + به‌چه‌کسی | ۹–۱۰ | ⬜ |
 | ۱۱ | (۱۱؟) 🎤 معرفی خودم — Sprechen بخش ۱: `heißen · wohnen · woher · Beruf · Muttersprache · Studium abgeschlossen · auswandern` · `um nach Deutschland auszuwandern` · `sicher, dass … werde` | ۱۰–۱۲ | ⬜ |
 | ۱۲ | لغزش‌های خود جزوه + جمع‌بندی | همه | ⬜ |
