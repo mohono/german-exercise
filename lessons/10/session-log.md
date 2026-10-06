@@ -12,7 +12,7 @@
 | ۲ | «لازم نیست» `brauchen … zu` · مدال‌ها در گذشته · `niemand` · `es war nicht möglich, … zu` | ۱ | ✅ ۱۳ مهر |
 | ۳ | `lassen Sie mich …` / `lass mich …` — «بگذارید…» · `in Ruhe` | ۱–۲ | ✅ ۱۴ مهر (+ امر سه‌شکلی) |
 | ۴ | بودن یا شدن، حال/گذشته/آینده/فرضی: `müde sein` ↔ `müde werden` · `dunkel` · `zu` = بیش از حد | ۲–۳ | ✅ ۱۴ مهر |
-| ۵ | Perfekt خود ده فعل: `gewesen · gehabt · gewusst` — کی اصلاً لازم است | ۳ | ⬜ |
+| ۵ | Perfekt خود ده فعل: `gewesen · gehabt · gewusst` — کی اصلاً لازم است | ۳ | ✅ ۱۴ مهر |
 | ۶ | زنجیره‌ی حرکت با `sein`: `gegangen · gefahren · geblieben · angekommen · zurückgekommen · aufgestanden` · `dort`/`dorthin` · `nach` | ۳–۵ | ⬜ |
 | ۷ | 🤳 انعکاسی در Perfekt: `sich beeilen · sich ausruhen · sich erinnern an` — `mich` کجا می‌نشیند | ۴–۵، ۸ | ⬜ |
 | ۸ | `man` — «آدم» · `Manchmal muss man…` (وارونگی) | ۵–۶ | ⬜ |
@@ -116,3 +116,5 @@
 - ❓ «hatte انگار یه زمان عقب‌تر می‌ره!» ⟵ ریشه: hatte کمکی در گذشته‌ی دور (درس ۹) · تست: ته جمله خالی ⟵ «داشتم» · اسم مفعول ⟵ «…ـه بودم» · `Ich hatte keine Zeit` = `Ich habe keine Zeit gehabt` ≠ `Ich hatte keine Zeit gehabt` ⏪
   - تست: `Ich hatte es.` ⟵ «نداشتم» (منفی سرریز از keine Zeit) ⟵ «داشتم» · `Ich hatte es gesehen.` ✅ «دیده بودم» · «اره کاملا» ✅
 - 📌 **خواسته‌ی صریح: همه‌ی این‌ها در فایل مرور** — خانه‌ی «⏪ گذشته‌ی ده فعل: تنها یا دوتیکه؟» با: جدول ۱۰ اسم مفعول (+کمکی) · «تولید = تنها، دوتیکه = شناختن» · «ساده/استمراری فرقی ندارد» · دو شغل hatte با تست ته جمله · سه جمله‌ی سه‌زمانی
+- تمرین: ✅ `Wo sind Sie gestern gewesen?` (درست، اتریشی؛ رایج‌تر `Wo waren Sie gestern?`) · 💡 خودش: «اول hatten نوشتم به‌جای sind!» ⟵ دو تله: کمکی haben/sein + زمانِ کمکی (Perfekt = کمکی حال) · 📌 فایل مرور
+- `Ich habe es gewusst.` ⟵ «نـ» جا افتاد (الگوی درس ۹، بار ۳) ⟵ ✅ `Ich wusste es nicht` · 👂 ✅ «چه مدت شما آنجا بودید؟ رسمی» ⟵ **بلوک ۵ بسته شد**
