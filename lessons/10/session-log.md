@@ -13,7 +13,7 @@
 | ۳ | `lassen Sie mich …` / `lass mich …` — «بگذارید…» · `in Ruhe` | ۱–۲ | ✅ ۱۴ مهر (+ امر سه‌شکلی) |
 | ۴ | بودن یا شدن، حال/گذشته/آینده/فرضی: `müde sein` ↔ `müde werden` · `dunkel` · `zu` = بیش از حد | ۲–۳ | ✅ ۱۴ مهر |
 | ۵ | Perfekt خود ده فعل: `gewesen · gehabt · gewusst` — کی اصلاً لازم است | ۳ | ✅ ۱۴ مهر |
-| ۶ | زنجیره‌ی حرکت با `sein`: `gegangen · gefahren · geblieben · angekommen · zurückgekommen · aufgestanden` · `dort`/`dorthin` · `nach` | ۳–۵ | ⬜ |
+| ۶ | زنجیره‌ی حرکت با `sein`: `gegangen · gefahren · geblieben · angekommen · zurückgekommen · aufgestanden` · `dort`/`dorthin` · `nach` | ۳–۵ | ✅ ۱۴ مهر |
 | ۷ | 🤳 انعکاسی در Perfekt: `sich beeilen · sich ausruhen · sich erinnern an` — `mich` کجا می‌نشیند | ۴–۵، ۸ | ⬜ |
 | ۸ | `man` — «آدم» · `Manchmal muss man…` (وارونگی) | ۵–۶ | ⬜ |
 | ۹ | 🚪 سؤال داخل جمله + فعل‌های تازه در Perfekt: `geschlafen · verstanden · geschickt · erhalten · behalten · geantwortet · angerufen` · `gehören` + به‌چه‌کسی · `meinen` · `bei` · جمله‌ی بلند `um … zu … dass` | ۶–۸ | ⬜ |
@@ -126,3 +126,9 @@
 - درسنامه‌ی بلوک را خواست ⟵ پنج خط
 - 📌 **خواسته‌ی صریح برای فایل مرور:** فعل‌های حرکت/تغییر + منطق تفکیک (به‌یادماندنی) · جدول اسم مفعول‌های بلوک · دو عضو بی‌منطق (bleiben · sein)
 - ❓ «همه‌ی فعل‌های قوی ei⟵ie؟» ⟵ نه: فقط قوی‌های ei‌دار، و از آن‌ها بیشترشان (ie)، چندتا i (schneiden⟵geschnitten)، heißen ei می‌ماند · قوی‌های دیگر الگوی خود (gefunden · gesehen) · 🟡 کمک حدس، نه قانون · اسم مفعول همراه فعل حفظ شود (کارت شناسایی) ⟵ «اره اوکیه» ✅ · 📌 فایل مرور
+| جمله | اول | نهایی |
+|---|---|---|
+| دیروز عصر به آنجا رفتیم | `Wir haben gestern Abend gegang.` ⟵ کمکی haben · `-en` · dorthin جا افتاد | ✅ |
+| او امروز رسید | ✅ `Er ist heute angekommen.` | — |
+| هفته‌ی پیش به وین رفتیم، اما زیاد نماندیم | `woche` · `gefarhrt` · `lange nicht` (معنی عوض: «مدت‌هاست نمانده‌ایم») | ✅ |
+- ✅ geblieben با ie · فاعل بعد از aber · نکته‌ی تازه: `nicht` قبل از کلمه‌ای که منفی می‌کند (`nicht lange`) ⟵ **بلوک ۶ بسته شد**
