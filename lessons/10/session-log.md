@@ -103,3 +103,8 @@
 - 📌 **برای فایل مرور (خواسته‌ی صریح):** ترتیب «زمان ⟵ مکان ⟵ توصیف ⟵ ته جمله» · پیشنهاد خودش «زمان، توصیف، مکان» بود ⟵ اصلاح: توصیف آخر (آهنربا) · `Es wird morgen in Wien kalt sein.`
 - ❓ «sein آخر نباید با Sie صرف شه؟» ⟵ یک کت‌پوش در هر تیکه · جدول ich/er/Sie ⟵ «اره اوکیه» ✅
 - ✅ `Sie werden morgen muede sein.` · `Es wird ploetzlich dunkel.` ⟵ سؤال ❷ (زمان) جا افتاد + `sehr` ⟵ ✅ `Es wurde ploetzlich sehr dunkel.` ⟵ **بلوک ۴ بسته شد**
+
+## بلوک ۵ — Perfekt ده فعل (۱۴ مهر)
+- کشف: ۱ «sein چون حرکتیه» ⟵ کمکی درست، دلیل نه: عضو لیست بسته (مثل bleiben) · ۲ «نمی‌دونم» ⟵ فقط gewesen -en؛ gehabt/gewusst/gewollt -t · ۳ «ستون تنها — زبون آدم فلج میشه» ✅ · ⚠️ ÖSD اتریشی: `ich bin gewesen` در شنیداری
+- 📌 **خواسته‌ی صریح: لیست بسته‌ی کمکی sein در فایل مرور** — `kommen · gehen · fahren · bleiben · sein · werden` (+لگوها)
+- 🔧 در فایل مرور و پوستر درس ۹ لیست ناقص بود (sein · werden نبود؛ انکی کامل بود) ⟵ اصلاح شد
