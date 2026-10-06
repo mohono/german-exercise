@@ -83,3 +83,13 @@
 - تمرین: `Lassen Sie mir kommen?` ⟵ `mich` + نقطه · ❓ «توی جمله mich لازم به نظر نمیاد» ⟵ «ـم» فارسی ته فعل، مصدر آلمانی پایانه ندارد ⟵ آدم وسط جمله · ✅ `Lass mich morgen kommen.` · `Lass ihn die Ruhe` ⟵ اصطلاح `in Ruhe` (تقصیر جدول من)
 - ❓ «چرا lasst نه؟» ⟵ امر سه‌شکلی du/ihr/Sie · ❓ «این قانون امر رو خونده بودیم؟» ⟵ فقط Sie (درس ۱–۴، ۵) · du/ihr تازه
 - 🛑 بازخورد: «از کنار سؤالم الکی رد نشو» ⟵ قانون توقف
+
+### 📌 برای فایل مرور — خانه‌ی کامل «🗣️ امر» (خواسته‌ی صریح خودش: «این حتماً توی فایل مرور باشه»)
+| با کی | ساختار | kommen | warten | lassen | sein |
+|---|---|---|---|---|---|
+| یک دوست | ریشه | `Komm!` | `Warte!` (روغن) | `Lass!` | `Sei!` ⚠️ |
+| چند دوست | ریشه + t (= شکل حال ihr) | `Kommt!` | `Wartet!` | `Lasst!` | `Seid!` |
+| رسمی | مصدر + Sie | `Kommen Sie!` | `Warten Sie!` | `Lassen Sie!` | `Seien Sie!` ⚠️ |
+- قلاب: `Sei` = sein بی n · `Seien Sie` چون `Sind Sie…?` = سؤال «هستید؟» · `bitte` بعد از Sie (یا ته با ویرگول)
+- سابقه: فقط امر Sie در درس ۱–۴ و ۵ · du/ihr تازه در درس ۱۰ · 🟡 فعل‌های قوی e⟵i در امر du (sieh!) وقتی در جزوه آمد
+- تمرین تشخیصی: `Komm` ✅ · `wartet!` ✅ · `Kommet Sie!` ⟵ سرریز t و روغن از جمله‌ی قبل ⟵ ✅ `Kommen Sie!` · `Sei Sie morgen bitte.` (دو جمله قاطی) ⟵ ✅ `Sei morgen hier.` · ✅ `Seien Sie um 10 Uhr hier bitte!` · خودش: «اره خوب بود» ✅
