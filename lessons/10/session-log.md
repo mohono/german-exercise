@@ -11,7 +11,7 @@
 | ۱ | 📸 گرم‌کردن سه‌جمله‌ای | — | ✅ ۱۳ مهر |
 | ۲ | «لازم نیست» `brauchen … zu` · مدال‌ها در گذشته · `niemand` · `es war nicht möglich, … zu` | ۱ | ✅ ۱۳ مهر |
 | ۳ | `lassen Sie mich …` / `lass mich …` — «بگذارید…» · `in Ruhe` | ۱–۲ | ✅ ۱۴ مهر (+ امر سه‌شکلی) |
-| ۴ | بودن یا شدن، حال/گذشته/آینده/فرضی: `müde sein` ↔ `müde werden` · `dunkel` · `zu` = بیش از حد | ۲–۳ | ⬜ |
+| ۴ | بودن یا شدن، حال/گذشته/آینده/فرضی: `müde sein` ↔ `müde werden` · `dunkel` · `zu` = بیش از حد | ۲–۳ | ✅ ۱۴ مهر |
 | ۵ | Perfekt خود ده فعل: `gewesen · gehabt · gewusst` — کی اصلاً لازم است | ۳ | ⬜ |
 | ۶ | زنجیره‌ی حرکت با `sein`: `gegangen · gefahren · geblieben · angekommen · zurückgekommen · aufgestanden` · `dort`/`dorthin` · `nach` | ۳–۵ | ⬜ |
 | ۷ | 🤳 انعکاسی در Perfekt: `sich beeilen · sich ausruhen · sich erinnern an` — `mich` کجا می‌نشیند | ۴–۵، ۸ | ⬜ |
@@ -102,3 +102,4 @@
 - ✅ `Es wird spaet.` · `Sie werden muede morgen sein.` ⟵ ترتیب (بار ۲ امروز: زمان بعد از توصیف)
 - 📌 **برای فایل مرور (خواسته‌ی صریح):** ترتیب «زمان ⟵ مکان ⟵ توصیف ⟵ ته جمله» · پیشنهاد خودش «زمان، توصیف، مکان» بود ⟵ اصلاح: توصیف آخر (آهنربا) · `Es wird morgen in Wien kalt sein.`
 - ❓ «sein آخر نباید با Sie صرف شه؟» ⟵ یک کت‌پوش در هر تیکه · جدول ich/er/Sie ⟵ «اره اوکیه» ✅
+- ✅ `Sie werden morgen muede sein.` · `Es wird ploetzlich dunkel.` ⟵ سؤال ❷ (زمان) جا افتاد + `sehr` ⟵ ✅ `Es wurde ploetzlich sehr dunkel.` ⟵ **بلوک ۴ بسته شد**
