@@ -10,7 +10,7 @@
 |---|------|------|-------|
 | ۱ | 📸 گرم‌کردن سه‌جمله‌ای | — | ✅ ۱۳ مهر |
 | ۲ | «لازم نیست» `brauchen … zu` · مدال‌ها در گذشته · `niemand` · `es war nicht möglich, … zu` | ۱ | ✅ ۱۳ مهر |
-| ۳ | `lassen Sie mich …` / `lass mich …` — «بگذارید…» · `in Ruhe` | ۱–۲ | ⬜ |
+| ۳ | `lassen Sie mich …` / `lass mich …` — «بگذارید…» · `in Ruhe` | ۱–۲ | ✅ ۱۴ مهر (+ امر سه‌شکلی) |
 | ۴ | بودن یا شدن، حال/گذشته/آینده/فرضی: `müde sein` ↔ `müde werden` · `dunkel` · `zu` = بیش از حد | ۲–۳ | ⬜ |
 | ۵ | Perfekt خود ده فعل: `gewesen · gehabt · gewusst` — کی اصلاً لازم است | ۳ | ⬜ |
 | ۶ | زنجیره‌ی حرکت با `sein`: `gegangen · gefahren · geblieben · angekommen · zurückgekommen · aufgestanden` · `dort`/`dorthin` · `nach` | ۳–۵ | ⬜ |
@@ -93,3 +93,4 @@
 - قلاب: `Sei` = sein بی n · `Seien Sie` چون `Sind Sie…?` = سؤال «هستید؟» · `bitte` بعد از Sie (یا ته با ویرگول)
 - سابقه: فقط امر Sie در درس ۱–۴ و ۵ · du/ihr تازه در درس ۱۰ · 🟡 فعل‌های قوی e⟵i در امر du (sieh!) وقتی در جزوه آمد
 - تمرین تشخیصی: `Komm` ✅ · `wartet!` ✅ · `Kommet Sie!` ⟵ سرریز t و روغن از جمله‌ی قبل ⟵ ✅ `Kommen Sie!` · `Sei Sie morgen bitte.` (دو جمله قاطی) ⟵ ✅ `Sei morgen hier.` · ✅ `Seien Sie um 10 Uhr hier bitte!` · خودش: «اره خوب بود» ✅
+- ✅ `Lass ihn in Ruhe!` ⟵ **بلوک ۳ بسته شد** (۱۴ مهر)
