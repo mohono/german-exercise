@@ -12,7 +12,7 @@
 
 | مسیر | چیست | اسکیل | دفتر |
 |------|------|-------|------|
-| **درس‌ها** | میشل توماس / دویچ ماخت، بلوک‌به‌بلوک | `/anthropic-skills:active-german-lesson` | `lessons/ledger.md` |
+| **درس‌ها** | میشل توماس / دویچ ماخت، بلوک‌به‌بلوک | `/active-german-lesson` (نسخه‌ی پروژه، `.claude/skills/`) | `lessons/ledger.md` |
 | **TED-Ed** | ساخت تمرین یادآوری فعال از ویدیوهای کانال | `/teded-german-drill` | `video-ledger.md` |
 
 **هر درس یا هر ویدیو = یک سشن جدا.** سشن‌ها همدیگر را نمی‌بینند؛ پیوستگی فقط از روی فایل‌های زیر ساخته می‌شود.
@@ -100,7 +100,7 @@
 
 ## ترجمهٔ مسیرها (مهم)
 
-اسکیل `active-german-lesson` در claude.ai نوشته شده و از `project_read` / `project_write` نام می‌برد. **اینجا آن ابزارها وجود ندارند.** معادلشان:
+اسکیل `active-german-lesson` **از ۱۴ مهر نسخه‌ی پروژه دارد** (`.claude/skills/active-german-lesson/SKILL.md`، در git) — همان را استفاده کن، نه `anthropic-skills:active-german-lesson` قدیمی claude.ai. بازخوردهای روشی تازه با تاریخ به همین فایل اضافه می‌شوند (فقط افزودنی). اسکیل در اصل در claude.ai نوشته شده و از `project_read` / `project_write` نام می‌برد. **اینجا آن ابزارها وجود ندارند.** معادلشان:
 
 | در اسکیل | اینجا |
 |---|---|
