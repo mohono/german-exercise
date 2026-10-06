@@ -153,6 +153,6 @@ german-exercise/
 - صداها: `de-DE-ConradNeural` · `de-DE-KillianNeural` (مرد) · `de-DE-KatjaNeural` · `de-DE-AmalaNeural` (زن) — هر گوینده صدای خودش
 - **سرعت عادی**، مثل آزمون واقعی — نه کُند
 - لهجه: آلمانی استاندارد کافی است؛ اتریشی لازم نیست
-- ابزار: `scripts/mock_build.py` (ویژگی `data-voice` روی `<audio>`) · بسته `edge-tts` نصب است · کش در `.cache/tts-edge/`
+- ابزار: `scripts/mock_build.py` (ویژگی `data-voice` روی `<audio>`) · فایل‌های مرور: `scripts/review_audio.py <review.html>` — دکمه‌ی 🔊 کنار هر جمله‌ی هر دو بانک (از ۱۴ مهر، **هر فایل مرور تازه بعد از ساخت از این رد شود**) · بسته `edge-tts` نصب است · کش در `.cache/tts-edge/`
 - نیاز به اینترنت دارد و متن به Microsoft فرستاده می‌شود
 - Piper (`drill.py`) فقط پشتیبان آفلاین است. تغییر TED-Ed به edge-tts در `claude/پارک-ساخت.md` منتظر پنجرهٔ ساخت جمعه است
