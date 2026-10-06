@@ -35,21 +35,22 @@ ASSETS = BEGIN + """
   width:1.9em;height:1.9em;padding:0;margin-inline-start:.35em;cursor:pointer;font-size:.8rem;line-height:1;vertical-align:middle}
 .say.on{background:var(--accent);color:var(--surface)}
 </style>
+<script>window.__REVIEW_AUDIO=__DATA__;</script>
 <script>
 (function(){
-  var A=window.__REVIEW_AUDIO||{}, cur=null, btn=null;
+  var cur=null, btn=null;
   document.addEventListener('click',function(e){
     var b=e.target.closest?e.target.closest('button.say'):null; if(!b)return;
     e.stopPropagation();
     if(cur){cur.pause(); if(btn)btn.classList.remove('on');}
     if(btn===b){cur=null;btn=null;return;}
-    cur=new Audio(A[b.getAttribute('data-a')]); btn=b; b.classList.add('on');
+    var src=(window.__REVIEW_AUDIO||{})[b.getAttribute('data-a')]; if(!src)return;
+    cur=new Audio(src); window.__reviewAudioCur=cur; btn=b; b.classList.add('on');
     cur.onended=function(){b.classList.remove('on'); cur=null; btn=null;};
-    cur.play();
+    cur.play().catch(function(){b.classList.remove('on');});
   },true);
 })();
 </script>
-<script>window.__REVIEW_AUDIO=__DATA__;</script>
 """ + END
 
 
