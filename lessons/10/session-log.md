@@ -152,3 +152,12 @@
 - تمرین ۳: ✅ `Ich kann mich an meine Kindheit nicht erinnern.` (درست و طبیعی، ولی «توانستن» در فارسی نبود) · ❓ «جمله‌ام هم درست بود؟» ⟵ آره
   - 📌 **بانک الف فایل مرور: هر دو نسخه** — «کودکی‌ام را به یاد نمی‌آورم» ⟵ `Ich erinnere mich nicht an meine Kindheit.` · «یادم نمی‌آید / نمی‌توانم به یاد بیاورم» ⟵ `Ich kann mich nicht an meine Kindheit erinnern.`
   - ✅ `Ich erinnere mich nicht an meine Kindheit.` ⟵ **بلوک ۷ بسته شد**
+
+## بلوک ۸ — man (۱۵ مهر)
+- کشف: ۱ «er، سوم شخص» ✅ · ۲ sich ✅ · ۳ «قید رفت اول، [فعل] جای دوم، ضمیر سوم» ✅ (گفت «قید جای دوم» ⟵ منظور فعل) · دوقلو `man`/`der Mann`
+- ✅ `Manchmal kann man es nicht verstehen.` (دور ۱: Mnanchmal · mann · verestehen) · ✅ `man kann hier nicht rauchen.` (حرف بزرگ: «گفتم با Mann قاطی میشه» ⟵ فرق در تعداد n، نه حرف بزرگ)
+- ❓ «همه‌ی جمله‌ها حال بودن؛ در گذشته سخت میشه» ⟵ man + گذشته = مثل er (konnte · hat gesehen · ist gegangen) + دو جمله‌ی گذشته اضافه شد (درهم‌آمیزی)
+- `Man duerft hier nicht beiben.` ⟵ darf (مدال er بی‌پایانه) + bleiben (خوشه‌ی همخوان، بار تازه) ⟵ `Mann darf…` (دوقلو، بار ۲) ⟵ ✅ `Man darf hier nicht bleiben.`
+- ۴: `Man duerfte hier frueher rauchen, aber heute darf nicht.` ⟵ durfte (گذشته‌ی مدال بی‌اوملات؛ با اوملات = فرضی) · زمان⟵مکان · فاعل بعد از aber
+  - ❓ «چرا بعد از aber نمیشه؟» ⟵ یا جمله‌ی کامل با فاعل، یا خیلی کوتاه `aber heute nicht` (ابزار تازه)؛ «نصفه» نه · ❓ «گذشته‌ی darf یادم نبود، جدول نگاه کردم» ⟵ قانون: مصدر بی -en و بی‌اوملات + te (mögen ⟵ mochte) · «اره حله» ✅
+  - 📌 فایل مرور: الگوی گذشته‌ی مدال · سه حالت بعد از aber (کامل / کوتاه / ❌ نصفه) · دوقلوی man/Mann (۲ لغزش)
