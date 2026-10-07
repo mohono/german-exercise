@@ -18,7 +18,7 @@
 | ۸ | `man` — «آدم» · `Manchmal muss man…` (وارونگی) | ۵–۶ | ✅ ۱۵ مهر |
 | ۹ | 🚪 سؤال داخل جمله + فعل‌های تازه در Perfekt: `geschlafen · verstanden · geschickt · erhalten · behalten · geantwortet · angerufen` · `gehören` + به‌چه‌کسی · `meinen` · `bei` · جمله‌ی بلند `um … zu … dass` | ۶–۸ | ✅ ۱۵ مهر |
 | ۹+ | ➕ **بلوک اضافه، خواسته‌ی خودش:** `wer · wen · wem` — «چه کسی / چه کسی را / به چه کسی» روی قانون «را/به» | — | ✅ ۱۵ مهر |
-| ۱۰ | (۱۱؟) `ihr` در عمل: `ihr könnt · wollt · müsst` · `euch` · به او: `ihm`/`ihr` · `helfen` + به‌چه‌کسی | ۹–۱۰ | ⬜ |
+| ۱۰ | (۱۱؟) `ihr` در عمل: `ihr könnt · wollt · müsst` · `euch` · به او: `ihm`/`ihr` · `helfen` + به‌چه‌کسی | ۹–۱۰ | ✅ ۱۵ مهر |
 | ۱۱ | (۱۱؟) 🎤 معرفی خودم — Sprechen بخش ۱: `heißen · wohnen · woher · Beruf · Muttersprache · Studium abgeschlossen · auswandern` · `um nach Deutschland auszuwandern` · `sicher, dass … werde` | ۱۰–۱۲ | ⬜ |
 | ۱۲ | لغزش‌های خود جزوه + جمع‌بندی | همه | ⬜ |
 
@@ -210,3 +210,13 @@
   - دور آخر بی‌داربست: ✅✅✅ `wem wer wen` ⟵ **بلوک ۹+ بسته شد**
 - 📌 فایل مرور: جفت Wer hilft dir / Wem hilfst du · چک «فاعل دارد؟» · داربست سه‌قدمی
 - 📌📌 **خواسته‌ی صریح:** «حتماً این مدلو توی فایل مرور ذخیره کن، چون داربست‌بندی و تفکیک فاعل و مقصد داشتن و اینطور چیزا تونست توی ذهنم ثبتش کنه» ⟵ در فایل مرور: جدول داربست سه‌قدمی (فاعل دارد؟ ⟵ جواب با er/ihn/ihm ⟵ w + حرف آخر) با مثال‌های حل‌شده‌ی همین جلسه
+
+## بلوک ۱۰ — ihr در عمل + در اول جمله (۱۵ مهر)
+- ❓ «ihr یه جا داتیو زن بود یه جا ضمیر جمع؟» ⟵ آره، دو شغل · چک «فاعل دیگه هست؟» + فعل -t
+- کشف: ۱ «-t، گاهی اوملات» ⟵ مصوت از مصدر (könnt/wollt) · ۲ euch «به شما» ✅ (helfen استثنا) · ۳ «جای اول پر شده، فعل دوم» ✅ ⟵ 🟢 در اول جمله ⟵ بعد از ویرگول اول فعل (habt, müsst)
+- ❓ «helfen از کدوم سه استثناست؟ نکته‌ی ۶ استادم چی بود؟» ⟵ helfen/antworten/gehören · نکته‌ی ۶ با سه ریزه‌کاری (روغن، مصوت مصدر، seid)
+- ۱: `koennten euch morgen kommen?` ⟵ ihr (فاعل) + könnt (حال) · ❓ «جدول قاطی شده، چرا euch نشد؟» (🔧 خانه‌ی دوزبانه، خلاف قانون خودم) ⟵ ihr/euch ⟵ ✅ `koennt ihr morgen kommen?`
+- ۲: ✅ `Ich kann es euch nicht sagen.`
+- ۳: `wenn habt zeit ihr , muesst ihr kommen` (تیکه‌ی دوم ✅) ⟵ در ⟵ فعل آخر · «تا حالا جمله‌ی فرعی اول جمله استفاده نکرده بودم» ⟵ قبلاً دیده بود (Wenn Sie wollen, werde ich warten · Weil ich heute arbeite…) ولی نساخته بود ⟵ ✅ `Wenn ihr Zeit habt, muesst ihr kommen.`
+- ۴: ✅ `Warum hast du ihr nicht geholfen?` ⟵ **بلوک ۱۰ بسته شد**
+- 📌 فایل مرور: صرف ihr (مصوت مصدر، seid) · دو شغل ihr · ihr/euch · در اول جمله (habt, müsst)
