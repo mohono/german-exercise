@@ -16,7 +16,7 @@
 | ۶ | زنجیره‌ی حرکت با `sein`: `gegangen · gefahren · geblieben · angekommen · zurückgekommen · aufgestanden` · `dort`/`dorthin` · `nach` | ۳–۵ | ✅ ۱۴ مهر |
 | ۷ | 🤳 انعکاسی در Perfekt: `sich beeilen · sich ausruhen · sich erinnern an` — `mich` کجا می‌نشیند | ۴–۵، ۸ | ✅ ۱۵ مهر |
 | ۸ | `man` — «آدم» · `Manchmal muss man…` (وارونگی) | ۵–۶ | ✅ ۱۵ مهر |
-| ۹ | 🚪 سؤال داخل جمله + فعل‌های تازه در Perfekt: `geschlafen · verstanden · geschickt · erhalten · behalten · geantwortet · angerufen` · `gehören` + به‌چه‌کسی · `meinen` · `bei` · جمله‌ی بلند `um … zu … dass` | ۶–۸ | ⬜ |
+| ۹ | 🚪 سؤال داخل جمله + فعل‌های تازه در Perfekt: `geschlafen · verstanden · geschickt · erhalten · behalten · geantwortet · angerufen` · `gehören` + به‌چه‌کسی · `meinen` · `bei` · جمله‌ی بلند `um … zu … dass` | ۶–۸ | ✅ ۱۵ مهر |
 | ۱۰ | (۱۱؟) `ihr` در عمل: `ihr könnt · wollt · müsst` · `euch` · به او: `ihm`/`ihr` · `helfen` + به‌چه‌کسی | ۹–۱۰ | ⬜ |
 | ۱۱ | (۱۱؟) 🎤 معرفی خودم — Sprechen بخش ۱: `heißen · wohnen · woher · Beruf · Muttersprache · Studium abgeschlossen · auswandern` · `um nach Deutschland auszuwandern` · `sicher, dass … werde` | ۱۰–۱۲ | ⬜ |
 | ۱۲ | لغزش‌های خود جزوه + جمع‌بندی | همه | ⬜ |
@@ -184,3 +184,4 @@
 - تست «دوم/آخر»: ✅✅✅
 - ❓ «چرا یه بار Sie یه جا Ihnen؟ چرا مال من غلط بود؟ دارم گیج می‌شم» ⟵ فعل تعیین می‌کند: sagen ⟵ Ihnen (جور با فارسی) · ⚠️ fragen/anrufen ⟵ Sie (فارسی «از/به») · `um Sie zu fragen` دستوری درست بود، فقط فعلش · «اها خب اره» ✅
   - 📌 فایل مرور: جدول sagen/fragen/anrufen + «پیش‌فرض از فارسی، دو تله»
+- 🏆 جمله‌ی بلند دور ۲: بخش‌های سخت (Ihnen zu sagen · dass…werde · und…sein werde) همه ✅ · ولی `morgen frueh` + `anrufen` در تیکه‌ی اولِ قبلاً درست ⟵ نشانه‌ی خستگی (یک بار گفته شد) · `sie … frue` ⟵ ✅ `Ich habe Sie heute frueh angerufen` ⟵ **بلوک ۹ بسته شد**
