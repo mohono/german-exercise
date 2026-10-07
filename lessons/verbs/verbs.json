@@ -99,7 +99,8 @@
    "fa": "پرسیدن",
    "group": "weak",
    "aux": "haben",
-   "pp": "gefragt"
+   "pp": "gefragt",
+   "note": "⚠️ کسی را: Ich frage Sie (فارسی: از شما)"
   },
   {
    "inf": "glauben",
@@ -191,7 +192,8 @@
    "fa": "گفتن",
    "group": "weak",
    "aux": "haben",
-   "pp": "gesagt"
+   "pp": "gesagt",
+   "note": "به کسی: Ich sage es Ihnen"
   },
   {
    "inf": "stellen",
@@ -273,7 +275,7 @@
    "group": "sep",
    "aux": "haben",
    "pp": "angerufen",
-   "note": "قوی"
+   "note": "قوی · ⚠️ کسی را: Ich rufe Sie an (فارسی: به شما)"
   },
   {
    "inf": "anziehen",
