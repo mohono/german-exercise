@@ -17,7 +17,7 @@
 | ۷ | 🤳 انعکاسی در Perfekt: `sich beeilen · sich ausruhen · sich erinnern an` — `mich` کجا می‌نشیند | ۴–۵، ۸ | ✅ ۱۵ مهر |
 | ۸ | `man` — «آدم» · `Manchmal muss man…` (وارونگی) | ۵–۶ | ✅ ۱۵ مهر |
 | ۹ | 🚪 سؤال داخل جمله + فعل‌های تازه در Perfekt: `geschlafen · verstanden · geschickt · erhalten · behalten · geantwortet · angerufen` · `gehören` + به‌چه‌کسی · `meinen` · `bei` · جمله‌ی بلند `um … zu … dass` | ۶–۸ | ✅ ۱۵ مهر |
-| ۹+ | ➕ **بلوک اضافه، خواسته‌ی خودش:** `wer · wen · wem` — «چه کسی / چه کسی را / به چه کسی» روی قانون «را/به» | — | ⬜ |
+| ۹+ | ➕ **بلوک اضافه، خواسته‌ی خودش:** `wer · wen · wem` — «چه کسی / چه کسی را / به چه کسی» روی قانون «را/به» | — | ✅ ۱۵ مهر |
 | ۱۰ | (۱۱؟) `ihr` در عمل: `ihr könnt · wollt · müsst` · `euch` · به او: `ihm`/`ihr` · `helfen` + به‌چه‌کسی | ۹–۱۰ | ⬜ |
 | ۱۱ | (۱۱؟) 🎤 معرفی خودم — Sprechen بخش ۱: `heißen · wohnen · woher · Beruf · Muttersprache · Studium abgeschlossen · auswandern` · `um nach Deutschland auszuwandern` · `sicher, dass … werde` | ۱۰–۱۲ | ⬜ |
 | ۱۲ | لغزش‌های خود جزوه + جمع‌بندی | همه | ⬜ |
@@ -204,3 +204,8 @@
   - تست دوباره‌ی ۷ غلط: **۶/۷** · `sich` برای «او (زن) را» دوباره ⟵ علت: الگوی mich·dich ⟵ sich (سری انعکاسی جداست برای سوم‌شخص) · قلاب «sich = خودش» ⟵ ✅ sie
 - 📌 فایل مرور: جدول کامل را/به + سه قلاب · دو تصمیم‌گیرنده (فعل/حرف اضافه) · wer/wen/wem با ترفند «اول جواب» · دو سری mich/dich/sie در برابر mich/dich/sich · 🎴 دک انکی ضمیرها (بعد از تأیید خودش)
 - 🎴 دک انکی ضمیرها ساخته شد: anki/pronomen-akk-dat.txt (۱۲ یادداشت، ۴۹ کارت) — بعد از ۱۳/۱۴ و «اره بساز»
+- تست wer/wen/wem بعد از پایه: `wer wem wer` (۱/۳: gehört ⟵ wem، das Buch فاعل است · angerufen ⟵ wen) · «سخت شد!» ⟵ پیشنهاد توقف، خودش: «نه، کلی کار داریم» ⟵ داربست سه‌قدمی
+  - ❓ «چرا wer نمیشه، مگه wer مال er نبود؟» ⟵ wer = انجام‌دهنده؛ یک جمله یک فاعل · جفت `Wer hilft dir?` / `Wem hilfst du?`
+  - «باید ادامه بدیم ببینم روشن شده یا نه» ⟵ با داربست: ✅ wem (helfen) · ✅ wer (بی‌فاعل) · ✅ wen (استدلال کامل خودش)
+  - دور آخر بی‌داربست: ✅✅✅ `wem wer wen` ⟵ **بلوک ۹+ بسته شد**
+- 📌 فایل مرور: جفت Wer hilft dir / Wem hilfst du · چک «فاعل دارد؟» · داربست سه‌قدمی
