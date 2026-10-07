@@ -169,3 +169,9 @@
 - ۱: `Ich vershtehe nicht er gesagt haben.` ⟵ wissen (نه verstehen) · `, was` · hat (gesagt+کمکی آخر از دور اول ✅) ⟵ ✅ `Ich weiss nicht, was er gesagt hat.`
 - ۲: ✅ ساختار `Ich habe nicht verestanden, was Sie gemeint haben.` (جمله‌ی استاد!) ⟵ املای verstanden (بار ۲ امروز، خوشه‌ی همخوان) ×۳ ✅
 - ۳: `Koennten Sie mir sagen, wo Sie gestern werden?` ⟵ سه‌قلو: waren ⟵ `Koentten` (املای قدیمی kontten) ×۳ ✅
+- ۹ب: کارت شناسایی schicken · antworten · gehören · erhalten · behalten · «همه رو بده برای ترنسلیت» + «به لیست اضافه کن» ⟵ ۱۰۱ فعل (صدای ثابت هر فعل؛ ساخت دوباره‌ی کامل یک بار)
+- کشف gehören: ۱ es ✅ · ۲ به من ✅ · ۳ `es gehoert ihnen` ⟵ ihm (جدول ihm/ihr/ihnen/Ihnen)
+- ۱: ✅ `Es gehoert nicht ihm, es gehoert mir.` (مقایسه‌ای، nicht قبل از کلمه‌ی منفی‌شده — طبیعی‌تر)
+- ❓ «حالت گذشته و اول/سوم شخص gehören؟» ⟵ جدول صرف (فاعل تقریباً همیشه چیز) · `Es hat mir gehört.` · ❓ «یعنی ge مال خود کلمه‌ست؟» ⟵ آره، پیشوند جدانشدنی ge- ⟵ gehört نه gegehört · دوقلو: hören⟵gehört (شنیدم) / gehören⟵gehört (مال … بود) — تشخیص از ساختار
+- 🔧 خودش: «اینو اولش نگفتی، منم یادم نبود از اون ۸تاست» ⟵ کارت فقط «🔒» داشت؛ قانون صفر ① (نقشه قبل از جزء) رعایت نشد
+- 📌 فایل مرور: دوقلوی hören/gehören · ge- پیشوند جدانشدنی در gehören · جدول «به کی» سوم‌شخص (ihm/ihr/ihnen/Ihnen) · صرف gehören
