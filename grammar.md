@@ -26,6 +26,7 @@
 | ۱۸ | 📖 گفتار/نوشتار | Perfekt vs Präteritum | 🟡 | گفتار و پیام ⟵ Perfekt · داستان و خبر ⟵ Präteritum برای همه (فاز ۲) | ۹ |
 | ۱۹ | 🤳 انعکاسی یا مفعولی؟ | Reflexiv vs. Akkusativ | 🟢 | انعکاسی فقط وقتی کننده و گیرنده یک نفرند. `mich/dich` هم مفعولی‌اند هم انعکاسی (شکل یکی) ⟵ تست با «خودم/خودش» · فرق فقط در سوم‌شخص: `sich` در برابر `ihn/sie` | ۹ (مرور ۱، ۱۱ مهر) · قانون سلفی: ۸ |
 | ۲۰ | 🚪 سؤال داخل جمله | indirekter Fragesatz | 🟢 | کلمه‌ی پرسشی (`wer · was · wo · wann · warum · wie · wie lange …`) یا `ob` **وسط جمله** بعد از یک تیکه‌ی دیگر = در ⟵ فعل صرف‌شده ته: `Ich weiß nicht, wo er wohnt.` · اول کل جمله = سؤال مستقیم ⟵ جای دوم. علامت سؤال ملاک نیست | ۹ (مرور ۲) · درها: ۶ |
+| ۲۱ | 🎯 «را» یا «به» برای آدم | Akkusativ vs. Dativ (Person) | 🟡 | «چیزی به این آدم می‌رسه؟» آره ⟵ Dativ (`Ich sage/schicke es Ihnen`) · نه، فقط خودش هدف ⟵ Akkusativ (`Ich rufe Sie an · frage Sie · sehe Sie`) · استثناها فعلاً: `helfen · antworten · gehören` ⟵ Dativ | ۱۰ (بلوک ۹، ۱۵ مهر) |
 
 ## قانون‌هایی که اصلاح شدند
 
