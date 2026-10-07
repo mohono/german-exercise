@@ -52,6 +52,9 @@ h1{font-size:1.6rem;margin:0 0 4px;font-weight:800}
 .pill{display:inline-block;border-radius:10px;padding:0 8px;font-size:.8rem;font-family:'IBM Plex Mono',monospace}
 .pill.haben{background:var(--surface2);color:var(--ink2);border:1px solid var(--line)}
 .pill.sein{background:var(--warn-soft);color:var(--warn);border:1px solid var(--warn);font-weight:600}
+.end{display:inline-block;margin-inline-start:6px;border-radius:8px;padding:0 6px;font-size:.72rem;font-family:'IBM Plex Mono',monospace;direction:ltr;vertical-align:middle}
+.end.t{color:var(--ink3);border:1px solid var(--line2)}
+.end.en{color:var(--trap);background:var(--trap-soft);border:1px solid var(--trap);font-weight:700}
 .tools{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 4px}
 .tools input{flex:1;min-width:180px;font:inherit;padding:7px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink)}
 .tools button{font:inherit;font-size:.85rem;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:18px;padding:5px 12px;cursor:pointer}
@@ -101,11 +104,11 @@ JS = """
     if(t){e.stopPropagation(); play(t); return;}
     var v=e.target.closest('.v'); if(v) v.classList.toggle('open');
   });
-  var q=document.getElementById('q'), onlySein=document.getElementById('sein'), openAll=document.getElementById('all');
+  var q=document.getElementById('q'), onlyStrong=document.getElementById('strong'), onlySein=document.getElementById('sein'), openAll=document.getElementById('all');
   function filter(){
-    var s=(q.value||'').trim().toLowerCase(), si=onlySein.getAttribute('aria-pressed')==='true';
+    var s=(q.value||'').trim().toLowerCase(), si=onlySein.getAttribute('aria-pressed')==='true', st=onlyStrong.getAttribute('aria-pressed')==='true';
     document.querySelectorAll('.v').forEach(function(v){
-      var hit=(!s||v.getAttribute('data-k').indexOf(s)>-1)&&(!si||v.classList.contains('sein'));
+      var hit=(!s||v.getAttribute('data-k').indexOf(s)>-1)&&(!si||v.classList.contains('sein'))&&(!st||v.classList.contains('strong-end'));
       v.classList.toggle('hidden',!hit);
     });
     document.querySelectorAll('section[data-g]').forEach(function(sec){
@@ -113,6 +116,7 @@ JS = """
     });
   }
   q.addEventListener('input',filter);
+  onlyStrong.addEventListener('click',function(){onlyStrong.setAttribute('aria-pressed',onlyStrong.getAttribute('aria-pressed')==='true'?'false':'true');filter();});
   onlySein.addEventListener('click',function(){onlySein.setAttribute('aria-pressed',onlySein.getAttribute('aria-pressed')==='true'?'false':'true');filter();});
   openAll.addEventListener('click',function(){
     var on=openAll.getAttribute('aria-pressed')!=='true'; openAll.setAttribute('aria-pressed',on);
@@ -157,12 +161,14 @@ def main():
                 forms.append(f'<div class="f"><span class="p">{e(shown)}</span><span class="say tap" data-a="{k}">{e(mid)} {e(vb["pp"])}</span></div>')
             note = f'<small>{e(vb["note"])}</small>' if vb.get("note") else ""
             key = e(f'{vb["inf"]} {vb["pp"]} {vb["fa"]}'.lower())
+            strong = vb["pp"].endswith("en")
+            end = '<span class="end en">⚡-en</span>' if strong else '<span class="end t">-t</span>'
             rows.append(
-                f'<div class="v {vb["aux"]}" data-k="{key}">'
+                f'<div class="v {vb["aux"]}{" strong-end" if strong else ""}" data-k="{key}">'
                 f'<span class="inf"><span class="tap" data-a="{k_inf}">{e(vb["inf"])}</span></span>'
                 f'<span class="fa">{e(vb["fa"])}{note}</span>'
                 f'<span><span class="pill {vb["aux"]}">{vb["aux"]}</span></span>'
-                f'<span class="pp"><span class="tap" data-a="{k_pp}">{e(vb["pp"])}</span></span>'
+                f'<span class="pp"><span class="tap" data-a="{k_pp}">{e(vb["pp"])}</span>{end}</span>'
                 f'<span class="chev">▾</span>'
                 f'<div class="conj">{"".join(forms)}</div></div>')
         if rows:
@@ -192,10 +198,12 @@ def main():
   <div class="legend">
     <span><span class="pill haben">haben</span> پیش‌فرض</span>
     <span><span class="pill sein">sein</span> حرکت A⟵B یا تغییر · <span class="de">bleiben</span>/<span class="de">sein</span> حفظی</span>
+    <span><span class="end t">-t</span> پیش‌فرض · <span class="end en">⚡-en</span> قوی، حفظی 🧳</span>
     <span>🔊 روی هر شکل بزن · روی ردیف بزن ⟵ صرف کامل با ۶ ضمیر</span>
   </div>
   <div class="tools">
     <input id="q" type="search" placeholder="جستجو: آلمانی یا فارسی…" autocomplete="off">
+    <button id="strong" aria-pressed="false">⚡ فقط قوی‌ها (-en)</button>
     <button id="sein" aria-pressed="false">فقط sein‌دارها</button>
     <button id="all" aria-pressed="false">باز کردن همه</button>
   </div>
