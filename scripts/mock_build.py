@@ -38,8 +38,10 @@ async def edge_synth(jobs):
     EDGE_CACHE.mkdir(parents=True, exist_ok=True)
     for voice, text in jobs:
         out = edge_path(voice, text)
-        if not out.exists():
-            await edge_tts.Communicate(text, voice).save(str(out))
+        if not out.exists() or out.stat().st_size == 0:
+            tmp = out.with_suffix(".part")
+            await edge_tts.Communicate(text, voice).save(str(tmp))
+            tmp.replace(out)  # atomic: an interrupted run never leaves a half-written clip in the cache
 
 
 def main(src_path):

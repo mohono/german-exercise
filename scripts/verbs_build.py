@@ -146,12 +146,11 @@ def main():
 
     e = html.escape
     sections = []
-    n = 0
     for gid, title, rule in GROUPS:
         rows = []
         for vb in [v for v in verbs if v["group"] == gid]:
-            voice = VOICES[n % len(VOICES)]
-            n += 1
+            # stable per verb: position in verbs.json (append-only), so adding verbs never re-voices old ones
+            voice = VOICES[verbs.index(vb) % len(VOICES)]
             k_inf = clip(voice, vb["inf"])
             k_pp = clip(voice, vb["pp"])
             forms = []

@@ -1,6 +1,6 @@
 {
  "_readme": "فهرست زنده‌ی فعل‌هایی که فاطمه یاد گرفته — گذشته‌ی گفتاری (Perfekt). بعد از هر درس فعل‌های تازه اضافه شوند و صفحه با `python scripts/verbs_build.py` دوباره ساخته شود. group: special · weak · mixed · sep · strong · noge. aux: haben/sein. note اختیاری.",
- "updated": "۱۵ مهر ۱۴۰۵ — تا درس ۱۰ بلوک ۷ (+ انعکاسی‌ها)",
+ "updated": "۱۵ مهر ۱۴۰۵ — تا درس ۱۰ بلوک ۹",
  "verbs": [
   {
    "inf": "sein",
@@ -705,6 +705,53 @@
    "aux": "haben",
    "pp": "gekämmt",
    "refl": true
+  },
+  {
+   "inf": "meinen",
+   "fa": "منظور داشتن، نظر داشتن",
+   "group": "weak",
+   "aux": "haben",
+   "pp": "gemeint",
+   "note": "ei می‌ماند (باقاعده)"
+  },
+  {
+   "inf": "schicken",
+   "fa": "فرستادن",
+   "group": "weak",
+   "aux": "haben",
+   "pp": "geschickt"
+  },
+  {
+   "inf": "antworten",
+   "fa": "جواب دادن",
+   "group": "weak",
+   "aux": "haben",
+   "pp": "geantwortet",
+   "note": "روغن 🧴 · das Wort ⟵ die Antwort"
+  },
+  {
+   "inf": "gehören",
+   "fa": "مال کسی بودن",
+   "group": "noge",
+   "aux": "haben",
+   "pp": "gehört",
+   "note": "🔒 ge- · فاعل = چیز، صاحب = به کی: Es gehört mir"
+  },
+  {
+   "inf": "erhalten",
+   "fa": "دریافت کردن",
+   "group": "noge",
+   "aux": "haben",
+   "pp": "erhalten",
+   "note": "عین مصدر · قوی"
+  },
+  {
+   "inf": "behalten",
+   "fa": "نگه داشتن",
+   "group": "noge",
+   "aux": "haben",
+   "pp": "behalten",
+   "note": "عین مصدر · قوی"
   }
  ]
 }
