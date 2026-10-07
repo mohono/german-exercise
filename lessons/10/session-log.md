@@ -17,6 +17,7 @@
 | ۷ | 🤳 انعکاسی در Perfekt: `sich beeilen · sich ausruhen · sich erinnern an` — `mich` کجا می‌نشیند | ۴–۵، ۸ | ✅ ۱۵ مهر |
 | ۸ | `man` — «آدم» · `Manchmal muss man…` (وارونگی) | ۵–۶ | ✅ ۱۵ مهر |
 | ۹ | 🚪 سؤال داخل جمله + فعل‌های تازه در Perfekt: `geschlafen · verstanden · geschickt · erhalten · behalten · geantwortet · angerufen` · `gehören` + به‌چه‌کسی · `meinen` · `bei` · جمله‌ی بلند `um … zu … dass` | ۶–۸ | ✅ ۱۵ مهر |
+| ۹+ | ➕ **بلوک اضافه، خواسته‌ی خودش:** `wer · wen · wem` — «چه کسی / چه کسی را / به چه کسی» روی قانون «را/به» | — | ⬜ |
 | ۱۰ | (۱۱؟) `ihr` در عمل: `ihr könnt · wollt · müsst` · `euch` · به او: `ihm`/`ihr` · `helfen` + به‌چه‌کسی | ۹–۱۰ | ⬜ |
 | ۱۱ | (۱۱؟) 🎤 معرفی خودم — Sprechen بخش ۱: `heißen · wohnen · woher · Beruf · Muttersprache · Studium abgeschlossen · auswandern` · `um nach Deutschland auszuwandern` · `sicher, dass … werde` | ۱۰–۱۲ | ⬜ |
 | ۱۲ | لغزش‌های خود جزوه + جمع‌بندی | همه | ⬜ |
@@ -187,3 +188,4 @@
 - 🏆 جمله‌ی بلند دور ۲: بخش‌های سخت (Ihnen zu sagen · dass…werde · und…sein werde) همه ✅ · ولی `morgen frueh` + `anrufen` در تیکه‌ی اولِ قبلاً درست ⟵ نشانه‌ی خستگی (یک بار گفته شد) · `sie … frue` ⟵ ✅ `Ich habe Sie heute frueh angerufen` ⟵ **بلوک ۹ بسته شد**
 - ❓ (باز مانده) «چطور تماس گرفتن Sie اومد ولی گفتن Ihnen؟ بطور کلی چیشد و چیکار کنم» ⟵ جواب قبلی فقط «لیست تله» بود ⟵ قانون: «چیزی به این آدم می‌رسه؟» آره ⟵ Ihnen (sagen · schicken · geben) · نه، فقط خودش هدف ⟵ Sie (anrufen · fragen · sehen · abholen) · استثنا فعلاً ۳: helfen · antworten · gehören ⟵ تست ✅✅✅
   - 📌 فایل مرور: این قانون + لیست استثنا (جعبه‌ی تازه؟ ⟵ «را/به» — نزدیک جعبه‌ی ضمیرها، نه پنج جعبه‌ی فعل)
+- ❓ «wem و wen توی جزوه بود و صحبتی نکردیم» ⟵ در متن استخراج‌شده‌ی جزوه و جزوه‌های قبلی پیدا نشد (گفته شد) · توضیح کوتاه دادم ⟵ خودش: «اینطوری فایده نداره، یه بلوک جداگونه بذار و قشنگ توضیحش بده» ⟵ **بلوک ۹+** اضافه شد
