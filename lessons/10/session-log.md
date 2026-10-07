@@ -162,3 +162,10 @@
   - ❓ «چرا بعد از aber نمیشه؟» ⟵ یا جمله‌ی کامل با فاعل، یا خیلی کوتاه `aber heute nicht` (ابزار تازه)؛ «نصفه» نه · ❓ «گذشته‌ی darf یادم نبود، جدول نگاه کردم» ⟵ قانون: مصدر بی -en و بی‌اوملات + te (mögen ⟵ mochte) · «اره حله» ✅
   - 📌 فایل مرور: الگوی گذشته‌ی مدال · سه حالت بعد از aber (کامل / کوتاه / ❌ نصفه) · دوقلوی man/Mann (۲ لغزش)
   - ✅ `Man durfte frueher hier rauchen, aber heute darf man hier nicht rauchen.` · ✅ `Niemand hat es gesehen.` (بدون nicht، از اول) ⟵ **بلوک ۸ بسته شد**
+
+## بلوک ۹ — سؤال داخل جمله + Perfekt در فرعی (۱۵ مهر، بعد از استراحت)
+- خودش: «دوست دارم امروز تموم شه بلوکا» ⟵ برنامه: ۹ ⟵ ۱۰ ⟵ ۱۱ ⟵ ۱۲ امروز
+- کشف ۹الف: ۱ «رفته آخر چون فرعی با کلمه‌ی پرسشی» ✅ · ۲ «ردیف ۱ جمله‌ی اصلی، فعل جای دوم» ✅ · ۳ «اشتباه همون جای haben، عادت کردیم دوم باشه» ✅ ⟵ ❌ رایج `was Sie haben gesagt`
+- ۱: `Ich vershtehe nicht er gesagt haben.` ⟵ wissen (نه verstehen) · `, was` · hat (gesagt+کمکی آخر از دور اول ✅) ⟵ ✅ `Ich weiss nicht, was er gesagt hat.`
+- ۲: ✅ ساختار `Ich habe nicht verestanden, was Sie gemeint haben.` (جمله‌ی استاد!) ⟵ املای verstanden (بار ۲ امروز، خوشه‌ی همخوان) ×۳ ✅
+- ۳: `Koennten Sie mir sagen, wo Sie gestern werden?` ⟵ سه‌قلو: waren ⟵ `Koentten` (املای قدیمی kontten) ×۳ ✅
