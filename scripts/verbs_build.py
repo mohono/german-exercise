@@ -29,9 +29,11 @@ GROUPS = [
     ("mixed", "①ب مختلط", "مثل باقاعده <span class=\"de\">ge…t</span>، ولی ریشه عوض می‌شود — حفظی"),
     ("sep", "② جداشدنی 🧱", "<span class=\"de\">ge</span> وسط: <span class=\"de\">ein·ge·kauft</span> · لگو الگوی فعل پایه را به ارث می‌برد (<span class=\"de\">kommen ⟵ angekommen</span>)"),
     ("strong", "③ قوی ⚡", "آخرش <span class=\"de\">-en</span>، مصوت گاهی عوض می‌شود — هر کدام یک بسته 🧳 · قوی‌های <span class=\"de\">ei</span>دار معمولاً ⟵ <span class=\"de\">ie</span>"),
+    ("refl", "🤳 انعکاسی", "<b>همیشه</b> <span class=\"de\">haben</span> · ضمیر انعکاسی درست بعد از کمکی 🎈: <span class=\"de\">Ich habe mich gestern beeilt.</span> · برای <span class=\"de\">Sie</span> رسمی هم <span class=\"de\">sich</span> (کوچک)"),
     ("noge", "④ بدون ge 🔒", "جدانشدنی (<span class=\"de\">be · emp · ent · er · ge · miss · ver · zer</span> و <span class=\"de\">über/wieder</span> بی‌تکیه) و <span class=\"de\">-ieren</span>"),
 ]
 PRON = [("ich", "ich"), ("du", "du"), ("er/sie/es", "er"), ("wir", "wir"), ("ihr", "ihr"), ("sie/Sie", "sie")]
+REFL = ["mich", "dich", "sich", "uns", "euch", "sich"]
 AUX = {"haben": ["habe", "hast", "hat", "haben", "habt", "haben"],
        "sein": ["bin", "bist", "ist", "sind", "seid", "sind"]}
 
@@ -149,9 +151,10 @@ def main():
             k_inf = clip(voice, vb["inf"])
             k_pp = clip(voice, vb["pp"])
             forms = []
-            for (shown, spoken), aux in zip(PRON, AUX[vb["aux"]]):
-                k = clip(voice, f"{spoken} {aux} {vb['pp']}")
-                forms.append(f'<div class="f"><span class="p">{e(shown)}</span><span class="say tap" data-a="{k}">{e(aux)} {e(vb["pp"])}</span></div>')
+            for (shown, spoken), aux, rp in zip(PRON, AUX[vb["aux"]], REFL):
+                mid = f"{aux} {rp}" if vb.get("refl") else aux
+                k = clip(voice, f"{spoken} {mid} {vb['pp']}")
+                forms.append(f'<div class="f"><span class="p">{e(shown)}</span><span class="say tap" data-a="{k}">{e(mid)} {e(vb["pp"])}</span></div>')
             note = f'<small>{e(vb["note"])}</small>' if vb.get("note") else ""
             key = e(f'{vb["inf"]} {vb["pp"]} {vb["fa"]}'.lower())
             rows.append(
