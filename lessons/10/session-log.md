@@ -15,7 +15,7 @@
 | ۵ | Perfekt خود ده فعل: `gewesen · gehabt · gewusst` — کی اصلاً لازم است | ۳ | ✅ ۱۴ مهر |
 | ۶ | زنجیره‌ی حرکت با `sein`: `gegangen · gefahren · geblieben · angekommen · zurückgekommen · aufgestanden` · `dort`/`dorthin` · `nach` | ۳–۵ | ✅ ۱۴ مهر |
 | ۷ | 🤳 انعکاسی در Perfekt: `sich beeilen · sich ausruhen · sich erinnern an` — `mich` کجا می‌نشیند | ۴–۵، ۸ | ✅ ۱۵ مهر |
-| ۸ | `man` — «آدم» · `Manchmal muss man…` (وارونگی) | ۵–۶ | ⬜ |
+| ۸ | `man` — «آدم» · `Manchmal muss man…` (وارونگی) | ۵–۶ | ✅ ۱۵ مهر |
 | ۹ | 🚪 سؤال داخل جمله + فعل‌های تازه در Perfekt: `geschlafen · verstanden · geschickt · erhalten · behalten · geantwortet · angerufen` · `gehören` + به‌چه‌کسی · `meinen` · `bei` · جمله‌ی بلند `um … zu … dass` | ۶–۸ | ⬜ |
 | ۱۰ | (۱۱؟) `ihr` در عمل: `ihr könnt · wollt · müsst` · `euch` · به او: `ihm`/`ihr` · `helfen` + به‌چه‌کسی | ۹–۱۰ | ⬜ |
 | ۱۱ | (۱۱؟) 🎤 معرفی خودم — Sprechen بخش ۱: `heißen · wohnen · woher · Beruf · Muttersprache · Studium abgeschlossen · auswandern` · `um nach Deutschland auszuwandern` · `sicher, dass … werde` | ۱۰–۱۲ | ⬜ |
@@ -161,3 +161,4 @@
 - ۴: `Man duerfte hier frueher rauchen, aber heute darf nicht.` ⟵ durfte (گذشته‌ی مدال بی‌اوملات؛ با اوملات = فرضی) · زمان⟵مکان · فاعل بعد از aber
   - ❓ «چرا بعد از aber نمیشه؟» ⟵ یا جمله‌ی کامل با فاعل، یا خیلی کوتاه `aber heute nicht` (ابزار تازه)؛ «نصفه» نه · ❓ «گذشته‌ی darf یادم نبود، جدول نگاه کردم» ⟵ قانون: مصدر بی -en و بی‌اوملات + te (mögen ⟵ mochte) · «اره حله» ✅
   - 📌 فایل مرور: الگوی گذشته‌ی مدال · سه حالت بعد از aber (کامل / کوتاه / ❌ نصفه) · دوقلوی man/Mann (۲ لغزش)
+  - ✅ `Man durfte frueher hier rauchen, aber heute darf man hier nicht rauchen.` · ✅ `Niemand hat es gesehen.` (بدون nicht، از اول) ⟵ **بلوک ۸ بسته شد**
