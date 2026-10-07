@@ -14,7 +14,7 @@
 | ۴ | بودن یا شدن، حال/گذشته/آینده/فرضی: `müde sein` ↔ `müde werden` · `dunkel` · `zu` = بیش از حد | ۲–۳ | ✅ ۱۴ مهر |
 | ۵ | Perfekt خود ده فعل: `gewesen · gehabt · gewusst` — کی اصلاً لازم است | ۳ | ✅ ۱۴ مهر |
 | ۶ | زنجیره‌ی حرکت با `sein`: `gegangen · gefahren · geblieben · angekommen · zurückgekommen · aufgestanden` · `dort`/`dorthin` · `nach` | ۳–۵ | ✅ ۱۴ مهر |
-| ۷ | 🤳 انعکاسی در Perfekt: `sich beeilen · sich ausruhen · sich erinnern an` — `mich` کجا می‌نشیند | ۴–۵، ۸ | ⬜ |
+| ۷ | 🤳 انعکاسی در Perfekt: `sich beeilen · sich ausruhen · sich erinnern an` — `mich` کجا می‌نشیند | ۴–۵، ۸ | ✅ ۱۵ مهر |
 | ۸ | `man` — «آدم» · `Manchmal muss man…` (وارونگی) | ۵–۶ | ⬜ |
 | ۹ | 🚪 سؤال داخل جمله + فعل‌های تازه در Perfekt: `geschlafen · verstanden · geschickt · erhalten · behalten · geantwortet · angerufen` · `gehören` + به‌چه‌کسی · `meinen` · `bei` · جمله‌ی بلند `um … zu … dass` | ۶–۸ | ⬜ |
 | ۱۰ | (۱۱؟) `ihr` در عمل: `ihr könnt · wollt · müsst` · `euch` · به او: `ihm`/`ihr` · `helfen` + به‌چه‌کسی | ۹–۱۰ | ⬜ |
@@ -151,3 +151,4 @@
   - ✅ `Sie muessen sich ausruhen.`
 - تمرین ۳: ✅ `Ich kann mich an meine Kindheit nicht erinnern.` (درست و طبیعی، ولی «توانستن» در فارسی نبود) · ❓ «جمله‌ام هم درست بود؟» ⟵ آره
   - 📌 **بانک الف فایل مرور: هر دو نسخه** — «کودکی‌ام را به یاد نمی‌آورم» ⟵ `Ich erinnere mich nicht an meine Kindheit.` · «یادم نمی‌آید / نمی‌توانم به یاد بیاورم» ⟵ `Ich kann mich nicht an meine Kindheit erinnern.`
+  - ✅ `Ich erinnere mich nicht an meine Kindheit.` ⟵ **بلوک ۷ بسته شد**
