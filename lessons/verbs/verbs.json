@@ -1,6 +1,6 @@
 {
  "_readme": "فهرست زنده‌ی فعل‌هایی که فاطمه یاد گرفته — گذشته‌ی گفتاری (Perfekt). بعد از هر درس فعل‌های تازه اضافه شوند و صفحه با `python scripts/verbs_build.py` دوباره ساخته شود. group: special · weak · mixed · sep · strong · noge. aux: haben/sein. note اختیاری.",
- "updated": "۱۵ مهر ۱۴۰۵ — تا درس ۱۰ بلوک ۹",
+ "updated": "۱۵ مهر ۱۴۰۵ — تا درس ۱۰ بلوک ۱۱",
  "verbs": [
   {
    "inf": "sein",
@@ -754,6 +754,60 @@
    "aux": "haben",
    "pp": "behalten",
    "note": "عین مصدر · قوی"
+  },
+  {
+   "inf": "lernen",
+   "fa": "یاد گرفتن",
+   "group": "weak",
+   "aux": "haben",
+   "pp": "gelernt"
+  },
+  {
+   "inf": "mieten",
+   "fa": "اجاره کردن",
+   "group": "weak",
+   "aux": "haben",
+   "pp": "gemietet",
+   "note": "روغن 🧴"
+  },
+  {
+   "inf": "spielen",
+   "fa": "بازی کردن، نواختن",
+   "group": "weak",
+   "aux": "haben",
+   "pp": "gespielt"
+  },
+  {
+   "inf": "heißen",
+   "fa": "نامیده شدن (اسم … بودن)",
+   "group": "strong",
+   "aux": "haben",
+   "pp": "geheißen",
+   "note": "قوی ولی ei می‌ماند"
+  },
+  {
+   "inf": "auswandern",
+   "fa": "مهاجرت کردن",
+   "group": "sep",
+   "aux": "sein",
+   "pp": "ausgewandert",
+   "note": "🧱 · sein: حرکت A⟵B (عضو تازه‌ی لیست sein)"
+  },
+  {
+   "inf": "abschließen",
+   "fa": "تمام کردن (تحصیل)، قفل کردن",
+   "group": "sep",
+   "aux": "haben",
+   "pp": "abgeschlossen",
+   "note": "🧱 · قوی"
+  },
+  {
+   "inf": "studieren",
+   "fa": "درس خواندن (دانشگاه)",
+   "group": "noge",
+   "aux": "haben",
+   "pp": "studiert",
+   "note": "-ieren"
   }
  ]
 }
