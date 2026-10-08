@@ -226,3 +226,9 @@
 - ❓ «angefangen و فعل‌های این جمله‌ها توی لیست هست؟» ⟵ +۷: lernen · mieten · spielen · heißen (قوی، ei می‌ماند) · auswandern (**sein — عضو تازه‌ی جعبه‌ی ②، فعلاً ۸**) · abschließen · studieren ⟵ ۱۰۸ فعل
 - ⏸ **توقف ۱۵ مهر** («برای امروز کافیه») — وسط بلوک ۱۱: کشف ✅ (dem با قلاب m · zu وسط · فعل بعد از um…zu) · مانده: تمرین «معرفی خودم» (۷ جمله) ⟵ بعد بلوک ۱۲ ⟵ بستن واحد · شب: Nicos Weg ✅
 - ▶️ ادامه (پنج‌شنبه ۱۶ مهر): مرور ۵ درس ۶ (جعبه‌ابزار) + مرور ۳ درس ۹ ⟵ معرفی خودم ⟵ بلوک ۱۲ ⟵ فایل مرور (با مکالمه‌ی دوصدایی) + انکی + لیست فعل + شیت هر دو ردیف
+
+## ۱۶ مهر — ادامه‌ی بلوک ۱۱
+- خودش: «مرورای من هیچ کوتاه نیستن… خودشون یه درس محسوب میشن» ⟵ برنامه‌ریزی: هر مرور ۳۰–۶۰ دقیقه
+- معرفی خودم ۱–۴: `Ich heisse fateme. ich bin dreiundzwantig Jahre alt. ich aus dem Iran und wohne in kermanshah. meine muttersprach ist persich und spriche Englisch auch.`
+  - ✅ und wohne (حذف درست) · aus dem Iran · Jahre alt · 🔧 فعل جا افتاد (komme — «ـم» فارسی) · ich بعد از und (فاعل عوض شد) · spreche (مصوت فقط du/er) · املا: zwanzig · Muttersprache · Persisch · بزرگ‌ها · auch قبل از Englisch
+  - ❓ «مگه بعد از und فاعل حذف نمیشد؟ همه‌ی فاعلاش ich هست!» ⟵ فاعل تیکه‌ی اول meine Muttersprache است («ـم» مالکیت، نه فاعل) · تست «کی/چی کار را می‌کند؟» · «اها نکته‌ی جالبی بود» ✅ · 📌 فایل مرور
