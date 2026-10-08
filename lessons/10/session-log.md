@@ -232,3 +232,5 @@
 - معرفی خودم ۱–۴: `Ich heisse fateme. ich bin dreiundzwantig Jahre alt. ich aus dem Iran und wohne in kermanshah. meine muttersprach ist persich und spriche Englisch auch.`
   - ✅ und wohne (حذف درست) · aus dem Iran · Jahre alt · 🔧 فعل جا افتاد (komme — «ـم» فارسی) · ich بعد از und (فاعل عوض شد) · spreche (مصوت فقط du/er) · املا: zwanzig · Muttersprache · Persisch · بزرگ‌ها · auch قبل از Englisch
   - ❓ «مگه بعد از und فاعل حذف نمیشد؟ همه‌ی فاعلاش ich هست!» ⟵ فاعل تیکه‌ی اول meine Muttersprache است («ـم» مالکیت، نه فاعل) · تست «کی/چی کار را می‌کند؟» · «اها نکته‌ی جالبی بود» ✅ · 📌 فایل مرور
+- دور ۲ معرفی ۱–۴: همه‌ی اصلاح‌های اصلی ✅ · ریزها: حرف بزرگ اول جمله · بدون ویرگول وقتی بعد از und فاعل حذف است · auch Englisch
+- 📌📌 **خواسته‌ی صریح:** «اون اشتباهاتی که کردم خیلی مهم بودن… هم سه اصلاح اصلی هم املاها، حتماً با توضیح توی فایل جمع‌بندی بیان، چون چیزای زیادی رو واسم روشن می‌کنه» ⟵ در بخش 🔧 لغزش‌ها: جدول کامل «نوشتم / درست / ریشه» برای هر ۳ اصلاح اصلی (فعل پنهان در «ـم» · فاعل عوض‌شده بعد از und · spreche) + جدول املاها (zwanzig · Muttersprache · Persisch · بزرگی اسم‌ها) + ریزها (ویرگول، auch)
