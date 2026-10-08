@@ -19,7 +19,7 @@
 | ۹ | 🚪 سؤال داخل جمله + فعل‌های تازه در Perfekt: `geschlafen · verstanden · geschickt · erhalten · behalten · geantwortet · angerufen` · `gehören` + به‌چه‌کسی · `meinen` · `bei` · جمله‌ی بلند `um … zu … dass` | ۶–۸ | ✅ ۱۵ مهر |
 | ۹+ | ➕ **بلوک اضافه، خواسته‌ی خودش:** `wer · wen · wem` — «چه کسی / چه کسی را / به چه کسی» روی قانون «را/به» | — | ✅ ۱۵ مهر |
 | ۱۰ | (۱۱؟) `ihr` در عمل: `ihr könnt · wollt · müsst` · `euch` · به او: `ihm`/`ihr` · `helfen` + به‌چه‌کسی | ۹–۱۰ | ✅ ۱۵ مهر |
-| ۱۱ | (۱۱؟) 🎤 معرفی خودم — Sprechen بخش ۱: `heißen · wohnen · woher · Beruf · Muttersprache · Studium abgeschlossen · auswandern` · `um nach Deutschland auszuwandern` · `sicher, dass … werde` | ۱۰–۱۲ | ⬜ |
+| ۱۱ | (۱۱؟) 🎤 معرفی خودم — Sprechen بخش ۱: `heißen · wohnen · woher · Beruf · Muttersprache · Studium abgeschlossen · auswandern` · `um nach Deutschland auszuwandern` · `sicher, dass … werde` | ۱۰–۱۲ | ✅ ۱۶ مهر |
 | ۱۲ | لغزش‌های خود جزوه + جمع‌بندی | همه | ⬜ |
 
 ## یادداشت‌های پیش از جلسه (برای بلوک ۱۲ و نمره‌دهی)
@@ -246,3 +246,4 @@
   - ❓ «یه بار دقیق و درست توضیح بده» ⟵ شمارش فعل‌های اصلی (habe, muss) ⟵ دو جمله ⟵ نقطه یا چسب · مثال طولانی (angerufen… dass… . Wenn…, hole…) · جمع‌بندی «کِی نقطه، کِی ویرگول»
   - 💡 **گره اصلی پیدا شد** — خودش: «حس می‌کردم برای اینکه رابطه، پس ادامه‌دهنده‌ست، بنابراین جمله‌ی قبلی نباید با نقطه تموم شده باشه» ⟵ فرق چسب (دو جمله را وصل می‌کند) و پل (به یک فعل می‌چسبد؛ دلیلِ کدام فعل؟) · هر دو نسخه درست: um ته ۵ / um اول ۶ · برای ادامه ⟵ denn
   - 📌📌 فایل مرور: قوانین نقطه/ویرگول (۵ ویرگول + نقطه + ❌ بی‌ویرگول) · چسب در برابر پل · «برای اینکه» = پل نه چسب · جمله‌ی مثال طولانی
+- «نه دیگه اوکیه فهمیدم» ⟵ **بلوک ۱۱ بسته شد** · متن نهایی معرفی: Ich heiße Fatemeh. Ich bin dreiundzwanzig Jahre alt. Ich komme aus dem Iran und wohne in Kermanshah. Meine Muttersprache ist Persisch, und ich spreche auch Englisch. Ich habe angefangen, Deutsch zu lernen. Um in Deutschland zu studieren, muss ich Deutsch lernen. Ich bin sicher, dass ich diese Sprache sehr schnell lernen werde.
