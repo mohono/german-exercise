@@ -161,9 +161,9 @@ german-exercise/
 
 فاطمه صداهای عصبی **edge-tts** را برای همه‌چیز خواست — آزمون‌ها، فایل‌های مرور، TED-Ed: «هم آواهاش عالی بود، هم تنوع صداهاش، هم لهجه‌هاش».
 
-- صداها: `de-DE-ConradNeural` · `de-DE-KillianNeural` (مرد) · `de-DE-KatjaNeural` · `de-DE-AmalaNeural` (زن) — هر گوینده صدای خودش
+- صداها: `de-DE-FlorianMultilingualNeural` · `de-AT-JonasNeural` (مرد) · `de-DE-KatjaNeural` · `de-DE-AmalaNeural` (زن) — هر گوینده صدای خودش · **۱۷ مهر:** Conrad و Killian کنار رفتند — خودش: «انگار فقط کلماتو می‌خونن»؛ Florian (نسل تازه) و Jonas (اتریشی) «خیلی نچرال‌ترن» (مقایسه در `claude/voice-test/compare.html`)
 - **سرعت عادی**، مثل آزمون واقعی — نه کُند
-- لهجه: آلمانی استاندارد کافی است؛ اتریشی لازم نیست
+- لهجه: آلمانی استاندارد + یک صدای مرد اتریشی (Jonas) که خودش انتخاب کرد — برای ÖSD هم مفید
 - ابزار: `scripts/mock_build.py` (ویژگی `data-voice` روی `<audio>`) · فایل‌های مرور: `scripts/review_audio.py <review.html>` — دکمه‌ی 🔊 کنار هر جمله‌ی هر دو بانک (از ۱۴ مهر، **هر فایل مرور تازه بعد از ساخت از این رد شود**) · بسته `edge-tts` نصب است · کش در `.cache/tts-edge/`
 - نیاز به اینترنت دارد و متن به Microsoft فرستاده می‌شود
 - Piper (`drill.py`) فقط پشتیبان آفلاین است. تغییر TED-Ed به edge-tts در `claude/پارک-ساخت.md` منتظر پنجرهٔ ساخت جمعه است

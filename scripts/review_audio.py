@@ -21,7 +21,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from mock_build import edge_path, edge_synth  # noqa: E402
 
-VOICES = ["de-DE-ConradNeural", "de-DE-KatjaNeural", "de-DE-KillianNeural", "de-DE-AmalaNeural"]
+# male voices switched 17 Mehr 1405 at her request: Conrad/Killian sounded read-aloud; Florian (new generation) and Jonas (Austrian) natural
+VOICES = ["de-DE-FlorianMultilingualNeural", "de-DE-KatjaNeural", "de-AT-JonasNeural", "de-DE-AmalaNeural"]
 BEGIN, END = "<!--review-audio-->", "<!--/review-audio-->"
 TABLE = re.compile(r'<table class="bank[^"]*">.*?</table>', re.S)
 ROW = re.compile(r"<tr>(.*?)</tr>", re.S)
