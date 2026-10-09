@@ -82,7 +82,8 @@ def process(path):
             text = german(q[0].group(2))
             if not text:
                 return r.group(0)
-            voice = VOICES[n % len(VOICES)]
+            dv = re.search(r'data-voice="([^"]+)"', q[0].group(1))
+            voice = dv.group(1) if dv else VOICES[n % len(VOICES)]  # a cell may fix its speaker (dialogues)
             key = f"a{n}"
             jobs.append((key, voice, text))
             n += 1
