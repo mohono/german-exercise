@@ -29,3 +29,22 @@
 | `beschäftigt` | مشغول | خودش اسم مفعول است | ۹ |
 | `teuer` | گران | املا t-e-u-e-r | ۹ |
 | `die Zeitung` | روزنامه | | ۹ |
+| `plötzlich` | ناگهان | —  | ۱۰–۱۱ |
+| `manchmal` | بعضی وقت‌ها | جای ۱ ⟵ فاعل پشت فعل | ۱۰–۱۱ |
+| `früher` | قبلاً |  | ۱۰–۱۱ |
+| `heute früh` · `am Abend` | امروز صبح زود · عصر | `früh` با h | ۱۰–۱۱ |
+| `letzte Woche` · `ein paar Tage` | هفته‌ی پیش · چند روز |  | ۱۰–۱۱ |
+| `seit langer Zeit` | مدت‌هاست | با زمان حال | ۱۰–۱۱ |
+| `dorthin` · `da` · `dort` | به آنجا · آنجا · آنجا | حرکت ⟵ dorthin | ۱۰–۱۱ |
+| `niemand` | هیچ‌کس | بی nicht | ۱۰–۱۱ |
+| `man` | آدم | مثل er، یک n | ۱۰–۱۱ |
+| `müde · spät · dunkel` | خسته · دیر · تاریک |  | ۱۰–۱۱ |
+| `möglich · bereit · ruhig` | ممکن · آماده · آرام |  | ۱۰–۱۱ |
+| `sicher · schnell · einfach · fließend` | مطمئن · سریع · ساده · روان |  | ۱۰–۱۱ |
+| `die Ruhe` | آرامش | `in Ruhe lassen` | ۱۰–۱۱ |
+| `die Dunkelheit · die Kindheit` | تاریکی · کودکی | -heit | ۱۰–۱۱ |
+| `das Wort · die Antwort` | کلمه · جواب | ant+Wort | ۱۰–۱۱ |
+| `die Wohnung · das Haus` | آپارتمان · خانه |  | ۱۰–۱۱ |
+| `die Muttersprache · der Beruf` | زبان مادری · شغل |  | ۱۰–۱۱ |
+| `das Studium · die Auswanderung · die Gelegenheit` | تحصیل · مهاجرت · فرصت |  | ۱۰–۱۱ |
+| `zum Beispiel` | برای مثال |  | ۱۰–۱۱ |

@@ -46,3 +46,7 @@
 | `Das wäre gut / schön.` | خوب می‌شد / عالی می‌شد | واکنش به پیشنهاد هم‌گروهی · درس ۹ |
 | `Ich hätte eine Frage.` | یک سؤال داشتم | شروع مؤدبانه · درس ۹ |
 | `Du solltest / Sie sollten …` | بهتر است… | توصیه در بحث · درس ۹ |
+| `Ich heiße … · Ich bin … Jahre alt. · Ich komme aus dem Iran und wohne in …` | معرفی پایه | بخش ۱ — معرفی خودم · درس ۱۰–۱۱ (مکالمه‌ی کامل با صدا در `lessons/10/review.html`) |
+| `Meine Muttersprache ist Persisch, und ich spreche auch Englisch.` | زبان‌ها | بخش ۱ · تله: بعد از und فاعل عوض می‌شود ⟵ ich |
+| `Um in Deutschland zu studieren, muss ich Deutsch lernen.` | چرا آلمانی | بخش ۱ · پل بی فاعل |
+| `Ich bin sicher, dass ich diese Sprache sehr schnell lernen werde.` | جمع‌بندی مثبت | بخش ۱ |
