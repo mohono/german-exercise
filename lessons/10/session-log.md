@@ -247,3 +247,8 @@
   - 💡 **گره اصلی پیدا شد** — خودش: «حس می‌کردم برای اینکه رابطه، پس ادامه‌دهنده‌ست، بنابراین جمله‌ی قبلی نباید با نقطه تموم شده باشه» ⟵ فرق چسب (دو جمله را وصل می‌کند) و پل (به یک فعل می‌چسبد؛ دلیلِ کدام فعل؟) · هر دو نسخه درست: um ته ۵ / um اول ۶ · برای ادامه ⟵ denn
   - 📌📌 فایل مرور: قوانین نقطه/ویرگول (۵ ویرگول + نقطه + ❌ بی‌ویرگول) · چسب در برابر پل · «برای اینکه» = پل نه چسب · جمله‌ی مثال طولانی
 - «نه دیگه اوکیه فهمیدم» ⟵ **بلوک ۱۱ بسته شد** · متن نهایی معرفی: Ich heiße Fatemeh. Ich bin dreiundzwanzig Jahre alt. Ich komme aus dem Iran und wohne in Kermanshah. Meine Muttersprache ist Persisch, und ich spreche auch Englisch. Ich habe angefangen, Deutsch zu lernen. Um in Deutschland zu studieren, muss ich Deutsch lernen. Ich bin sicher, dass ich diese Sprache sehr schnell lernen werde.
+
+## ۱۸ مهر — مرور ۵ درس ۶ (سؤال‌ها)
+- ❓ جای nicht در `warum es heute nicht fertig sein kann` ⟵ قانون کلی nicht (چهار «قبل از») ⟵ grammar.md ۲۳ + مرور درس ۱۰
+- ❓ «چرا es در `aber ich werde es versuchen`؟ نمیشه بی es؟» · «چطور بفهمم es لازم داره؟» ⟵ ابزار دوسؤالی (فعل «چی را» می‌خواهد؟ · «چی» در جمله هست؟) + سرنخ «ـش» ⟵ تست ۴/۴ ✅ ⟵ grammar.md ۲۴
+- آزمون جمعه ۲: گفت «فعلاً نساز» (۱۸ مهر)
