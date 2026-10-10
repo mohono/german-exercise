@@ -151,5 +151,13 @@ td.f.on,p.pp.on{background:var(--accent-soft)}
 })();
 </script>
 <!--/conj-audio-->
+<!--theme-btn--><button id="themeBtn" style="position:fixed;bottom:16px;left:16px;z-index:9;font:inherit;font-size:.9rem;border:1px solid #CBD8E2;background:#fff;color:#10202C;border-radius:20px;padding:7px 13px;cursor:pointer" title="روشن / خودکار">🌗 روشن</button>
+<style>@media print{#themeBtn{display:none}}</style>
+<script>(function(){var b=document.getElementById('themeBtn'),r=document.documentElement,K='sarf-theme';
+function paint(){b.textContent=r.getAttribute('data-theme')==='light'?'🌗 خودکار':'🌗 روشن';}
+try{if(localStorage.getItem(K)==='light')r.setAttribute('data-theme','light');}catch(e){}
+paint();
+b.addEventListener('click',function(){if(r.getAttribute('data-theme')==='light'){r.removeAttribute('data-theme');try{localStorage.removeItem(K)}catch(e){}}else{r.setAttribute('data-theme','light');try{localStorage.setItem(K,'light')}catch(e){}}paint();});
+})();</script><!--/theme-btn-->
 </body>
 </html>
