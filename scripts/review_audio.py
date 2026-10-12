@@ -26,7 +26,7 @@ import zlib
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from mock_build import EDGE_CACHE, edge_path  # noqa: E402
+from mock_build import EDGE_CACHE, edge_path, edge_proxy  # noqa: E402
 
 # male voices switched 17 Mehr 1405 at her request: Conrad/Killian sounded read-aloud; Florian (new generation) and Jonas (Austrian) natural
 VOICES = ["de-DE-FlorianMultilingualNeural", "de-DE-KatjaNeural", "de-AT-JonasNeural", "de-DE-AmalaNeural"]
@@ -186,7 +186,7 @@ async def synth(jobs, workers=3):
                 if state["blocked"]:
                     return
                 try:
-                    await edge_tts.Communicate(text, voice).save(str(tmp))
+                    await edge_tts.Communicate(text, voice, proxy=edge_proxy()).save(str(tmp))
                     tmp.replace(out)  # atomic: an interrupted run never leaves a half-written clip in the cache
                     state["ok"] += 1
                     state["bad"] = 0

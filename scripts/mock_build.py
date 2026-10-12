@@ -33,6 +33,13 @@ def edge_path(voice, text):
     return EDGE_CACHE / f"{key}.mp3"
 
 
+def edge_proxy():
+    """edge-tts ignores the proxy environment unless told. Since Microsoft changed the Read Aloud service
+    (Oct 2026, rany2/edge-tts#490) synthesis only works over some routes, so a configured proxy must be used."""
+    import os
+    return os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy") or None
+
+
 async def edge_synth(jobs):
     import edge_tts
     EDGE_CACHE.mkdir(parents=True, exist_ok=True)
@@ -40,7 +47,14 @@ async def edge_synth(jobs):
         out = edge_path(voice, text)
         if not out.exists() or out.stat().st_size == 0:
             tmp = out.with_suffix(".part")
-            await edge_tts.Communicate(text, voice).save(str(tmp))
+            for attempt in range(5):  # the service now refuses a request now and then (403): try again
+                try:
+                    await edge_tts.Communicate(text, voice, proxy=edge_proxy()).save(str(tmp))
+                    break
+                except Exception:  # noqa: BLE001
+                    if attempt == 4:
+                        raise
+                    await asyncio.sleep(2 + 2 * attempt)
             tmp.replace(out)  # atomic: an interrupted run never leaves a half-written clip in the cache
 
 
