@@ -1,6 +1,6 @@
 {
  "_readme": "فهرست زنده‌ی فعل‌هایی که فاطمه یاد گرفته — گذشته‌ی گفتاری (Perfekt). بعد از هر درس فعل‌های تازه اضافه شوند و صفحه با `python scripts/verbs_build.py` دوباره ساخته شود. group: special · weak · mixed · sep · strong · noge. aux: haben/sein. note اختیاری.",
- "updated": "۱۵ مهر ۱۴۰۵ — تا درس ۱۰ بلوک ۱۱",
+ "updated": "2026-10-12 (۲۰ مهر ۱۴۰۵) — sparen · stehen",
  "verbs": [
   {
    "inf": "sein",
@@ -808,6 +808,22 @@
    "aux": "haben",
    "pp": "studiert",
    "note": "-ieren"
+  },
+  {
+   "inf": "sparen",
+   "fa": "پس‌انداز کردن",
+   "group": "weak",
+   "aux": "haben",
+   "pp": "gespart",
+   "note": "Geld sparen — بدون حرف تعریف"
+  },
+  {
+   "inf": "stehen",
+   "fa": "ایستادن",
+   "group": "strong",
+   "aux": "haben",
+   "pp": "gestanden",
+   "note": "وضعیت ⟵ haben · دوقلوی aufstehen (sein)"
   }
  ]
 }

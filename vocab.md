@@ -48,3 +48,6 @@
 | `die Muttersprache · der Beruf` | زبان مادری · شغل |  | ۱۰–۱۱ |
 | `das Studium · die Auswanderung · die Gelegenheit` | تحصیل · مهاجرت · فرصت |  | ۱۰–۱۱ |
 | `zum Beispiel` | برای مثال |  | ۱۰–۱۱ |
+| `sparen – gespart` | پس‌انداز کردن | `Geld sparen` — پول کلی، بدون حرف تعریف | ۱۰–۱۱ (مرور ۲) |
+| `das Geld` · `das Auto` | پول · ماشین | `um ein Auto zu kaufen` | ۱۰–۱۱ (مرور ۲) |
+| `stehen – hat gestanden` | ایستادن | وضعیت ⟵ `haben` · ≠ `aufstehen – ist aufgestanden` | ۱۰–۱۱ |
