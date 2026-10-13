@@ -96,6 +96,18 @@ def speakable(inner):
     return text
 
 
+def tap_voice(text):
+    """Stable voice per text. The Multilingual voice guesses the language from the text itself, and for a
+    lone word or a short phrase (man, die, war, so, hat …) it guesses English — she heard it on 21 Mehr 1405.
+    So it only reads real sentences; anything short goes to the three German-only voices."""
+    h = zlib.crc32(text.encode("utf-8"))
+    voice = VOICES[h % len(VOICES)]
+    if "Multilingual" in voice and len(text.split()) < 6:
+        mono = [v for v in VOICES if "Multilingual" not in v]
+        voice = mono[h % len(mono)]
+    return voice
+
+
 def tap_spans(page, first_key):
     """Give every speakable German span outside the banks a data-a key. Returns (page, jobs)."""
     out, jobs, keys = [], [], {}
@@ -157,7 +169,7 @@ def tap_spans(page, first_key):
             continue
         if text not in keys:
             keys[text] = f"k{first_key + len(keys)}"
-            jobs.append((keys[text], VOICES[zlib.crc32(text.encode("utf-8")) % len(VOICES)], text))
+            jobs.append((keys[text], tap_voice(text), text))
         out.append(page[pos:m.start()])
         out.append(f'<span{attrs} data-a="{keys[text]}">')
         pos = m.end()
@@ -229,6 +241,9 @@ def process(path):
                 return r.group(0)
             dv = re.search(r'data-voice="([^"]+)"', q[0].group(1))
             voice = dv.group(1) if dv else VOICES[n % len(VOICES)]  # a cell may fix its speaker (dialogues)
+            if not dv and "Multilingual" in voice and len(text.split()) < 6:  # short text: it may guess English
+                mono = [v for v in VOICES if "Multilingual" not in v]
+                voice = mono[n % len(mono)]
             key = f"a{n}"
             jobs.append((key, voice, text))
             n += 1
