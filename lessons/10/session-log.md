@@ -371,3 +371,5 @@
 | دوشغله | `was · wo · wer · wann · warum …` | اول جمله ⟵ سؤال مستقیم (فعل ۲) · وسط جمله ⟵ در (فعل آخر) |
 
   نمونه‌ها: `Was möchten Sie?` · `Ich weiß nicht, was Sie möchten.` · `Wenn ich Zeit habe, komme ich.` · `Ich komme, wenn ich Zeit habe.` · تست: «تیکه تنهایی کامل است؟» (`Wenn ich Zeit habe.` ❌)
+- دور ۴: ۱ ✅ `Ich weiß nicht, wo er ist.` («دیدی بعد از nicht کاما اومد» ⟵ کاما به‌خاطر در است، نه nicht) · ۲ `Hast du gewisen, ob er kranken war` ⟵ `Wusstest du, dass sie krank war?` (wissen جزو ده تا · dass/ob · er/sie · krank) · ۳ `wuerde es dir sagen` ⟵ ich جا ماند + es بعد از wissen
+- 📌 **تمرین آینده (خواسته‌ی صریح): «این فعل‌هایی که es می‌خوان هم یادداشت کن تمرین کنیم»** ⟵ فعل‌هایی که «چی را؟» می‌خواهند و وقتی «چی» در جمله نیست es می‌گیرند: `wissen · sagen · versuchen · machen · tun · vergessen · verstehen · glauben · sehen · kaufen` در برابر بدون es: `warten · antworten · schlafen · kommen · arbeiten` (grammar.md ردیف ۲۴) · صف تمرین‌ها بعد از دور ۴: ① انعکاسی‌ها ② es
