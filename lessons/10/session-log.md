@@ -361,3 +361,13 @@
 - 🔴 باز: **ترتیب پشت wenn** (Wenn habe ich / könnte ich / hätte ich / wäre ich — ۴ بار) ⟵ خودش: «به خاطر خستگی از دستم در رفت»، تمرین جدا را نخواست ⟵ در آزمون جمعه چک شود
 - 🔴 باز: صرف با ضمیر (ihr wollt · sie wollte · sie hatten) · سرریز از جمله‌ی قبل · املا (verestehen · heir · aufsheten)
 - 📌 «باید استاد صرف شوم» — بعد از دورها: «تلفیق و تست پشت هم»
+- دور ۳ (mögen/wollen/sollen): ۷/۱۰ بار اول ✅ · لغزش‌ها: «قرار است» ⟵ sollten (soll) · `Du solltest ausruhen` (dich جا ماند) ⟵ 📌 خودش: «بعد از اتمام صرف افعال، فعل‌های انعکاسی هم تمرین کنیم» · `Was Sie wollen?` (ترتیب + möchten)
+- ❓ «چرا wenn اول جمله در بود ولی was نبود؟» ⟵ تست «این تیکه تنهایی جمله‌ی کامل است؟» · کل تیکه‌ی wenn = خانه‌ی ۱
+- 📌📌 **برای انکی (خواسته‌ی صریح: «اون جدول دوگروه رو ثبت کن که بعداً انکیش کنیم»):**
+
+| گروه | کلمه‌ها | شغل |
+|---|---|---|
+| همیشه در | `wenn · dass · weil · ob` | فعل آخر، هر جا باشند |
+| دوشغله | `was · wo · wer · wann · warum …` | اول جمله ⟵ سؤال مستقیم (فعل ۲) · وسط جمله ⟵ در (فعل آخر) |
+
+  نمونه‌ها: `Was möchten Sie?` · `Ich weiß nicht, was Sie möchten.` · `Wenn ich Zeit habe, komme ich.` · `Ich komme, wenn ich Zeit habe.` · تست: «تیکه تنهایی کامل است؟» (`Wenn ich Zeit habe.` ❌)
