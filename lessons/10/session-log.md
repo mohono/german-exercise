@@ -392,3 +392,5 @@
 | ✅ | زمان، مکان | `um morgen dort zu sein` |
 
   چند تا با هم، با ترتیب نردبان: `um zu sprechen` ⟵ `um mit dir zu sprechen` ⟵ `um morgen mit dir zu sprechen` ⟵ `um morgen in Wien mit dir zu sprechen` (تا فردا در وین با تو صحبت کنم) · ⟵ فایل مرور ۱۰ (خانه‌ی «بین um و zu») + انکی
+- 🔧 **اصلاح من:** جدول اوملات دیروز «"اگر…" ⟵ خیالی» گفته بود — زیادی کلی. سؤال خودش: «مگه اگر آرزو یا خیال یا امکان نیست؟» ⟵ دو نوع شرط: واقعی («اگر وقت **داشته باشم**، می‌آیم» ⟵ `Wenn ich Zeit habe, komme ich`) / خیالی («اگر وقت **داشتم**، می‌آمدم» ⟵ hätte · würde) · سرنخ: التزامی حال بعد از «اگر» ⟵ واقعی؛ ظاهر گذشته ⟵ خیالی · «امکان» = واقعی
+- جمله‌ی بلند ۲ بعد از داربست ✅ `Wenn ich Zeit habe, rufe ich dich morgen an, um mit dir zu sprechen.` · لغزش‌ها: hätte (×۲) · `anrufe` (خودش: «از لگوها دور موندیم!») · `dich ich` ⟵ ich dich (فاعل درست پشت کت‌پوش)
