@@ -381,3 +381,14 @@
 - ❓ «گذشته‌ی ده فعل هیچ‌کدوم اوملات نداره؟» ⟵ آره؛ اوملات فقط فرضی · wollen/sollen هرگز
 - ۴ ✅ `Wissen Sie, ob er kommt?` · ۵ ✅ (+ نسخه‌ی بی‌فاعل: ویرگول هم با فاعل می‌رود) · ۶ ✅ · ۷ `würde` به‌جای will («بشود التزامی است» ⟵ **التزامی فارسی بعد از خواستن/باید/توانستن = مصدر آلمانی، نه فرضی**) + `mochte`/`möchte` («نرم‌تر» خودش کار فرضی است: can⟵could، want⟵would like) · ۸ `Ich habe versuchen um er zu anrufen, aber hatte ich keine Ziet` ⟵ versucht · بی um · ihn · anzurufen · aber ich hatte («جایگاه ۱ با یه جمله پر شده» ⟵ فقط برای تیکه‌ی در؛ تست «تنهایی کامله؟») · ۹ `wir durfte` ⟵ durften · ۱۰ `Würden wir Geld haben … abfahren … in Deutschlan zu studeiren` ⟵ hätten · nach Deutschland gehen · dort · studieren (شرط بی wenn با فعل اول = واقعی، B1)
 - 💡 **کشف خودش (۲۳ مهر):** «تست‌ها برای جمله‌های کوچیک بودن… توی استفاده دیگه نمی‌شه فکر کنی… پس باید از این جملات چالش‌دار بیشتر تمرین کنیم» ⟵ **روش جمله‌ی بلند، چهار قدم:** ① ببُر (سر اگر/که/تا/ولی/و/چون) ② اسم بگذار (در · اصلی · چسب · پل ⟵ جای کت‌پوش) ③ هر تیکه جدا با تست خودش ④ وصل کن (ویرگول؛ در اول ⟵ فعل تیکه‌ی بعد فوراً) · از این به بعد: هر تمرین با ۲–۳ جمله‌ی چالشی تمام شود · آزمون: بخش «جمله‌ی بلند»
+- جمله‌ی بلند ۱ ✅ (`Ich weiß es, dass` ⟵ es زائد: «چی» = تیکه‌ی dass) · ۲ `Wenn ich Zeit haette, anrufe sie ich, um sie zu fragen` ⟵ habe («داشته باشم» واقعی / «داشتم» خیالی) · rufe ich dich morgen an · um mit dir zu sprechen · مستقیم ساخت و قدم ① را رد کرد ⟵ «تست هر قدم یعنی چی؟» ⟵ یادداشت کوتاه برای هر تیکه
+- ❓ «بین um و zu چیا می‌ذاریم؟ حس می‌کنم گیر اینجاست» ⟵ 📌📌 **خواسته‌ی صریح: «اون جدول بین um و zu رو ثبت کن، می‌خوامش»:**
+
+| وسط می‌آید؟ | چی | نمونه |
+|---|---|---|
+| ❌ هرگز | فاعل (همان فاعل جمله‌ی اصلی) | — |
+| ✅ | آدمی که کار به او / روی او است | `um dich zu fragen` |
+| ✅ | حرف اضافه + آدم | `um mit dir zu sprechen` |
+| ✅ | زمان، مکان | `um morgen dort zu sein` |
+
+  چند تا با هم، با ترتیب نردبان: `um zu sprechen` ⟵ `um mit dir zu sprechen` ⟵ `um morgen mit dir zu sprechen` ⟵ `um morgen in Wien mit dir zu sprechen` (تا فردا در وین با تو صحبت کنم) · ⟵ فایل مرور ۱۰ (خانه‌ی «بین um و zu») + انکی
