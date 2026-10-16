@@ -400,3 +400,7 @@
 - **تمرین ② es** — خودش: «این‌طوری واضحه es می‌خواد، از اون جمله‌هایی می‌خوام که تریکی‌ان» ⟵ لیست بی «ـش»: ۱–۱۱ انجام شد · ✅ بار اول: versuche es · Wie geht es dir · Es wurde spät · `Ich habe es gekauft, aber ich habe es noch nicht gesehen` · لغزش‌ها: vergesen · `Es ist regnen` (ساختار انگلیسی ⟵ Es regnet) · `sich antgewortet` ⟵ ihm geantwortet · `sie gehulfen` ⟵ ihr geholfen · `schwer Deutsch lernen` (zu) · `Lernen Deutsch, ist schwer` ⟵ Deutsch zu lernen ist schwer · `auf sich` ⟵ auf ihn · glaubt ⟵ geglaubt · `glauben` با آدم ⟵ ihm (استثنا نیست: «یه چیزی به او باور می‌کنم» ✅)
 - 🔴 الگو: **«ـش» فارسی ⟵ sich** (۲ بار: `sich antgewortet` · `auf sich`) — sich فقط وقتی فاعل و آن آدم یکی‌اند
 - ⏸ ادامه از جمله‌ی ۱۲ («می‌دانم که سخت است، ولی امتحانش می‌کنم.») ⟵ بعد تمرین ③ «به/را»ی فریبنده ⟵ بعد قالب آزمون را بپرس (هنوز نگفته؛ «بعد از اتمام تمرین‌ها می‌گم»)
+
+## ۲۴ مهر — شیت
+- ورود روزانه: V/W ردیف ۴۰ (۲۱ مهر)، ۴۱ (۲۲ مهر)، ۴۲ (۲۳ مهر) پر شد؛ بلاک‌ها و خودمراقبتی را خودش زد · چک از داده ✅ · ردیف ۴۳ (امروز) خالی، آخر شب
+- ستون X (برنامه‌ی فردا) این سه روز خالی ماند (فقط V و W را خواست)
