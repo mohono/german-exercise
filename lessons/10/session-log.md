@@ -409,3 +409,5 @@
 - es ۱۲ ✅ `Ich weiß, dass es schwer ist, aber ich versuche es.`
 - ③: ۱ `er hat mich nicht antwortet` ⟵ mir … geantwortet («زنگ زدن را می‌گیره و جواب دادن به! خیلی باحاله!») · ۲ `dich gehulft` ⟵ dir helfen (helfen به) · ۳ ✅ · ۴ ✅ sagen ⟵ ihr · ۵ `versucht, um ihn zu fragen` ⟵ بی um («ihn رفته اول، zu جایگاه دوم، فعل چی؟» ⟵ تیکه‌ی پل جایگاه ندارد) · ۶ «wer چون فاعل نداره؟» ⟵ فاعل: das Auto ⟵ داربست ⟵ ✅ Wem gehört das Auto?
 - 📌 **تمرین آینده ④ (خواسته‌ی صریح): «این سه‌گانه (wer/wen/wem) رو یادداشت کن که تمرین جدا براشون داشته باشیم»**
+- ۷ `Sie habe sich schnell anziet` ⟵ hat … angezogen (angezogen بار دوم)
+- 📌 **تمرین آینده ⑤ (خواسته‌ی صریح): «این اسم مفعولی‌ها رو یادته یه جزوه‌ی صوتی ساختیم؟ می‌خوام یادداشت کنی که اونم همه رو تمرین کنیم، همه‌ی لغاتشو»** ⟵ لیست زنده‌ی فعل‌ها `lessons/verbs/verbs.html` (۱۱۰ فعل: کمکی + اسم مفعول) · پیشنهاد: دسته‌دسته (قوی‌ها ⚡ اول، بعد sein‌دارها، لگوها، جدانشدنی/‌ieren، باقاعده‌ها)، «تکه‌ی کامل» (کمکی + اسم مفعول)، فارسی ⟵ آلمانی، قاطی
