@@ -478,3 +478,8 @@
 - ۸ `Wem auf` ⟵ Auf wen ✅ · ۹ ✅ Wen hast du gefragt? · ۱۰ ✅ **Wem glaubst du?** (تله‌ی «کیو» رد شد) · ۱۱ `wen sagt ihr` ⟵ Ich weiß nicht, wem er es gesagt hat. ✅ · ۱۲ `Sag mir wer hier sein war, und wen du gesehen hast?` (سه تصمیم wer/wen/mir درست) ⟵ Sag mir, wer hier war und wen du gesehen hast. ✅ («قبل از und ویرگول نمیاد؟» ⟵ دو تیکه‌ی در زیر یک جمله = لیست ⟵ بی‌ویرگول)
 - ✅ **تمرین ④ wer/wen/wem تمام شد** ⟵ ساخت پوستر حروف اضافه (خواسته‌ی صریح)
 - 📌 پوستر حروف اضافه ساخته شد: `lessons/10/poster-horuf-ezafe.html` (A4، ۴۵ کلیپ صدا): ① را ② به + قلاب ③ دوحالته ⑤ حرف اضافه ≠ لگو ⑥ در سؤال یک تیکه + باور ihnen ≠ با
+
+## ۲۵ مهر — تمرین ⑤ اسم مفعول‌ها
+- خودش: «اول اونایی که شکلشون ممکنه متفاوت باشه، بعد اونایی که فرمول دارن» + «قوی‌ها رو هم علامت بزن» ⟵ ۳۱ فعل «پیش‌بینی‌نشدنی» در ۵ خانواده: A بی‌تغییر (۱۳: kommen fahren laufen geben lesen sehen schlafen tragen waschen lassen rufen heißen essen⚠️gegessen) · B ei⟵ie (bleiben schreiben) · C i⟵u (finden trinken) · D e⟵o (helfen sprechen treffen nehmen⚠️genommen) · E تک‌تک (gehen stehen liegen schließen tun sein werden) · مختلط (denken bringen wissen) · ⚡ قوی ۲۸ / 🔸 مختلط ۳ / 🚶 sein ۷ · «یعنی این‌قدر قوی داشتیم؟ فکر می‌کردم انگشت‌شمارن» ⟵ در کل زبان ~۱۷۰، ولی پرکاربردها
+- «جمله‌هام چه سطحی بودن؟» ⟵ ساختارها A2–B1؛ خودش ~A2 (گرامر نزدیک B1 با ابزار، پایه هنوز می‌لغزد، واژگان A1–A2)
+- **خانواده‌ی A (۱۱ جمله): همه‌ی اسم مفعول‌ها درست** (حتی gegessen) · لغزش‌های کناری: sehr/viel · `hat … gekommen` ⟵ ist · mit dem Zug («dem رو تا حالا ندیده بودم» ⟵ صرف آرتیکل = همان قلاب ضمیرها: ihn/den · ihm/dem · ihr/der؛ ویدیوی آرتیکل‌ها را هنوز ندیده) · Boech/Buch · die Pizza ⟵ Pizza · Wo ⟵ Wohin · Alless + selbst (تازه: بی‌تغییر؛ ≠ انعکاسی؛ تأکیدی مثل auch) · die Auto ⟵ das · Huse
