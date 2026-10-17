@@ -454,3 +454,5 @@
 
 چه کنم: حفظ کن (فعلاً ۳). · یک‌خطی: دسته‌ی ۱ ⟵ به فارسی اعتماد نکن، به ورد اعتماد کن · دسته‌ی ۲ ⟵ به ورد هم اعتماد نکن، حفظ کن
 - ⏸ دور ۲ ادامه از جمله‌ی ۳ (بازنویسی `Warum hast du ihm nicht geantwortet?`)
+- 📌 **پوستر ضمیرها (خواسته‌ی صریح: «توی یه پوستر جدا همین الان درستش کن، ذخیره‌ش کن که بهش رفرنس بزنم»):** `lessons/10/poster-zamayer.html` (A4، یک صفحه) — ① جدول کامل فاعل/را/به/خودش + wer/wen/wem ② چهار قلاب ③ ورد + حروف اضافه ④ دو دسته تله ⑤ دو باور غلط (ـش ≠ sich · ihnen ≠ با) · صدا: ۳۱ از ۴۷ کلیپ (۱۶ تا 403؛ با VPN دوباره `python scripts/review_audio.py lessons/10/poster-zamayer.html`)
+- دور ۲: ۴ `Nimand hatten uns nicht gehilft` ⟵ Niemand hat uns geholfen ✅ · ۵ `Gestern hat ich ihn gesehen, und hat ich mit ihn gesprocht` ⟵ دو حالت ✅ (کشف خودش: حذف به ترتیب کاری ندارد، فقط به تکراری بودن؛ سه نسخه درست) · ۶ ✅ Ich glaube euch · ادامه از ۷
