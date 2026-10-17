@@ -464,3 +464,12 @@
 
 ## ۲۵ مهر — تمرین ④ wer/wen/wem («اونم می‌ترسونتم!»)
 - ۱ `Wen hast du angeruft` ⟵ angerufen · 📌 «این افعال قوی هم بذار توی لیست تمرین کنیم» ⟵ تمرین ⑤ با **قوی‌ها اول** (لغزش‌های این هفته: angerufen · gesprochen · geholfen · gewaschen · angezogen · aufgestanden · gewesen/gegangen)
+- ۲ `Wem hilft dir?` ⟵ «کمک کردن مگه به نمی‌گیره؟» ⟵ دو آدم؛ «کی» جای کمک‌کننده (فاعل) ⟵ Wer hat dir geholfen? ✅ · ۳ `Wen hast du gesproscher mit?` (ساختار انگلیسی) ⟵ Mit wem hast du gesprochen? («پس حرف اضافه تصمیم‌گیرنده‌ست؟»)
+- ❓ «حرف اضافه تا الان چیا دارم و چیا باید بلد باشم؟» ⟵ نقشه‌ی چهار جعبه (لیست بسته، ~۲۵ تا تا B2) ⟵ خودش: «تکی نوشته شده، خیلی مؤثر نیست؛ باید به یه چیزی که همیشه می‌چسبه بچسبونیش تا ملموس شه» ⟵ لنگر برای هر کدام، از جمله‌های خودش
+- 📌📌 **خواسته‌ی صریح: «این جدولا رو سیو کن و وقتی تمرین این دور تموم شد برام پوسترش کن»** ⟵ پوستر حروف اضافه (بعد از تمرین ④):
+
+**① همیشه «را»:** `für` ⟵ `für dich` برای تو (sich interessieren für) · `ohne` ⟵ `ohne euch` بدون شما (جمله‌ی خودش) · `durch` ⟵ `durch die Stadt` از وسط شهر · `gegen` ⟵ `gegen ihn` علیه او · `um` ⟵ `um 8 Uhr` ساعت ۸ (Seien Sie um 10 Uhr hier)
+**② همیشه «به»:** `mit` ⟵ `mit dir` با تو (آهنگ: Ich bin komplett mit dir) · `bei` ⟵ `bei ihr` پیش او (جمله‌ی خودش) · `aus` ⟵ `aus dem Iran` از ایران (معرفی خودش) · `nach` ⟵ `nach Hause` به خانه · `seit` ⟵ `seit langer Zeit` مدت‌هاست · `von` ⟵ `von mir` از طرف من · `zu` ⟵ `zu Hause` در خانه
+**③ دوحالته** (in · an · auf · über · unter · vor · hinter · neben · zwischen): جا ⟵ «به» `in der Stadt` توی شهر / حرکت ⟵ «را» `in die Stadt` به شهر · با فعل ثابت شکل ثابت (`auf ihn warten`)
+**④ Genitiv** (wegen · trotz · während · statt) — B1
+قلاب ②: «از کجا اومدی، با کی بودی، کِی برمی‌گردی خونه؟» ⟵ aus dem Iran · mit dir · nach Hause · سؤال: حرف اضافه همیشه با کلمه‌ی پرسشی اول (`Mit wem …?` · `Auf wen …?`)، نه ته جمله
