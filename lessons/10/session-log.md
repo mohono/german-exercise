@@ -499,3 +499,7 @@
   - **ملکی = دو تیکه:** ریشه از **صاحب** (mein dein sein ihr sein unser euer ihr Ihr) · پایانه از **اسم بعدی** · لغزش: `seinem Frau` ⟵ seiner (پایانه را از صاحب گرفت) · 🔧 من جمله‌ی sein- دادم بی‌آنکه ریشه‌ها را مرور کرده باشیم؛ خودش از کلاس آورد
   - سه خانه‌ی بی‌پایانه‌ی گروه ein/mein: فاعل مذکر · فاعل خنثی · «را»ی خنثی (`mein Kind` ✅ خودش درست زد)
   - تمرین: `meiner Mama anrufen` ⟵ meine … angerufen (anrufen ⟵ «را») · `meinem Vater geholfen` ✅
+- ✅ `Ich habe mit seiner Frau gesprochen.` («چرا sein؟ کننده منم» ⟵ سه نقش: کننده ⟵ فعل / صاحب ⟵ ریشه / اسم ⟵ پایانه · «این er مال ihr هست؟» آره) · «اوه چقدر پارامتر باید آنالیز کنم» ⟵ مثل رانندگی + تکه‌ها
+- مرحله‌ی ۳ جمع ✅ (`die Kinder geholfen` ⟵ den Kindern · `meinem Freunden` ⟵ meinen) · جدول کامل معرفه با ضمیر کنار هر خانه
+- 📌 خودش: «اینا که الان انجام می‌دیم صرفاً آموزشیه… بعد از ساخت پوستر و جزوه شروع کنی تمرین بارونم کنی تا جا بیفته» ⟵ بعد از پوستر: تمرین سنگین قاطی
+- مرحله‌ی ۴ نکره: ein/kein = مثل mein · `eine Tisch` ⟵ einen · `meine Freundin gesprochen` ⟵ mit einer · 💡 **باور غلط:** «مگه نگفتی یه دوست باید آخرش ein بیاد؟» ⟵ `Freundein`! ein کلمه‌ی جدا **قبل از** اسم است، مثل mein ⟵ ✅ `Ich habe mit einer Freundin gesprochen.` · نشانه‌های خستگی (املا)
