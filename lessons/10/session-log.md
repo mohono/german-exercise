@@ -503,3 +503,5 @@
 - مرحله‌ی ۳ جمع ✅ (`die Kinder geholfen` ⟵ den Kindern · `meinem Freunden` ⟵ meinen) · جدول کامل معرفه با ضمیر کنار هر خانه
 - 📌 خودش: «اینا که الان انجام می‌دیم صرفاً آموزشیه… بعد از ساخت پوستر و جزوه شروع کنی تمرین بارونم کنی تا جا بیفته» ⟵ بعد از پوستر: تمرین سنگین قاطی
 - مرحله‌ی ۴ نکره: ein/kein = مثل mein · `eine Tisch` ⟵ einen · `meine Freundin gesprochen` ⟵ mit einer · 💡 **باور غلط:** «مگه نگفتی یه دوست باید آخرش ein بیاد؟» ⟵ `Freundein`! ein کلمه‌ی جدا **قبل از** اسم است، مثل mein ⟵ ✅ `Ich habe mit einer Freundin gesprochen.` · نشانه‌های خستگی (املا)
+- مرحله‌ی ۵ dieser/jeder/welcher ✅ (`dieser Mann` ⟵ diesen · `Ich lernen Deutsch jeden Tag` ⟵ Jeden Tag lerne ich Deutsch · زمان‌ها بی حرف اضافه ⟵ Akk (خودش شنید «زبان‌ها»!) · `Welchem Buch` ⟵ Welches · `Welcher Frau` ⟵ Mit welcher) · مرحله‌ی ۶ برعکس‌خوانی ۴/۴ ✅ + zur/zum/im/am
+- 📋 **برنامه‌ی خودش:** امروز جزوه‌ی آرتیکل‌ها ⟵ بعد بستن پرونده‌ی اسم مفعول‌ها (B–E) ⟵ جزوه‌ی صوتی همه‌ی تمرین‌ها ⟵ **فردا تمرین سنگین آرتیکل‌ها با ذهن باز**
