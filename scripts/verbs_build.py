@@ -28,9 +28,21 @@ GROUPS = [
     ("weak", "① باقاعده", "<span class=\"de\">ge</span> + ریشه + <span class=\"de\">t</span> · ریشه‌ی <span class=\"de\">d/t</span> ⟵ روغن: <span class=\"de\">gewartet</span>"),
     ("mixed", "①ب مختلط", "مثل باقاعده <span class=\"de\">ge…t</span>، ولی ریشه عوض می‌شود — حفظی"),
     ("sep", "② جداشدنی 🧱", "<span class=\"de\">ge</span> وسط: <span class=\"de\">ein·ge·kauft</span> · لگو الگوی فعل پایه را به ارث می‌برد (<span class=\"de\">kommen ⟵ angekommen</span>)"),
-    ("strong", "③ قوی ⚡", "آخرش <span class=\"de\">-en</span>، مصوت گاهی عوض می‌شود — هر کدام یک بسته 🧳 · قوی‌های <span class=\"de\">ei</span>دار معمولاً ⟵ <span class=\"de\">ie</span>"),
+    ("strong", "③ قوی ⚡", "آخرش <span class=\"de\">-en</span>، مصوت گاهی عوض می‌شود — هر کدام یک بسته 🧳 · بر اساس <b>خانواده‌ی مصوت</b> چیده شده (تمرین ⑤ درس ۱۰) · خانه‌ی «فعلاً خالی» = جای قوی‌های آینده"),
     ("refl", "🤳 انعکاسی", "<b>همیشه</b> <span class=\"de\">haben</span> · ضمیر انعکاسی درست بعد از کمکی 🎈: <span class=\"de\">Ich habe mich gestern beeilt.</span> · برای <span class=\"de\">Sie</span> رسمی هم <span class=\"de\">sich</span> (کوچک)"),
     ("noge", "④ بدون ge 🔒", "جدانشدنی (<span class=\"de\">be · emp · ent · er · ge · miss · ver · zer</span> و <span class=\"de\">über/wieder</span> بی‌تکیه) و <span class=\"de\">-ieren</span>"),
+]
+# vowel families of strong participles (lesson 10 drill ⑤, 25–29 Mehr). key = "fam" in verbs.json.
+# Empty families are future boxes: shown on the map so new strong verbs have a known place.
+FAMS = [
+    ("A", "A · بی‌تغییر", "مصوت مصدر می‌ماند: <span class=\"de\">kommen ⟵ gekommen</span> · ⚠️ <span class=\"de\">essen ⟵ gegessen</span>"),
+    ("B", "B · ei ⟵ ie", "<span class=\"de\">bleiben ⟵ geblieben</span>"),
+    ("Bi", "B۲ · ei ⟵ i (حرف بعد دوتا)", "فعلاً خالی · بعداً: <span class=\"de\">schneiden ⟵ geschnitten</span>"),
+    ("C", "C · i ⟵ u", "<span class=\"de\">finden ⟵ gefunden</span>"),
+    ("Co", "C۲ · i ⟵ o", "فعلاً خالی · بعداً: <span class=\"de\">beginnen ⟵ begonnen</span>"),
+    ("D", "D · e ⟵ o", "<span class=\"de\">helfen ⟵ geholfen</span> · ⚠️ <span class=\"de\">nehmen ⟵ genommen</span>"),
+    ("Do", "D۲ · ie ⟵ o", "<span class=\"de\">schließen ⟵ geschlossen</span> · بعداً: <span class=\"de\">fliegen ⟵ geflogen</span>"),
+    ("E", "E · تک‌تک", "هر کدام مال خودش: <span class=\"de\">gehen ⟵ gegangen · stehen ⟵ gestanden · tun ⟵ getan</span> (و <span class=\"de\">sein · werden</span> در ⓪)"),
 ]
 PRON = [("ich", "ich"), ("du", "du"), ("er/sie/es", "er"), ("wir", "wir"), ("ihr", "ihr"), ("sie/Sie", "sie")]
 REFL = ["mich", "dich", "sich", "uns", "euch", "sich"]
@@ -81,6 +93,7 @@ h2 small{font-weight:500;color:var(--ink3);font-size:.85rem}
 .f{display:flex;gap:6px;align-items:baseline;direction:ltr;font-size:.9rem}
 .f .p{color:var(--ink3);min-width:4.6em;font-family:'IBM Plex Sans',sans-serif;font-size:.82rem}
 .f .say{font-weight:500;cursor:pointer}
+.famh{padding:6px 10px;background:var(--surface2);border-bottom:1px solid var(--line2);font-size:.9rem}.famh small{color:var(--ink3);margin-inline-start:4px}.famh span{display:block;color:var(--ink2);font-size:.84rem}
 .hidden{display:none!important}
 .fab{position:fixed;bottom:16px;left:16px;z-index:9}
 .fab button{font:inherit;font-size:.85rem;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:20px;padding:7px 13px;cursor:pointer}
@@ -146,32 +159,48 @@ def main():
 
     e = html.escape
     sections = []
+    def group_verbs(gid):
+        vs = [v for v in verbs if v["group"] == gid]
+        if gid != "strong":
+            return [(None, vs)]
+        return [(f, [v for v in vs if v.get("fam") == f[0]]) for f in FAMS] + \
+               [(("?", "بی‌خانواده", ""), [v for v in vs if v.get("fam") not in {f[0] for f in FAMS}])]
+
+    def verb_row(vb):
+        # stable per verb: position in verbs.json (append-only), so adding verbs never re-voices old ones
+        voice = VOICES[verbs.index(vb) % len(VOICES)]
+        k_inf = clip(voice, vb["inf"])
+        k_pp = clip(voice, vb["pp"])
+        forms = []
+        for (shown, spoken), aux, rp in zip(PRON, AUX[vb["aux"]], REFL):
+            mid = f"{aux} {rp}" if vb.get("refl") else aux
+            k = clip(voice, f"{spoken} {mid} {vb['pp']}")
+            forms.append(f'<div class="f"><span class="p">{e(shown)}</span><span class="say tap" data-a="{k}">{e(mid)} {e(vb["pp"])}</span></div>')
+        note = f'<small>{e(vb["note"])}</small>' if vb.get("note") else ""
+        key = e(f'{vb["inf"]} {vb["pp"]} {vb["fa"]}'.lower())
+        strong = vb["pp"].endswith("en")
+        end = '<span class="end en">⚡-en</span>' if strong else '<span class="end t">-t</span>'
+        return (
+            f'<div class="v {vb["aux"]}{" strong-end" if strong else ""}" data-k="{key}">'
+            f'<span class="inf"><span class="tap" data-a="{k_inf}">{e(vb["inf"])}</span></span>'
+            f'<span class="fa">{e(vb["fa"])}{note}</span>'
+            f'<span><span class="pill {vb["aux"]}">{vb["aux"]}</span></span>'
+            f'<span class="pp"><span class="tap" data-a="{k_pp}">{e(vb["pp"])}</span>{end}</span>'
+            f'<span class="chev">▾</span>'
+            f'<div class="conj">{"".join(forms)}</div></div>')
+
     for gid, title, rule in GROUPS:
         rows = []
-        for vb in [v for v in verbs if v["group"] == gid]:
-            # stable per verb: position in verbs.json (append-only), so adding verbs never re-voices old ones
-            voice = VOICES[verbs.index(vb) % len(VOICES)]
-            k_inf = clip(voice, vb["inf"])
-            k_pp = clip(voice, vb["pp"])
-            forms = []
-            for (shown, spoken), aux, rp in zip(PRON, AUX[vb["aux"]], REFL):
-                mid = f"{aux} {rp}" if vb.get("refl") else aux
-                k = clip(voice, f"{spoken} {mid} {vb['pp']}")
-                forms.append(f'<div class="f"><span class="p">{e(shown)}</span><span class="say tap" data-a="{k}">{e(mid)} {e(vb["pp"])}</span></div>')
-            note = f'<small>{e(vb["note"])}</small>' if vb.get("note") else ""
-            key = e(f'{vb["inf"]} {vb["pp"]} {vb["fa"]}'.lower())
-            strong = vb["pp"].endswith("en")
-            end = '<span class="end en">⚡-en</span>' if strong else '<span class="end t">-t</span>'
-            rows.append(
-                f'<div class="v {vb["aux"]}{" strong-end" if strong else ""}" data-k="{key}">'
-                f'<span class="inf"><span class="tap" data-a="{k_inf}">{e(vb["inf"])}</span></span>'
-                f'<span class="fa">{e(vb["fa"])}{note}</span>'
-                f'<span><span class="pill {vb["aux"]}">{vb["aux"]}</span></span>'
-                f'<span class="pp"><span class="tap" data-a="{k_pp}">{e(vb["pp"])}</span>{end}</span>'
-                f'<span class="chev">▾</span>'
-                f'<div class="conj">{"".join(forms)}</div></div>')
-        if rows:
-            sections.append(f'<section data-g="{gid}"><h2>{title} <small>{len(rows)} فعل</small></h2>'
+        for fam, members in group_verbs(gid):
+            if fam is not None:
+                if not members and fam[0] == "?":
+                    continue
+                rows.append(f'<div class="famh"><b>{fam[1]}</b> <small>{len(members)} فعل</small>'
+                            f'<span>{fam[2]}</span></div>')
+            rows.extend(verb_row(vb) for vb in members)
+        n = sum(1 for v in verbs if v["group"] == gid)
+        if n:
+            sections.append(f'<section data-g="{gid}"><h2>{title} <small>{n} فعل</small></h2>'
                             f'<p class="rule">{rule}</p><div class="tw">{"".join(rows)}</div></section>')
 
     asyncio.run(edge_synth([(v, t) for _, v, t in jobs]))

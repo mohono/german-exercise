@@ -1,6 +1,6 @@
 {
  "_readme": "فهرست زنده‌ی فعل‌هایی که فاطمه یاد گرفته — گذشته‌ی گفتاری (Perfekt). بعد از هر درس فعل‌های تازه اضافه شوند و صفحه با `python scripts/verbs_build.py` دوباره ساخته شود. group: special · weak · mixed · sep · strong · noge. aux: haben/sein. note اختیاری.",
- "updated": "2026-10-12 (۲۰ مهر ۱۴۰۵) — sparen · stehen",
+ "updated": "2026-10-21 (۲۹ مهر ۱۴۰۵) — قوی‌ها بر اساس خانواده‌ی مصوت",
  "verbs": [
   {
    "inf": "sein",
@@ -368,77 +368,88 @@
    "group": "strong",
    "aux": "sein",
    "pp": "geblieben",
-   "note": "ei ⟵ ie · حفظی در لیست sein"
+   "note": "ei ⟵ ie · حفظی در لیست sein",
+   "fam": "B"
   },
   {
    "inf": "essen",
    "fa": "خوردن",
    "group": "strong",
    "aux": "haben",
-   "pp": "gegessen"
+   "pp": "gegessen",
+   "fam": "A"
   },
   {
    "inf": "fahren",
    "fa": "رفتن (با وسیله)",
    "group": "strong",
    "aux": "sein",
-   "pp": "gefahren"
+   "pp": "gefahren",
+   "fam": "A"
   },
   {
    "inf": "finden",
    "fa": "پیدا کردن",
    "group": "strong",
    "aux": "haben",
-   "pp": "gefunden"
+   "pp": "gefunden",
+   "fam": "C"
   },
   {
    "inf": "geben",
    "fa": "دادن",
    "group": "strong",
    "aux": "haben",
-   "pp": "gegeben"
+   "pp": "gegeben",
+   "fam": "A"
   },
   {
    "inf": "gehen",
    "fa": "رفتن (پیاده)",
    "group": "strong",
    "aux": "sein",
-   "pp": "gegangen"
+   "pp": "gegangen",
+   "fam": "E"
   },
   {
    "inf": "helfen",
    "fa": "کمک کردن",
    "group": "strong",
    "aux": "haben",
-   "pp": "geholfen"
+   "pp": "geholfen",
+   "fam": "D"
   },
   {
    "inf": "kommen",
    "fa": "آمدن",
    "group": "strong",
    "aux": "sein",
-   "pp": "gekommen"
+   "pp": "gekommen",
+   "fam": "A"
   },
   {
    "inf": "lassen",
    "fa": "گذاشتن، اجازه دادن",
    "group": "strong",
    "aux": "haben",
-   "pp": "gelassen"
+   "pp": "gelassen",
+   "fam": "A"
   },
   {
    "inf": "laufen",
    "fa": "دویدن، پیاده رفتن",
    "group": "strong",
    "aux": "sein",
-   "pp": "gelaufen"
+   "pp": "gelaufen",
+   "fam": "A"
   },
   {
    "inf": "lesen",
    "fa": "خواندن",
    "group": "strong",
    "aux": "haben",
-   "pp": "gelesen"
+   "pp": "gelesen",
+   "fam": "A"
   },
   {
    "inf": "liegen",
@@ -446,35 +457,40 @@
    "group": "strong",
    "aux": "haben",
    "pp": "gelegen",
-   "note": "در اتریش و جنوب: sein"
+   "note": "در اتریش و جنوب: sein",
+   "fam": "E"
   },
   {
    "inf": "nehmen",
    "fa": "برداشتن، گرفتن",
    "group": "strong",
    "aux": "haben",
-   "pp": "genommen"
+   "pp": "genommen",
+   "fam": "D"
   },
   {
    "inf": "rufen",
    "fa": "صدا زدن",
    "group": "strong",
    "aux": "haben",
-   "pp": "gerufen"
+   "pp": "gerufen",
+   "fam": "A"
   },
   {
    "inf": "schlafen",
    "fa": "خوابیدن",
    "group": "strong",
    "aux": "haben",
-   "pp": "geschlafen"
+   "pp": "geschlafen",
+   "fam": "A"
   },
   {
    "inf": "schließen",
    "fa": "بستن",
    "group": "strong",
    "aux": "haben",
-   "pp": "geschlossen"
+   "pp": "geschlossen",
+   "fam": "Do"
   },
   {
    "inf": "schreiben",
@@ -482,56 +498,64 @@
    "group": "strong",
    "aux": "haben",
    "pp": "geschrieben",
-   "note": "ei ⟵ ie"
+   "note": "ei ⟵ ie",
+   "fam": "B"
   },
   {
    "inf": "sehen",
    "fa": "دیدن",
    "group": "strong",
    "aux": "haben",
-   "pp": "gesehen"
+   "pp": "gesehen",
+   "fam": "A"
   },
   {
    "inf": "sprechen",
    "fa": "صحبت کردن",
    "group": "strong",
    "aux": "haben",
-   "pp": "gesprochen"
+   "pp": "gesprochen",
+   "fam": "D"
   },
   {
    "inf": "tragen",
    "fa": "حمل کردن، پوشیدن",
    "group": "strong",
    "aux": "haben",
-   "pp": "getragen"
+   "pp": "getragen",
+   "fam": "A"
   },
   {
    "inf": "treffen",
    "fa": "ملاقات کردن",
    "group": "strong",
    "aux": "haben",
-   "pp": "getroffen"
+   "pp": "getroffen",
+   "fam": "D"
   },
   {
    "inf": "trinken",
    "fa": "نوشیدن",
    "group": "strong",
    "aux": "haben",
-   "pp": "getrunken"
+   "pp": "getrunken",
+   "fam": "C"
   },
   {
    "inf": "tun",
    "fa": "انجام دادن",
    "group": "strong",
    "aux": "haben",
-   "pp": "getan"
+   "pp": "getan",
+   "fam": "E"
   },
   {
    "inf": "waschen",
    "fa": "شستن",
    "group": "strong",
    "aux": "haben",
-   "pp": "gewaschen"
+   "pp": "gewaschen",
+   "fam": "A"
   },
   {
    "inf": "bekommen",
@@ -783,7 +807,8 @@
    "group": "strong",
    "aux": "haben",
    "pp": "geheißen",
-   "note": "قوی ولی ei می‌ماند"
+   "note": "قوی ولی ei می‌ماند",
+   "fam": "A"
   },
   {
    "inf": "auswandern",
@@ -823,7 +848,8 @@
    "group": "strong",
    "aux": "haben",
    "pp": "gestanden",
-   "note": "وضعیت ⟵ haben · دوقلوی aufstehen (sein)"
+   "note": "وضعیت ⟵ haben · دوقلوی aufstehen (sein)",
+   "fam": "E"
   }
  ]
 }
