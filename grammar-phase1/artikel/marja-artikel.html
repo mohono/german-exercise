@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fa" dir="rtl">
+<html lang="fa" dir="rtl" data-theme="light">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -181,5 +181,11 @@ td.chg{box-shadow:inset 0 0 0 2px var(--hi-ink)}
   <div class="box"><span class="de">-er</span> بعد از حرف اضافه ⟵ مؤنث «به» · بدون حرف اضافه ⟵ کننده‌ی مذکر (<span class="de">dieser Mann</span>) یا مؤنث «به» با فعل (<span class="de">meiner Mutter helfen</span>)</div>
 </div>
 </div>
+<button id="themeBtn" style="position:fixed;bottom:16px;left:16px;z-index:9;font:inherit;font-size:.9rem;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:20px;padding:7px 13px;cursor:pointer">🌙 شب</button>
+<style>@media print{#themeBtn{display:none}}</style>
+<script>(function(){var b=document.getElementById("themeBtn"),r=document.documentElement,K="marja-theme";
+function set(t){r.setAttribute("data-theme",t);b.textContent=t==="light"?"🌙 شب":"☀️ روز";}
+try{set(localStorage.getItem(K)==="dark"?"dark":"light")}catch(e){set("light")}
+b.addEventListener("click",function(){var t=r.getAttribute("data-theme")==="light"?"dark":"light";set(t);try{localStorage.setItem(K,t)}catch(e){}});})();</script>
 </body>
 </html>
