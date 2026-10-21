@@ -515,3 +515,5 @@
 - 🔧 «چرا نمی‌گی کجای کاریم؟» ⟵ از این به بعد N/کل کنار هر جمله (memory show-progress)
 - ✅ **دور B–E تمام (۱۱:۱۶).** الگو: مصوته‌ی وسط قوی‌ها درست حدس زده نمی‌شود (gehulfen · gewerden · getun · gewosen) ولی بعد از یک اصلاح درست ⟵ کارت انکی خانواده‌ها لازم
 - ⏭ ② دور فرمول‌دارها: ۸ جمله (باقاعده · -ieren · جدانشدنی · لگو، هر کدام ۲، قاطی)
+- **② دور فرمول‌دارها (۸ جمله):** ۱ `deinem Mutter gebesucht` ⟵ deine · besucht (⚠️ تله‌ی فارسی «به مادرت سر زدن» ⟵ Akk؛ خواسته‌ی صریح: به لیست ⟵ grammar.md تله‌ی فارسی، حالا ۴: anrufen · besuchen · fragen · glauben) ✅ · ۲ ❓ جنس Medizin ⟵ رشته‌های علمی بیشتر die (-ik · -ie) · `die Medizin` ⟵ Medizin ✅ · ❓ «کجاش -ieren داره؟» ⟵ اسم گروه از مصدر · ۳ ✅ aufgemacht · ۴ ✅ gestern Abend gekocht · ۵ ✅ verstanden · ۶ ihn ✅ (تله رد شد) · `angeruft` ⟵ angerufen (لگو شکل قوی پایه را به ارث می‌برد) ✅ · ۷ ❓ «سه ساعت» ⟵ drei Stunden بی حرف اضافه (نه für) · ❓ خواندن ⟵ lesen / lernen / studieren · `gelesen` ⟵ gelernt ✅ · ۸ `mir seine` ⟵ mit seiner ✅
+- ✅ **پرونده‌ی اسم مفعول بسته شد.** فرمول‌ها محکم‌اند (۵/۸ دفعه‌ی اول درست)؛ لغزش‌ها از آرتیکل/تله‌ی فارسی بود، نه فرمول
