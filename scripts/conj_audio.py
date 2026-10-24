@@ -61,7 +61,8 @@ def main(path):
     jobs = []
 
     def card(m):
-        voice = VOICES[card.n % len(VOICES)]
+        mono = [v for v in VOICES if "Multilingual" not in v]  # short forms: Multilingual reads them as English
+        voice = mono[card.n % len(mono)]
         card.n += 1
 
         def row(r):

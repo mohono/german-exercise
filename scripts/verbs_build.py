@@ -168,7 +168,9 @@ def main():
 
     def verb_row(vb):
         # stable per verb: position in verbs.json (append-only), so adding verbs never re-voices old ones
-        voice = VOICES[verbs.index(vb) % len(VOICES)]
+        # German-only voices: every clip here is 1–4 words, and the Multilingual voice reads short German as English (she heard it again 2 Aban 1405)
+        mono = [v for v in VOICES if "Multilingual" not in v]
+        voice = mono[verbs.index(vb) % len(mono)]
         k_inf = clip(voice, vb["inf"])
         k_pp = clip(voice, vb["pp"])
         forms = []
