@@ -31,6 +31,20 @@
 - ❓ «درست نوشتی؟» ⟵ شکل‌ها درست، ولی ستون «ساعت» ۲:۱۰ نوشته بود کنار `vierzehn Uhr` ⟵ اصلاح به ۱۴:۱۰ 🔧
 - ❓ اعداد ۰–۲۰ ⟵ جدول + منطق «یکان + zehn» مثل فارسی + چهار یاغی (`elf · zwölf · sechzehn · siebzehn`)
 - ❓ `Viertel` ⟵ کسر «یک‌چهارم» = ربع (`vier` + `-tel`، اسم ⟵ حرف بزرگ) · `dreiviertel` = سه‌ربع
+- 🛑 «دارم اعتمادمو از دست میدم» ⟵ ریشه: آماده نکردن بلوک (لغت‌های تمرین، چک لاگ قبلی، تست جدول) ⟵ بسته‌ی کامل بلوک ۱ یکجا تحویل شد · LRM دور آلمانی‌ها جا افتاده بود (فونت به‌هم می‌ریخت)
+- تمرین (۶ و ۷ آبان):
+
+| # | فارسی | اول | نهایی |
+|---|---|---|---|
+| ۱ | دوشنبه‌ها ساعت هشت و نیم میرم سر کار | `zur Arbeitet` (اسم/فعل) · `hald` | ✅ `Ich gehe montags um halb neun zur Arbeit.` |
+| ۲ | جمعه ساعت هفت و ربع بیدار شدم | `habe` · `Freitag` بی am · `viertel` | ✅ `Ich bin am Freitag um Viertel nach sieben aufgestanden.` |
+| ۳ | شب‌ها کار نمی‌کنه، ولی عصرها خیلی کار می‌کنه | `in der Nacht` · `am abends` ⟵ `Nachts` | ✅ `Er arbeitet nachts nicht, aber abends viel.` |
+| ۴ | ساعت ۱۴:۳۰ یه قرار دارم (رسمی) | `driessig` 🔁 ⟵ `fuenfzehn Uhr halb` (دو سیستم قاطی) | ✅ `Ich habe einen Termin um vierzehn Uhr dreißig.` |
+| ۵ | فردا صبح ساعت یه ربع به هشت میام | `Morgenfrue` · `viertle` ⟵ `morgenfrueh` | ✅ `Ich komme morgen früh um Viertel vor acht.` |
+
+- ❓ (۷ آبان) فرق `nach`/`vor` ⟵ «و» / «به» فارسی · تست ۳/۳ (`veirtel vier` ⟵ ie + `vor` جا افتاده؛ `viertel vier` اتریشی = ۳:۱۵!)
+- 📝 **تمرین املای باز:** `Viertel` حرف بزرگ (۳ بار) · `ei/ie` (`dreißig` · `Viertel`) 🔁
+- ✅ **بلوک ۱ بسته شد** (۷ آبان)
 - 📌 اتریشی (فقط شناختن، ÖSD Hören): `viertel drei` ۲:۱۵ · `halb drei` ۲:۳۰ · `dreiviertel drei` ۲:۴۵ ⟵ «چقدر از راهِ ساعت بعدی رفته؟»
 
 ## ⚠️ لغزش‌های تخته‌ی استاد (برای مرحله‌ی ⑤)
