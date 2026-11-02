@@ -63,6 +63,14 @@
 - جمله‌ها: ۱ `einen Auto` ⟵ ein (جنس داده نشده بود 🔧 ⟵ از این به بعد جنس در جدول لغت) · ۲ `meine Mutter ein Brief` ⟵ meiner … einen 🔁 · ۳ ✅ `mit meinen Kindern` · ۴ `Hast du kennen dieser` ⟵ `Kennst du diesen Mann?`
 - 🔧 فونت به‌هم ریخت (آلمانی + فارسی در یک خط) · `dieser` از قلم افتاده بود (خودش گرفت)
 
+### 🧠 تمرین بازیابی ۲۹ حرف اضافه (۱۱ آبان) — ایده‌ی خودش
+- خودش: «یه فرصت بده کل حروف اضافه رو بخونم، بعد ترکیبی بپرس: معنی aus؟ روی جانبی چی بود؟ نقش bei؟… همه‌ی مدل‌ها و نقش‌ها و معنی‌ها» + «اینایی که غلط می‌نویسم دوباره بعداً بپرس»
+- دور ۱ (۳۰ سؤال): کامل ۱۳ (`ohne seit durch vor mit aus zwischen ab neben über um hinter in`) · نصفه: `bei` (جعبه) · `nach` (معنی دوم) · `gegen` (جعبه) · `zu` (جعبه) · `wegen` · ندانست: `an bis statt unter von während außer trotz gegenüber` · **هندسی‌ها ۷/۹**
+- دور ۲ (صف ۱۳): همه ✅ با لنگر صحنه‌ای: `von` 🎁 «از طرف مامان» · `statt` ☕ «Tee statt Kaffee» · `außer` «همه اومدن به‌جز من» · `wegen` 💔 «wegen dir» · `während` 📱 «در طول کلاس با گوشی وَر رفتم» · `trotz` 👶 Trotzphase · `gegenüber` = gegen + über · قلاب Akk: «فُر اُ دُ گِ اُ بی» (für ohne durch gegen um bis)
+- ❓ «vom mir — چرا m؟» ⟵ ادغام فقط با آرتیکل dem؛ ضمیر ادغام نمی‌شود ⟵ تست `von mir` / `vom Lehrer` ✅ (لغزش vor/von)
+- 💡 **باور غلط کشف‌شده:** `zu` ⟵ Akk دو بار، چون «حرکت = Akk» را به همه تعمیم داده بود ⟵ 📌 «حرکت = Akk **فقط** برای هندسی‌ها؛ zu با حرکت هم Dativ» · تست `zum Arzt` Dat / `ins Kino` Akk ✅
+- املا: `waehrend` (سه بار) · `gegenueber` (اول uebergegen)
+
 ## ⚠️ لغزش‌های تخته‌ی استاد (برای مرحله‌ی ⑤)
 
 | صفحه | روی تخته | درست | چرا |
