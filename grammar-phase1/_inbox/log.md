@@ -88,6 +88,22 @@
 
 - 🎉 الگوی قدیمی «حرف اضافه‌ی حذف‌شده‌ی فارسی» (Park، ۲۹ مهر) این بار نیفتاد · جفت تازه: `zur Arbeit` (رفتن) / `bei der Arbeit` (بودن)
 
+### 🔁 بلوک ۲ دوباره باز شد (۱۱ آبان شب) — «چرا انقدر خلاصه؟»
+**📋 چک‌لیست پوشش بلوک ۲**
+| # | بخش | آیتم‌ها | جمله |
+|---|---|---|---|
+| ① | ۹ ادغام اصلی | zum · zur · im · ins · am · ans · beim · vom · aufs(🟡) | ✅ (۴ جمله + تست‌ها) |
+| ② | تکه‌های ثابت | am Montag ✅(ب۱) · am Abend ✅(ب۱) · am Wochenende ✅ · zum Glück ✅ · am Anfang ✅ · am Ende ✅ · im Sommer ✅ · zum ersten Mal ✅ · im Moment ⬜ · zum Frühstück ⬜ · im Internet ⬜ · zum Beispiel ⬜ · im Jahr ⬜ · im Mai ⬜ | ۸/۱۴ |
+| ③ | ادغام + فعل اسم‌شده | beim Essen · zum Lernen · beim Fahren | ⬜ |
+| ④ | کِی ادغام نه | تأکید · قبل از جمله‌ی موصولی (in dem Haus, in dem…) · ضمیر (von mir ✅) | ۱/۳ |
+| ⑤ | گفتاری (شناختن) | fürs · ums · übers · durchs · vors · hinters | ⬜ (فقط شناختن) |
+| ⑥ | رفتن به جاها | zu (آدم/مکان عمومی) · nach (شهر/کشور/خانه) · in (داخل) | 🟡 |
+| ⑦ | am + صفت عالی | am besten | ⟵ بلوک ۱۰–۱۱ |
+
+- ② جمله‌ها: ✅ `Zum Glück habe ich am Wochenende Zeit.` (Gluek · Wochenend · ترتیب) · ✅ `Alles war am Anfang schwer, aber es wurde am Ende gut.` (wird ⟵ wurde · End) · ✅ `Ich fahre im Sommer zum ersten Mal nach Deutschland.` (gehe ⟵ fahre)
+- ❓ «اینا اول جمله میان؟ بعدشون بلافاصله قید میاد؟» ⟵ جای ۱ ⟵ فعل بلافاصله جای ۲ · یا وسط (تأکید فرق دارد)
+- 🔧 «چرا برای لغات دیگه جمله نساختیم؟» ⟵ ۶ تکه بی‌جمله ⟵ ۴ جمله‌ی تازه · «قبلاً اینطوری نبود، گیت رو چک کن» ⟵ گیت سالم، دستورالعمل‌ها فقط افزوده شده‌اند؛ ریشه: نبودن جمله‌ی آماده در جزوه‌ی استاد ⟵ اسکیل بند ۹ (چک‌لیست پوشش)
+
 ## ⚠️ لغزش‌های تخته‌ی استاد (برای مرحله‌ی ⑤)
 
 | صفحه | روی تخته | درست | چرا |
