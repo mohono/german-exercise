@@ -132,6 +132,25 @@
   - 🚪 داخل فضا ⟵ in+Akk / in+Dat: ins Kino / im Kino · in den Park / im Park · in die Stadt / in der Stadt
 - ⏸ **سشن ۳ بسته شد (۱۳ آبان ۱۲:۵۰) — خودش: «می‌خوام یه سشن جدید باز کنم که همه چیو اونجا ادامه بدیم. سشن ۴»**
 
+### ۱۳ آبان — سشن ۴
+- 📸 گرم‌کردن ۱/۳: `Ich bin gestern um Viertel nach siebn aufgestanden.` ⟵ ✅ کمکی sein (لغزش ۷ آبان `habe aufgestanden` نیفتاد) · ✅ `Viertel` حرف بزرگ (🔁 قبلی نیفتاد) · 🔧 `siebn ⟵ sieben` (e جاافتاده، املای گفتاری) ⟵ بازنویسی ✅
+- 🔧 خودم: توضیح «sieben هم‌خانواده‌ی siebzehn/siebzig نیست» گنگ بود ⟵ اصلاح: sieben تنها کامل؛ siebzehn · siebzig · siebte (و siebente) ⟵ -en می‌افتد (📌 فایل جمع‌بندی، بخش عددها)
+- 📸 ۲/۳: `Ich habe einen Hund, und Jeden Tag gehe ich mit meinem Hund ins Park.` ⟵ ✅ `einen` (لغزش `ein Hund` نیفتاد) · ✅ `mit meinem` Dat · ✅ حرف اضافه‌ی «پارک» نیفتاد · ✅ وارونگی بعد از und · 🔧 `Jeden ⟵ jeden` · 🔧 `ins Park ⟵ in den Park` (der Park ⟵ den ادغام نمی‌شود؛ ins فقط in das — احتمالاً تعمیم از ins Kino) 🔁 مرتبط با قانون ۱۳ آبان ⟵ منتظر بازنویسی
+- ❓ 📌 «مگه نگفتی in den Park؟ چرا الان میگی der؟» ⟵ der Park = شناسنامه (Nominativ، شکل دیکشنری) · den = همان اسم در نقش «را» (Akk) · dem = نقش «به» (Dat) — مثل er/ihn/ihm · پل: جدول لغت همیشه شکل شناسنامه را می‌دهد ⟵ تمرین تشخیصی `Ich habe ___ Hund gesehen.`
+- 📸 ۲/۳ بازنویسی ۱: `… in der Park.` ⟵ ✅ jeden · 🔧 شناسنامه (der) به‌جای نقش «را» (den) — همان گره سؤال ⟵ تشخیصی هنوز جواب نگرفته؛ با داربست سه‌قدمی برگشتیم
+- ❓ 📌 «یعنی برای هر کلمه باید فکر کنی نومیناتیوه یا اکوزاتیو؟ ۱۰۰ سال باید فکر کنی» ⟵ دید کلان: ① فقط آرتیکل/ضمیر عوض می‌شود، نه اسم · ② «را» فقط در مذکر فرق دارد (der⟵den · ein⟵einen)؛ die/das/جمع ثابت · ③ بیشترش تکه‌ی آماده است (mit meinem · in den Park) · ④ مدرک: einen Hund و mit meinem Hund را همین الان بی‌فکر درست زد · مثل دنده عوض کردن در رانندگی (دانش اعلامی ⟵ رویه‌ای) · فارسی «را» را هم بی‌فکر می‌گذاری
+- 📸 ۲/۳ بازنویسی ۲ ✅ `Ich habe einen Hund, und jeden Tag gehe ich mit meinem Hund in den Park.` ⟵ تشخیصی `Ich habe ___ Hund gesehen.` (انتقال به جمله‌ی بی‌حرف اضافه)
+- تشخیصی: `einen` ⟵ ✅ نقش «را» مذکر (پایانه‌ی -en درست) · 🔧 «سگو» = معرفه ⟵ `den` · 📌 فارسی: «یه سگ» ⟵ ein- · «سگو / سگه» ⟵ d- (پل: پوستر آرتیکل‌ها، گروه معرفه/نکره)
+- تشخیصی بازنویسی: `Ich habe den Hund gesehn.` ⟵ ✅ den · 🔧 `gesehn ⟵ gesehen` ⟵ 🔁 الگوی تازه‌ی این سشن: e قبل از n آخر می‌افتد (siebn · gesehn = ۲ بار) — املای گفتاری ⟵ لیست تمرین املا
+- 📸 تشخیصی بازنویسی ✅ `Ich habe den Hund gesehen.` · ۳/۳ گرم‌کردن (`anrufen` + `antworten` Dat) رد شد به خواست خودش ⟵ بعداً قاطی تمرین‌ها
+- ⚡ خودش: «چرا انقدر هر ریسپاندو طول میدی؟» ⟵ از این به بعد لاگ دسته‌ای آخر هر بخش (حافظه: fast-replies-batch-log)
+- خودش: «بیا بریم سراغ بلوکای گرامرا داره دیر میشه»
+- ⑥ جدول جامع «رفتن به جاها» یک بار نشان داده شد (Wohin/Wo · zu/bei · nach/in · کشور آرتیکل‌دار «فعلاً ۴»: der Iran · die Schweiz · die Türkei · die USA · nach Hause/zu Hause · ins Kino/im Kino · in den Park/im Park · in die Stadt/in der Stadt)
+- ⑥-۲: `Ich gehe im sommer nach in den Iran.` ⟵ 🔧 gehe⟵fahre (دوباره) · Sommer · nach اضافه (دو حرف اضافه برای یک مقصد؛ nach فقط بی‌آرتیکل) ⟵ ✅ `Ich fahre im Sommer in den Iran.`
+- ⑥-۳ ✅ بار اول: `Ich bin jetzt in Berlin, morgen fahre ich nach Wien.` (لغت: Wien · jetzt)
+- ⑥-۴: `Ich gehe der Nacht nach Haus.` ⟵ 🔧 `in der Nacht` (🔁 حرف اضافه‌ای که فارسی حذف می‌کند) · `Hause` ⟵ 📌 «شب» = am Abend (سرِ شب) / in der Nacht (دلِ شب) · Nacht تنها استثنای am ⟵ ✅ `Ich gehe in der Nacht nach Hause.`
+- 📋 پوشش بلوک ۲: ① ✅ · ② ۱۴/۱۴ · ③ ۳/۳ · ④ ۳/۳ · ⑥ ۴/۴ · ⑤ شناختنی بدون تمرین ⟵ تست شناختن ۳ جمله (fürs · ums · übers) · ⑦ ⟵ بلوک ۱۰–۱۱
+
 ## ⚠️ لغزش‌های تخته‌ی استاد (برای مرحله‌ی ⑤)
 
 | صفحه | روی تخته | درست | چرا |
