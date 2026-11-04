@@ -153,6 +153,10 @@
 - ⑤ تست شناختن ۳/۳ ✅: `Danke fürs Kommen!` (🔧 Kommen حرف بزرگ) · `Es geht ums Geld.` (📌 تکه‌ی ثابت `es geht um + Akk` = «بحث سرِ…ـه»؛ Lesen/Hören) · `Wir sprechen übers Wetter.` (🔧 املا: sprecchen · uber⟵über)
 - ❓ 📌 «das Kommen یعنی فعل را اسم کرد؟» ⟵ Nominalisierung 🟢: هر مصدر + das ⟵ اسم · همیشه das · حرف بزرگ · بی‌تغییر (das Essen = خوردن/غذا · das Lernen · das Fahren) · پل به ③ (beim/zum) ⟵ تشخیصی `zum Lernen = zu dem Lernen` ✅
 - ✅✅ **بلوک ۲ بسته شد — پوشش ۶/۶** (⑦ am besten ⟵ بلوک ۱۰–۱۱)
+- 🧱 مرور ۱ پوستر آرتیکل‌ها (۱۳ آبان) — ۱۲ سؤال تکی قاطی: **۱۰/۱۲ بار اول (۸۳٪)** · ❓ «رمزامونو بگی اول؟» ⟵ شش رمز با مثال
+  - جدول ۷/۸: 🔧 Dat Plural der ⟵ `dem` به‌جای `den` 🔁 (۱۱ آبان هم) ⟵ با 🪞 (ihnen ⟵ n) درست شد · ✅ لغزش‌های قبلی نیفتادند: Akk Fem eine · Nom Pl sie · Dat Neut diesem · Nom Pl meine
+  - جمله‌ها ۳/۴: ✅ `Ich habe meiner Mutter einen Brief geschrieben.` (🔁 ۱۱ آبان حل شد؛ لغت der Brief را پرسید) · ✅ `Kennst du diesen Mann?` · ✅ `Ich spiele mit meinen Kindern.` · 🔧 `Ich habe das Kind gehulfen.` ⟵ dem · geholfen 🔁 ⟵ ✅
+  - ⟵ مرور ۲ (جمعه ۱۵ آبان): فقط جمع و Dativ، به‌خصوص Dat Plural و helfen+Dat
 
 ## ⚠️ لغزش‌های تخته‌ی استاد (برای مرحله‌ی ⑤)
 
