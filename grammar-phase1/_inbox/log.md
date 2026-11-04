@@ -171,6 +171,7 @@
 | ⟶ | `über` + Akk «درباره» ⟵ بلوک ۵ · stellen/stehen ⟵ بلوک ۴ (فقط اشاره) | — |
 - 📌📌 خواسته‌ی تازه (۱۳ آبان): لغت سهمیه‌ای ⟵ اسکیل §۱۱ (۱۲ در سشن · با آرتیکل · ابزاری جدا · بخش ثابت در فایل جمع‌بندی) · سهمیه‌ی امروز (عطف به ماسبق): der Tisch · die Wand · das Bild · das Buch · das Meer · das Zimmer · das Haus · das Wetter · der Brief · sitzen · spazieren gehen · jetzt = ۱۲/۱۲ · 🔧 ابزاری: Wien · hinter · unter
 - بلوک ۳ تمرین ④: `Die Kinder sitzen an dem Tisch.` ⟵ auf ✅ · `Wir gehen im Sommer am Meer.` ⟵ fahren 🔁(۳ بار امروز) · ans ⟵ ✅
+- 📊 حساب لغت تا B2: ۱۲ کلاس (تولیدی) + ~۱۰ Nicos Weg (شناختنی) = ~۲۲/روز ⟵ پیشنهاد قدم ④ نیکوس ۵⟵۱۰ · 🅿️ برای جمعه: شیت عقب + ستون تیک Nicos Weg («بهش پایبند نیستم») ⟵ `claude/پارک-ساخت.md`
 
 ## ⚠️ لغزش‌های تخته‌ی استاد (برای مرحله‌ی ⑤)
 
