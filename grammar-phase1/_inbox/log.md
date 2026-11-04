@@ -172,6 +172,15 @@
 - 📌📌 خواسته‌ی تازه (۱۳ آبان): لغت سهمیه‌ای ⟵ اسکیل §۱۱ (۱۲ در سشن · با آرتیکل · ابزاری جدا · بخش ثابت در فایل جمع‌بندی) · سهمیه‌ی امروز (عطف به ماسبق): der Tisch · die Wand · das Bild · das Buch · das Meer · das Zimmer · das Haus · das Wetter · der Brief · sitzen · spazieren gehen · jetzt = ۱۲/۱۲ · 🔧 ابزاری: Wien · hinter · unter
 - بلوک ۳ تمرین ④: `Die Kinder sitzen an dem Tisch.` ⟵ auf ✅ · `Wir gehen im Sommer am Meer.` ⟵ fahren 🔁(۳ بار امروز) · ans ⟵ ✅
 - 📊 حساب لغت تا B2: ۱۲ کلاس (تولیدی) + ~۱۰ Nicos Weg (شناختنی) = ~۲۲/روز ⟵ پیشنهاد قدم ④ نیکوس ۵⟵۱۰ · 🅿️ برای جمعه: شیت عقب + ستون تیک Nicos Weg («بهش پایبند نیستم») ⟵ `claude/پارک-ساخت.md`
+- بلوک ۳ ②③: کشف ✅ خودش «تغییر مکان» (بعد از «انتخاب فعل؟» ⟵ مثال نقض `im Park spazieren` ⟵ «حرکت و سکون؟» ⟵ داربست قبل/بعد) · قلاب «از مرز رد می‌شی؟» · Wechselpräpositionen
+- ❓ 📌 «برای بقیه قانون چیه؟ یه قانون واحد…» ⟵ سه قدم: ① شش‌تای «را»؟ ⟵ Akk تمام ② مکعب؟ ⟵ فقط اینجا «از مرز؟» ③ وگرنه Dat · ❓ «خودت قانون گذاشتی… هندسی نبود و حرکت داشت داتیو» ⟵ 🔧 تقصیر جدول من (فقط مثال حرکت+Dat) ⟵ جدول سه‌تایی durch den / aus dem / in den Park (حرکت ثابت، حالت‌ها فرق) ⟵ «اها الان اره»
+- 🔧 📌 پوستر حروف اضافه می‌گوید «حرکت ⟵ Akk» ⟵ باید «تغییر مکان ⟵ Akk» شود (کار باز)
+- تشخیصی: `durch den` ✅ · `aus den` ⟵ خودش با سه قدم: «aus از اون ۹ تا نیست ⟵ dem» ✅ · 🔁 باور «حرکت ⟵ Akk» بار دوم (بار اول zu، ۸ آبان)
+- تمرین ②: `Das Kinde spielen hinter dem Hause.` ⟵ Die Kinder · Haus (Hause فقط nach/zu Hause) ⟵ ✅ · `Mein Hund ist unter dem Tisch gegangen.` ⟵ den ⟵ ✅ · `Ich bin gestern mit meinem Frueind ins Kino gegangen.` ⟵ Freund (🔁 eu) ⟵ ✅ (Ich bin برای «رفتیم» پذیرفته)
+- ④ an/auf: کشف ✅ خودش («افقی ⟵ auf · جانبی و چسبیده ⟵ an») · 📌 am Tisch (سرِ میز) / auf dem Tisch (روی میز) · قلاب «جاذبه یا بغل/لبه؟»
+- ❓ 📌⭐ «عکس مادر من — مبحث تازه؟» (خودش قبل از من گرفت 🔧) ⟵ von + Dat (پل *of*) · گنتیو ⟵ بلوک ۷ · ⭐ خودش: «خیلی مهمه که اسم دوم داتیو می‌شه و اسم اول نقش خودشو داره» · تشخیصی `das Auto von meinem Vater` ✅
+- `Das Bild von meinem Mutter ist an dem Wand von dem Zimmer.` ⟵ meiner · der (جنس چک نشد، دو مؤنث) · in meinem Zimmer ⟵ ✅ `Das Bild von meiner Mutter ist an der Wand in meinem Zimmer.`
+- 📋 پوشش بلوک ۳: ۴/۶ (② ③ ④ ⑥) · مانده: ① ۹ هندسی · ⑤ زمان
 
 ## ⚠️ لغزش‌های تخته‌ی استاد (برای مرحله‌ی ⑤)
 
