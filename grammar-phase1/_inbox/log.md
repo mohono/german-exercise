@@ -121,6 +121,17 @@
 - 🔧 فونت دوباره به‌هم ریخت (خط ترکیبی بعد از جدول) ⟵ همه‌چی در جدول
 - ⏸ شام (۱۲ آبان) ⟵ **ادامه:** بازنویسی ⑥-۲ (`Ich fahre im Sommer in den Iran.`) ⟵ ⑥-۳ «الان برلینم، فردا می‌رم وین» ⟵ ⑥-۴ «شب می‌رم خونه» ⟵ بستن بلوک ۲ (پوشش) ⟵ بلوک ۳
 
+### ۱۳ آبان (سشن ۳، آخر)
+- ❓ «ادغام فقط وقتی پشتش dem یا das باشه؟» ⟵ 📌 قانون کامل: dem یا das + **تنها** zur (der فقط با zu) · den/die هیچ‌وقت · اسم خاص/ضمیر نه (دیروز zur را از «قانون همیشگی» جا انداخته بودم 🔧)
+- 📌📌 خودش: «این جدول باید جامع‌تر شه… اشاره نشده چرا ماریا bei گرفته ولی دکتر beim… خیلی مرتب توش توضیح باشه» ⟵ **جدول جامع «رفتن به جاها»** (برای فایل جمع‌بندی، با 🔊 همه‌ی مثال‌ها):
+  - دو سؤال: ① رفتن یا بودن؟ ② نوع مقصد؟
+  - 👤 آدم/خدماتی ⟵ zu / bei (Dat): Maria ⟵ zu Maria / bei Maria (اسم خاص) · der Arzt ⟵ zum / beim · die Ärztin ⟵ zur / bei der · ihm ⟵ zu ihm / bei ihm
+  - 🏙️ شهر + کشور بی‌آرتیکل ⟵ nach / in: nach Berlin / in Berlin · nach Deutschland / in Deutschland
+  - ⚠️ کشور با آرتیکل ⟵ in+Akk / in+Dat: in den Iran / im Iran · in die Schweiz / in der Schweiz · in die Türkei / in der Türkei
+  - 🏠 nach Hause / zu Hause (قراردادی)
+  - 🚪 داخل فضا ⟵ in+Akk / in+Dat: ins Kino / im Kino · in den Park / im Park · in die Stadt / in der Stadt
+- ⏸ **سشن ۳ بسته شد (۱۳ آبان ۱۲:۵۰) — خودش: «می‌خوام یه سشن جدید باز کنم که همه چیو اونجا ادامه بدیم. سشن ۴»**
+
 ## ⚠️ لغزش‌های تخته‌ی استاد (برای مرحله‌ی ⑤)
 
 | صفحه | روی تخته | درست | چرا |
