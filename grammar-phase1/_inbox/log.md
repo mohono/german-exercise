@@ -158,6 +158,20 @@
   - جمله‌ها ۳/۴: ✅ `Ich habe meiner Mutter einen Brief geschrieben.` (🔁 ۱۱ آبان حل شد؛ لغت der Brief را پرسید) · ✅ `Kennst du diesen Mann?` · ✅ `Ich spiele mit meinen Kindern.` · 🔧 `Ich habe das Kind gehulfen.` ⟵ dem · geholfen 🔁 ⟵ ✅
   - ⟵ مرور ۲ (جمعه ۱۵ آبان): فقط جمع و Dativ، به‌خصوص Dat Plural و helfen+Dat
 
+### 🧊 بلوک ۳ — هندسی‌ها: حرکت/سکون (۱۳ آبان، ۱۵:۱۰)
+**📋 چک‌لیست پوشش بلوک ۳ (تا B2)**
+| # | آیتم | جمله |
+|---|---|---|
+| ① | ۹ هندسی با معنی (مکعب) — بازیابی | ⬜ |
+| ② | `Wohin?` ⟵ Akk (جابه‌جایی به جای تازه) · `Wo?` ⟵ Dat (جا) | ⬜ |
+| ③ | 🎯 مثال نقض «حرکت = Akk»: حرکت **داخل** همان جا ⟵ Dat (`im Park spazieren gehen`) ⟵ قلاب درست: «از مرز رد می‌شی؟» | ⬜ |
+| ④ | `an` (عمودی · کنارِ آب) ↔ `auf` (سطح افقی) | ⬜ |
+| ⑤ | زمان با هندسی‌ها همیشه Dat (`vor einer Woche` · `in der Nacht` · `zwischen 8 und 9 Uhr`) | ⬜ |
+| ⑥ | ادغام‌ها در عمل (ins/im · ans/am) ⟵ پایه از بلوک ۲ | ⬜ |
+| ⟶ | `über` + Akk «درباره» ⟵ بلوک ۵ · stellen/stehen ⟵ بلوک ۴ (فقط اشاره) | — |
+- 📌📌 خواسته‌ی تازه (۱۳ آبان): لغت سهمیه‌ای ⟵ اسکیل §۱۱ (۱۲ در سشن · با آرتیکل · ابزاری جدا · بخش ثابت در فایل جمع‌بندی) · سهمیه‌ی امروز (عطف به ماسبق): der Tisch · die Wand · das Bild · das Buch · das Meer · das Zimmer · das Haus · das Wetter · der Brief · sitzen · spazieren gehen · jetzt = ۱۲/۱۲ · 🔧 ابزاری: Wien · hinter · unter
+- بلوک ۳ تمرین ④: `Die Kinder sitzen an dem Tisch.` ⟵ auf ✅ · `Wir gehen im Sommer am Meer.` ⟵ fahren 🔁(۳ بار امروز) · ans ⟵ ✅
+
 ## ⚠️ لغزش‌های تخته‌ی استاد (برای مرحله‌ی ⑤)
 
 | صفحه | روی تخته | درست | چرا |
