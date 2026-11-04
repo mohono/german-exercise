@@ -150,6 +150,9 @@
 - ⑥-۳ ✅ بار اول: `Ich bin jetzt in Berlin, morgen fahre ich nach Wien.` (لغت: Wien · jetzt)
 - ⑥-۴: `Ich gehe der Nacht nach Haus.` ⟵ 🔧 `in der Nacht` (🔁 حرف اضافه‌ای که فارسی حذف می‌کند) · `Hause` ⟵ 📌 «شب» = am Abend (سرِ شب) / in der Nacht (دلِ شب) · Nacht تنها استثنای am ⟵ ✅ `Ich gehe in der Nacht nach Hause.`
 - 📋 پوشش بلوک ۲: ① ✅ · ② ۱۴/۱۴ · ③ ۳/۳ · ④ ۳/۳ · ⑥ ۴/۴ · ⑤ شناختنی بدون تمرین ⟵ تست شناختن ۳ جمله (fürs · ums · übers) · ⑦ ⟵ بلوک ۱۰–۱۱
+- ⑤ تست شناختن ۳/۳ ✅: `Danke fürs Kommen!` (🔧 Kommen حرف بزرگ) · `Es geht ums Geld.` (📌 تکه‌ی ثابت `es geht um + Akk` = «بحث سرِ…ـه»؛ Lesen/Hören) · `Wir sprechen übers Wetter.` (🔧 املا: sprecchen · uber⟵über)
+- ❓ 📌 «das Kommen یعنی فعل را اسم کرد؟» ⟵ Nominalisierung 🟢: هر مصدر + das ⟵ اسم · همیشه das · حرف بزرگ · بی‌تغییر (das Essen = خوردن/غذا · das Lernen · das Fahren) · پل به ③ (beim/zum) ⟵ تشخیصی `zum Lernen = zu dem Lernen` ✅
+- ✅✅ **بلوک ۲ بسته شد — پوشش ۶/۶** (⑦ am besten ⟵ بلوک ۱۰–۱۱)
 
 ## ⚠️ لغزش‌های تخته‌ی استاد (برای مرحله‌ی ⑤)
 
