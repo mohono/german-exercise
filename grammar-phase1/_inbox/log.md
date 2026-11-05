@@ -211,6 +211,27 @@
 - جفت‌ها: `von meiner Mutter` ✅ (Meiner ⟵ حرف کوچک) · ❓ «از خونه بیرون اومدن… از مرز رد شیم ⟵ اکوزاتیو» ⟵ 🔁 **سومین بار «حرکت ⟵ Akk»** (zu ۸ آبان · aus den Park ۱۳ آبان · الان) ⟵ سه قدم به ترتیب ⟵ `aus dem Hause` ⟵ Haus 🔁 (دیروز hinter dem Hause) · `beim Artz` 🔁 Arzt · `zum Arzt` ✅ · `bis morgen` · `bei Maria` ✅ · `um Viertel vor acht` · `um Viertel nach sieben` ✅ · `außer mir` · `wegen mir` ✅
 - ❓ «beim + مصدر، مدل دیگه؟» ⟵ zum + مصدر (هدف) · «مصدر عموماً das» ⟵ 📌 **همیشه** das 🟢
 
+### 🛏️ بلوک ۴ — stellen/legen ↔ stehen/liegen (۱۴ آبان، ۱۶:۴۰)
+⚠️ بخش «۴ · stellen/legen» نکته‌های استاد در لاگ خالی است ⟵ نقشه از خودم (جدول استاد کف نیست، چون نیست)
+**📋 چک‌لیست پوشش بلوک ۴ (تا B2)**
+| # | آیتم | جمله |
+|---|---|---|
+| ① | `stellen` (ایستاده می‌گذارم، Akk) ↔ `stehen` (ایستاده است، Dat) | ⬜ |
+| ② | `legen` (خوابیده می‌گذارم، Akk) ↔ `liegen` (خوابیده است، Dat) | ⬜ |
+| ③ | `sich setzen` (می‌نشینم، Akk) ↔ `sitzen` (نشسته‌ام، Dat) | ⬜ |
+| ④ | `hängen` ↔ `hängen` (یک مصدر، دو فعل؛ gehängt / gehangen) 🟡 | ⬜ |
+| ⑤ | Perfekt: کاری ⟵ باقاعده (gestellt · gelegt · gesetzt) · حالتی ⟵ قوی (gestanden · gelegen · gesessen) · 🔭 اتریش/ÖSD: `ich bin gesessen/gestanden/gelegen` (شناختن) | ⬜ |
+| ⑥ | `Wohin stellst du…?` / `Wo steht…?` + `liegen` برای جغرافیا (`Wien liegt in Österreich.`) | ⬜ |
+| ⑦ | لغزش تخته: `ich stehe es auf den Tisch` ⟵ `stelle` | ⬜ |
+- 📚 سهمیه‌ی امروز: die Woche · die Stunde + ۱۰ اسم از این بلوک (die Flasche · das Handy · das Glas · der Stuhl · das Bett · der Schrank · die Tasche · der Boden · das Regal · die Lampe) · فعل‌های خود مبحث ⟵ ابزار مبحث + verbs.json
+- بلوک ۴ کشف: «خودش کار انجام بده یا ما کار روش انجام بدیم» ✅ (ستون کار/حالت) ولی stellen↔legen جفت شد ⟵ «یکی افقی یکی عمودی» ✅ · پل انگلیسی stand/lie/lay · 😄 «آلمانی حتی به مدل ایستادنشم کار داره» ⟵ فارسی «سرپا بذار / بخوابون»
+- تمرین: `Ich stelle das Glass am Tisch.` ⟵ Glas · auf den ⟵ ✅ · `Mein Handy ist liegt unter den Tisch.` ⟵ 👔 یک فعل · dem ⟵ ✅ · `Ich lege den Brief neben deinen Handy.` ⟵ dein (🔁 جنس چک نشد) ⟵ ✅ · «بطری؟» (لغت سهمیه را پرسید) · `Die Flasche stellt hinter dem Glas.` ⟵ steht (حالت درست، فعل از ستون کار) · 📌 ❓ «فعل و حالت همیشه با هم‌ان، حتی اسمی که اول اومده» ⟵ بسته‌ی فعل: stellen/legen کننده = آدم، جسم «را» · stehen/liegen کننده = جسم ⟵ `Den Flasche` (🔧 مثال der Brief من نشت کرد) ⟵ ❓ «مگه راجع بهش صحبت نکردی؟» ⟵ جدول با خود Flasche
+- 📌📌 خواسته: مرور هدفمند گرامر ⟵ `grammar-phase1/_inbox/review-queue.md` + اسکیل §۱۲ (+ ضد بدهی: «می‌خوام مرورمون هوشمند باشه و قرض پیش نیاد»)
+- «هنوز خوب یاد نگرفتم و قاطی می‌کنم، نحوه‌ی استفاده، املا» ⟵ نقشه + صرف حال ۴ فعل + قلاب املا (stellt ll / steht h · legt e / liegt ie) + داربست ۶ قدمی ⟵ ❓ «کننده… اکوزاتیوی؟» ⟵ 🔑 کننده همیشه Nom؛ فعل فقط بعد از حرف اضافه ⟵ `hinter das Glas` ⟵ dem (شناسنامه به‌جای Dat) ⟵ ✅ `Die Flasche steht hinter dem Glas.`
+- بی‌داربست ۳/۳ (بعد از اصلاح): `über das Bett` ⟵ auf (تماس) · ✅ بار اول `Die Gläser stehen auf dem Tisch.` · `Stuel` ×۲ ⟵ Stuhl ⟵ ✅
+- 🔧 خودش: «جدیداً وقتی چیزی غلط میشه یه جور عجیبی توضیح میدی، تکلیفم معلوم نمیشه» ⟵ قالب حکم‌اول (حافظه verdict-first) · «حواست باشه فونتا بهم نریزن» ⟵ آلمانی فقط در جدول
+- 📋 پوشش بلوک ۴: ۳/۷ (① ② ⑦) · سهمیه ۷/۱۲ (Woche · Stunde · Flasche · Handy · Glas · Bett · Stuhl)
+
 ## ⚠️ لغزش‌های تخته‌ی استاد (برای مرحله‌ی ⑤)
 
 | صفحه | روی تخته | درست | چرا |
