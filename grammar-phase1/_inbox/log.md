@@ -246,6 +246,11 @@
 | سیستم | صف مرور هدفمند (اسکیل §۱۲) · قالب تصحیح حکم‌اول · پارک: جدا کردن گرامر از درس ۱۰ |
 | Nicos Weg / انکی | نامعلوم — جمعه بپرس |
 | گنگ/لغزش | جنس قبل از آرتیکل 🔁 (deinen Handy · den Bett · Das Kinder) · «حرکت ⟵ Akk» برای aus 🔁 · ei/ie 🔁 (zwie · dien) · Hause/Artz/Stuel املا · ge در antworten · جمع بعد از عدد · auf/über/an برای «روی» |
+- 🌙 ادامه‌ی شب (۱۸:۳۰–): خودش: «فردا قرار نیست آزمون بدیم، کلی کار عقب‌افتاده داریم! الان بریم بخش بعدی»
+- ⑤ Perfekt: کار ⟵ ge…t · حالت ⟵ ge…en · 🇦🇹 ist gesessen (شناختن) · ✅ بار اول `Ich habe mein Handy auf den Tisch gelegt.` · `das Flesche` ⟵ die Flasche 🔁 جنس ⟵ ✅ · `Ich habe neben Maria mich gesetzt.` ⟵ 🎈 mich بعد از فعل ⟵ ✅
+- ❓ 📌⭐ «چرا قوی و باقاعده؟» ⟵ حالت = فعل اصلی قدیمی (قوی) · کار = ساخته‌شده «وادار به…» (باقاعده) · انگلیسی lie/lay · sit/set · rise/raise · ❓ «قویا کدومان؟» ⟵ جدول ۸ فعل (کل ستون حالت) · «انگار داتیویا قوین» ⟵ 🔵 فقط همین ۸ تا؛ antworten Dat باقاعده · sehen Akk قوی · خودش: «اون جدول بالا خیلی مهمه واسم» 📌⭐
+- ④ hängen/hängen (gehängt/gehangen) · ❓ 📌⭐ «عکس؟ مضاف‌الیه vor؟ کدوم Akk/Dat؟» ⟵ von نه vor · اسم اول نقش جمله · اسم دوم Dat ⟵ «اینم مهم بود ثبتش کن» · `…an das Wand gehaengen.` ⟵ die Wand 🔁 جنس · gehängt ⟵ `gehaent` ⟵ ✅ `Ich habe das Bild von meiner Mutter an die Wand gehängt.`
+- ⏸ **توقف ~۱۸:۵۵ — خودش: «همین‌جا نگهش دار، دارم می‌رم بیرون»** ⟵ ادامه: ④ جمله‌ی ۲/۲ «لامپ بالای میز آویزونه» (🔧 die Lampe) ⟵ بستن بلوک ۴ (۷/۷)
 
 ## ⚠️ لغزش‌های تخته‌ی استاد (برای مرحله‌ی ⑤)
 
