@@ -207,6 +207,9 @@
 - گرم‌کردن ۳: «نشستم؟» ⟵ sitzen (📌 «الان نشستم» = حالت حال) · «نامه؟» ⟵ der Brief (لغت سهمیه‌ی دیروز را پرسید) · `Ich sitze jetzt auf dem Tisch und einen Brief schreiben.` ⟵ 🔧 am Tisch (جفت دیروز) · 🧷 und ⟵ فعل جای ۲ + 👔 schreibe ⟵ ✅ `Ich sitze jetzt am Tisch und schreibe einen Brief.`
 - 📸 جمع‌بندی گرم‌کردن: محکم ✅ fahren · meiner Mutter · anrufen Akk · mir/antworten · vor+Dat · ans (بعد از اشاره) | لغزنده ⚠️ اسم مفعول قوی (angeruft) · ge در فعل‌های شبه‌لگو · جمع بعد از عدد · قلاب جمله در جمله‌ی بلند · فعل صرف‌شده بعد از und · an/auf برای «سر میز» 🔁 · ei/ie 🔁
 - لغت سهمیه‌ی دیروز که خودش پرسید: der Brief · sitzen ⟵ هنوز بازیابی نشده‌اند
+- 📅 مرور ۲ پوستر حروف اضافه (۱۴ آبان): **۲۵/۲۶ بار اول** (مرور ۱: ۲۰/۲۹) · لغزش‌های مرور ۱ (bei · um · zwischen · während) همه درست · 🔧 `wegen` یادش نبود ⟵ لنگر 💔 + جفت wegen/außer ⟵ ✅ · 📌 nach = «به» برای شهر/کشور/خانه (نه «به سمت» کلی)
+- جفت‌ها: `von meiner Mutter` ✅ (Meiner ⟵ حرف کوچک) · ❓ «از خونه بیرون اومدن… از مرز رد شیم ⟵ اکوزاتیو» ⟵ 🔁 **سومین بار «حرکت ⟵ Akk»** (zu ۸ آبان · aus den Park ۱۳ آبان · الان) ⟵ سه قدم به ترتیب ⟵ `aus dem Hause` ⟵ Haus 🔁 (دیروز hinter dem Hause) · `beim Artz` 🔁 Arzt · `zum Arzt` ✅ · `bis morgen` · `bei Maria` ✅ · `um Viertel vor acht` · `um Viertel nach sieben` ✅ · `außer mir` · `wegen mir` ✅
+- ❓ «beim + مصدر، مدل دیگه؟» ⟵ zum + مصدر (هدف) · «مصدر عموماً das» ⟵ 📌 **همیشه** das 🟢
 
 ## ⚠️ لغزش‌های تخته‌ی استاد (برای مرحله‌ی ⑤)
 
