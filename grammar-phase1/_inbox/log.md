@@ -231,6 +231,21 @@
 - بی‌داربست ۳/۳ (بعد از اصلاح): `über das Bett` ⟵ auf (تماس) · ✅ بار اول `Die Gläser stehen auf dem Tisch.` · `Stuel` ×۲ ⟵ Stuhl ⟵ ✅
 - 🔧 خودش: «جدیداً وقتی چیزی غلط میشه یه جور عجیبی توضیح میدی، تکلیفم معلوم نمیشه» ⟵ قالب حکم‌اول (حافظه verdict-first) · «حواست باشه فونتا بهم نریزن» ⟵ آلمانی فقط در جدول
 - 📋 پوشش بلوک ۴: ۳/۷ (① ② ⑦) · سهمیه ۷/۱۲ (Woche · Stunde · Flasche · Handy · Glas · Bett · Stuhl)
+- ③ نشستن: کشف ✅ (کار Akk / حالت Dat) · ❓ «نشستن انعکاسیه؟» ⟵ setzen = کسی را نشاندن · sich setzen = خودم را 🤳 · sitzen حالت ⟵ جدول ۳×۲ · قلاب املا کار e / حالت i-ie (stehen استثنا) · 🔧 فونت به‌هم ریخت ⟵ بازنویسی فقط جدول · ❓ «پس برای خودم انعکاسیه» ⟵ برای هر کننده (mich · dich · sich · uns · euch · sich)
+- `Das Kinder sitzen am Sofa.` ⟵ Die 🔁 · auf dem (🔧 فونت دوباره: هر زبان خانه‌ی خودش) ⟵ ✅ · `Komm setz an mir.` ⟵ setz dich · neben mich ⟵ ✅ `Komm, setz dich neben mich.` · `Leg dinen Handy…` ⟵ dein 🔁 جنس · `dien` 🔁 ei/ie ⟵ ✅ `Leg dein Handy auf den Tisch und setz dich.`
+- ⑥ Wohin/Wo + `Wo liegt Wien?` ⟵ ✅ بار اول `Wo liegt Berlin? Berlin liegt in Deutschland.` · `Wo legst du das Buch? auf den Bett` ⟵ Wohin · das Bett ⟵ (برگشت den = 😴 خستگی ~۱۸:۱۵) ⟵ ✅
+- 📋 پوشش بلوک ۴: **۵/۷** (① ② ③ ⑥ ⑦) · مانده: ④ hängen · ⑤ Perfekt (+ اتریشی ist gesessen) · 📚 سهمیه ۸/۱۲ (Woche · Stunde · Flasche · Handy · Glas · Bett · Stuhl · Sofa) — ۴ تا عمداً اضافه نشد
+
+### 📊 خلاصه‌ی روز برای شیت — ۱۴ آبان (پنجشنبه)
+| | |
+|---|---|
+| زمان | ۱۵:۳۳ تا ~۱۸:۲۰ (+ ۱۰ دقیقه استراحت؛ کار خالص ~۲.۵ ساعت) |
+| گرامر استاد | بلوک ۴: ۵/۷ |
+| مرور | گرم‌کردن هدفمند ۳ جمله · مرور ۲ پوستر حروف اضافه ۲۵/۲۶ + جفت‌ها |
+| لغت | سهمیه ۸/۱۲ |
+| سیستم | صف مرور هدفمند (اسکیل §۱۲) · قالب تصحیح حکم‌اول · پارک: جدا کردن گرامر از درس ۱۰ |
+| Nicos Weg / انکی | نامعلوم — جمعه بپرس |
+| گنگ/لغزش | جنس قبل از آرتیکل 🔁 (deinen Handy · den Bett · Das Kinder) · «حرکت ⟵ Akk» برای aus 🔁 · ei/ie 🔁 (zwie · dien) · Hause/Artz/Stuel املا · ge در antworten · جمع بعد از عدد · auf/über/an برای «روی» |
 
 ## ⚠️ لغزش‌های تخته‌ی استاد (برای مرحله‌ی ⑤)
 
