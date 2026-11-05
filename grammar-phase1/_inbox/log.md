@@ -198,6 +198,16 @@
 | Nicos Weg | ❌ (امروز نه) · انکی: نامعلوم — بپرس |
 | گنگ/لغزش | gehen⟵fahren ×۳ · «حرکت ⟵ Akk» ×۱ (aus den) · جنس مؤنث در Dat (meinem Mutter · dem Wand) · Dat Plural den · helfen+Dat/geholfen · املا: e قبل از n (siebn · gesehn) · eu (Frueind) · Artz · vor/in زمانی |
 
+### ۱۴ آبان — سشن ۵ (۱۵:۳۳ تا ۱۹:۰۰)
+- 📸 گرم‌کردن ۱: ❓ «جواب دادن؟ و دو دسته فعل گول‌زننده» ⟵ ④ پوستر ضمیرها (تله‌ی فارسی: anrufen · fragen · glauben / استثنای آلمانی فعلاً ۳: helfen · antworten · gehören) · `Ich habe den Ali angeruft, aber er hat mir nicht antgewortet.` ⟵ ✅ Akk با anrufen · ✅ mir · 🔧 اسم خاص بی‌آرتیکل · angerufen (rufen قوی) · 📌 `geantwortet` (ant پیشوند نیست؛ تست: worten وجود ندارد) ⟵ ✅
+- گرم‌کردن ۲: ❓ «دو هفته پیش؟» ⟵ `vor zwie Wochen` (🔁 ei/ie) · ❓ 📌 «جمع n می‌گیره؟ خواستم zweir بنویسم» ⟵ عدد ثابت 🟢 (جز ein که آرتیکل هم هست) · ❓ «چرا Wochen n نگرفت؟» ⟵ «قانع نشدم» ⟵ قاب «هدف»: Dat جمع = اسم باید تهش n داشته باشد (Kinder⟵Kindern · Wochen ثابت · Autos ثابت) · ❓ «Dativ n داره؟ چرا انقدر داستان؟» ⟵ 🪞 Dat جمع همه‌جا n (ihnen · den · Kindern) · دید کلان (n-Deklination ⟵ B1) · تشخیصی Frauen ✅ / Tich ⟵ Tischen (قدم جمع جا افتاد) · ❓ «auf مگه Dat؟» ⟵ 🔧 تمرین من فعل نداشت ⟵ جفت auf zwei Tischen / auf zwei Tische
+- ❓ 📌⭐ «سه e» (Woche مال کلمه · Tische جمع · Hause فسیل) · ❓ «er جمع برای Akk؟» ⟵ نه؛ دو -er (آرتیکل = حالت · اسم = جمع) · ❓ 📌⭐ «ذهنمو مرتب کنی؟» ⟵ نقشه‌ی «دو تیکه، دو کار» + سه قدم (جنس و جمع ⟵ نقش ⟵ بنویس) · ❓ 📌⭐ «مدل‌های جمع و نقش‌ها؟» ⟵ جدول ۵ مدل (-(e)n مؤنث · -e مذکر · -er خنثی · بی‌تغییر -er/-el/-en · -s) + استثنا Wand/Mutter + ردیف Dat ⟵ خودش: **«عالیه اینو حتماً توی فایل جمع‌بندی بذار»**
+- 🅿️ خودش: فایل‌های جمع‌بندی گرامر جدا از درس ۱۰ (پارک ساخت ۳)
+- `Vor zwei Woche fahren wir mit meiner Mutter auf dem Meer.` ⟵ ✅ fahren (🎉 لغزش دیروز نیفتاد) · ✅ meiner Mutter (🎉) · 🔧 Wochen · sind…gefahren · ans Meer (😄 auf dem Meer = روی آب) · ❓ 📌 «دریا Akk یا Dat؟» ⟵ سه قدم + قبل/بعد · «رفتن/بودن» فعل فارسی کلید · ❓ «دریا خنثی‌ئه؟» ⟵ das Meer · die Meere · بازنویسی‌ها: sie⟵wir · gefahren وسط ⟵ ته (🗜) · wir جا افتاد (🪑) ⟵ ✅ `Vor zwei Wochen sind wir mit meiner Mutter ans Meer gefahren.`
+- گرم‌کردن ۳: «نشستم؟» ⟵ sitzen (📌 «الان نشستم» = حالت حال) · «نامه؟» ⟵ der Brief (لغت سهمیه‌ی دیروز را پرسید) · `Ich sitze jetzt auf dem Tisch und einen Brief schreiben.` ⟵ 🔧 am Tisch (جفت دیروز) · 🧷 und ⟵ فعل جای ۲ + 👔 schreibe ⟵ ✅ `Ich sitze jetzt am Tisch und schreibe einen Brief.`
+- 📸 جمع‌بندی گرم‌کردن: محکم ✅ fahren · meiner Mutter · anrufen Akk · mir/antworten · vor+Dat · ans (بعد از اشاره) | لغزنده ⚠️ اسم مفعول قوی (angeruft) · ge در فعل‌های شبه‌لگو · جمع بعد از عدد · قلاب جمله در جمله‌ی بلند · فعل صرف‌شده بعد از und · an/auf برای «سر میز» 🔁 · ei/ie 🔁
+- لغت سهمیه‌ی دیروز که خودش پرسید: der Brief · sitzen ⟵ هنوز بازیابی نشده‌اند
+
 ## ⚠️ لغزش‌های تخته‌ی استاد (برای مرحله‌ی ⑤)
 
 | صفحه | روی تخته | درست | چرا |
