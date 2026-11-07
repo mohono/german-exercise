@@ -9,6 +9,6 @@
 | 🔁 صف مرور | `_inbox/review-queue.md` | مرور هدفمند روزانه (اسکیل §۱۲)، سقف ۵ جمله |
 | 🧱 آرتیکل‌ها | `artikel/poster-artikel.html` ⭐ · `artikel/marja-artikel.html` (یک‌صفحه) · `artikel/review-artikel.html` (جزوه) · `artikel/notes-artikel-1-4.pdf` | جدول ضمیر/der/ein/dieser + رمزها |
 | 🧭 حروف اضافه | `praep/poster-praep.html` ⭐ | ۲۹ حرف اضافه با معنی، لنگر، ادغام، تقویم مرور |
-| 📘 جزوه‌ی جمع‌بندی | ⏳ (در دست ساخت) | همه‌ی بلوک‌ها با 🔊 |
+| 📘 جزوه‌ی جمع‌بندی | `jozve-jambandi.html` (بخش ۱ از ۳) | همه‌ی بلوک‌ها با 🔊 |
 
 **از دوره‌ی درس ۱۰ (مرتبط، جابه‌جا نشده):** `lessons/10/poster-horuf-ezafe.html` (۲۵ مهر، نسخه‌ی قدیمی‌تر پوستر حروف اضافه ⟵ جایگزین: `praep/poster-praep.html`) · `lessons/10/poster-zamayer.html` (ضمایر، مال خود درس ۱۰)
