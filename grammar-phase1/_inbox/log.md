@@ -262,6 +262,19 @@
   - ۳ فعل‌های جا ۲/۲: «جنسیت لیوان و بطری و تخت و گوشی و مبل؟» · ✅ بار اول `Ich stelle das Glas neben die Flasche.` · `Den Kindern sitzen… unter das Sofa` ⟵ Die Kinder (نشت Dat جمع به کننده) · dem ⟵ `Die Kindern` ⟵ ✅
   - ۴+۵ ۲/۲: `Wohin stellst du mein Handay? auf dem Tisch` ⟵ hast…gelegt · auf den · Handy ⟵ ✅ · `in Austria` ⟵ Österreich ⟵ ✅
   - ۶+۷ ۲/۲: ❓ «علتش (قوی/باقاعده) یادم نمیاد» ⟵ داستان اصلی/ساختگی دوباره · `…in meine Tasche gestellt` ⟵ gelegt (✅ in meine Tasche Akk!) · `Das Bild von meinem Vater ist an dem Wand gehangen.` ⟵ der Wand · ist gehangen ✅ اتریشی ⟵ ✅
+- ✅✅ **بلوک ۴ بسته شد — پوشش ۷/۷** (④ با `…an die Wand gehängt` / `…an der Wand gehangen` در مرور)
+
+### 🔗 بلوک ۵ — فعل + حرف اضافه‌ی ثابت (۱۶ آبان، ۱۵:۰۰)
+**📋 چک‌لیست پوشش (تا B1/B2؛ جدول استاد = کف)** · لغت تازه نه، جز خودِ تکه‌های فعلی (محتوای مبحث، نه سهمیه)
+| # | آیتم | جمله |
+|---|---|---|
+| ① | مفهوم: فعل حرف اضافه را «استخدام» می‌کند؛ معنی تحت‌اللفظی نیست (`warten auf` ≠ «روی») ⟵ تکه = فعل + حرف اضافه + حالت | ⬜ |
+| ② | هندسی در استخدام فعل ⟵ ۹۰٪ Akk: `warten auf` · `denken an` · `sich freuen auf` · `sprechen über` · `sich erinnern an` | ⬜ |
+| ③ | ۱۰٪ Dat (حفظی): `an … teilnehmen` · `Interesse an` · `Angst vor` (+ `vor` تقریباً همیشه Dat) | ⬜ |
+| ④ | غیرهندسی جعبه‌ی خودش را نگه می‌دارد: `sich interessieren für` (Akk) · `sprechen mit` · `träumen von` (Dat) | ⬜ |
+| ⑤ | جفت کلاسیک B1: `sich freuen auf` (آینده) / `sich freuen über` (حال/گذشته) | ⬜ |
+| ⑥ | با آدم ⟵ حرف اضافه + ضمیر (`auf ihn warten`) — پل به بلوک ۶ (چیز ⟵ da-/wo-) | ⬜ |
+| ⑦ | راهبرد B2: هر تکه با حالتش حفظ (انکی) · تله: سه قدم روزمره اینجا کار نمی‌کند، فعل تصمیم می‌گیرد | ⬜ |
 
 ## ⚠️ لغزش‌های تخته‌ی استاد (برای مرحله‌ی ⑤)
 
