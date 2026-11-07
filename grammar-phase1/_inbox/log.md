@@ -296,6 +296,11 @@
 | ⑤ | مرز: آدم ⟵ حرف اضافه + wen/wem/ضمیر (`Auf wen wartest du? – Auf ihn.` · `Mit wem…? – Mit ihr.`) — پل به wer/wen/wem درس ۱۰ | ⬜ |
 | ⑥ | 🟡 B2: `da-` + جمله (`Ich freue mich darauf, dass du kommst.` · `Ich träume davon, in Wien zu studieren.`) — Schreiben | ⬜ |
 | ⑦ | 🟡 تکه‌های بحث (Sprechen ÖSD): `Ich bin dafür / dagegen.` · گفتاری `mit was / für was` = آماتور، فقط شناختن | ⬜ |
+- بلوک ۶ کشف ✅ خودش: «وقتی حرف اضافه صدادار باشه» ⟵ r (🧴 روغن‌کاری)
+- 💡 ایده‌ی خودش: «قبل از جمله، ادغام‌ها رو تمرین کنیم… معنی بگی حرفه‌ای بنویسم یا آماتور… ترکیبی، چون از ذهن می‌پره» ⟵ دریل سه‌مدله (🅰️ معنی⟵حرفه‌ای · 🅱️ آماتور⟵حرفه‌ای+معنی · 🅲 حرفه‌ای⟵معنی+آماتور) · **جدول استاد را از حفظ نوشت ۸/۸** · ❓ «اینارو از کجا میاری؟» ⟵ صادقانه: همان قانون، چک‌لیست تا B2 · کدام‌ها نمی‌چسبند (ohne · seit · außer · gegenüber · bis · Genitiv) · دور ۱–۲: ۹/۱۲ بار اول · 🔁 تله‌ی `da` = «اونجا» ×۲ (darüber ⟵ über da · davon ⟵ von da) ⟵ 📌 قلاب «دا = داس» · `wavor` · `dafeur` (📜 اول حرف اصلی) · 🟡 darunter = «از جمله»
+- جمله‌ها: `worueber denkst du? darueber Pruefung. … ihm` ⟵ 🪜 چهار قدم (حرف اضافه از فعل) · 📌🔑 **da- جای اسم می‌آید، هرگز با خود اسم** ⟵ `denkest` (🧴 فقط t/d) ⟵ ✅ · `Angst davor Pruefung` 🔁 ⟵ vor der Prüfung ⟵ ✅ · «interested in?» · `Interessierest dich fuer Muesik` ⟵ du · Musik · sehr · `Interessierest` ×۲ ⟵ ✅
+- ⑤ آدم: `Woran wartest du?` ⟵ Auf wen (آدم + auf نه an) · `Worauf wartest du? …Maria` ⟵ ✅ `Auf wen wartest du? – Ich warte auf Maria.` · ❓ 📌⭐ «دسته‌بندیاش چطوری شد؟» ⟵ جدول ۴ خانه (چیز/آدم × سؤال/با اسم/بی اسم) + قلاب «da-/wo- فقط چیز می‌چسبه» · خودش: **«اینا همش سیو شه، امروز واقعاً روز پرباریه»**
+- 📋 پوشش بلوک ۶: ۴/۷ + ⑤ در جریان
 
 ## ⚠️ لغزش‌های تخته‌ی استاد (برای مرحله‌ی ⑤)
 
