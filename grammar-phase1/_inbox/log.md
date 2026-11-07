@@ -320,6 +320,8 @@
 | ⑦ | 🟡 کجا: Lesen/Schreiben رسمی ⟵ بشناس + چند تکه‌ی تولیدی · گفتار ⟵ von + Dat | ⬜ |
 - بلوک ۷: کشف ✅ خودش «مذکر و خنثی یه جور، مؤنث بی‌تغییر، فقط حرف اضافه حذف میشه» ⟵ جدول + قلاب دوقلوی Dativ (🎁) + -es/-s · تمرین `des Kindes` · `der Mutter` ✅ · `meines Vater` ⟵ Vaters ✅ · ❓ «حرف کلی این بخش؟» ⟵ ۳ خط · ❓ 📌 «von + Dat هم گنتیوه؟» ⟵ نه؛ Dativ با معنی گنتیو، دو سبک · ❓ 📌⭐ «کلاً گنتیو چرا اومده؟» ⟵ تاریخچه (فارسی باستان هم حالت داشت؛ Dativ جای Genitiv را می‌گیرد) · ❓ 📌⭐ «اصلاً توی گرامر چرا؟» ⟵ سه راه وصل دو اسم (فارسی ـِ · of/von · پایانه روی اسم) + 's انگلیسی = بازمانده‌ی گنتیو · «اها الان فهمیدم»
 - 📌 **کار بستن واحد (خواسته‌ی خودش):** پوستر آرتیکل‌ها (`grammar-phase1/artikel/poster-artikel.html`) ردیف Genitiv ندارد ⟵ اضافه شود (des/der/des/der · eines/einer · meines/meiner · -(e)s · قلاب دوقلوی Dativ)
+- تمرین شناختن ۳/۳ ✅ (Marias Handy · wegen des Wetters · Wohnung meiner Mutter) · `Der Tasche von Ali…` ⟵ Die 🔁 جنس ⟵ ✅ هر دو: `Die Tasche von Ali liegt unter dem Stuhl.` · `Alis Tasche liegt unter dem Stuhl.`
+- ✅✅ **بلوک ۷ بسته شد — پوشش ۷/۷**
 
 ## ⚠️ لغزش‌های تخته‌ی استاد (برای مرحله‌ی ⑤)
 
