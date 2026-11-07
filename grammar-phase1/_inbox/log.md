@@ -252,6 +252,17 @@
 - ④ hängen/hängen (gehängt/gehangen) · ❓ 📌⭐ «عکس؟ مضاف‌الیه vor؟ کدوم Akk/Dat؟» ⟵ von نه vor · اسم اول نقش جمله · اسم دوم Dat ⟵ «اینم مهم بود ثبتش کن» · `…an das Wand gehaengen.` ⟵ die Wand 🔁 جنس · gehängt ⟵ `gehaent` ⟵ ✅ `Ich habe das Bild von meiner Mutter an die Wand gehängt.`
 - ⏸ **توقف ~۱۸:۵۵ — خودش: «همین‌جا نگهش دار، دارم می‌رم بیرون»** ⟵ ادامه: ④ جمله‌ی ۲/۲ «لامپ بالای میز آویزونه» (🔧 die Lampe) ⟵ بستن بلوک ۴ (۷/۷)
 
+### ۱۶ آبان — سشن ۶ (شنبه؛ جمعه ۱۵ آبان هیچ کاری نشد)
+- خودش: «همسرم از شنبه تا پنجشنبه تا دیروقت کار می‌کنه… جمعه همش دلمون می‌خواست با هم وقت بگذرونیم… کلی کار عقب‌افتاده دارم» ⟵ پیشنهاد: **جمعه رسماً روز خانواده** (روزهای درس شنبه–پنجشنبه) · کارها سه دسته: 🔴 بلوک‌ها (او) · 🟡 نگهداری روزانه · ⚪ اداری (شیت، پوشه‌ها ⟵ من آماده می‌کنم) · آزمون ۹–۱۱ ⟵ ادغام با آزمون آخر واحد (منتظر تأیید صریح) · برنامه‌ی هفته: شنبه ۵–۶ · یکشنبه ۷–۸ · دوشنبه ۹–۱۰ · سه‌شنبه ۱۱–۱۲ · چهارشنبه بستن واحد + آزمون · پنجشنبه طراحی فاز ۲ + اولین درس
+- خودش: «امروز بلوک‌ها رو تموم کنیم، از پسش برمیایم» ⟵ هزینه گفته شد (~۷.۵ ساعت) ⟵ خودش: «نمی‌خوام کیفیت پایین بیاد… اول مطالب پنجشنبه قشنگ مرور شه… در بستن بلوک‌ها لغت جدید لازم نیست… فقط امروز» ⟵ 📌 **قانون امروز: کیفیت کامل · لغت تازه نه (🔧 فقط اگر لازم) · اول مرور پنجشنبه · تا هر جا با کیفیت رسیدیم**
+- 🔁 مرور پنجشنبه (چشم‌انداز ۷ مبحث + خلاصه + ۲ جمله هر کدام):
+  - ۱ تله‌ی فعل‌ها ۲/۲: ✅ بار اول `Ich habe meine Mutter angerufen und ihr geholfen.` · `geanwortet` ⟵ geantwortet ✅
+  - ۲ جمع ۲/۲: `Ich fahre mit meinem zwei Kinder im Park.` ⟵ meinen…Kindern · in den Park · bin gegangen ⟵ ✅ · `…die Brif sind ins Tasche` ⟵ Briefe · ❓ «جنسیت مونثه؟» ⟵ in der Tasche · `in das Tasche` ×۲ ⟵ 🛑 قانون سه‌بار: جواب کامل + 📌 صف مرور (in + مؤنث Dat) ⟵ ✅
+  - ❓ 📌⭐ «حالت‌های مختلف و اشتباه… رفتن به پارک، جمع» ⟵ داده: ① جنس چک نشد (بیشترین) ② حالت بعد از حرف اضافه ③ قدم جمع · وقتی می‌پرسم درست جواب می‌دهد = دانش هست، بار ذهنی در تولید · مدرک پیشرفت · ابزار: 👀🎯👥 «ویرایش سه‌ثانیه‌ای» (نوشتن و چک جدا) + 🧱 بانک تیکه‌های آماده (in den Park/im Park · ins Kino/im Kino · in die Stadt/in der Stadt · auf den Tisch/auf dem Tisch · an die Wand/an der Wand · nach Hause/zu Hause)
+  - ۳ فعل‌های جا ۲/۲: «جنسیت لیوان و بطری و تخت و گوشی و مبل؟» · ✅ بار اول `Ich stelle das Glas neben die Flasche.` · `Den Kindern sitzen… unter das Sofa` ⟵ Die Kinder (نشت Dat جمع به کننده) · dem ⟵ `Die Kindern` ⟵ ✅
+  - ۴+۵ ۲/۲: `Wohin stellst du mein Handay? auf dem Tisch` ⟵ hast…gelegt · auf den · Handy ⟵ ✅ · `in Austria` ⟵ Österreich ⟵ ✅
+  - ۶+۷ ۲/۲: ❓ «علتش (قوی/باقاعده) یادم نمیاد» ⟵ داستان اصلی/ساختگی دوباره · `…in meine Tasche gestellt` ⟵ gelegt (✅ in meine Tasche Akk!) · `Das Bild von meinem Vater ist an dem Wand gehangen.` ⟵ der Wand · ist gehangen ✅ اتریشی ⟵ ✅
+
 ## ⚠️ لغزش‌های تخته‌ی استاد (برای مرحله‌ی ⑤)
 
 | صفحه | روی تخته | درست | چرا |
