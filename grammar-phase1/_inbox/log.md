@@ -307,6 +307,20 @@
 - `Ich freue mich darueber, dass dich zu sehen.` ⟵ darauf (⏩) · قاطی dass/zu ⟵ جدول (dass: کننده + صرف‌شده، بی zu · zu: بی کننده، مصدر) ⟵ `dass ich dich zu sehe` · `dass dich sehe` ⟵ ✅ هر دو راه · «thinking of?» ⟵ `Ich denke daran, in Deutland zu studiern.` ⟵ املا ⟵ ✅ `Ich denke daran, in Deutschland zu studieren.` (⭐ جمله‌ی خودش، B2) · `uder` ⟵ ✅ `Bist du dafür oder dagegen? – Ich bin dafür.`
 - ✅✅ **بلوک ۶ بسته شد — پوشش ۷/۷**
 
+### 🟪 بلوک ۷ — گنتیو (۱۶ آبان، بعد از استراحت ۳۰ دقیقه‌ای)
+**📋 چک‌لیست پوشش (B2 = بیشتر شناختن)**
+| # | آیتم | جمله |
+|---|---|---|
+| ① | مفهوم: مالکیت بین دو اسم = اضافه‌ی فارسی؛ پل از von + Dat (گفتاری) به Genitiv (نوشتاری) | ⬜ |
+| ② | جدول: des · der · des · der / eines · einer · eines / meines · meiner | ⬜ |
+| ③ | اسم مذکر/خنثی -(e)s (Mannes · Vaters · Kindes) · مؤنث و جمع بی‌پسوند | ⬜ |
+| ④ | قلاب: ردیف Genitiv دوقلوی ردیف Dativ (مذکر = خنثی · مؤنث der) — تعجب خودش «شبیه Nominativ نیست» | ⬜ |
+| ⑤ | اسم خاص: `Marias Auto` (‑s بی آپاستروف) — پرکاربردترین گنتیو گفتاری | ⬜ |
+| ⑥ | حروف اضافه‌ی Genitiv (پوستر): `wegen des Wetters` · `während der Prüfung` · `trotz` · `statt` | ⬜ |
+| ⑦ | 🟡 کجا: Lesen/Schreiben رسمی ⟵ بشناس + چند تکه‌ی تولیدی · گفتار ⟵ von + Dat | ⬜ |
+- بلوک ۷: کشف ✅ خودش «مذکر و خنثی یه جور، مؤنث بی‌تغییر، فقط حرف اضافه حذف میشه» ⟵ جدول + قلاب دوقلوی Dativ (🎁) + -es/-s · تمرین `des Kindes` · `der Mutter` ✅ · `meines Vater` ⟵ Vaters ✅ · ❓ «حرف کلی این بخش؟» ⟵ ۳ خط · ❓ 📌 «von + Dat هم گنتیوه؟» ⟵ نه؛ Dativ با معنی گنتیو، دو سبک · ❓ 📌⭐ «کلاً گنتیو چرا اومده؟» ⟵ تاریخچه (فارسی باستان هم حالت داشت؛ Dativ جای Genitiv را می‌گیرد) · ❓ 📌⭐ «اصلاً توی گرامر چرا؟» ⟵ سه راه وصل دو اسم (فارسی ـِ · of/von · پایانه روی اسم) + 's انگلیسی = بازمانده‌ی گنتیو · «اها الان فهمیدم»
+- 📌 **کار بستن واحد (خواسته‌ی خودش):** پوستر آرتیکل‌ها (`grammar-phase1/artikel/poster-artikel.html`) ردیف Genitiv ندارد ⟵ اضافه شود (des/der/des/der · eines/einer · meines/meiner · -(e)s · قلاب دوقلوی Dativ)
+
 ## ⚠️ لغزش‌های تخته‌ی استاد (برای مرحله‌ی ⑤)
 
 | صفحه | روی تخته | درست | چرا |
