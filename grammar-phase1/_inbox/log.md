@@ -301,6 +301,11 @@
 - جمله‌ها: `worueber denkst du? darueber Pruefung. … ihm` ⟵ 🪜 چهار قدم (حرف اضافه از فعل) · 📌🔑 **da- جای اسم می‌آید، هرگز با خود اسم** ⟵ `denkest` (🧴 فقط t/d) ⟵ ✅ · `Angst davor Pruefung` 🔁 ⟵ vor der Prüfung ⟵ ✅ · «interested in?» · `Interessierest dich fuer Muesik` ⟵ du · Musik · sehr · `Interessierest` ×۲ ⟵ ✅
 - ⑤ آدم: `Woran wartest du?` ⟵ Auf wen (آدم + auf نه an) · `Worauf wartest du? …Maria` ⟵ ✅ `Auf wen wartest du? – Ich warte auf Maria.` · ❓ 📌⭐ «دسته‌بندیاش چطوری شد؟» ⟵ جدول ۴ خانه (چیز/آدم × سؤال/با اسم/بی اسم) + قلاب «da-/wo- فقط چیز می‌چسبه» · خودش: **«اینا همش سیو شه، امروز واقعاً روز پرباریه»**
 - 📋 پوشش بلوک ۶: ۴/۷ + ⑤ در جریان
+- 📌 «هرچی یاد می‌گیریم مهمه، چیزیو میس نکنی» ⟵ سه لایه: لاگ 📌 · commit هر بخش · تیک همه‌ی 📌ها قبل از تحویل فایل جمع‌بندی
+- `Womit hast du gesprochen?` ⟵ 🛑 سومین بار wo- برای آدم (Woran · Worauf · Womit) ⟵ قانون سه‌بار: جواب کامل + 📌 صف مرور ⟵ ✅ `Mit wem hast du gesprochen? – Mit meinem Vater.`
+- ⑥⑦: پل فارسی «از این که / به این … که» = da- + dass/zu · Ich bin dafür/dagegen · ❓ 📌 «wemit نمیشه؟» ⟵ فقط wo/da می‌چسبند؛ wem/ihm هرگز (ihmmit وجود ندارد) · 😍 «به به چه چیزای باحالی، خدایی»
+- `Ich freue mich darueber, dass dich zu sehen.` ⟵ darauf (⏩) · قاطی dass/zu ⟵ جدول (dass: کننده + صرف‌شده، بی zu · zu: بی کننده، مصدر) ⟵ `dass ich dich zu sehe` · `dass dich sehe` ⟵ ✅ هر دو راه · «thinking of?» ⟵ `Ich denke daran, in Deutland zu studiern.` ⟵ املا ⟵ ✅ `Ich denke daran, in Deutschland zu studieren.` (⭐ جمله‌ی خودش، B2) · `uder` ⟵ ✅ `Bist du dafür oder dagegen? – Ich bin dafür.`
+- ✅✅ **بلوک ۶ بسته شد — پوشش ۷/۷**
 
 ## ⚠️ لغزش‌های تخته‌ی استاد (برای مرحله‌ی ⑤)
 
