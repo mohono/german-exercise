@@ -275,6 +275,13 @@
 | ⑤ | جفت کلاسیک B1: `sich freuen auf` (آینده) / `sich freuen über` (حال/گذشته) | ⬜ |
 | ⑥ | با آدم ⟵ حرف اضافه + ضمیر (`auf ihn warten`) — پل به بلوک ۶ (چیز ⟵ da-/wo-) | ⬜ |
 | ⑦ | راهبرد B2: هر تکه با حالتش حفظ (انکی) · تله: سه قدم روزمره اینجا کار نمی‌کند، فعل تصمیم می‌گیرد | ⬜ |
+- بلوک ۵: 🔧 خودش: «چرا توضیحاتت انگار رمزی شده؟ درست بگو» (لب مطلب با «استخدام» و «رئیس») ⟵ بازنویسی ساده با پل فارسی (منتظرِ · به … فکر کردن · از … ترسیدن) · کشف ✅ خودش: «منتظر بودن Akk، فکر کردن Akk، ترسیدن Dat»
+- 🟢 قانون استاد: مکعبی ⟵ ~۹۰٪ Akk + استثنای Dat حفظی (Angst vor · teilnehmen an · Interesse an؛ vor تقریباً همیشه Dat) · غیرمکعبی ⟵ جعبه‌ی خودش · فهرست «فعلاً ۱۱»
+- 😍 «لغات جالب: شرکت کردن، خواب دیدن، مشتاق بودن» ⟵ کاربرد ÖSD · 📌📌⭐ **خواسته: «با مثال کاربردیشون جمله‌ی نچرال بساز و توی فایل جمع‌بندی بذار، حس می‌کنم این لغات مهم باشن»** ⟵ ۱۱ جمله (Ich warte seit einer Stunde auf den Bus. · Ich denke oft an meine Familie im Iran. · Ich freue mich auf Ihre Antwort. · Erinnerst du dich an den Sommer in Berlin? · Wir haben über das Studium in Deutschland gesprochen. · Ich habe Angst vor der Prüfung. · Ich möchte gern am Deutschkurs teilnehmen. · Ich habe Interesse an dieser Stelle. · Ich interessiere mich sehr für Musik. · Kann ich bitte mit Frau Müller sprechen? · Ich träume von einem Studium in Wien.) · 🔧 لغت‌های مثال: der Bus · die Familie · die Antwort · das Studium · der Deutschkurs · die Stelle · die Musik
+- ❓ 📌 «دارم فکر می‌کنم / فکر می‌کنم فرق دارن؟» ⟵ آلمانی استمراری ندارد · gerade (اختیاری)
+- تمرین ②–④ ۳/۳ بار اول ✅: `Ich denke an den Sommer.` · `Die Kinder haben Angst vor meinem Hund.` · `Ich habe mit meiner Mutter über Berlin gesprochen.`
+- ⑤ freuen auf (⏩) / über (✅): «آخر هفته؟» ⟵ das Wochenende (📌 جنس ترکیبی از تیکه‌ی آخر 🟢) · `Wochenecnd` · `Wochenend` · `Wochenecnde` ⟵ تیکه‌تیکه ⟵ ✅ (خستگی تایپ؟ ☕ پیشنهاد) · `Ich freue mich sehr ueber deinen Brief.` ⟵ گذشته habe mich…gefreut ⟵ ✅
+- 📋 پوشش بلوک ۵: ۵/۷ (مانده: ⑥ با آدم · ⑦ راهبرد)
 
 ## ⚠️ لغزش‌های تخته‌ی استاد (برای مرحله‌ی ⑤)
 
