@@ -282,6 +282,20 @@
 - تمرین ②–④ ۳/۳ بار اول ✅: `Ich denke an den Sommer.` · `Die Kinder haben Angst vor meinem Hund.` · `Ich habe mit meiner Mutter über Berlin gesprochen.`
 - ⑤ freuen auf (⏩) / über (✅): «آخر هفته؟» ⟵ das Wochenende (📌 جنس ترکیبی از تیکه‌ی آخر 🟢) · `Wochenecnd` · `Wochenend` · `Wochenecnde` ⟵ تیکه‌تیکه ⟵ ✅ (خستگی تایپ؟ ☕ پیشنهاد) · `Ich freue mich sehr ueber deinen Brief.` ⟵ گذشته habe mich…gefreut ⟵ ✅
 - 📋 پوشش بلوک ۵: ۵/۷ (مانده: ⑥ با آدم · ⑦ راهبرد)
+- ⑥ با آدم + پل da- · ⑦ راهبرد سه‌تایی · تمرین: «an hour?» ⟵ seit einer Stunde · `siet` 🔁 ei/ie ⟵ ✅ · «always?» ⟵ immer · ✅ بار اول `Ich denke immer an dich.` · `Angst von ihm` ⟵ 🪤 «از» فارسی ⟵ von ×۲ ⟵ ✅ `Die Kinder haben Angst vor dem Mann, aber ich habe mit ihm gesprochen.`
+- ✅✅ **بلوک ۵ بسته شد — پوشش ۷/۷** (۱۶:۲۴)
+
+### 🔭 بلوک ۶ — da- / wo- (۱۶ آبان، ۱۶:۲۵)
+**📋 چک‌لیست پوشش (جدول استاد = کف)**
+| # | آیتم | جمله |
+|---|---|---|
+| ① | مفهوم: «آماتور ⟵ پرو» — حرف اضافه + «اون چیز» ⟵ `da-` · حرف اضافه + «چی» ⟵ `wo-` | ⬜ |
+| ② | قانون `r`: حرف اضافه‌ی مصوت‌دار ⟵ `dar-/wor-` (an · auf · in · über · unter · aus · um) | ⬜ |
+| ③ | سؤال درباره‌ی چیز: `Worauf wartest du?` · `Wovor hast du Angst?` · `Wofür interessierst du dich?` · `Womit?` · `Worüber?` | ⬜ |
+| ④ | جواب: `Ich warte darauf.` · `Ich denke daran.` | ⬜ |
+| ⑤ | مرز: آدم ⟵ حرف اضافه + wen/wem/ضمیر (`Auf wen wartest du? – Auf ihn.` · `Mit wem…? – Mit ihr.`) — پل به wer/wen/wem درس ۱۰ | ⬜ |
+| ⑥ | 🟡 B2: `da-` + جمله (`Ich freue mich darauf, dass du kommst.` · `Ich träume davon, in Wien zu studieren.`) — Schreiben | ⬜ |
+| ⑦ | 🟡 تکه‌های بحث (Sprechen ÖSD): `Ich bin dafür / dagegen.` · گفتاری `mit was / für was` = آماتور، فقط شناختن | ⬜ |
 
 ## ⚠️ لغزش‌های تخته‌ی استاد (برای مرحله‌ی ⑤)
 
