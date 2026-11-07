@@ -350,6 +350,46 @@
 | ⑤ | 🟡 شناختن: `dessen` / `deren` (که …ـش) | ⬜ |
 | ⑥ | 🟡 شناختن: `wo` برای جا (`die Stadt, wo ich wohne`) · `was` بعد از `alles/etwas/nichts` | ⬜ |
 
+### 📌⭐ بلوک ۹ ⑤ — `dessen / deren` کامل (خواسته‌ی خودش، ۱۶ آبان: «همین جدول و نمونه‌های جمله‌های خوبشو توی فایل جمع‌بندی بیار که گوش و چشمم عادت کنه»)
+
+> وضعیت: 🟡 الان **بشناس** · تولید در **فاز ۳**. در جزوه‌ی جمع‌بندی: جدول + همه‌ی جمله‌ها با 🔊 (صداهای متنوع).
+
+**پل:** «ـش» در جمله‌ی «که»دار = نسخه‌ی «که»دارِ `sein` / `ihr`
+
+| صاحب (اسم قبلی) | مال او | توی جمله‌ی «که»دار |
+|---|---|---|
+| `der Mann` (مذکر) | `sein Auto` | `dessen Auto` |
+| `das Kind` (خنثی) | `seine Mutter` | `dessen Mutter` |
+| `die Frau` (مؤنث) | `ihr Sohn` | `deren Sohn` |
+| `die Leute` (جمع) | `ihr Haus` | `deren Haus` |
+
+**قانون:** مذکر و خنثی ⟵ `dessen` · مؤنث و جمع ⟵ `deren`
+
+| قدم | کار | ⚠️ تله |
+|---|---|---|
+| ① | صاحب کیه (اسم قبل از ویرگول) + جنسش | جنسِ «مال او» مهم نیست، فقط صاحب |
+| ② | `dessen/deren` + اسمِ مال او **بدون آرتیکل** | `dessen die Mutter` ❌ ⟵ `dessen Mutter` ✅ |
+| ③ | فعل آخر | مثل همه‌ی جمله‌های «که»دار |
+
+**تست تشخیص (کدام «که»؟):** «که …ـش/ـشون» ⟵ `dessen/deren` · «هرچی» ⟵ `alles, was` · «جایی که / که توش» ⟵ `wo` · «که» ساده ⟵ `der/die/das…` (+ حرف اضافه اگر فعل بخواهد، بلوک ۹)
+
+**جمله‌های نمونه (برای گوش و چشم):**
+
+| # | آلمانی | فارسی | صاحب ⟵ انتخاب |
+|---|---|---|---|
+| ۱ | `Das ist das Kind, dessen Mutter Ärztin ist.` | این بچه‌ایه که مادرش پزشکه. | `das Kind` خنثی ⟵ `dessen` |
+| ۲ | `Das ist der Mann, dessen Auto vor unserem Haus steht.` | این همون مردیه که ماشینش جلوی خونه‌ی ما پارکه. | `der Mann` ⟵ `dessen` |
+| ۳ | `Ich habe eine Freundin, deren Bruder in Wien studiert.` | یه دوستی دارم که برادرش توی وین درس می‌خونه. | `die Freundin` ⟵ `deren` (برادر مذکره، مهم نیست!) |
+| ۴ | `Wir wohnen in einem Haus, dessen Garten sehr groß ist.` | توی خونه‌ای زندگی می‌کنیم که حیاطش خیلی بزرگه. | `das Haus` ⟵ `dessen` (صاحب می‌تواند شیء باشد) |
+| ۵ | `Kennst du die Lehrerin, deren Kurs so gut ist?` | معلمی رو که کلاسش انقدر خوبه می‌شناسی؟ | `die Lehrerin` ⟵ `deren` |
+| ۶ | `Der Kollege, dessen Frau aus Österreich kommt, spricht sehr gut Deutsch.` | همکاری که زنش اتریشیه خیلی خوب آلمانی حرف می‌زنه. | ⚠️ `die Frau` مؤنث ولی صاحب `der Kollege` ⟵ `dessen` |
+| ۷ | `Die Studenten, deren Prüfung morgen ist, lernen heute die ganze Nacht.` | دانشجوهایی که امتحانشون فرداست امشب کل شب درس می‌خونن. | جمع ⟵ `deren` |
+| ۸ | `Die Nachbarn, deren Kinder immer laut sind, ziehen bald um.` | همسایه‌هایی که بچه‌هاشون همیشه شلوغ می‌کنن به‌زودی اسباب‌کشی می‌کنن. | جمع ⟵ `deren` |
+
+- ✳️ نکته‌ی جانبی ۶ و ۷: جمله‌ی «که»دار وسط جمله‌ی اصلی می‌نشیند، بین دو ویرگول؛ بعدش فعل جمله‌ی اصلی می‌آید (`spricht`، `lernen`)
+- لغت‌های تازه‌ی این جمله‌ها (خارج از سهمیه، فقط برای شنیدن): `umziehen` اسباب‌کشی کردن · `der Garten` حیاط/باغ · `die Prüfung` امتحان
+- 🔁 صف مرور: ردیف «`dessen/deren` — شناخت؛ تولید فاز ۳»
+
 ## ⚠️ لغزش‌های تخته‌ی استاد (برای مرحله‌ی ⑤)
 
 | صفحه | روی تخته | درست | چرا |
