@@ -651,3 +651,18 @@
 - ❓ «پس آرتیکل اول تکرار میشه؟» ⟵ فقط تصادفی وقتی نقش یکی است؛ کپی نکن (der Mann, den …)
 - ۵ `die Kindern, die im Park spielen` ⟵ Kinder (🔁 -n به Nom جمع نشت کرد؛ عکسِ لغزش R2) ⟵ ✅
 - «که» بار اول درست: ۳/۵ · جمله‌ی کامل بار اول: ۰/۵ · ۵/۵ بعد از اصلاح · 🔁 الگوی روز: **جنس مفرد ⟵ جمع** (Kindern·meinem · Schuhe·den) و **-n Dat** (جا می‌افتد / نشت می‌کند)
+
+### R5 بخش ۱ — «که» + حرف اضافه (۵/۵ با بازنویسی)
+
+| # | فارسی | اول | درست | ریشه |
+|---|---|---|---|---|
+| 1 | کتابی که هر روز بهش فکر می‌کنم | an dem | Das ist das Buch, an das ich jeden Tag denke. | denken an = Akk ثابت؛ an را هندسی خواند (آجر R3 ⟵ R6) |
+| 2 | دوستم (دختر) که دیروز باهاش رفتم سینما | meiner Freund … (gestern جا افتاد) | Das ist meine Freundin, mit der ich gestern ins Kino gegangen bin. | Nom بعد از Das ist ⟵ meine؛ Freund/Freundin؛ در بازنویسی دوم برگشت به meiner Freund (کپی از نسخه‌ی اول) · eu درست ✅ |
+| 3 | همسایه‌هام که هر روز باهاشون حرف می‌زنم | mit den | Das sind meine Nachbarn, mit denen ich jeden Tag spreche. | denen = لغزش گرم‌کردن ۳/۵ تکرار شد ⟵ بازنویسی درست |
+| 4 | بچه‌هایی که براشون کیک پختم | ✅ اول بار | Das sind die Kinder, für die ich einen Kuchen gebacken habe. | تله‌ی Akk جمع (denen نیامد) ✅ |
+| 5 | مردی که ازش می‌ترسم | ✅ اول بار | Das ist der Mann, vor dem ich Angst habe. | Angst vor (لغزش صبح wovon) درست شد ✅ |
+
+- 📌⭐ کشف خودش: «برای جمع فقط سر و کله‌ی denen وقتی پیدا می‌شه که داتیو توی کار باشه» ⟵ جدول «که» جمع: die/die/denen + سه منبع Dat (حرف اضافه، فعل Dat مثل helfen، هندسی سکون)
+- 📌⭐ بینش خودش (دانش لایه‌ای): «مبحث حروف اضافه یادته؟ الان داره خودشو نشون میده اهمیتش… کل مسیر هر مطلبی یاد بگیریم همینه» ⟵ «که»+حرف اضافه = سه آجر R1 (فرم) + R2 (denen) + R3 (حالت) ⟵ در فایل جمع‌بندی بخش «دانش لایه‌ای / پیش‌نیازها»
+- 📌 قلاب denen: den کنار اسم میاد؛ «که» تنهاست ⟵ کلمه بلندتر
+- 📌 قلاب R6: حرف اضافه‌ی چسبیده به فعل، حالتش را با فعل حفظ کن (denken an + Akk) — مکانی ≠ چسبیده
