@@ -626,3 +626,16 @@
 - 🔁 الگو: -n ته اسم در Dat جمع جا می‌افتد ×۲ (آرتیکل درست) ⟵ قلاب «دو تا n، با هم»
 
 ### ✅ R2 بسته
+- 📌⭐ خودش: «برای کلمه‌ای مثل روستا با رمزای مختلف (das · آخرش er · اوملات) به خاطر سپردم، بعد وقتی داتیو شه باید کلی فکر و تحلیل کنم، برا همین غلط زدمش» ⟵ جواب: ۴ تصمیم پشت هم = بار ذهنی ⟵ **قانون برای بار اول؛ بعد جمع را تکه حفظ کن** (`das Dorf · die Dörfer`) ⟵ در جمله فقط یک فکر می‌ماند: نقش ⟵ den + -n · فایل جمع‌بندی و انکی: هر اسم با جمعش
+- 📌📌 خواسته: «میخوام تو فایل جمع‌بندی همه چیزو در نظر بگیری و خیلی علمی باشه!» ⟵ همه‌ی 📌های این مرور + مسیر کشف + چرا (بار ذهنی ⟵ تکه‌سازی)
+
+### ✅ R3 بسته — هندسی + گذاشتن/بودن (بعد از استراحت)
+- ۱ `Ich lege meiner Tasche auf den Stuhl.` ⟵ 🎉 **auf den Stuhl** (لغزش سه‌باره‌ی «گذاشتن ⟵ Dat» نیفتاد) · meiner ⟵ meine (Akk مؤنث) · زمان ⟵ habe … gelegt ⟵ ✅
+- ۲ `Die Gläser stehen auf dem Tisch.` ✅ بار اول (جمع + اوملات + stehen + Dat)
+- ۳ `Ich habe das Bield an den Wand.` ⟵ gehängt جا افتاد · die Wand · Bild ⟵ ✅ `Ich habe das Bild an die Wand gehängt.`
+- ۴ `Das Bild hängt an der Wand.` ✅ (wand حرف کوچک)
+- ۵ ❓ «جنس کلاس؟» ⟵ der Kurs · `Ich gehe nach dem Kurs zum Arzt` ✅ بار اول (🎉 zu + حرکت ⟵ Dat؛ لغزش «حرکت ⟵ Akk» برای غیرهندسی نیفتاد)
+- ۶ `mein Buecher … Tsche` ⟵ meine Bücher · Tasche ⟵ ✅ `Ich habe meine Bücher in meine Tasche gelegt, und ich bin nach Hause gegangen.`
+- ۳/۶ بار اول · ۶/۶ بعد از اصلاح · 🔁 تازه: آرتیکل ملکی جمع/مؤنث در Akk (meiner · mein ⟵ meine)
+
+### 🏁 نشست ۱ بسته (R1–R3)
