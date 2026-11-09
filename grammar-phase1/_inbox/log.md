@@ -719,3 +719,33 @@
 - 📌 «دست‌نویس‌ها برام پیروزیه» ⟵ تأیید: حافظه‌ی حرکتی
 - 📌 سؤال: «des از چی بود؟» ⟵ ردیف Gen: des/der/des/der + -(e)s · تولید فقط wegen/während/trotz؛ گفتار von + Dat
 - 😮‍💨 الگوی کپی از نسخه‌ی اول در بازنویسی (دوم بار، بعد از meine Freundin دیروز) ⟵ در بازنویسی بگو «از نسخه‌ی آخرت بنویس»
+
+### R6 تیکه‌ی ۱ (ادامه) — ۴/۴
+
+| # | فارسی | اول | درست | ریشه |
+|---|---|---|---|---|
+| 1 | به خانواده‌م فکر می‌کنم | (گرم‌کردن) | Ich denke oft an meine Familie. | ⟵ بالا |
+| 2 | از امتحان می‌ترسم | ✅ اول بار | Ich habe Angst vor der Prüfung. | Angst vor نشست (دیروز wovon) |
+| 3 | خیلی ذوق تعطیلات رو داریم | freuen sehr sich | Wir freuen uns sehr auf die Ferien. | sich فقط در مصدر ⟵ uns · ضمیر 🎈 قبل از قید |
+| 4 | دیروز توی یه کلاس آلمانی شرکت کردم | Deutschkurse | Ich habe gestern an einem Deutschkurs teilgenommen. | جمع از جدول لغت برداشته شد · an einem ✅ |
+
+- 📌⭐ سؤال: «teilnehmen داتیوی بود ولی دو تیکه نبود؟» ⟵ فعل دوبرابر: teil جداشدنی ⟵ ته / an حرف اضافه ⟵ قبل از بسته · Perfekt teil-ge-nommen · `Ich nehme an der Prüfung teil.`
+- 📌⭐ سؤال: «an برای داتیویاست یا فقط این؟» ⟵ an دو شغل: مکانی (حرکت/سکون) · چسبیده (denken an Akk · sich erinnern an Akk · teilnehmen an Dat · Interesse an Dat) ⟵ قلاب: سه‌تایی حفظ کن (فعل + حرف اضافه + حالت) · ⚠️ نشانه‌ی 🟡 «an با ترجمه‌ی در ⟵ Dat» را دادم و با مثال خودم (Interesse an = علاقه به) نقض شد ⟵ صریح پس گرفتم
+- 📌⭐ کشف خودش: «اولش بعد از an، in هم گذاشته بودم! ولی یاد دیروز افتادم… جایی برای حرف اضافه‌ی دیگه نمی‌مونه» ⟵ هر بسته یک حرف اضافه؛ حرف اضافه‌ی فعل جای «توی/به/از» فارسی را می‌گیرد ⟵ خودتصحیحی وسط تولید
+
+### R6 تیکه‌ی ۲ — سؤال و جواب کوتاه ۷/۷
+
+| # | فارسی | اول | درست | ریشه |
+|---|---|---|---|---|
+| 1 | به چی فکر می‌کنی؟ | ✅ | Woran denkst du? | — |
+| 2 | دیروز با کی رفتی سینما؟ | ✅ (ddu) | Mit wem bist du gestern ins Kino gegangen? | Mit wem جدا ✅ (دیروز Mitwem ×۲) |
+| 3 | به چی علاقه داری؟ | ✅ | Wofür interessierst du dich? | interessierst ✅ (قبلاً interessierest) |
+| 4 | منتظر کی هستین؟ | Wen auf sich sie warten? ⟵ Auf wen sind Sie warten? | Auf wen warten Sie? | ساختار انگلیسی (Who…for / are waiting) · sich سرریز از جمله‌ی قبل (نشانه‌ی خستگی) |
+| 5 | منتظر اتوبوسی؟ – آره منتظرشم | Auf wartest du den Bus? ja ich darauf | Wartest du auf den Bus? – Ja, ich warte darauf. | الگوی Auf wen به سؤال بله/نه سرایت کرد · فعل جواب افتاد |
+| 6 | با مریم حرف زدی؟ – آره باهاش حرف زدم | gesprochen mitda | Hast du mit Maryam gesprochen? – Ja, ich habe mit ihr gesprochen. | آدم ⟵ mit ihr نه da- · اسم مفعول ته |
+| 7 | از امتحان می‌ترسیدی؟ – نه، ازش نمی‌ترسیدم | Hast … habe nicht Angst | Hattest du Angst vor der Prüfung? – Nein, ich hatte keine Angst davor. | زمان گذشته ⟵ hatte (پوستر ده فعل) · nicht ⟵ keine · hate ⟵ hatte (صدادار کوتاه ⟵ دو صامت) |
+
+- 📌⭐ خواسته‌ی صریح: «پس مدل قبل برای کی و چی بود! اینو حتماً ذکر کن تفاوتشو با این مدل توی فایل چون همین اشتباها به آدم هینت میدن!» ⟵ سه‌تایی کنار هم: Auf wen wartest du? · Worauf wartest du? · Wartest du auf den Bus? (بله/نه ⟵ فعل اول)
+- 📌⭐ سؤال: «کاینه یادم رفته بود! جنسیت Angst از کجا باید می‌دونستم؟» ⟵ تست: در جمله‌ی مثبت آرتیکل دارد؟ نه ⟵ kein · die Angst پایانه‌ی 🟢 ندارد ⟵ تکه: keine Angst haben · Keine Angst! · پرکاربردها: keine Zeit · keine Lust · keine Ahnung (-ung) · keinen Hunger · جدول kein = جدول mein · آزمون: نفی اشتباه بزرگ، پایانه‌ی اشتباه کوچک · ⚠️ خطای من: Angst را بی‌جنس در جدول لغت دادم
+- 🛑 بازخورد قالب (سوم بار در دو روز): «توی توضیحاتت همه فونتا بهم ریخته شدننن» ⟵ آلمانی در نثر فارسی/تیتر/پرانتز ⟵ نسخه‌ی تمیز ⟵ «اره اوکی بودن» · حافظه به‌روز شد
+- ⏸️ R6 تیکه‌ی ۳ (da- + dass/zu) توضیح داده شد؛ جمله‌ی ۱/۲ «منتظرم که جوابمو بدی» داده شد ⟵ ناهار
