@@ -788,3 +788,31 @@
 
 - 📌 بانک عادت: zu + مصدر بعد از keine Zeit / keine Lust / Angst davor … · جمع der ⟵ -e (Freunder) · حرف اضافه + «که» (in die / mit dem / auf den) · اسم مفعول قوی کامل (gesehen)
 - 📊 R7: ۳/۶ از اول درست (۲ · ۵ · و ۳ با یک حرف) · لغزش‌ها همه از خانه‌هایی که امروز مرور شد ⟵ درهم‌آمیزی جواب داد
+
+---
+
+## 🎨 بلوک ۱۰ — صرف صفت ۱ (۱۸ آبان، بعد از مرور ۱) · آماده‌سازی
+
+**چک ۵تایی:**
+1. مرجع‌های خودش: تخته ص ۲۳–۲۵ (جدول کامل سه حالت + `der rote / ein roter / roter Rock` · `das gute / ein gutes Leben` · `dieser rote` · `mein roter`) · `artikel/poster-artikel.html` (dieser/jeder/welcher مثل der · ملکی‌ها مثل ein) · کشف امروزش: «بسته‌ی اسم» (آرتیکل + [صفت] + اسم) ⟵ صفت داخل بسته می‌نشیند
+2. لغزش‌های ثبت‌شده‌ی نزدیک: صرف صفت تا حالا تمرین نشده · درس ۹: «این همون صرف صفته؟» ⟵ بعد از sein بی‌پایانه · الگوهای امروز که به صفت سرایت می‌کنند: جنس مفرد ⟵ جمع · -n Dat جمع · کپی آرتیکل
+3. لغت با جنس: der Rock · die Bluse · das Hemd · die Schuhe · رنگ‌ها (rot gelb grün weiß schwarz blau) · gut neu alt groß klein schön teuer billig · die Tasche/der Tisch/das Buch از امروز
+4. قلاب‌ها با مثال نقض (تست شد):
+   - «آرتیکل نگفت ⟵ صفت می‌گه» ✅ der rote (گفت) · ein roter (نگفت) · roter (نیست) · ein grünes · mit kaltem Wasser ✅ · ⚠️ نقض: `roten Rocks` گنتیو بی‌آرتیکل ⟵ اسم خودش -s گفته ⟵ استثنای بلوک ۱۱ (صریح بگو، 🟡)
+   - «بعد از خانواده‌ی der فقط -e یا -en» 🟢 بدون استثنا
+   - «-e فقط در پنج خانه» (Nom سه جنس مفرد + Akk مؤنث/خنثی) 🟢 برای خانواده‌ی der
+   - ⚠️ تله: جمع با آرتیکل همیشه -en حتی Nom (`die weißen Schuhe`) ⟵ با الگوی «جنس مفرد ⟵ جمع» برخورد دارد ⟵ بلوک ۱۱
+5. 🗺️ نقشه: صفت = خانه‌ی تازه **داخل بسته‌ی اسم** (بین آرتیکل و اسم)، روی جدول آرتیکل سوار · 🔭 B2: Schreiben (نامه: `Liebe … / Lieber …` · `Mit freundlichen Grüßen`) · نمره: اشتباه کوچک
+
+**📋 چک‌لیست پوشش بلوک ۱۰ (تا B2):**
+
+| # | آیتم | جمله |
+|---|---|---|
+| ① | صفت کجا صرف می‌شود: فقط قبل از اسم · بعد از sein و به‌عنوان قید بی‌پایانه (`Das Auto ist neu.` · `Er fährt schnell.`) | ⬜ |
+| ② | سه حالت: خانواده‌ی der (der dieser jeder welcher) · خانواده‌ی ein (ein kein mein…) · بی‌آرتیکل | ⬜ |
+| ③ | خانواده‌ی der ⟵ صفت فقط -e / -en | ⬜ |
+| ④ | خانواده‌ی ein ⟵ سه خانه‌ی خالی (Nom m · Nom n · Akk n) ⟵ صفت -er / -es / -es | ⬜ |
+| ⑤ | بی‌آرتیکل ⟵ صفت پایانه‌ی جدول der را می‌گیرد (roter gelbe grünes weiße · Dat rotem gelber grünem weißen) | ⬜ |
+| ⑥ | تکه‌های ثابت: Guten Morgen/Tag/Abend · Viele Grüße · Mit freundlichen Grüßen · Liebe Maria / Lieber Max · Frohe Weihnachten | ⬜ |
+| ⑦ | `am besten` (صف بلوک ۲ ⑦) — فقط شناختن، عالی ⟵ فاز ۲ 🟡 | ⬜ |
+| ⑧ | گنتیو بی‌آرتیکل (roten Rocks) ⟵ بلوک ۱۱ | ⟵ ۱۱ |
