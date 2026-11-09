@@ -749,3 +749,15 @@
 - 📌⭐ سؤال: «کاینه یادم رفته بود! جنسیت Angst از کجا باید می‌دونستم؟» ⟵ تست: در جمله‌ی مثبت آرتیکل دارد؟ نه ⟵ kein · die Angst پایانه‌ی 🟢 ندارد ⟵ تکه: keine Angst haben · Keine Angst! · پرکاربردها: keine Zeit · keine Lust · keine Ahnung (-ung) · keinen Hunger · جدول kein = جدول mein · آزمون: نفی اشتباه بزرگ، پایانه‌ی اشتباه کوچک · ⚠️ خطای من: Angst را بی‌جنس در جدول لغت دادم
 - 🛑 بازخورد قالب (سوم بار در دو روز): «توی توضیحاتت همه فونتا بهم ریخته شدننن» ⟵ آلمانی در نثر فارسی/تیتر/پرانتز ⟵ نسخه‌ی تمیز ⟵ «اره اوکی بودن» · حافظه به‌روز شد
 - ⏸️ R6 تیکه‌ی ۳ (da- + dass/zu) توضیح داده شد؛ جمله‌ی ۱/۲ «منتظرم که جوابمو بدی» داده شد ⟵ ناهار
+
+### R6 تیکه‌ی ۳ — da- + dass/zu (۲/۲) · **R6 بسته ✅**
+
+| # | فارسی | اول | درست | ریشه |
+|---|---|---|---|---|
+| 1 | منتظرم که جوابمو بدی | Ich warte, der du mich anwortest. ⟵ warte auf , dass ⟵ ✅ | Ich warte darauf, dass du mir antwortest. | «که» ⟵ der (تحلیل خودش: «داتیوه، مؤنث ⟵ der») · antworten + Dat ⟵ mir · darauf جا افتاد ⟵ بعد auf تنها · املا antwortest |
+| 2 | می‌ترسم که امتحانو قبول نشم | dass ich Pruefung nicht bestehe (die جا افتاد) | Ich habe Angst davor, die Prüfung nicht zu bestehen. | dass درست بود؛ فاعل یکی ⟵ zu بهتر · «چیشد چیشد؟ zu؟» ⟵ تبدیل سه‌قدمی (dass+ich حذف ⟵ zu + مصدر) + پل zu میشل توماس ⟵ ✅ |
+
+- 📌 سؤال: «antworten جداشدنیه؟» ⟵ نه، ant از die Antwort · geantwortet ≠ angerufen
+- 📌⭐ خواسته‌ی صریح: «اینم تقابل جالب بود! مقایسه‌ی اینارم لحاظ کن» ⟵ «که» دو شغل: قبلش اسم ⟵ der/die/das از جدول (`Das ist die Frau, der ich geantwortet habe.`) · قبلش فقط فعل ⟵ dass بی جنس و حالت (`Ich warte darauf, dass du mir antwortest.`) · Dat را درست حس کرد ولی مال mir بود
+- 📌⭐ کشف خودش: «اینم واقعاً مهمه که نمی‌تونه تنها بمونه و بعدش باید اسم باشه!» ⟵ حرف اضافه هرگز تنها نمی‌ماند: بسته‌ی اسم · ضمیر آدم · da- · wo- ⟵ وصل به Wen … auf ❌ صبح
+- 📌 جدول dass/zu: فاعل یکی ⟵ zu (بهتر) یا dass · دو فاعل ⟵ فقط dass
