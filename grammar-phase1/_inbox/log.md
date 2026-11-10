@@ -816,3 +816,25 @@
 | ⑥ | تکه‌های ثابت: Guten Morgen/Tag/Abend · Viele Grüße · Mit freundlichen Grüßen · Liebe Maria / Lieber Max · Frohe Weihnachten | ⬜ |
 | ⑦ | `am besten` (صف بلوک ۲ ⑦) — فقط شناختن، عالی ⟵ فاز ۲ 🟡 | ⬜ |
 | ⑧ | گنتیو بی‌آرتیکل (roten Rocks) ⟵ بلوک ۱۱ | ⟵ ۱۱ |
+
+---
+
+## 🔁 سشن ۹ (سه‌شنبه ۱۹ آبان) — گرم‌کردن + صفت
+
+- 🧾 رسید ✅ · سؤال جانبی اول جلسه: «فیبل ۵.۲ بذارم چی می‌شه؟» ⟵ قوی‌تر، ~۲ برابر مصرف سهمیه، کندتر؛ فایل‌ها همه می‌مانند · پیشنهاد: تمرین روی Opus، ساخت فایل‌های بزرگ روی فیبل (انتخاب با خودش)
+- برنامه‌ی روز را پرسید + «شیت دیروز را آخر روز پر کنیم» 📊 (ردیف ۱۸ و ۱۹ آبان)
+
+### 📸 گرم‌کردن ۳/۳ (همه با بازنویسی) — از صف مرور: sich setzen · von + Dat · du -st · eu · Dat جمع
+
+| # | فارسی | اول | درست | ریشه |
+|---|---|---|---|---|
+| 1 | بیا بشین کنارم! | Komm sietz dich neben mich. ⟵ (بعد از سؤال) sitz dich ⟵ ✅ | Komm, setz dich neben mich! | dich + neben mich (Akk) ✅ از اول · sietz: ie ⟵ e (املا) · بعد از توضیح sitzen ⟵ تداخل (sitz dich) ⟵ تست «dich داره؟ ⟵ setzen» · قلاب e حرکت / i ایستا |
+| 2 | دیروز کیف خواهرت رو کجا گذاشتی؟ | Wo gestern hast du die Tasch von deiner schwester gelegt? ⟵ ✅ | Wohin hast du gestern die Tasche von deiner Schwester gelegt? | von deiner ✅ · Wo ⟵ Wohin (گذاشتن = حرکت) · فعل جای ۲ بعد از کلمه‌ی پرسشی · Tasche · اسم حرف بزرگ |
+| 3 | امروز با دوستات آلمانی حرف می‌زنی؟ | Sprichst du Deutsch heuete mit deinem Freunden? ⟵ ✅ | Sprichst du heute mit deinen Freunden Deutsch? | Sprichst (اوملات + -st) ✅ · Freunden -n ✅ ولی deinem ⟵ deinen · heuete ⟵ heute (eu 🔁) · Deutsch sprechen تکه ⟵ Deutsch ته 🧲 |
+
+- 📌⭐ سؤال: «صرف فعل نشستن رو نشونم بدی؟» ⟵ دو فعل: sich setzen (حرکت، باقاعده، سلفی با فاعل عوض) · sitzen (حالت، قوی) · گذشته: habe mich gesetzt / habe gesessen (🇦🇹 bin gesessen فقط بشناس) · امری Setz dich! / Setzen Sie sich! · تشخیص: می‌شینه (حرکت ⟵ Akk) / نشسته (حالت ⟵ Dat) · تست ۲/۲ مفهوم ✅ (sietzen املا)
+- 📌⭐ کشف خودش ۱: «اگه داتیوی باشه انعکاس نداره» ⟵ 🟡 فقط برای این جفت‌ها: سلفی مال فعل است نه حالت: «کسی را جابه‌جا می‌کنی؟ خودتی؟ ⟵ sich» (Ich setze das Kind / mich) · نقض: Ich freue mich
+- 📌⭐ کشف خودش ۲: «اسم مفعولش شبیه خودش نیست، gesessen» ✅ ⟵ الگو: حرکت باقاعده (gesetzt gelegt gestellt) / حالت قوی (gesessen gelegen gestanden) · جعبه‌ی ③
+- 📌 املای ie: sietz/sietzen ×۲ امروز ⟵ i کوتاه قبل از دو صامت (sitzen · Kinder · bitte) · ie کشیده (liegen · sieben) · همان قانون hatte ⟵ بخش املای فایل مرور با تمرین جدا (لغزش دستی، قانون «سه بار»)
+- 📌 خودش: «ولی چه جمله‌ی جالبی! Wohin نجات‌دهنده بود… توی ساختش به چالش برخوردم» ⟵ بازیابی پرزحمت = ماندگاری · جفت Wohin … gelegt? / Wo liegt …?
+- 📌⭐ کشف خودش ۳: «برای جمع مهمه که جفتشو انتخاب کنی، نه صرفاً یه داتیو که بدونی فقط داتیوه!» ⟵ Dat یک ردیف نیست: مفرد مذکر/خنثی -m · مؤنث -r · جمع -n + n ⟵ اول «جمعه؟» بعد حالت
