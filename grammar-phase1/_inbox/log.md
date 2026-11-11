@@ -1002,3 +1002,18 @@
 - 📌⭐ کشف خودش: «این هم معرفی می‌کنه هم صفت» ⟵ Das ist + بسته‌ی کامل (با صفتش)
 
 **🏁 بازیابی صفت کامل: ۱۲ قطعه ✅ + ۵ جمله ✅ (بار اول ۱/۵ کامل؛ لغزش‌ها: n آرتیکل/اسم، بلندگوی جمع، Akk مذکر -en، «توش»، املای Regen)**
+
+### 🏁 بلوک ۱۲ — لغزش‌های تخته + داستان زنجیره‌ای (۲۰ آبان، عصر)
+
+**① لغزش‌های تخته (۲/۲ ✅):**
+- ص ۹ `Ich stehe es auf den Tisch.` ⟵ خودش: «باید فعلشم اکوزاتیوی باشه» ✅ ⟵ جفت حرکتی stehen؟ ⟵ «فقط یادمه h نداشت» ⟵ داربست st__en ⟵ stellen ✅ ⟵ `Ich stelle es auf den Tisch.` ✅
+- ص ۱۰ `Intresse` ⟵ گفت «املاش غلطه، auf هم نداره، فکر کنم انعکاسی هم باشه» ⟵ فقط املا درست بود · 📌⭐ کشف: «علاقه داشتن با علاقه‌مند بودن مدلشون فرق می‌کنه؟» ⟵ سه ساختمان: Interesse haben an + Dat · sich interessieren für + Akk · 🟡 interessiert sein an + Dat (نامه‌ی رسمی B2: Ich bin an dieser Stelle sehr interessiert.) ⟵ «حرف اضافه به کلمه می‌چسبد نه به معنی» ⟵ تست: Ich habe Interesse an Deutsch. ✅ · Ich interessiere mich für Deutsch. ✅
+
+**② داستان «یه شنبه‌ی خوب» (۱/۶):**
+| # | فارسی | اول | درست | ریشه |
+|---|---|---|---|---|
+| 1 | شنبه ساعت نه و نیم با دوست جدیدم رفتم یه کافه‌ی کوچیک | mit meiner neuen Freund ins ein kleines Cafe ⟵ ✅ | Am Samstag um halb zehn bin ich mit meiner neuen Freundin in ein kleines Café gegangen. | ❓ «برای روزها چه حرف اضافه‌ای؟» ⟵ am / um / am Abend / in der Nacht · samstags · meiner neuen ✅ ein kleines ✅ · Freund ⟵ Freundin · ins ein ⟵ in ein (ins = in das) |
+
+- 📌📌⭐ خودش: «توی Freund و پایانه‌ی آخرش برای حالتای مختلف زیاد دچار اشتباه می‌شم… نمی‌دونم چطوری به ذهن بسپارمشون» ⟵ جدول کامل (Freund/Freundin/Freunde × حالت‌ها؛ اسم فقط Dat جمع و Gen مذکر عوض می‌شود) · «in das چرا das حذف شد؟» ⟵ یک بسته یک آرتیکل (das یا ein) · 🧠 **سیستم سه‌قدمی دوست**: ① سه کلمه‌ی جدا با آدم واقعی (Mein Freund heißt Ali · Meine Freundin heißt Maryam · Meine Freunde sind nett) ② قلاب -in = زن (Lehrerin · Studentin) ③ «پسره/دختره/چند نفر؟» ⟵ بعد فقط آرتیکل · ابزار: انکی + بانک عادت + گرم‌کردن یک هفته
+- 🔥 دور تند «دوست» ۶ جمله (یکی‌یکی، به پرسش خودش «شش تا با هم؟» ⟵ بازخورد فوری): ۱ meinen Freund ist ⟵ Mein (فاعل) ✅ · ۲ meine Freundin gesehen ✅ بار اول · ۳ meinen Freunde ⟵ Freunden («خودت گفتی جمع e داره» ⟵ e می‌ماند، n اضافه می‌شود: Freund+e+n) ✅ · ۴ meinen Freund (helfen) ⟵ meinem ✅ · ۵ Meinen Freundin sind ⟵ Meine Freunde (-in = زن نه جمع · نشت n) ✅ · ۶ «واقعاً حال ندارم این یکیو خودت بگو» ⟵ Ich habe eine neue Freundin. (داده شد) ⟵ 😴 خستگی ⟵ استراحت چای
+- ⏳ مانده: داستان ۲–۶ · بخش ③ جمع‌بندی فاز ۱
