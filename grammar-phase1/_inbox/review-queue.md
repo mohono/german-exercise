@@ -65,3 +65,6 @@
 | ✅ du -st · fährst/sprichst (اوملات du/er) | — | ۱۹ آبان ✅ بار اول (Sprichst) | ۲۶ آبان |
 | ✅ von + Dat · dessen/deren (شناخت) | — | ۱۹ آبان ✅ (von deiner Schwester) | ۲۶ آبان |
 | 🧱🧭 پوسترهای آرتیکل و حروف اضافه | — | مرور ۲ و ۳ از ۱۸ آبان **عقب** | ۲۰ آبان |
+| Gen: اسم m/n +s (جفت des) · اسم مؤنث مفرد هیچ‌وقت عوض نمی‌شود | Pruefungs (s روی مؤنث) | ۲۰ آبان 🔁 ⟵ ✅ بعد از توضیح | ۲۲ آبان |
+| Akk فقط مذکر را عوض می‌کند (ein Hemd Akk = ein) | einen/eines/eine برای Akk خنثی | ۲۰ آبان 🔁 ⟵ ✅ | ۲۲ آبان |
+| 🛑 املای Regen (Rengen · Renges · Rengs) | ×۳ | ۲۰ آبان | ۲۱ آبان |

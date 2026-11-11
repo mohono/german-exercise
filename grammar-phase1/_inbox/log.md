@@ -983,3 +983,22 @@
 | ⑫ | ترتیب طلایی + این کیه؟ | ترتیب: آرتیکل ⟵ نقش (جابه‌جا) ⟵ نقش اول چون آرتیکل نتیجه‌ی نقش است · «این کیه؟» ✅ ۲/۲ |
 
 - ⑬ ۵ جمله‌ی قاطی بی داربست ⏳ (۱/۵ = بازنویسی گرم‌کردن) ⟵ ⏸️ ناهار
+
+### ⑬ ۵ جمله‌ی قاطی بی داربست (بعد از ناهار) — **بازیابی صفت ۱۰۰٪ ✅**
+
+| # | فارسی | اول | درست | ریشه |
+|---|---|---|---|---|
+| 1 | اینا دوستای جدید منن (گرم‌کردن ۱/۳) | Das sind meine neuen Freunden ⟵ ✅ | Das sind meine neuen Freunde. | آرتیکل درست شد (صبح meinen) · n این بار به اسم رفت ⟵ «n آرتیکل و n اسم با هم میان، با هم می‌رن» (جفت Dat) |
+| 2 | به‌خاطر بارون، با بچه‌های کوچیک خونه موندم | Wegen des Rengen bleibe ich mit kleiner Kindern ⟵ Renges/Kleinen ⟵ Rengs ⟵ ✅ | Wegen des Regens bin ich mit kleinen Kindern zu Hause geblieben. | بی ویرگول ✅ · Kindern ✅ · زمان ⟵ bin … geblieben · kleiner (فکر کرد Dat مؤنث — die ی Kinder) ⟵ بلندگوی den ⟵ kleinen · Regen املا ×۳ ⟵ قانون سه بار: جواب کامل + فقط همان کلمه + بخش املای فایل |
+| 3 | اون زن مهربون امروز باهام حرف زد | ✅ بار اول | Die nette Frau hat heute mit mir gesprochen. | بسته (نه Das ist) ✅ |
+| 4 | یه دامن قرمز برای خواهرم خریدم | einen rote Rock ⟵ ✅ | Ich habe einen roten Rock für meine Schwester gekauft. | einen ✅ für meine ✅ · rote ⟵ roten (einen عوض شده) · خودش: «Akk مذکر باید en بگیره» |
+| 5 | این همون کافه‌ی کوچیکیه که دیروز با دوستای قدیمیم توش قهوه خوردم | Das ist kleins Cafe, das ich … getrunken. ⟵ Das kleine Cafe, in dem … (ist افتاد) ⟵ ✅ | Das ist das kleine Café, in dem ich gestern mit meinen alten Freunden Kaffee getrunken habe. | mit meinen alten Freunden ✅ بی‌نقص · «همون» = مشخص ⟵ das kleine · «توش» ⟵ in dem (بدونش: «کافه‌ای که نوشیدمش» 😄) · habe ته فرعی · Das ist das: دو das پشت هم |
+
+- 📌⭐ سؤال: «چی شد؟ فکر کردم داتیو مؤنثه» ⟵ die ی جمع ≠ مؤنث · اول «جمعه؟» (Kind ⟵ Kinder)
+- 📌⭐ سؤال: «des Regens: مگه آرتیکل حرف نزده؟» ⟵ اسم بیرون بازی؛ حرف زدن آرتیکل فقط روی صفت اثر دارد
+- 📌⭐ خواسته: «یه بار دیگه نشونم میدی گنتیو کلاً چه شکلی بود؟» ⟵ کِی (wegen/während/trotz؛ گفتار von+Dat) · جدول ۴ بازیکن (des/der/des/der · meines/meiner · صفت -en · اسم +s m/n) · قلاب‌ها: دوقلوی Dat · فامیل s · گفتار/نوشتار
+- 📌⭐ «واقعاً یادم نبود که اسم توی مذکر و خنثی s می‌گیره!» ⟵ تست: Wettera (تایپی) / Pruefungs ❌ ⟵ «چشمم به گنتیو افتاد، فکر کردم اینا جفتن» ⟵ 🟢 s نشونه‌ی **des** است نه گنتیو · 🟢 **اسم مؤنث مفرد هیچ‌وقت عوض نمی‌شود** · کل جاهایی که اسم عوض می‌شود: فقط ۲ تا، هر دو جفت (den+n · des+s) 🔒
+- 📌 سؤال: «چرا kleins غلط بود؟» ⟵ نیمه‌درست (خنثی ⟵ s) · بلندگو همیشه با e 🧴 (kleines) · اینجا مشخص ⟵ das kleine
+- 📌⭐ کشف خودش: «این هم معرفی می‌کنه هم صفت» ⟵ Das ist + بسته‌ی کامل (با صفتش)
+
+**🏁 بازیابی صفت کامل: ۱۲ قطعه ✅ + ۵ جمله ✅ (بار اول ۱/۵ کامل؛ لغزش‌ها: n آرتیکل/اسم، بلندگوی جمع، Akk مذکر -en، «توش»، املای Regen)**
