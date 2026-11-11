@@ -68,3 +68,4 @@
 | Gen: اسم m/n +s (جفت des) · اسم مؤنث مفرد هیچ‌وقت عوض نمی‌شود | Pruefungs (s روی مؤنث) | ۲۰ آبان 🔁 ⟵ ✅ بعد از توضیح | ۲۲ آبان |
 | Akk فقط مذکر را عوض می‌کند (ein Hemd Akk = ein) | einen/eines/eine برای Akk خنثی | ۲۰ آبان 🔁 ⟵ ✅ | ۲۲ آبان |
 | 🛑 املای Regen (Rengen · Renges · Rengs) | ×۳ | ۲۰ آبان | ۲۱ آبان |
+| ⭐ دو تیم جا: 🚚 Wohin+Akk+باقاعده / 🧘 Wo+Dat+قوی (legen/liegen · stellen/stehen · setzen/sitzen · hängen) | قاطی دو تیم (den … gesessen · Wo … gestellt · mich … gesessen) | ۲۰ آبان ۱۱/۱۱ بعد از اصلاح | ۲۱ آبان ⭐ |
