@@ -1037,3 +1037,13 @@
 - جای خالی ۸/۸: ① den gelegt ✅ ② dem gelegen ✅ ③ den gestellt ✅ ④ dem gestanden ✅ ⑤ der gehangen ✅ (die Wand) ⑥ den **gesessen** ⟵ gesetzt (🪤 **قاطی دو تیم**: حالت از حرکت، اسم مفعول از حالت ⟵ «den و gesessen هیچ‌وقت با هم نمی‌آیند») ✅ ⑦ dem gessesen (املا) ✅ ⑧ ❓ «آرتیکل دیوار؟» die gehaengt ✅
 - جمله‌ی کامل ۳/۳: ⑨ «کیفم کجاست؟ روی صندلیه» ⟵ meiner Tasche (فاعل ⟵ meine) · liegt … بی فاعل ⟵ Sie liegt (صندلی فاعل 🪑) ✅ · ⑩ «کفشاتو کجا گذاشتی؟» ⟵ Wo ⟵ Wohin (سؤال هم جزو سه مشخصه) ✅ · ⑪ «دیروز دو ساعت روی این صندلی نشسته بودم» ⟵ habe mich … gesessen (سلفی در تیم حالت ❌) · dem ⟵ diesem · Stuuhl ⟵ ✅ `Ich habe gestern zwei Stunden auf diesem Stuhl gesessen.`
 - **✅ ۱۱/۱۱** · الگو: حالت (Akk/Dat) همه درست؛ لغزش‌ها در **هماهنگی تیم** (اسم مفعول/سؤال/سلفی از تیم دیگر)
+
+**③ جمع‌بندی فاز ۱ (نقشه‌ی ۹ خانواده + ۳ جمله)** · قبلش: «برای استراحت اسکرول رو انتخاب کردم… تو پیجای آلمانی ویدیو می‌دیدم» ⟵ یک بار گفته شد: اسکرول استراحت مغز نیست (ورودی است)
+
+| # | فارسی | اول | درست | ریشه |
+|---|---|---|---|---|
+| 1 | فردا ساعت هشت با برادرم می‌رم دانشگاه | Morgen fahre ich mit meinem Bruder in der Uni ⟵ ✅ | Morgen fahre ich um acht Uhr mit meinem Bruder zur Uni. | ساعت جا افتاد · in der (بودن) ⟵ zur (رفتن) |
+| 2 | این همون کتاب جدیدیه که خواهرم بهم داد | گرامر کامل ✅ (miene) | Das ist das neue Buch, das mir meine Schwester gegeben hat. | ei/ie · ضمیر قبل از فاعل 🎈🪨 ✅ |
+| 3 | منتظر کی هستی؟ – منتظر دوستای قدیمیم | Worauf warst du? auf meinen alten Freunden warte ⟵ auf wen wartest du? auf meinen alten Freunden ⟵ ✅ | Auf wen wartest du? – Auf meine alten Freunde. | آدم ⟵ Auf wen · warst (sein) ≠ wartest · warten auf = Akk (چسبیده، نه مکانی) ⟵ Dat جمع دو بار ⟵ ✅ |
+
+## 🏁🏁 بلوک ۱۲ بسته · **گرامر فاز ۱ استاد کامل (بلوک ۱–۱۲)** — چهارشنبه ۲۰ آبان ۱۴۰۵
