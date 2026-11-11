@@ -1017,3 +1017,14 @@
 - 📌📌⭐ خودش: «توی Freund و پایانه‌ی آخرش برای حالتای مختلف زیاد دچار اشتباه می‌شم… نمی‌دونم چطوری به ذهن بسپارمشون» ⟵ جدول کامل (Freund/Freundin/Freunde × حالت‌ها؛ اسم فقط Dat جمع و Gen مذکر عوض می‌شود) · «in das چرا das حذف شد؟» ⟵ یک بسته یک آرتیکل (das یا ein) · 🧠 **سیستم سه‌قدمی دوست**: ① سه کلمه‌ی جدا با آدم واقعی (Mein Freund heißt Ali · Meine Freundin heißt Maryam · Meine Freunde sind nett) ② قلاب -in = زن (Lehrerin · Studentin) ③ «پسره/دختره/چند نفر؟» ⟵ بعد فقط آرتیکل · ابزار: انکی + بانک عادت + گرم‌کردن یک هفته
 - 🔥 دور تند «دوست» ۶ جمله (یکی‌یکی، به پرسش خودش «شش تا با هم؟» ⟵ بازخورد فوری): ۱ meinen Freund ist ⟵ Mein (فاعل) ✅ · ۲ meine Freundin gesehen ✅ بار اول · ۳ meinen Freunde ⟵ Freunden («خودت گفتی جمع e داره» ⟵ e می‌ماند، n اضافه می‌شود: Freund+e+n) ✅ · ۴ meinen Freund (helfen) ⟵ meinem ✅ · ۵ Meinen Freundin sind ⟵ Meine Freunde (-in = زن نه جمع · نشت n) ✅ · ۶ «واقعاً حال ندارم این یکیو خودت بگو» ⟵ Ich habe eine neue Freundin. (داده شد) ⟵ 😴 خستگی ⟵ استراحت چای
 - ⏳ مانده: داستان ۲–۶ · بخش ③ جمع‌بندی فاز ۱
+
+**② داستان ۲–۶ (بعد از چای):**
+| # | فارسی | اول | درست | ریشه |
+|---|---|---|---|---|
+| 2 | بعد کیفمو گذاشتم روی صندلی و نشستم | Habe ich meine Tasche … gelegt und ich bin mich gesetzen ⟵ ✅ | Dann habe ich meine Tasche auf den Stuhl gelegt und (ich habe) mich gesetzt. | auf den Stuhl ✅ (لغزش قدیمی نیفتاد) · «ادامه‌ی داستانه برا همین با habe شروع کردم» ⟵ فعل اول = سؤال/امری · ربط‌های داستان Dann/Danach/Zuerst/Am Ende (جای ۱ ⟵ وارونگی) · ❓ «Dann جای ۱ یا ۰؟» ⟵ ۱ · ADUSO جای ۰ (لیست بسته) · 🪤 dann/denn · sich setzen ⟵ haben (فعل با مفعول ⟵ haben 🟢) · gesetzt باقاعده |
+| 3 | اون درباره‌ی دانشگاه جدیدش حرف زد | Das meine Freundin hat ueber ihr neue Uni ⟵ ✅ | Meine Freundin hat über ihre neue Uni gesprochen. | «اون» ⟵ Das (تست «این کیه؟») · ihr ⟵ ihre (مثل meine) · 🛑 بازخورد قالب بار پنجم (آلمانی در تیتر شماره‌دار و پرانتز نثر) ⟵ نسخه‌ی تمیز |
+| 4 | به‌خاطر امتحان سختش یه کم می‌ترسید | Wegen ihre schweren Pruefung hat sie Angst ein bisschen ⟵ ✅ | Wegen ihrer schweren Prüfung hatte sie ein bisschen Angst. | schweren ✅ بی ویرگول ✅ · ihrer (Gen مؤنث) · hatte · مقدار قبل از اسم |
+| 5 | بهش گفتم: «نترس! من بهت کمک می‌کنم» | Ich habe ihr gesagt: hast Angst nicht! ich helfe dich ⟵ ✅ | Ich habe ihr gesagt: „Hab keine Angst! Ich helfe dir.“ | ihr (Dat) ✅ · keine Angst (تکه) · helfen ⟵ dir |
+| 6 | این همون دوستیه که همیشه دوست دارم باهاش حرف بزنم | Das sind die Freundin, mit dir ich immer gern sprochen ⟵ sproche ⟵ ✅ | Das ist die Freundin, mit der ich immer gern spreche. | sind ⟵ ist (مفرد) · mit dir ⟵ mit der («که» = آرتیکل) · sprochen/sproche ⟵ spreche (o فقط در gesprochen) |
+
+**✅ داستان ۶/۶** · بار اول درست: ۰/۶ ولی هر جمله ۴–۶ بلوک را با هم سنجید · لغزش‌ها: Das/sind برای «اون/این» · آرتیکل ملکی (ihr/ihrer) · فعل با مفعول ⟵ haben · فعل اول
